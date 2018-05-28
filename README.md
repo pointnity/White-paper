@@ -1,8 +1,8 @@
 # White-paper
 This is our initial white paper on Pointnity. The follow-up will be based on the actual development progress and improve the content
-Pointnity Network
-highcompatibleSex,canshared,Interactive collaboration of distributed systems
-Draftv1.0
+                                                          Pointnity Network
+                           highcompatibleSex,canshared,Interactive collaboration of distributed systems
+                                                              Draftv1.0
 A simple introduction
 The concept of blockchain
 Blockchain development process
@@ -37,17 +37,17 @@ Improved Byzantine Consensus Algorithm Usage and Research
               2.1 Base calculation model
               2.2 Reliable Broadcast
          3. Blockchain Byzantine Consensus
-3.1 Multivalued Byzantine Consensus
-3.2 Binary Byzantine Consensus
-4. From multivalued to binary consensus Byzantine system
-4.1 The reduction
-4.2 Correctness certification
-5.Binary consensus on the final synchronous Byzantine system
-5.1 The BV Broadcast to All Communication Abstractions
-5.2 Secure Binary Byzantine Consistency Algorithm BAMPn
-5.3 Safety certification
-5.4 Eventual synchronization hypothesis
-5.5 Binary Byzantine Consensus Algorithm BAMPn
+              3.1 Multivalued Byzantine Consensus
+              3.2 Binary Byzantine Consensus
+         4. From multivalued to binary consensus Byzantine system
+              4.1 The reduction
+              4.2 Correctness certification
+         5.Binary consensus on the final synchronous Byzantine system
+              5.1 The BV Broadcast to All Communication Abstractions
+              5.2 Secure Binary Byzantine Consistency Algorithm BAMPn
+              5.3 Safety certification
+              5.4 Eventual synchronization hypothesis
+              5.5 Binary Byzantine Consensus Algorithm BAMPn
 Piontnity token function
 Naming system
 System security
