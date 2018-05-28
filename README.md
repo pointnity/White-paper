@@ -3,7 +3,7 @@ This is our initial white paper on Pointnity. The follow-up will be based on the
                                                           Pointnity Network
                            highcompatibleSex,canshared,Interactive collaboration of distributed systems
                                                               Draftv1.0
-A simple introduction
+A simple introduction 
 The concept of blockchain
 Blockchain development process
 The value of the blockchain
