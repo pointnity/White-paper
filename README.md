@@ -8,26 +8,26 @@ Blockchain development process<br>
 The value of the blockchain<br>
 Blockchain challenges<br>
        1. Distributed consensus<br>
-       2.performance<br>
-       3. scalability<br>
-       4.system security<br>
-       5.data and storage<br>
+       　2.performance<br>
+       　　3. scalability<br>
+       　　　4.system security<br>
+      　　　　 5.data and storage<br>
 Future development of blockchain<br>
 Second, Pointnity<br>
 What is pointnity Network?<br>
 Pointnity Network Interpretation<br>
 HUB distributed information processing system<br>
-        1.HUB design goals and effects<br>
-2. Customized blockchain organization<br>
+        1.HUB design goals and effects<br>
+　　　　　2. Customized blockchain organization<br>
 Multi-chain interaction, controllable business information and ecological cooperation display<br>
-           1. The essence of blockchain cross-chain<br>
-2. Blockchain cross-chain architecture model<br>
-3.generate and package cross-chain transactions<br>
-4. Providing sub-chains with cross-chain transactions to prove the launch of main-chain cross-chain services<br>
-5.the implementation of the main chain cross-chain transaction code<br>
-6.Initiating Outer Chain Contract Service Call<br>
-7.the implementation of the external contract code<br>
-8.generate a transaction log, update the status of the account<br>
+           1. The essence of blockchain cross-chain<br>
+　　　　　　　2. Blockchain cross-chain architecture model<br>
+　　　　　　　　3.generate and package cross-chain transactions<br>
+　　　　　　　　　4. Providing sub-chains with cross-chain transactions to prove the launch of main-chain cross-chain services<br>
+　　　　　　　　　　5.the implementation of the main chain cross-chain transaction code<br>
+　　　　　　　　　　　6.Initiating Outer Chain Contract Service Call<br>
+　　　　　　　　　　　　7.the implementation of the external contract code<br>
+　　　　　　　　　　　　　8.generate a transaction log, update the status of the account<br>
 Supports extended aptamer chain internal channel cross-chain<br>
 Third.the consensus mechanism and system module<br>
 Improved Byzantine Consensus Algorithm Usage and Research<br>
