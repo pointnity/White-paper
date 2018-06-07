@@ -1,6 +1,7 @@
-#Pointnity Network<br>
-##highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
-##Draftv1.0<br>
+                                                    Pointnity Network<br>
+                                                    ＝＝＝＝＝＝＝＝＝＝＝
+                       highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
+                                                        Draftv1.0<br>
 A simple introduction The concept of blockchain<br>
 Blockchain development process<br>
 The value of the blockchain<br>
