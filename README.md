@@ -1,9 +1,7 @@
 # White-paper
-Pointnity Network<br>
-＝＝＝＝＝＝＝＝＝＝＝＝
-highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
-－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-Draftv1.0<br>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　＃Pointnity Network<br>
+　　　　　　　　　　　　　　　　highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Draftv1.0<br>
 A simple introduction The concept of blockchain<br>
 Blockchain development process<br>
 The value of the blockchain<br>
@@ -174,8 +172,7 @@ Through traditional cross-chain mechanism how to ensure TPS atom transfer?<br>
 How can we make to BTC, ETH, OTHERCHAIN, added to cross-link mechanism contracts, how to find the best utility theory in theoretical value?<br>
 The role of inter-atomic chain in the end how much, will be replaced by a comprehensive collaboration platform for future cross-chain technology will go from here.<br>
 In summary POINTNITY team believes that cross-link technology may serve as a transition technology medium term, the future will be diversified collaboration platform is crucial, we POINTNITY team committed to creating a collaboration inside and outside the interconnection of an external multi-channel internal cross chain collaboration platform.<br>
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　¹-2 / ¹-² / 2 / ¹-²-³ / 2<br>
-                               ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　＃＃＃¹-2 / ¹-² / 2 / ¹-²-³ / 2<br>                              
 Cross-channel mode with chains inside, is offchain, our POINTNITY supports dual use functionality as intermediaries relay contracts and bottom strand as the underlying operating system, our internal channel cross-link technology can be turned on chain and the results of executing the external passage interoperate across the chain.<br>
 Consensus layer<br>
 inPOINTNITYByzantine consensus algorithm proposed design meets the definition of consensus validity extended attributes. Structurally, it is composed of two parts.<br>
@@ -429,36 +426,34 @@ PONT token rules and Legal Notices<br>
 Please note that this is not any type of investment Description<br>
 This document does not constitute any form of prospectus; it is not a solicitation to invest, not in any way involve the provision of securities in Canada or the United States, and Canada and the United StatesAs well as China'sResidents are expressly excluded any PONT exchange token donation in public products.<br>
 DISCLAIMER:<br>
-This site is for reference only. POINITY and all related companies and affiliates do not guarantee the accuracy of the conclusions reached by this site "as is" without any express or implied representations and warranties, including, but not limited to:
-Warranties of merchantability, for a particular purpose, or non-infringement of ownership;
-Contents of this website without any errors or for any purpose;
-Such Content will not infringe rights of third parties. All ensure clear sound. POINITY and its subsidiaries expressly disclaims any form of liability and damages resulting from the use, reference or reliance on information contained on this website caused, which we are not responsible.
-Recipients specific notice as follows:
-• does not provide any securities: PONT token (such as the POINITY white paper) is not intended to constitute securities in any jurisdiction. This site does not constitute a prospectus, nor does it provide any form of document, nor does it constitute an offer or solicitation of securities or any other investment product or any other jurisdiction.
-• No suggestion: POINITY this website does not constitute a recommendation to any PONT exchange token, should not rely on any contract or contribution decision.
-• No, said: Recipient or its advisers did not cause on this website, or contain information, statements, opinions or issues derived (expressed or implied) or the accuracy or completeness of any omission in this document or to make representations or warranties now or any other future available to any written or oral information or advice about the party or its advisers. For any plan or predict the future prospects of achievement or reasonableness makes no representations or warranties Nothing in this document should not be considered for future commitments or statements. To the maximum extent.
-• Donation: We only accept certified by KYC DonateDETAILED format by KYC
-Name:
-Sex:
-Nationality (does not support the United States, Australia area、china):
-date of birth:
-ID card / passport / driver's license:
-ID Photo:
-Proof of bank card statement, utility bill payment, property receipts identity information:
-Number of intended contributions(ETH):
-Risk Warning: Potential contributors should independently evaluate their preferences for these risks, and decided to consult with their advisor before making any contribution to the POI tokens.
-Token Rule:
-A total of 5 billion tokens
-  pre-sale: 5%
-Official ratio: 1: 35000(note: Pre-sale contributors lock-in rules, 50 immediately after the exchange is available, and the remaining 50% is released for 6 months on the online exchange.)
-Sale: 15%
-Official ratio: 1: 23000(note: the sales contributor releases 50% of PONTs immediately after the exchange, and the remainder is released after 3 months of trading.)
- Team 35: technical development and operation awards for team members(note: team lock-in is released in linear equilibrium within 24 months after 12 months on the exchange, once every two months, for a total of 12 releases.)
-Cooperation Organization 25: use it for ecological incubation, expand the radiation scope of the project, and establish beneficial and good cooperation(note: depending on the circumstances, the minimum time limit for the release and locking of the cooperative organization's tokens is 6 months.)
-Community 20: to provide advice on community operations, maintain and build a good community environment, you can receive token awards.(note: community escrow release and lock-in, depending on the circumstances, lower limit of unlocked time)
-This token is a ERC-20 token and will be replaced by 1:1 tokens on the main network
-
-
-In conclusion
-With the strong rise of digital encryption to Bitcoin currency as the representative of an emerging block chain technology has become the hot research topic in academia and industry. Credit to the center of the block chain technology can not be tampered with and programmable features so that it has a wide range of applications in digital encryption monetary, financial and social systems. However, compared with the block chain booming business applications, theory and technology research foundation block chain is still in its infancy, and many more the essential, vital to the development of the industry chain block scientific issues that must be follow-up study. This paper systematically reviews the basic principles of the block chain technology, techniques, methods and applications in order to provide useful inspiration and reference for future research .
-PointnityIs a compatible open network, ITheyI believe that his appearance will truly enhance the further development of blockchain world. Here, we sincerely hope that more people will participate in the construction blockchain world has made blockchain contribute to the construction of the world.
+This site is for reference only. POINITY and all related companies and affiliates do not guarantee the accuracy of the conclusions reached by this site "as is" without any express or implied representations and warranties, including, but not limited to:<br>
+Warranties of merchantability, for a particular purpose, or non-infringement of ownership;<br>
+Contents of this website without any errors or for any purpose;<br>
+Such Content will not infringe rights of third parties. All ensure clear sound. POINITY and its subsidiaries expressly disclaims any form of liability and damages resulting from the use, reference or reliance on information contained on this website caused, which we are not responsible.<br>
+Recipients specific notice as follows:<br>
+• does not provide any securities: PONT token (such as the POINITY white paper) is not intended to constitute securities in any jurisdiction. This site does not constitute a prospectus, nor does it provide any form of document, nor does it constitute an offer or solicitation of securities or any other investment product or any other jurisdiction.<br>
+• No suggestion: POINITY this website does not constitute a recommendation to any PONT exchange token, should not rely on any contract or contribution decision.<br>
+• No, said: Recipient or its advisers did not cause on this website, or contain information, statements, opinions or issues derived (expressed or implied) or the accuracy or completeness of any omission in this document or to make representations or warranties now or any other future available to any written or oral information or advice about the party or its advisers. For any plan or predict the future prospects of achievement or reasonableness makes no representations or warranties Nothing in this document should not be considered for future commitments or statements. To the maximum extent.<br>
+• Donation: We only accept certified by KYC DonateDETAILED format by KYC<br>
+Name:<br>
+Sex:<br>
+Nationality (does not support the United States, Australia area、china):<br>
+date of birth:<br>
+ID card / passport / driver's license:<br>
+ID Photo:<br>
+Proof of bank card statement, utility bill payment, property receipts identity information:<br>
+Number of intended contributions(ETH):<br>
+Risk Warning: Potential contributors should independently evaluate their preferences for these risks, and decided to consult with their advisor before making any contribution to the POI tokens.<br>
+Token Rule:<br>
+A total of 5 billion tokens<br>
+  pre-sale: 5%<br>
+Official ratio: 1: 35000(note: Pre-sale contributors lock-in rules, 50 immediately after the exchange is available, and the remaining 50% is released for 6 months on the online exchange.)<br>
+Sale: 15%<br>
+Official ratio: 1: 23000(note: the sales contributor releases 50% of PONTs immediately after the exchange, and the remainder is released after 3 months of trading.)<br>
+ Team 35: technical development and operation awards for team members(note: team lock-in is released in linear equilibrium within 24 months after 12 months on the exchange, once every two months, for a total of 12 releases.)<br>
+Cooperation Organization 25: use it for ecological incubation, expand the radiation scope of the project, and establish beneficial and good cooperation(note: depending on the circumstances, the minimum time limit for the release and locking of the cooperative organization's tokens is 6 months.)<br>
+Community 20: to provide advice on community operations, maintain and build a good community environment, you can receive token awards.(note: community escrow release and lock-in, depending on the circumstances, lower limit of unlocked time)<br>
+This token is a ERC-20 token and will be replaced by 1:1 tokens on the main network<br>
+In conclusion<br>
+With the strong rise of digital encryption to Bitcoin currency as the representative of an emerging block chain technology has become the hot research topic in academia and industry. Credit to the center of the block chain technology can not be tampered with and programmable features so that it has a wide range of applications in digital encryption monetary, financial and social systems. However, compared with the block chain booming business applications, theory and technology research foundation block chain is still in its infancy, and many more the essential, vital to the development of the industry chain block scientific issues that must be follow-up study. This paper systematically reviews the basic principles of the block chain technology, techniques, methods and applications in order to provide useful inspiration and reference for future research .<br>
+PointnityIs a compatible open network, ITheyI believe that his appearance will truly enhance the further development of blockchain world. Here, we sincerely hope that more people will participate in the construction blockchain world has made blockchain contribute to the construction of the world.<br>
