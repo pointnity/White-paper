@@ -1,95 +1,94 @@
 # White-paper
-This is our initial white paper on Pointnity. The follow-up will be based on the actual development progress and improve the content
-                                                          Pointnity Network
-                           highcompatibleSex,canshared,Interactive collaboration of distributed systems
-                                                              Draftv1.0
-A simple introduction 
-The concept of blockchain
-Blockchain development process
-The value of the blockchain
-Blockchain challenges
-       1. Distributed consensus
-       2.performance
-       3. scalability
-       4.system security
-       5.data and storage
-Future development of blockchain
-Second, Pointnity
-What is pointnity Network?
-Pointnity Network Interpretation
-HUB distributed information processing system
-        1.HUB design goals and effects
-2. Customized blockchain organization
-Multi-chain interaction, controllable business information and ecological cooperation display
-           1. The essence of blockchain cross-chain
-2. Blockchain cross-chain architecture model
-3.generate and package cross-chain transactions
-4. Providing sub-chains with cross-chain transactions to prove the launch of main-chain cross-chain services
-5.the implementation of the main chain cross-chain transaction code
-6.Initiating Outer Chain Contract Service Call
-7.the implementation of the external contract code
-8.generate a transaction log, update the status of the account
-Supports extended aptamer chain internal channel cross-chain
-Third.the consensus mechanism and system module
-Improved Byzantine Consensus Algorithm Usage and Research
-         1. POINTNITY's Byzantine consensus algorithm design meets the validity attribute
-         2. Basic Byzantine calculation model and reliable broadcast
-              2.1 Base calculation model
-              2.2 Reliable Broadcast
-         3. Blockchain Byzantine Consensus
-              3.1 Multivalued Byzantine Consensus
-              3.2 Binary Byzantine Consensus
-         4. From multivalued to binary consensus Byzantine system
-              4.1 The reduction
-              4.2 Correctness certification
-         5.Binary consensus on the final synchronous Byzantine system
-              5.1 The BV Broadcast to All Communication Abstractions
-              5.2 Secure Binary Byzantine Consistency Algorithm BAMPn
-              5.3 Safety certification
-              5.4 Eventual synchronization hypothesis
-              5.5 Binary Byzantine Consensus Algorithm BAMPn
-Piontnity token function
-Naming system
-System security
-FOUR. PONT Token Details and Law
-FIVE.  the conclusion
-Official content
-The concept of block chain
-Block chain is originally in the seminal paper currency bits invention, it is a promising technology. For tracking the distribution of ownership of digital assets. The technology is designed to allow a process to agree on a series of consecutive trading block, these transactions can exchange those assets cited features of the contract. If these distributed ledgers are not accessible by users with certain privileges, the company has been successfully deployed in other instances a federated environment. Thus limiting the appropriate license carefully selected set of institutions of decision-making tasks
-In 2016, the growing interest in this technology community overview distributed a number to block chain-related scientific activities provide. For the distributed computing community, which seems to be a typical state machine replication application. In the classic state machine replication, each command (or action) can be called at any time by any process and applied to the state machine, no matter what order the previous application Yes. The processing target block chain expression is added to the next target agreed transaction processing block chain, and copying the state machine is the next sequential consent is applied to the state machineofEquivalent to the case where continuousofconsensus.
-However, one of the main differences between the chain and the block state machine replication relationship between the consecutive negotiation embodiment consistent. Is deleted in the case of each block chain requires consistent. A related front and subtle. More precisely, plus block, it must be explicitly included in the final piece of information pointing to the original connection to the block chain. This is a typical use of a hash function having an elastic collision, when applied to a content, a hash of the block output. Identifying consensus instance number of the proposed decision block X must be embedded in the instance number. In view of this hash block chain is a set of new computer technology, new technological innovations, subvert the traditional Internet.
-
-AreaDevelopment of block chains
-AreaBlock chain technology came into being in the earliest prototype of Bitcoin project. Behind Bitcoin distributed as accounting platform, there is no centralized management, Bitcoin network has been running steadily nearly eight years, to support a huge transaction. No serious flaws.AreaIdentifying descriptive literature first block chain is a bit credits, one peer network electronic cash system, the presentCleverWritten, but it is focused on the bits token system. In factAreaBlock chain, wherein the block chain is described as a history recording bit currency trading account, and no clear definition of the concept.
-More broadly,AreaChain is a decentralized recording technology. Nodes participating in the system may not belong to the same organization, you do not need to trust each other;AreaData block chains held by all nodes. Each node can be involved in maintaining the copy, and get a copy of the complete record. Compared with traditional accounting methods, its features include:
-Support the growth of the chain can add records, and records can not be tampered occurs;
-Decentralization, more focused, there is no centralized control, and can reach a consensus, allocated to achieve as much as possible;
-Encryption mechanisms to ensure that the transaction can notIsDenial and destruction,Protection of user information and record as much privacy. more importantly,contractcanAnd DistrictBlock chain combine to provide a more flexible functionality of the contract, it already supports simple script calculation. To perform more complex operations. The block chain extended beyond mere data recording and actually has "ubiquitous computing" means point.
-
-AreaBlock chainspricevalue
-A typical modern enterprise, the merchant by completing negotiations and execution of transactions in the course of the contract.AreaBlock Chaining good at how to manage contracts and ensure the smooth implementation of the contract. And block chain characteristic value varies according to the type and application scenarios.
-In terms of technical characteristics,AreaBlock chains are typically considered:
-· Distributed Fault Tolerance: The network is very robust, fault tolerant about one-third of the abnormal state of the node.
-Non-tampering: consistent data submitted is always there, it can not be destroyed or modified.
-· Privacy: Password guarantee that unauthorized data access, but can not be resolved.
-AreaChallenges brought about by the block chain
-The key technologies and challenges, from a technical point of view,AreaBlock chain involves a variety of fields, including distribution, warehousing, cryptography, psychology, economics, game theory, network protocols and so on.
-· How to prevent transactions from being tampered?
-· How to prove the identity of the transferee?
-· How to protect the privacy of both parties?
-Password exactly is an effective means to solve these problems provides. Traditional solutions include hashing algorithm, encryption and decryption algorithms, digital certificates and signatures,Blind signature,Application of block chain may stimulate further development of the art of cryptography, including random number generation, security strength,Encryption and decryption performance,And new technologies,Such as quantum computing, and so on, the RSA algorithm can not provide adequate security, which will depend on breakthrough mathematical sciences and the further development of a new generation of computing technology appears.
-Distributed Consensus
-This is an old topic, the core is how to solve this change is consistent on the network,It is generally accepted,LetThis information is confirmed. Big difference between public anonymous scenes of this problemand those with rights management. In BitcoinAreaConsidering the block chains in the worst case scenario in a anonymity disclosed. "Workload prove" introduced by a few people to avoid malicious data corruption. Probabilistic model to ensure that the last one is legitimate longest chain. In addition, the mortgage interests. These algorithms are based on the economic interests of the game. Let malicious participants lost their economic interests, so as to ensure the cooperation of most people. At the same time, it must be confirmed by generating a plurality of blocks and probability assurance. Blockchain broader support more consensus mechanism, including the classic Byzantine algorithm, which can solve the problem of uncertainty. Issue of consensus will be of great academic value of research focus for a long time. The main indicators include fault-tolerant nodes and the convergence speed ratio. Prisoners of war and other algorithms allow more than half of uncooperative nodes PBFT, less than a third of the theory of non-cooperative node ratio.
-deal withperformance
-How to improve transaction throughput and reduce transaction confirmation delay. Currently, the open bit chain block credits can only support about 7 bits per block credits average throughput. Secure transaction confirmation time is one hour. Just make sure charges are broadcast to the network and transaction services, there is a high probability that the transaction will eventually be packaged into blocks. Unlike conventional distributed system,AreaBlock chain system processing performance, can not simply be extended by increasing the number of nodes. In fact, depending on the processing power of a single node to a large extent. Hardware-assisted encryption and decryption functions will be the core element of node performance. At present, the open-source block chain itself has been implemented properly configured on the platform level, a single client with hundreds of transactions per second throughput, optimistic forecasts will soon break through thousands of times per second baseline. But there are still tens of thousands per second peak there is a big gap in the existing securities trading system. In addition, from design and engineering platform deployment, there are some areas can be optimized.
-Expansibility
-Common distributed system can expand the processing capacity of the entire system by adding nodes, forBlocksChain network system, the problem is not so simple. Each node in the network core must remain involved in maintaining a complete storage and intelligent processing contracts. Therefore, the totalCalculation processing and storage capacity dependsComputing capacity of the network on each node. Even if the number of nodes in the network too much, probably because of the consistency of the process to reduce the latency performance of the entire network, especially in the public network, due to the large number of processing nodes problem of low quality will be more obvious. Some of the more immediate idea is to relax the restrictions, each node must participate in the complete process,But at least some of the nodes must be able to deal with the full collaboration of the franchising modeinHigh performance core node may be used as a proxy node and the access node weak node.
-system security 
-AreaBlock chainRelying on well-designedExisting encryption algorithms. However, this is to ensure that theyabsoluteSafetyIt? There is no absolute security systems in the world.
-The system is designed by the people, by the people business.
-There are several aspects are difficult to escape.
-The first is legislation. This is how blockchain system management? Attacked block chain system is crime? There are consequences for the banking system to attack. But block chain or performed without legal protection.
-Secondly, potential vulnerabilities in software implementation is inevitable. Taking into account the OpenSSL has been used for decades, still has such a low level of vulnerability.For the financial system, even a small flaw could cause incalculable damage, both the client and the platform side.
+This is our initial white paper on Pointnity. The follow-up will be based on the actual development progress and improve the content<br>
+Pointnity Network<br>
+highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
+Draftv1.0<br>
+A simple introduction The concept of blockchain<br>
+Blockchain development process<br>
+The value of the blockchain<br>
+Blockchain challenges<br>
+       1. Distributed consensus<br>
+       2.performance<br>
+       3. scalability<br>
+       4.system security<br>
+       5.data and storage<br>
+Future development of blockchain<br>
+Second, Pointnity<br>
+What is pointnity Network?<br>
+Pointnity Network Interpretation<br>
+HUB distributed information processing system<br>
+        1.HUB design goals and effects<br>
+2. Customized blockchain organization<br>
+Multi-chain interaction, controllable business information and ecological cooperation display<br>
+           1. The essence of blockchain cross-chain<br>
+2. Blockchain cross-chain architecture model<br>
+3.generate and package cross-chain transactions<br>
+4. Providing sub-chains with cross-chain transactions to prove the launch of main-chain cross-chain services<br>
+5.the implementation of the main chain cross-chain transaction code<br>
+6.Initiating Outer Chain Contract Service Call<br>
+7.the implementation of the external contract code<br>
+8.generate a transaction log, update the status of the account<br>
+Supports extended aptamer chain internal channel cross-chain<br>
+Third.the consensus mechanism and system module<br>
+Improved Byzantine Consensus Algorithm Usage and Research<br>
+         1. POINTNITY's Byzantine consensus algorithm design meets the validity attribute<br>
+         2. Basic Byzantine calculation model and reliable broadcast<br>
+              2.1 Base calculation model<br>
+              2.2 Reliable Broadcast<br>
+         3. Blockchain Byzantine Consensus<br>
+              3.1 Multivalued Byzantine Consensus<br>
+              3.2 Binary Byzantine Consensus<br>
+         4. From multivalued to binary consensus Byzantine system<br>
+              4.1 The reduction<br>
+              4.2 Correctness certification<br>
+         5.Binary consensus on the final synchronous Byzantine system<br>
+              5.1 The BV Broadcast to All Communication Abstractions<br>
+              5.2 Secure Binary Byzantine Consistency Algorithm BAMPn<br>
+              5.3 Safety certification<br>
+              5.4 Eventual synchronization hypothesis<br>
+              5.5 Binary Byzantine Consensus Algorithm BAMPn<br>
+Piontnity token function<br>
+Naming system<br>
+System security<br>
+FOUR. PONT Token Details and Law<br>
+FIVE.  the conclusion<br>
+Official content<br>
+The concept of block chain<br>
+Block chain is originally in the seminal paper currency bits invention, it is a promising technology. For tracking the distribution of ownership of digital assets. The technology is designed to allow a process to agree on a series of consecutive trading block, these transactions can exchange those assets cited features of the contract. If these distributed ledgers are not accessible by users with certain privileges, the company has been successfully deployed in other instances a federated environment. Thus limiting the appropriate license carefully selected set of institutions of decision-making tasks<br>
+In 2016, the growing interest in this technology community overview distributed a number to block chain-related scientific activities provide. For the distributed computing community, which seems to be a typical state machine replication application. In the classic state machine replication, each command (or action) can be called at any time by any process and applied to the state machine, no matter what order the previous application Yes. The processing target block chain expression is added to the next target agreed transaction processing block chain, and copying the state machine is the next sequential consent is applied to the state machineofEquivalent to the case where continuousofconsensus.<br>
+However, one of the main differences between the chain and the block state machine replication relationship between the consecutive negotiation embodiment consistent. Is deleted in the case of each block chain requires consistent. A related front and subtle. More precisely, plus block, it must be explicitly included in the final piece of information pointing to the original connection to the block chain. This is a typical use of a hash function having an elastic collision, when applied to a content, a hash of the block output. Identifying consensus instance number of the proposed decision block X must be embedded in the instance number. In view of this hash block chain is a set of new computer technology, new technological innovations, subvert the traditional Internet.<br>
+<br>
+AreaDevelopment of block chains<br>
+AreaBlock chain technology came into being in the earliest prototype of Bitcoin project. Behind Bitcoin distributed as accounting platform, there is no centralized management, Bitcoin network has been running steadily nearly eight years, to support a huge transaction. No serious flaws.AreaIdentifying descriptive literature first block chain is a bit credits, one peer network electronic cash system, the presentCleverWritten, but it is focused on the bits token system. In factAreaBlock chain, wherein the block chain is described as a history recording bit currency trading account, and no clear definition of the concept.<br>
+More broadly,AreaChain is a decentralized recording technology. Nodes participating in the system may not belong to the same organization, you do not need to trust each other;AreaData block chains held by all nodes. Each node can be involved in maintaining the copy, and get a copy of the complete record. Compared with traditional accounting methods, its features include:<br>
+Support the growth of the chain can add records, and records can not be tampered occurs;<br>
+Decentralization, more focused, there is no centralized control, and can reach a consensus, allocated to achieve as much as possible;<br>
+Encryption mechanisms to ensure that the transaction can notIsDenial and destruction,Protection of user information and record as much privacy. more importantly,contractcanAnd DistrictBlock chain combine to provide a more flexible functionality of the contract, it already supports simple script calculation. To perform more complex operations. The block chain extended beyond mere data recording and actually has "ubiquitous computing" means point.<br>
+<br>
+AreaBlock chainspricevalue<br>
+A typical modern enterprise, the merchant by completing negotiations and execution of transactions in the course of the contract.AreaBlock Chaining good at how to manage contracts and ensure the smooth implementation of the contract. And block chain characteristic value varies according to the type and application scenarios.<br>
+In terms of technical characteristics,AreaBlock chains are typically considered:<br>
+· Distributed Fault Tolerance: The network is very robust, fault tolerant about one-third of the abnormal state of the node.<br>
+Non-tampering: consistent data submitted is always there, it can not be destroyed or modified.<br>
+· Privacy: Password guarantee that unauthorized data access, but can not be resolved.<br>
+AreaChallenges brought about by the block chain<br>
+The key technologies and challenges, from a technical point of view,AreaBlock chain involves a variety of fields, including distribution, warehousing, cryptography, psychology, economics, game theory, network protocols and so on.<br>
+· How to prevent transactions from being tampered?<br>
+· How to prove the identity of the transferee?<br>
+· How to protect the privacy of both parties?<br>
+Password exactly is an effective means to solve these problems provides. Traditional solutions include hashing algorithm, encryption and decryption algorithms, digital certificates and signatures,Blind signature,Application of block chain may stimulate further development of the art of cryptography, including random number generation, security strength,Encryption and decryption performance,And new technologies,Such as quantum computing, and so on, the RSA algorithm can not provide adequate security, which will depend on breakthrough mathematical sciences and the further development of a new generation of computing technology appears.<br>
+Distributed Consensus<br>
+This is an old topic, the core is how to solve this change is consistent on the network,It is generally accepted,LetThis information is confirmed. Big difference between public anonymous scenes of this problemand those with rights management. In BitcoinAreaConsidering the block chains in the worst case scenario in a anonymity disclosed. "Workload prove" introduced by a few people to avoid malicious data corruption. Probabilistic model to ensure that the last one is legitimate longest chain. In addition, the mortgage interests. These algorithms are based on the economic interests of the game. Let malicious participants lost their economic interests, so as to ensure the cooperation of most people. At the same time, it must be confirmed by generating a plurality of blocks and probability assurance. Blockchain broader support more consensus mechanism, including the classic Byzantine algorithm, which can solve the problem of uncertainty. Issue of consensus will be of great academic value of research focus for a long time. The main indicators include fault-tolerant nodes and the convergence speed ratio. Prisoners of war and other algorithms allow more than half of uncooperative nodes PBFT, less than a third of the theory of non-cooperative node ratio.<br>
+deal withperformance<br>
+How to improve transaction throughput and reduce transaction confirmation delay. Currently, the open bit chain block credits can only support about 7 bits per block credits average throughput. Secure transaction confirmation time is one hour. Just make sure charges are broadcast to the network and transaction services, there is a high probability that the transaction will eventually be packaged into blocks. Unlike conventional distributed system,AreaBlock chain system processing performance, can not simply be extended by increasing the number of nodes. In fact, depending on the processing power of a single node to a large extent. Hardware-assisted encryption and decryption functions will be the core element of node performance. At present, the open-source block chain itself has been implemented properly configured on the platform level, a single client with hundreds of transactions per second throughput, optimistic forecasts will soon break through thousands of times per second baseline. But there are still tens of thousands per second peak there is a big gap in the existing securities trading system. In addition, from design and engineering platform deployment, there are some areas can be optimized.<br>
+Expansibility<br>
+Common distributed system can expand the processing capacity of the entire system by adding nodes, forBlocksChain network system, the problem is not so simple. Each node in the network core must remain involved in maintaining a complete storage and intelligent processing contracts. Therefore, the totalCalculation processing and storage capacity dependsComputing capacity of the network on each node. Even if the number of nodes in the network too much, probably because of the consistency of the process to reduce the latency performance of the entire network, especially in the public network, due to the large number of processing nodes problem of low quality will be more obvious. Some of the more immediate idea is to relax the restrictions, each node must participate in the complete process,But at least some of the nodes must be able to deal with the full collaboration of the franchising modeinHigh performance core node may be used as a proxy node and the access node weak node.<br>
+system security <br>
+AreaBlock chainRelying on well-designedExisting encryption algorithms. However, this is to ensure that theyabsoluteSafetyIt? There is no absolute security systems in the world.<br>
+The system is designed by the people, by the people business.<br>
+There are several aspects are difficult to escape.<br>
+The first is legislation. This is how blockchain system management? Attacked block chain system is crime? There are consequences for the banking system to attack. But block chain or performed without legal protection.<br>
+Secondly, potential vulnerabilities in software implementation is inevitable. Taking into account the OpenSSL has been used for decades, still has such a low level of vulnerability.For the financial system, even a small flaw could cause incalculable damage, both the client and the platform side.<br>
 In addition, the publicAreaAll transaction records block chains are publicly visible. Is Big DataeraWhen people began to get excited,They determined that such disclosure is harmless to you? Indeed, there are a lot of things can be analyzed here, they are large enough, enoughHaveInfluence. In fact, in bitcoin block chain from end-user transaction.
 In addition, as a fully distributed system, the lack of effective public block chain adjustment mechanism, which is difficult to solve the problem, to make it fairer and more perfect. As long as certain vested interest groups to unite against it,becauseThey can not participate,thereforeThis cast a Bitcoin worth of its own shadow.
 In addition, the block may be varied chain running application intelligence contract, there must be a method for safe control, and before the registration operation requires a mechanism to detect, in order to avoid damage to the malicious code.
