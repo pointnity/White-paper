@@ -1,16 +1,15 @@
-# White-paper
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　＃Pointnity Network<br>
-　　　　　　　　　　　　　　　　highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
-　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Draftv1.0<br>
+#Pointnity Network<br>
+##highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
+##Draftv1.0<br>
 A simple introduction The concept of blockchain<br>
 Blockchain development process<br>
 The value of the blockchain<br>
 Blockchain challenges<br>
        1. Distributed consensus<br>
-       　2.performance<br>
-       　　3. scalability<br>
-       　　　4.system security<br>
-      　　　　 5.data and storage<br>
+       　　2.performance<br>
+       　　　　3. scalability<br>
+       　　　　　4.system security<br>
+      　　　　 　　　5.data and storage<br>
 Future development of blockchain<br>
 Second, Pointnity<br>
 What is pointnity Network?<br>
@@ -421,39 +420,4 @@ pointnity is an open, integrated block chain network and the initial network con
 Block Chain Development<br>
 The rapid development of the Internet in recent years, coupled with the strength and depth feedback physical world, has radically altered the production, living and management decision-making model of modern society, the formation of the real physical world - tight coupling virtual network space, interaction and actual situation parallel co-evolution of social space, gave birth to the "Internet +" and 4.0 and a series of national industrial strategy for the future development trend of social network certainly from CPS + actual physical world (Cyber-physical systems, CPS) to spiritual artificial world, forming a physical network + + artificial man - machine - ternary composition integration coupling system, information systems called social physical (Cyber-physical-social systems, CPSS) present, based on parallel societies have gradually taken shape CPSS its core is the actual situation and the essential characteristics of the interaction with the parallel evolution<br>
 CPSS block chain is parallel to achieve one of the infrastructure of society, its main contribution is to provide a data structure of a well-established center to a distributed social systems and distributed artificial intelligence research, interaction mechanics and computing models, to achieve parallel and lay a solid social foundation and credit data on the basis of the data base, the management Edward Deming once said: in addition to God, everyone must speak to the data center of the social system, however, the data usually controlled by the government and large enterprises and other "minority" in the hands, a few people "speak", its impartiality, the authority may even security can not be guaranteed. block chain data through highly redundant distributed storage nodes, held by "everyone" in the hands, can do real "data democracy." on the basis of credit terms, its highly centralized system of social engineering complexity and social complexity inevitably there will be "Merton system" characteristics, namely uncertainty, diversity and complexity of social systems in the central institutions and rule-makers may arise due to acts of dishonesty individual interests; the block chain technology Contribute to social systems software-defined, the basic idea is to reject centralized institution, to the unpredictable behavior of the program code in the form of a smart contract early deployment and curing block chain data, and afterwards can not be forged and tampered with automation execution, which to some extent can the "Merton" social systems into a comprehensive observation can be actively controlled, can accurately predict the "Newton" social system .<br>
-ACP (artificial social Artificial societies, computational experiments Computational experiments and parallel execution Parallel execution) method is so far the only parallel system into the field of social management, integrated research framework, is a logical extension of the lower complexity of science in parallel with the new era of social environment and innovation. ACP method can naturally be combined with the block chain technology, block chain-driven parallel social management. first, P2P networking block chain, distributed collaboration and consensus based on the contribution of economic incentives and other mechanisms themselves distributed modeling natural social system in which each node in a distributed system as an autonomous agent and self-government (Agent). with the improvement of the ecological system of the block chain, chain blocks each node and the growing consensus complex and intelligent autonomous contract through participation in various forms Dapp, form a particular form of organization and the DAO DAC, ultimately the DAS, i.e. ACP artificial society. Secondly, the programmable characteristics of contracts intelligent block chain such that each may be species "WHAT-IF" type of virtual experimental design and evaluation of results deduced scenario, this calculation experimented Obtain and automatically or semi-automatically execute optimal decision. Finally, the block chain with a combination of things such as intelligence assets, which makes China Unicom real physical world and the virtual network space as possible, and through real and actual situation interaction and artificial social systems parallel tuned achieve synergies and optimize social management decision-making is not hard to foresee the future of the real physical world of physical assets are registered as chain intelligence assets when the time is approaching block chain-driven parallel society.<br>
-PONT token rules and Legal Notices<br>
-Please note that this is not any type of investment Description<br>
-This document does not constitute any form of prospectus; it is not a solicitation to invest, not in any way involve the provision of securities in Canada or the United States, and Canada and the United StatesAs well as China'sResidents are expressly excluded any PONT exchange token donation in public products.<br>
-DISCLAIMER:<br>
-This site is for reference only. POINITY and all related companies and affiliates do not guarantee the accuracy of the conclusions reached by this site "as is" without any express or implied representations and warranties, including, but not limited to:<br>
-Warranties of merchantability, for a particular purpose, or non-infringement of ownership;<br>
-Contents of this website without any errors or for any purpose;<br>
-Such Content will not infringe rights of third parties. All ensure clear sound. POINITY and its subsidiaries expressly disclaims any form of liability and damages resulting from the use, reference or reliance on information contained on this website caused, which we are not responsible.<br>
-Recipients specific notice as follows:<br>
-• does not provide any securities: PONT token (such as the POINITY white paper) is not intended to constitute securities in any jurisdiction. This site does not constitute a prospectus, nor does it provide any form of document, nor does it constitute an offer or solicitation of securities or any other investment product or any other jurisdiction.<br>
-• No suggestion: POINITY this website does not constitute a recommendation to any PONT exchange token, should not rely on any contract or contribution decision.<br>
-• No, said: Recipient or its advisers did not cause on this website, or contain information, statements, opinions or issues derived (expressed or implied) or the accuracy or completeness of any omission in this document or to make representations or warranties now or any other future available to any written or oral information or advice about the party or its advisers. For any plan or predict the future prospects of achievement or reasonableness makes no representations or warranties Nothing in this document should not be considered for future commitments or statements. To the maximum extent.<br>
-• Donation: We only accept certified by KYC DonateDETAILED format by KYC<br>
-Name:<br>
-Sex:<br>
-Nationality (does not support the United States, Australia area、china):<br>
-date of birth:<br>
-ID card / passport / driver's license:<br>
-ID Photo:<br>
-Proof of bank card statement, utility bill payment, property receipts identity information:<br>
-Number of intended contributions(ETH):<br>
-Risk Warning: Potential contributors should independently evaluate their preferences for these risks, and decided to consult with their advisor before making any contribution to the POI tokens.<br>
-Token Rule:<br>
-A total of 5 billion tokens<br>
-  pre-sale: 5%<br>
-Official ratio: 1: 35000(note: Pre-sale contributors lock-in rules, 50 immediately after the exchange is available, and the remaining 50% is released for 6 months on the online exchange.)<br>
-Sale: 15%<br>
-Official ratio: 1: 23000(note: the sales contributor releases 50% of PONTs immediately after the exchange, and the remainder is released after 3 months of trading.)<br>
- Team 35: technical development and operation awards for team members(note: team lock-in is released in linear equilibrium within 24 months after 12 months on the exchange, once every two months, for a total of 12 releases.)<br>
-Cooperation Organization 25: use it for ecological incubation, expand the radiation scope of the project, and establish beneficial and good cooperation(note: depending on the circumstances, the minimum time limit for the release and locking of the cooperative organization's tokens is 6 months.)<br>
-Community 20: to provide advice on community operations, maintain and build a good community environment, you can receive token awards.(note: community escrow release and lock-in, depending on the circumstances, lower limit of unlocked time)<br>
-This token is a ERC-20 token and will be replaced by 1:1 tokens on the main network<br>
-In conclusion<br>
-With the strong rise of digital encryption to Bitcoin currency as the representative of an emerging block chain technology has become the hot research topic in academia and industry. Credit to the center of the block chain technology can not be tampered with and programmable features so that it has a wide range of applications in digital encryption monetary, financial and social systems. However, compared with the block chain booming business applications, theory and technology research foundation block chain is still in its infancy, and many more the essential, vital to the development of the industry chain block scientific issues that must be follow-up study. This paper systematically reviews the basic principles of the block chain technology, techniques, methods and applications in order to provide useful inspiration and reference for future research .<br>
-PointnityIs a compatible open network, ITheyI believe that his appearance will truly enhance the further development of blockchain world. Here, we sincerely hope that more people will participate in the construction blockchain world has made blockchain contribute to the construction of the world.<br>
+ACP (artificial social Artificial societies, computational experiments Computational experiments and parallel execution Parallel execution) method is so far the only parallel system into the field of social management, integrated research framework, is a logical extension of the lower complexity of science in parallel with the new era of social environment and innovation. ACP method can naturally be combined with the block chain technology, block chain-driven parallel social management. first, P2P networking block chain, distributed collaboration and consensus based on the contribution of economic incentives and other mechanisms themselves distributed modeling natural social system in which each node in a distributed system as an autonomous agent and self-government (Agent). with the improvement of the ecological system of the block chain, chain blocks each node and the growing consensus complex and intelligent autonomous contract through participation in various forms Dapp, form a particular form of organization and the DAO DAC, ultimately the DAS, i.e. ACP artificial society. Secondly, the programmable characteristics of contracts intelligent block chain such that each may be species "WHAT-IF" type of virtual experimental design and evaluation of results deduced scenario, this calculation experimented Obtain and automatically or semi-automatically execute optimal decision. Finally, the block chain with a combination of things such as intelligence assets, which makes China Unicom real physical world and the virtual network space as possible, and through real and actual situation interaction and artificial social systems parallel tuned achieve synergies and optimize social management decision-making is not hard to foresee the future of the real physical world of physical assets are r
