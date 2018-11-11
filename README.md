@@ -6,13 +6,13 @@ Draftv1.0
 
 A simple introduction The concept of blockchain<br/>
 -    
-              Blockchain development process<br>
-              The value of the blockchain<br>
-              Blockchain challenges<br>
-              * 1. Distributed consensus<br>
-               * 2.performance<br>
-                * 3. scalability<br>
-                 * 4.system security<br>
+  Blockchain development process<br/>
+    The value of the blockchain<br/>
+      Blockchain challenges<br/>
+              * 1. Distributed consensus<br/>
+               * 2.performance<br/>
+                * 3. scalability<br/>
+                 * 4.system security<br/>
                   * 5.data and storage<br/>
               
 Pointnity Network Interpretation<br/>
