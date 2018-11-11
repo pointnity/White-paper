@@ -1,7 +1,9 @@
 Pointnity Network <br/>
 =   
+
 highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
 Draftv1.0
+
 A simple introduction The concept of blockchain<br/>
 -    
 Blockchain development process<br>
@@ -12,6 +14,7 @@ Blockchain challenges<br>
        　　　　3. scalability<br>
        　　　　　4.system security<br>
       　　　　 　　　5.data and storage<br/>
+              
 Pointnity Network Interpretation<br/>
 -    
 HUB distributed information processing system<br>
