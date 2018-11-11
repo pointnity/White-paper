@@ -133,6 +133,9 @@ Recipients specific notice as follows:<br>
 • No suggestion: POINITY this website does not constitute a recommendation to any PONT exchange token, should not rely on any contract or contribution decision.<br>
 • No, said: Recipient or its advisers did not cause on this website, or contain information, statements, opinions or issues derived (expressed or implied) or the accuracy or completeness of any omission in this document or to make representations or warranties now or any other future available to any written or oral information or advice about the party or its advisers. For any plan or predict the future prospects of achievement or reasonableness makes no representations or warranties Nothing in this document should not be considered for future commitments or statements. To the maximum extent.<br><br>
 • Donation: We only accept certified by KYC DonateDETAILED format by KYC<br>
-In conclusion<br>
+
+Summarize<br>
+---
+
 With the strong rise of digital encryption to Bitcoin currency as the representative of an emerging block chain technology has become the hot research topic in academia and industry. Credit to the center of the block chain technology can not be tampered with and programmable features so that it has a wide range of applications in digital encryption monetary, financial and social systems. However, compared with the block chain booming business applications, theory and technology research foundation block chain is still in its infancy, and many more the essential, vital to the development of the industry chain block scientific issues that must be follow-up study. This paper systematically reviews the basic principles of the block chain technology, techniques, methods and applications in order to provide useful inspiration and reference for future research .<br>
 PointnityIs a compatible open network, ITheyI believe that his appearance will truly enhance the further development of blockchain world. Here, we sincerely hope that more people will participate in the construction blockchain world has made blockchain contribute to the construction of the world.<br>
