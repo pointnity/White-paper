@@ -1,9 +1,9 @@
-                              Pointnity Network <br/>
+#Pointnity Network <br/>
 =   
-          High Speed Compatible Extensions, interactive collaboration across the chain to the center of the operating system
-                                          Draftvl. 0
+High Speed Compatible Extensions, interactive collaboration across the chain to the center of the operating system
+Draftvl. 0
 
-  1.Text
+  ##1.Text
 ---
 
 Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology.<br> For tracking the distribution of ownership of digitalassets.<br> The technology is designed to allow a continuous process in a series of block trading agree that these transactions can be invoked in exchange for assets the function of the
