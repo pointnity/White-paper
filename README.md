@@ -8,12 +8,12 @@ Draftv1.0
 1.Text
 ---
 
-Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology. For tracking the distribution of ownership of digital
+Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology. For tracking the distribution of ownership of digital<br>
 assets. The technology is designed to allow a continuous process in a series of block trading agree that these transactions can be invoked in exchange for assets the function of the
-contract. These ledgers are distribut ed by the miners do not have specific permissions composition.
-For distributed computing, which seems to be a typical application of state machine replication. When copying the classical state machine, each command ( or operations) can  be invoked at any t ime and by any process applied to the state machine, the processing
-target block chain expression i s added to the data agree in the next block, and going to state copy the target machine.
-However, one of the main differences between the chain and the bloc k state machine
+contract.<br> These ledgers are distribut ed by the miners do not have specific permissions composition.
+For distributed computing, which seems to be a typical application of state machine replication.<br> When copying the classical state machine, each command ( or operations) can  be invoked at any t ime and by any process applied to the state machine, the processing
+target block chain expression i s added to the data agree in the next block, and going to state copy the target machine.<br>
+However, one of the main differences between the chain and the bloc k state machine<br>
 replication relationship between the consecutive negotiation embodiment consistent. Block chain needs of each case of inconsistency is deleted ( about a subtle and before). More
 specifically, block, i t must be explicitly included in the f ina l piece of information pointing
 to the original connection to the block chain. This is a  typical use  of  a  hash function having  an elastic collision, when applied to the contents of one block, the block hash output.
