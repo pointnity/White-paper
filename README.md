@@ -1,16 +1,15 @@
-Pointnity Network <br/>
+  #Pointnity Network <br/>
 =   
 
 highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
 Draftv1.0
 
 
-1.Text
+  1.Text
 ---
 
-Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology.<br> For tracking the distribution of ownership of digital
-assets.<br> The technology is designed to allow a continuous process in a series of block trading agree that these transactions can be invoked in exchange for assets the function of the
-contract.<br> These ledgers are distribut ed by the miners do not have specific permissions composition.
+Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology.<br> For tracking the distribution of ownership of digitalassets.<br> The technology is designed to allow a continuous process in a series of block trading agree that these transactions can be invoked in exchange for assets the function of the
+contract. These ledgers are distribut ed by the miners do not have specific permissions composition.<br>
 For distributed computing, which seems to be a typical application of state machine replication.<br> When copying the classical state machine, each command ( or operations) can  be invoked at any t ime and by any process applied to the state machine, the processing
 target block chain expression i s added to the data agree in the next block, and going to state copy the target machine.<br>
 However, one of the main differences between the chain and the bloc k state machine<br>
