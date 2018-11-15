@@ -1,9 +1,7 @@
-  #Pointnity Network <br/>
+                              Pointnity Network <br/>
 =   
-
-highcompatibleSex,canshared,Interactive collaboration of distributed systems<br>
-Draftv1.0
-
+          High Speed Compatible Extensions, interactive collaboration across the chain to the center of the operating system
+                                          Draftvl. 0
 
   1.Text
 ---
