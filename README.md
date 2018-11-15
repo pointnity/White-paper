@@ -30,322 +30,275 @@ Decentralization, more focused, there is no centralized control, and can reach a
 Encryption mechanisms to ensure that the tra nsaction can not deny and undermine the protection of user information and record as much privacy. More importantly, the  contract  can be smart with combined transaction block chain, to provide a more f lexible functionality of the contract, i t already suppo rts simple script calculation. To perform more complex operations.<br>
 This may be extended beyond the block chain has the meaning of pure  data recording points and actually has " pervasive computing".<br>
 
-1.1blocks and even the value of:
+1.1blocks and even the value of:<br>
 -----
 
-A typical modern enterprise, the merchant by completing negotiations and execution of transactions in the course of the contract. Block chain adept at how to  manage contracts and ensure the smooth implementation of the contract. Characteristic block chain varies according to the type and application scenarios.
-In terms of technical characteristics, the block chains are typically considered:
-•distributed fault- tolerant: the network is very strong, one - third of the abnormal state of the fault- tolerant nodes.
-•Non- tampering: consistent data submitted is always there, can not be destroyed or modified.
-•Privacy: Password guarantee that unauthorized data access, but can not be resolved.
+A typical modern enterprise, the merchant by completing negotiations and execution of transactions in the course of the contract. <br>
+Block chain adept at how to  manage contracts and ensure the smooth implementation of the contract. Characteristic block chain varies according to the type and application scenarios.<br>
+In terms of technical characteristics, the block chains are typically considered:<br>
+•distributed fault- tolerant: the network is very strong, one - third of the abnormal state of the fault- tolerant nodes.<br>
+•Non- tampering: consistent data submitted is always there, can not be destroyed or modified.<br>
+•Privacy: Password guarantee that unauthorized data access, but can not be resolved.<br>
 
-1.2block chain challenges:
+1.2block chain challenges:<br>
 ----
 
-The key technologies and challenges, from a technical point of view, the block chain
-involves a variety of f ields, including distribution, warehousing, cryptography, psychology, economics, game theory, network protocols and so on.
-•How to prevent transactions from being tampered?
-•How to prove the identity of the transferee?
-•How to protect the privacy of both parties?
-Password exactly is an effective means to solve these problems provides. Traditional solutions include hashing algorithm, encryption and decryption algorithms, digital
-certificates and signatures ( blind signat ure, the application of the block chain technology
-could stimulate further development of cryptography, including random number generation, the strength of the security, encryption and decryption performance, as well as new
-technologies such as quantum com puting, and so on, the RSA algorithm can not provide adequate security, which will depend on breakthrough mathematical sciences and the
-further development of a new generation of computing technology appears.
+The key technologies and challenges, from a technical point of view, the block chain involves a variety of f ields, including distribution, warehousing, cryptography, psychology, economics, game theory, network protocols and so on.<br>
+•How to prevent transactions from being tampered?<br>
+•How to prove the identity of the transferee?<br>
+•How to protect the privacy of both parties?<br>
+Password exactly is an effective means to solve these problems provides. <br>
+Traditional solutions include hashing algorithm, encryption and decryption algorithms, digital certificates and signatures ( blind signat ure, the application of the block chain technology could stimulate further development of cryptography, including random number generation, the strength of the security, encryption and decryption performance, as well as new technologies such as quantum com puting, and so on, the RSA algorithm can not provide adequate security, which will depend on breakthrough mathematical sciences and the
+further development of a new generation of computing technology appears.<br>
 
-1.2.1Distributed Consensus
+1.2.1Distributed Consensus<br>
 ---------
 
-This is an old topic, the core is how  to  solve this change is  consistent on  the  network, is a well- recognized, and this information is confirmed. Big difference between public
-anonymous scenes of this problem and those with rights management. In Bitcoin block chain, taking into account the worst case scenario in a public guarantee of anonymity.
-" Workload proven to work side 〃 to avoid malicious data corruption. Probabilistic model
-and to ensure that the last one is legitimate longest chain.
-In addition, there Possum disabled organization and Casper, secured by the equity.
-These algorithms are based on the economic interests of the game. Let malicious
-participants lost their economic interests, so as to  ensure the cooperation of  most  people. At the same t ime, i t must be confirm ed by generating a plurality of blocks and probability assurance. Blockchain broader support more consensus mechanism, including the classic
-Byzantine algorithm, which can solve the problem of  uncertainty. Issue of  consensus will be  of great academic value of research focus for a long t ime. The main indicators include
-fault- tolerant nodes and the convergence speed ratio. prisoner of war ( POW) and other
-algorithms allow more than half of the non - cooperation of the nodes and PBFT less than a third than the theory of non- cooperative node to ensure the stability of the network.
+This is an old topic, the core is how  to  solve this change is  consistent on  the  network, is a well- recognized, and this information is confirmed.<br> Big difference between public anonymous scenes of this problem and those with rights management. <br>
+In Bitcoin block chain, taking into account the worst case scenario in a public guarantee of anonymity.<br>
+" Workload proven to work side 〃 to avoid malicious data corruption. Probabilistic model and to ensure that the last one is legitimate longest chain.<br>
+In addition, there Possum disabled organization and Casper, secured by the equity.<br>
+These algorithms are based on the economic interests of the game. Let malicious participants lost their economic interests, so as to  ensure the cooperation of  most  people. At the same t ime, i t must be confirm ed by generating a plurality of blocks and probability assurance.<br>
+Blockchain broader support more consensus mechanism, including the classic Byzantine algorithm, which can solve the problem of  uncertainty.<br>
+Issue of  consensus will be  of great academic value of research focus for a long t ime.<br>
+The main indicators include fault- tolerant nodes and the convergence speed ratio.<br>
+prisoner of war ( POW) and other algorithms allow more than half of the non - cooperation of the nodes and PBFT less than a third than the theory of non- cooperative node to ensure the stability of the network.<br>
 
-1.2.2Performance
+1.2.2Performance<br>
 ----------
 
-How to improve transaction throughput and reduce transaction confirmation delay.
-Currently, the open bit chain block credits can only support about 7 bits per block cred i ts average throughput. Secure transaction confirmation t ime is one hour. Just make sure
-charges are broadcast to the network and transaction services, there is a high probability that the transaction will eventually be packaged into blocks. Unlike convent ional
-distributed system, the processing performance of the chain block can not be simply
-extended by  increasing the number of  nodes. In  fact, depending on  the processing power of   a single node to a large extent. Hardware - assisted encryption and decryption  functions will  be the core element of node performance. Currently, Open Source block chain i tself has
-achieved a normal configuration at the platform level, a single client with hundreds of
-transactions per second throughput, optimistic forecasts will soon break through thousands  of  t imes per  second baseline. But  there are still tens of  thousands per second peak there i s   a big gap in the existing securities trading system. In addition, from design and engineering platform deployment, there are some areas ca n be optimized.
+How to improve transaction throughput and reduce transaction confirmation delay.<br>
+Currently, the open bit chain block credits can only support about 7 bits per block cred i ts average throughput.<br>
+Secure transaction confirmation t ime is one hour.<br>
+Just make sure charges are broadcast to the network and transaction services, there is a high probability that the transaction will eventually be packaged into blocks. <br>
+Unlike convent ional distributed system, the processing performance of the chain block can not be simply extended by  increasing the number of  nodes. <br>
+In  fact, depending on  the processing power of   a single node to a large extent.<br>
+Hardware - assisted encryption and decryption  functions will  be the core element of node performance.<br>
+Currently, Open Source block chain i tself has achieved a normal configuration at the platform level, a single client with hundreds of
+transactions per second throughput, optimistic forecasts will soon break through thousands  of  t imes per  second baseline.<br>
+But  there are still tens of  thousands per second peak there i s   a big gap in the existing securities trading system. In addition, from design and engineering platform deployment, there are some areas ca n be optimized.<br>
 
-1.2.3Scalability
+1.2.3Scalability<br>
 -----
 
-Common distributed system can expand the processing capacity of the entire system by adding nodes to block chain network system, the problem is not so simple. Each node in the network core must remain involved in maintaining a complete storage and intelligent
-processing contracts. Thus, the total storage capacity of the entire network and to calculate the respective nodes based on. Even i f the number of nodes in the network too much,
-probably because of the consistency of the process to reduce the latency performance of
-the entire network, especially in the public network, due to the large number of processing nodes problem of low quality will be more obvious. Some of the more immediate idea is  to relax the restrictions, each node must participate in the complete process ( but at least
-some of the nodes must be able to deal with the full collaboration of this idea already in
-use in ultra- extreme; the same t ime period, the core layer the process is as  low  as  possible. in franchising mode, high- performance core node can also be used as a proxy node and the access node weak node.
+Common distributed system can expand the processing capacity of the entire system by adding nodes to block chain network system, the problem is not so simple.<br>
+Each node in the network core must remain involved in maintaining a complete storage and intelligent processing contracts. <br>
+Thus, the total storage capacity of the entire network and to calculate the respective nodes based on. <br>
+Even i f the number of nodes in the network too much,probably because of the consistency of the process to reduce the latency performance of the entire network, especially in the public network, due to the large number of processing nodes problem of low quality will be more obvious.<br>
+Some of the more immediate idea is  to relax the restrictions, each node must participate in the complete process ( but at least some of the nodes must be able to deal with the full collaboration of this idea already in use in ultra- extreme; the same t ime period, the core layer the process is as  low  as  possible. in franchising mode, high- performance core node can also be used as a proxy node and the access node weak node.<br>
 
-1.2.4System Security
+1.2.4System Security<br>
 -------
 
-Existing encryption algorithm sophisticated design of block chains. However, to ensure that they are safe? There is no abs olute security systems in the world.
-The system is designed by the people, by the people business. There are several aspects are difficult to escape.
-The f i rst is legislation. This is how blockchain system management? Attacked block
-chain system is crime? There are consequences for the banking system to attack. But some block chain or i ts implementation is not protected by law.
-Secondly, potential vulnerabilities in software implementation is inevitable. Taking into account the Open SSL, i t has been in use f or decades, still has such a low level of
-vulnerability. For the f inancial system, even a small f law could cause incalculable damage, both the client and the platform side.
+Existing encryption algorithm sophisticated design of block chains. However, to ensure that they are safe? There is no abs olute security systems in the world.<br>
+The system is designed by the people, by the people business. There are several aspects are difficult to escape.<br>
+The f i rst is legislation. This is how blockchain system management? Attacked block chain system is crime?<br>
+There are consequences for the banking system to attack. <br>
+But some block chain or i ts implementation is not protected by law.<br>
+Secondly, potential vulnerabilities in software implementation is inevitable.<br>
+Taking into account the Open SSL, i t has been in use f or decades, still has such a low level of vulnerability.<br>
+For the f inancial system, even a small f law could cause incalculable damage, both the client and the platform side.<br>
 
-In addition, all records in the block chain transaction is publicly visible. Is Bi g Data people began to get excited when they hear me? Indeed, there are a lot of things can be analyzed here, they are big enough, have enough influence. In fact, i t has been recorded.
-In addition, as a fully distributed system, the lack of effective publi c block chain
+In addition, all records in the block chain transaction is publicly visible. Is Bi g Data people began to get excited when they hear me? Indeed, there are a lot of things can be analyzed here, they are big enough, have enough influence. In fact, i t has been recorded.<br>
+In addition, as a fully distributed system, the lack of effective publi c block chain adjustment mechanism, once i t works loopholes, i t is difficult to solve the problem, so to make i t more equitable and better.<br>
+In addition, the block may be varied chain running application intelligence contract, there must be a method for safe control, and before the registration operation requires a mechanism to detect, in order to avoid damage to the malicious code.<br>
 
-adjustment mechanism, once i t works loopholes, i t is difficult to solve the problem, so to make i t more equitable and better.
-In addition, the block may be varied chain running application intelligence contract, there must be a method for safe control, and before the registration operation requires a mechanism to detect, in order to avoid damage to the malicious code.
-
-1.2.5databases and storage systems
+1.2.5databases and storage systems<br>
 ------
 
-Block in a block chain network needs to be written to the database for storage.
-Observation block chain, a large number of write operations hash calculation and
-verification operation, and behavior of traditional databases are very different. At that
-t ime, i t was discovered that a large number of non - transactional applications query on the Internet, and designed a non- relational No SQL database. Therefore, we can design some
-special targeted database according to the block chaining application of these features - the key database, as the level of DBN Rocks DB, having high random write and read
-sequential, random read performance and relatively poor performance, hexyl It is widely used in the information storage block chain. Block - oriented database technology chain is still required by one of the technical problems to be broken. In my opinion, there may be more targeted, " Block database DBB" In the future, dedication to new types of data
-services, such as block chains, wherein each record includes a complete block information and information associated with nature and history . Confirmed once written, can not be
-modified. All operations will be the minimum unit is a block. lntegration long service system based on the new chain block will coexist with the existing centralized system. How the two systems co- exist, how they divide and how to conduct their business transactions spread?
-These are urgent problems. If this problem is not solved, i t will be a big obstacle blockchain technical landing.
+Block in a block chain network needs to be written to the database for storage.<br>
+Observation block chain, a large number of write operations hash calculation and verification operation, and behavior of traditional databases are very different.<br>
+At that time, i t was discovered that a large number of non - transactional applications query on the Internet, and designed a non- relational No SQL database. <br>
+Therefore, we can design some special targeted database according to the block chaining application of these features - the key database, as the level of DBN Rocks DB, having high random write and read sequential, random read performance and relatively poor performance, hexyl It is widely used in the information storage block chain. Block - oriented database technology chain is still required by one of the technical problems to be broken. In my opinion, there may be more targeted, " Block database DBB" In the future, dedication to new types of data services, such as block chains, wherein each record includes a complete block information and information associated with nature and history .<br>
+Confirmed once written, can not be modified. <br>
+All operations will be the minimum unit is a block. <br>
+lntegration long service system based on the new chain block will coexist with the existing centralized system. <br>
+How the two systems co- exist, how they divide and how to conduct their business transactions spread?<br>
+These are urgent problems.<br>
+If this problem is not solved, i t will be a big obstacle blockchain technical landing.<br>
 
-1.2.6Future development block chain
+1.2.6Future development block chain<br>
 ------
 
-At present, the development of the block chain is rapidly expanding. People are
-studying the deep operations block chain, so as to solve problems in the real secto r. What
-is the problem of the large- scale application block chain encountered? Let' s see. First of all, we are in technology. In Bitcoin, the block chain is the beginni ng of  pure digital, which is  in the digital world, things with the real world. This is just a simple hook a book, a day of
-accounting, in the form of mining and the use of currency prices. If the block chain technology and practice, i t will come out of the virtual world. This will to solve real
-problems through decentralization. But  the  real business model can  not  be  exactly the
-same. For example, there is a very complex settlement systems in the f inancial secto r. Block chain technique for complex clearing step process solution, but can not have the same
-rights to all nodes l iquidation. Block chain technology needs to adapt to the real world of logic and mechanisms from the practical application of the same process in the digital
-world. In addition, the bloc k chain is recording data, anyone can see books on the web, but  now is not feasible in real l i fe. For example, in the medical profession, patient records is
-very private and sensitive. This is not a requirement that everyone can access and view.
-This requires a block chain, to ensure the security and privacy of data. But there is no
-effective solution to this problem. Over t ime, we will have to work out a three - dimensional world, slope, layered block chain, pay more attention to data privacy, security, and
-application of l ine with the reality of l i fe.
+At present, the development of the block chain is rapidly expanding.<br>
+People are studying the deep operations block chain, so as to solve problems in the real secto r.<br>
+What is the problem of the large- scale application block chain encountered?<br>
+Let' s see. First of all, we are in technology.<br>
+In Bitcoin, the block chain is the beginni ng of  pure digital, which is  in the digital world, things with the real world. This is just a simple hook a book, a day of accounting, in the form of mining and the use of currency prices.<br>
+If the block chain technology and practice, i t will come out of the virtual world.<br>
+This will to solve real problems through decentralization.<br>
+But  the  real business model can  not  be  exactly the same.<br>
+For example, there is a very complex settlement systems in the f inancial secto r. <br>
+Block chain technique for complex clearing step process solution, but can not have the same rights to all nodes l iquidation.<br>
+Block chain technology needs to adapt to the real world of logic and mechanisms from the practical application of the same process in the digital world. <br>
+In addition, the bloc k chain is recording data, anyone can see books on the web, but  now is not feasible in real l i fe. For example, in the medical profession, patient records is very private and sensitive. <br>
+This is not a requirement that everyone can access and view.<br>
+This requires a block chain, to ensure the security and privacy of data.<br>
+But there is no effective solution to this problem.<br>
+Over t ime, we will have to work out a three - dimensional world, slope, layered block chain, pay more attention to data privacy, security, and application of l ine with the reality of l i fe.<br>
 
-In order to achieve a profound thought and  decision - making, pointnity objective point  of view, we believe that only by using the block chain as a good ecological construction to
-improve the  system' s shortcomings, improve the  network can  block  island chain to realize
-
-high utilization, resulting in more more benign value.
-pointnity is an open, integrated block chain network and the initial network
-construction. It provides information on a homemade organization o r enterprise developers the basic technical architecture of the complex, so pointnity is a developer - friendly
-gathering place.
-What is pointnity:
-POINTNITY NETWORK was founded in Japan in November 2017 by the CEO ( shi ゅ u ke
-い    wa  san) as  sponsors, the purpose is  to create a  focus on  eco- compatible,  interactive
-collaboration, solve technical, information si los  of  block chain technology  research  and
-development team organization.
-POINTNITY NETWORK think to the center of the block chain, occult, can not be cha nged and other characteristics brought about by technological innovation will allow more
-individuals, groups, organizations, understanding, contact centers use to block chain and related technologies products.
-POINTNITY NETWORK is committed to building a h igh- compliant distributed interactive system. Provide distributed storage block chain information display service, rescue island
-information, so that information can be a strong conceptual resource assistance, and lowering the barriers to technology develo pment more block chain start - up team, to provide one- stop solution programs and best supporting stack.
-The improved consensus algorithm provides the Byzantine system across the chain can interact with external collaboration. Within the system can be secure d multi- channel
-transaction aptamer chain, to achieve low friction, low - latency, high- throughput
-transaction status, and to provide effective protection for the good, smooth ecological
-development, for which POINTYNITY is committed to providing a combinati on of internal
-and external interaction, height compatible, high - dimensional expansion of the block chain system.
+In order to achieve a profound thought and  decision - making, pointnity objective point  of view, we believe that only by using the block chain as a good ecological construction to improve the  system' s shortcomings, improve the  network can  block  island chain to realize high utilization, resulting in more more benign value.<br>
+pointnity is an open, integrated block chain network and the initial network construction. <br>
+It provides information on a homemade organization o r enterprise developers the basic technical architecture of the complex, so pointnity is a developer - friendly gathering place.<br>
+What is pointnity:<br>
+POINTNITY NETWORK was founded in Japan in November 2017 by the CEO ( shi ゅ u ke い    wa  san) as  sponsors, the purpose is  to create a  focus on  eco- compatible,  interactive collaboration, solve technical, information si los  of  block chain technology  research  and development team organization.<br>
+POINTNITY NETWORK think to the center of the block chain, occult, can not be cha nged and other characteristics brought about by technological innovation will allow more individuals, groups, organizations, understanding, contact centers use to block chain and related technologies products.<br>
+POINTNITY NETWORK is committed to building a h igh- compliant distributed interactive system.<br>
+Provide distributed storage block chain information display service, rescue island information, so that information can be a strong conceptual resource assistance, and lowering the barriers to technology develo pment more block chain start - up team, to provide one- stop solution programs and best supporting stack.<br>
+The improved consensus algorithm provides the Byzantine system across the chain can interact with external collaboration. <br>
+Within the system can be secure d multi- channel transaction aptamer chain, to achieve low friction, low - latency, high- throughput transaction status, and to provide effective protection for the good, smooth ecological development, for which POINTYNITY is committed to providing a combinati on of internal and external interaction, height compatible, high - dimensional expansion of the block chain system.<br>
 
 
-3.Pointnity network:
+3.Pointnity network:<br>
 --
 
-In the  future, a  similar block chain will be  the center of  the internet and spoke model to integrate data and value. The future direction of the main block chain used will be
-achieved through the development of joint block chain to integrate these individual spoke. This integrated block chain network, will make any public or private organization to:
-•Integration: send data and values between any compatible with pointnity the block chain.
-•Expansion: provides fast transaction processing capabilities and increased data capacity for all pointnity block chain.
-•Spoke: allows you to create a customized public or private block chain to keep up
-with the other block chain interoperability, while allowing publishers to select governance, consensus mechanism, release, and participation.
-Pointnity core network is a unique design, open block chain. Designed for connecting other block chains and manage their own program chain bulk, pointnity also provides
-economic incentive system interoperability. pointnity token as a fuel of the entire network can be used to create a new block chain security, monetization across the chain bridge and protect the entire network.
-A f i rst block chain to achieve network connection. It is designed to be a fair,
-distributed, open the block chain framework to meet the requirements of a multi - layer
-network architecture block chain. As an open chain block users will be able to deploy their  own participation in the network, and communicate via a reliable infrastructure with other networks. Whether a large enterprise hosted private network, or community - based public network, you can connect to pointnity future, de centralized application can handle and
-integrate data from multiple block chain networks.
+In the  future, a  similar block chain will be  the center of  the internet and spoke model to integrate data and value. <br>
+The future direction of the main block chain used will be achieved through the development of joint block chain to integrate these individual spoke.<br>
+This integrated block chain network, will make any public or private organization to:<br>
+•Integration: send data and values between any compatible with pointnity the block chain.<br>
+•Expansion: provides fast transaction processing capabilities and increased data capacity for all pointnity block chain.<br>
+•Spoke: allows you to create a customized public or private block chain to keep up with the other block chain interoperability, while allowing publishers to select governance, consensus mechanism, release, and participation.<br>
+Pointnity core network is a unique design, open block chain. <br>
+Designed for connecting other block chains and manage their own program chain bulk, pointnity also provides economic incentive system interoperability.<br>
+pointnity token as a fuel of the entire network can be used to create a new block chain security, monetization across the chain bridge and protect the entire network.<br>
+A f i rst block chain to achieve network connection.<br>
+It is designed to be a fair,distributed, open the block chain framework to meet the requirements of a multi - layer network architecture block chain. <br>
+As an open chain block users will be able to deploy their  own participation in the network, and communicate via a reliable infrastructure with other networks.<br>
+Whether a large enterprise hosted private network, or community - based public network, you can connect to pointnity future, de centralized application can handle and integrate data from multiple block chain networks.<br>
 
-Central distributed information processing, storage system:
-Central distributed information storage processing system has the following design goals:
-1.Named dispersed and found: the end user should be able to
-(A)) using human- readable and register names and
-(B)) mapping to f ind a human- readable name of the  network  resource, not  trust any remote party.
-2.. dispersed storage: end- users should be able to  use  distributed  stora ge system, where they can store their data and disclose i t to any remote party.
-3.. Reliable performance: the new architecture  ( including  name  /  resource discovery, storage, access, etc.) end- to- end performance should focus on the traditional Internet
-services.
+Central distributed information processing, storage system:<br>
+Central distributed information storage processing system has the following design goals:<br>
+1.Named dispersed and found: the end user should be able to<br>
+(A)) using human- readable and register names and<br>
+(B)) mapping to f ind a human- readable name of the  network  resource, not  trust any remote party.<br>
+2.. dispersed storage: end- users should be able to  use  distributed  stora ge system, where they can store their data and disclose i t to any remote party.<br>
+3.. Reliable performance: the new architecture  ( including  name  /  resource discovery, storage, access, etc.) end- to- end performance should focus on the traditional Internet services.<br>
 
-Until recently, decentralized system with human - readable name to be considered
-impossible to build and distributed storage systems, such as Bit Torrent' s, and so does not provide a performance / bandwidth is comparable to a centralized service pointn i ty
-proposed to solve these problems.
+Until recently, decentralized system with human - readable name to be considered impossible to build and distributed storage systems, such as Bit Torrent' s, and so does not provide a performance / bandwidth is comparable to a centralized service pointn i ty proposed to solve these problems.<br>
 
-3.1 underlying fault block chain of survival
+3.1 underlying fault block chain of survival<br>
 --
 
-Our structure has not put any restrictions blockchain i t to use. Any blockchain may be used as long as i t provides a full sorting operation, but the safety and reliability
-characteristics depend directly on the underlying blockchain. We believe that the ability to migrate to a blockchain from another is very important, because i t allows larger systems to survive, even when the underlying blockchain compromised. Our architect ure also allows multiple potential blockchains and treatment blockchains as a whole provides a channel of
-communication and orderly functioning; as long as they can provide a complete and orderly operation of the individual underlying any number of communi cation channels can work.
+Our structure has not put any restrictions blockchain i t to use.<br>
+Any blockchain may be used as long as i t provides a full sorting operation, but the safety and reliability characteristics depend directly on the underlying blockchain.<br>
+We believe that the ability to migrate to a blockchain from another is very important, because i t allows larger systems to survive, even when the underlying blockchain compromised.<br>
+Our architect ure also allows multiple potential blockchains and treatment blockchains as a whole provides a channel of communication and orderly functioning; as long as they can provide a complete and orderly operation of the individual underlying any number of communi cation channels can work.<br>
 
-3.2And complex logic to maintain
+3.2And complex logic to maintain<br>
 --
 
-Many outside Blockchains blockchains, l ike Revenge, while achieving the control logic and data stored in the plane blockchain level ( although they leave open the possibility of using external data storage in the future). In our view, do not use blockchains for data storage is necessary scalability, security and scalability is very important and remain outside
-blockchains complex logic. Node on the network should not be required to calculate
-complex untrusted program just to keep pace with the network. In addition, i t is difficult,
-after they introduced new features already deployed and get real - world use, to blockchains. virtualchains us can be established in any state machine at the top of blockch ains without
-requiring any modification of the concept underlying blockchains. Total sort  operation, on an underlying abstraction of the  blockchains. As  our building, " 〃  waist and kept  outside the complex blockchains.
+Many outside Blockchains blockchains, l ike Revenge, while achieving the control logic and data stored in the plane blockchain level ( although they leave open the possibility of using external data storage in the future).<br>
+In our view, do not use blockchains for data storage is necessary scalability, security and scalability is very important and remain outside blockchains complex logic.<br>
+Node on the network should not be required to calculate complex untrusted program just to keep pace with the network. In addition, i t is difficult,after they introduced new features already deployed and get real - world use, to blockchains. virtualchains us can be established in any state machine at the top of blockch ains without requiring any modification of the concept underlying blockchains.<br>
+Total sort  operation, on an underlying abstraction of the  blockchains. As  our building, " 〃  waist and kept  outside the complex blockchains.<br>
 
-3.3scalable global data index
+3.3scalable global data index<br>
 --
 
-Any decentralized network would need an index to the data i t stores. Go back to the  early peer network, Napster has launched a centralized index decentralized f i le transfer in the year of 1999 Bit Torrent began to focus on tracking ( metrics), and later launched a
-DHT- based distributed index. DHT - based peer network is vulnerable to attack and Sybil
-historically unreliable and difficult to scale, especially in a huge loss. We have experienced these problems f i rst- hand as we pointnity initial peer network is based on a DHT Kademlia.
-We introduced a new  unstructured peer network, is  called Atlas network, address the  use  of the network - the specific case of dispersed storage case ( a) in a small volume of data
-sets and ( b) has all the the global l ist can be used to index the network project. Atlas, node maintains a copy of the state of 100 %.  Easier to  achieve in an  unstructured method, there is no overhead for maintaining the routing structure, against targeted attacks node ( each
-node has a complete copy of the data) elasticity.
+Any decentralized network would need an index to the data i t stores. <br>
+Go back to the  early peer network, Napster has launched a centralized index decentralized f i le transfer in the year of 1999 Bit Torrent began to focus on tracking ( metrics), and later launched a DHT- based distributed index. DHT - based peer network is vulnerable to attack and Sybil historically unreliable and difficult to scale, especially in a huge loss.<br>
+We have experienced these problems f i rst- hand as we pointnity initial peer network is based on a DHT Kademlia.<br>
+We introduced a new  unstructured peer network, is  called Atlas network, address the  use  of the network - the specific case of dispersed storage case ( a) in a small volume of data sets and ( b) has all the the global l ist can be used to index the network project. Atlas, node maintains a copy of the state of 100 %.<br>
+Easier to  achieve in an  unstructured method, there is no overhead for maintaining the routing structure, against targeted attacks node ( each node has a complete copy of the data) elasticity.<br>
 
-3.4customized block chain:
+3.4customized block chain:<br>
 --
 
-Currently decentralized application ( DAPP) will need to build on an underlying chain.
-Different business scenarios have different requirements for performance, consensus
-mechanisms underlying the public chain, to build a n application even need to own a bottom chain ( including private chain, chain alliances and public chain). However, the development  of a chain of adapting their underlying business often requires a certain technical threshold and t ime. There are a lot of businesses have no  landing scenario block chain to  understand  the underlying technical staff, on - l ine business needs as quickly as possible, even i f there
-are also difficult to build an entirely appropriate underlying chain in a short t ime.
-pointnity is a customizable block chain infrastructure, the team built a backbone, while the bottom part of the main chain has a modular, reusable components are open
-source, developers can assemble and modify different modules, to customize a different underlying chain.
-pointnity provides a very inclusive eco - system architecture, in which we can adjust
-themselves according to the conditions we need to develop a chimera, for the system to our needs. In this way, we can avoid the original open source end of the chain, long occupied
-the user base and ecosystem caused, this i s a huge challenge to the monopoly of the
-entrepreneu r. Now, we can replicate what we want, or need to pointnity and run with the help of pointnity, avoiding strong ecosystem initially difficult ecological construction.
-There are challenges and sources of difficulty, which makes the environment easier to build consensus easier to reach an agreement between development.
+Currently decentralized application ( DAPP) will need to build on an underlying chain.<br>
+Different business scenarios have different requirements for performance, consensus mechanisms underlying the public chain, to build a n application even need to own a bottom chain ( including private chain, chain alliances and public chain).<br>
+However, the development  of a chain of adapting their underlying business often requires a certain technical threshold and t ime. There are a lot of businesses have no  landing scenario block chain to  understand  the underlying technical staff, on - l ine business needs as quickly as possible, even i f there are also difficult to build an entirely appropriate underlying chain in a short t ime.<br>
+pointnity is a customizable block chain infrastructure, the team built a backbone, while the bottom part of the main chain has a modular, reusable components are open source, developers can assemble and modify different modules, to customize a different underlying chain.<br>
+pointnity provides a very inclusive eco - system architecture, in which we can adjust themselves according to the conditions we need to develop a chimera, for the system to our needs.<br>
+In this way, we can avoid the original open source end of the chain, long occupied the user base and ecosystem caused, this i s a huge challenge to the monopoly of the entrepreneu r. <br>
+Now, we can replicate what we want, or need to pointnity and run with the help of pointnity, avoiding strong ecosystem initially difficult ecological construction.<br>
+There are challenges and sources of difficulty, which makes the environment easier to build consensus easier to reach an agreement between development.<br>
 
-
-4.Multi-chain interaction (cross-link), controlled authority business information, ecological cooperation show:
+4.Multi-chain interaction (cross-link), controlled authority business information, ecological cooperation show:<br>
 --
 
-Across the chain, as the name suggests, i t is through a technique that allows the value chain and cross the barriers between the chain, direct circulation. So how to understand
-the chain across i t?
-Block chain is a distributed ledge r. A block chain is an independent books, two
-different chains, that is, two different independent books, books two unrelated. Essentially there is no way to transfer value between books, but for the value of a specific user, the
-user stored on a block chain, can become a value on the other strand, which is the f low of value.
+Across the chain, as the name suggests, i t is through a technique that allows the value chain and cross the barriers between the chain, direct circulation.<br>
+So how to understand the chain across i t?<br>
+Block chain is a distributed ledge r.<br> 
+A block chain is an independent books, two different chains, that is, two different independent books, books two unrelated. Essentially there is no way to transfer value between books, but for the value of a specific user, the user stored on a block chain, can become a value on the other strand, which is the f low of value.<br>
 
-Say more obscure, we use swaps to understand i t convenient. RMB is an independent currency, the dollar is another independent currency. The yuan can not become a direct
-dollar, the dollar has not become a direct yuan. Therefore, the dollar can not directly enter  the books of RMB, the yuan can not enter the dollar books directly. We need someone
-willing to buy the yuan / dollar, sell USD / CNY to complete convertible currency, to  realize  the value of cross- f low of books.
-Alice has $ 100 , she came to China, need to use the yuan to trade. So she  must f ind And her people are willing to exchange foreign currency, such as Bob, Alice will sell
-$ 10 Bob, Bob received Alice
-Give him $ 100 , according to the exchange rate at  the t ime, gave Alice 657 yuan. From the point of view books, foreign currency exchange of the entire process is l ike this. First,
-Alice has on the books of dollars to $ 100 , Bob has $ 0 in the dollar on the books; Alice 0
-yuan RMB books, Bob 657 yuan RMB books. Alice to Bob then transfers the $ 100 dollars on books, Bob transfers to  Alice 657 RMB yuan in  RMB books. So,  Alice originally worth $  100   on dollar accounts in the books will be transferred to the account on the Ali ce books in
-renminbi, reflected 657  yuan. In this process, the value of  Bob 657  yuan in  RMB books will  be transferred to the Bob account on  the books of  the dollar, reflecting the order of $  100 .  The entire exchange process, the two books simultaneously on the transfer transaction. The nature and currency exchange across the chain are the same. Across the chain does not
-change the total value of each block in the chain, but was among the holders of a
-convertible has been. In summary, one of the core element s of technology across the  chain: the user on a chain to help Alice f ind the user Bob is willing to be redeemed on the other
-strand. From a business perspective, cross - l ink technology is an exchange, allowing users to be able to exchange the cross chain transactions. Because of different currencies in
-different block chain. The block i tself i s a chain of trust in order to solve problems that
-arise, then the user between the different blocks chain how to ensure that  their interests  are not compromised?
-Alice Bob to f ind the Bitcoin currency exchange as  Ethernet, i f  the Bitcoin transferred  to Alice Bob, but Bob i s not transferred to the Ethernet currency Alice, how to do?
-At this t ime, another action across the chain will show up: the use of i ts credit to
-provide transitive trust when the exchange transaction. Particular method of operation, the currency is usually transferred to the bit exchange Alice, Bob ether credits transferred to
-the exchange, and then exchange credits transferred to Alice Ethernet, token bits
-transferred Bob. By the middle of the exchange held on behalf of a digital currency, to
-achieve the transfer of trust so that transactions between Alice and Bob can proceed. Alice entire trust transfer is trust exchange, Bob trust exchange, so build trust between Alice and Bob.
+Say more obscure, we use swaps to understand i t convenient.<br>
+RMB is an independent currency, the dollar is another independent currency.<br>
+The yuan can not become a direct dollar, the dollar has not become a direct yuan.<br>
+Therefore, the dollar can not directly enter  the books of RMB, the yuan can not enter the dollar books directly.<br>
+We need someone willing to buy the yuan / dollar, sell USD / CNY to complete convertible currency, to  realize  the value of cross- f low of books.<br>
+Alice has $ 100 , she came to China, need to use the yuan to trade.<br>
+So she  must f ind And her people are willing to exchange foreign currency, such as Bob, Alice will sell
+$ 10 Bob, Bob received Alice Give him $ 100 , according to the exchange rate at  the t ime, gave Alice 657 yuan. From the point of view books, foreign currency exchange of the entire process is l ike this.<br>
+First,Alice has on the books of dollars to $ 100 , Bob has $ 0 in the dollar on the books; Alice 0 yuan RMB books, Bob 657 yuan RMB books.<br>
+Alice to Bob then transfers the $ 100 dollars on books, Bob transfers to  Alice 657 RMB yuan in  RMB books.<br>
+So,  Alice originally worth $  100   on dollar accounts in the books will be transferred to the account on the Ali ce books in
+renminbi, reflected 657  yuan. <br>
+In this process, the value of  Bob 657  yuan in  RMB books will  be transferred to the Bob account on  the books of  the dollar, reflecting the order of $  100 . <br>
+The entire exchange process, the two books simultaneously on the transfer transaction.<br>
+The nature and currency exchange across the chain are the same. <br>
+Across the chain does not change the total value of each block in the chain, but was among the holders of a convertible has been.<br>
+In summary, one of the core element s of technology across the  chain: the user on a chain to help Alice f ind the user Bob is willing to be redeemed on the other strand.<br>
+From a business perspective, cross - l ink technology is an exchange, allowing users to be able to exchange the cross chain transactions. Because of different currencies in different block chain.<br>
+The block i tself i s a chain of trust in order to solve problems that arise, then the user between the different blocks chain how to ensure that  their interests  are not compromised?<br>
+Alice Bob to f ind the Bitcoin currency exchange as  Ethernet, i f  the Bitcoin transferred  to Alice Bob, but Bob i s not transferred to the Ethernet currency Alice, how to do?<br>
+At this t ime, another action across the chain will show up: the use of i ts credit to provide transitive trust when the exchange transaction.<br>
+Particular method of operation, the currency is usually transferred to the bit exchange Alice, Bob ether credits transferred to the exchange, and then exchange credits transferred to Alice Ethernet, token bits transferred Bob.<br>
+By the middle of the exchange held on behalf of a digital currency, to achieve the transfer of trust so that transactions between Alice and Bob can proceed. Alice entire trust transfer is trust exchange, Bob trust exchange, so build trust between Alice and Bob.<br>
 
-The nature of cross-chain block chain 4.1
+The nature of cross-chain block chain 4.1<br>
 
-The whole real world have moved on a block chain is not realistic, real world i tself is
-divided inheritance economic f ield was value creation, by market value to achieve different industries and different areas of economic exchange. Each separate block chain maintains
-i ts own independent economic value system, is connected across the chain block chain backbone chain of independent blocks, carrying a different value system function block chain of value exchange, commodities to be able to interact, the need for prices,
-commodity prices from their value, depending on supply and demand, but by market supply and demand relationship is built, so, in order to achieve different block chain " commo dity" value exchange, in a cross- chain block chain will be a variety the market value of the
-transaction, the value of each transaction on the market across the chain block chain is a chain across service contract.
-Value does not come out of nowhere and wi l l not suddenly disappear, across the
-design chain must comply with economic laws of mankind since ancient t imes. The nature
+The whole real world have moved on a block chain is not realistic, real world i tself is divided inheritance economic f ield was value creation, by market value to achieve different industries and different areas of economic exchange. <br>
+Each separate block chain maintains i ts own independent economic value system, is connected across the chain block chain backbone chain of independent blocks, carrying a different value system function block chain of value exchange, commodities to be able to interact, the need for prices,commodity prices from their value, depending on supply and demand, but by market supply and demand relationship is built, so, in order to achieve different block chain " commo dity" value exchange, in a cross- chain block chain will be a variety the market value of the transaction, the value of each transaction on the market across the chain block chain is a chain across service contract.<br>
+Value does not come out of nowhere and wi l l not suddenly disappear, across the design chain must comply with economic laws of mankind since ancient t imes.<br>
+The nature of cross- chain is the equivalent exchange value, any violation of the basic principles of design will eventually fail.<br>
 
-of cross- chain is the equivalent exchange value, any violation of the basic principles of design will eventually fail.
-
-4.2block chain cross chain architecture model
+4.2block chain cross chain architecture model<br>
 --
 
-Separate block chain of architectural models already in the foregoing description, and
-all independent block chain i f you need support across the value chain transfer or  exchange,  we need to be present outside the chain of service contracts, service contracts outside the
-chain of contracts with general services are not essential difference, but also a service
-contract statute, except that the contract makers will provide a set of chain transactions
-across public statement of public address, you need to cross the main chain transaction can own a certain amount of value transferred to on cross - chain contract services specified
-public address, and specify the chain across the transaction, such as a certain amount of
-hope that the exchange value of  the body of  another block chain, and the value of  the body  on their own after the exchange to another block chain the public key on the address.
-It is assumed that there are two separate block chain A and B, there is  a  main body  X  and Y, they have private addresses on the two chains, the main producers of X is the value
-on the block chain A, such as farmers produce food , Y is  the value of  the main producers on  the block chain B, such as industrial plant, the main X wants to  buy  a  pr oduct or  service on  the block chain B, such as industrial products, the main Y want to buy products on the block chain a or services, such as food. Cross chain block chain of the main chain composed of
-two types, one  is  a  main chain backbone chain span onl y  one  A- chain is  an  aptamer, the
-aptamer strand there are at least two, a cross - connect backbone chain each aptamer strand, there is no trust relationship between the respective sub - chains, but passed through the
-main chain of trust. Aptamer chain and the main chain to interact in accordance with the
-protocol set, in order to achieve the purpose of the trust transfer and transaction delivery.
-Combined with the above example to explain the chain across our value chain for
-inter- exchange process  will be  explained. Here only  barter market, for  example, the  main
-producers of X is the value on the block chain A, Y is the value of the main producers on the block chain B, X i f you  want to  get  the value of  the main body of  the block chain B,  We  need to exchange contracts with the main service Y to achieve an equivalent value of barter to
-get the body through cross- block chain a value chain.
-First body X need to be added outside the chain of service contracts on the A chain,
-contract law rules  and  accept the terms  of  service contract provisions, subject X  also need to add  a  chain across service contracts, such  as  trade matching AOB  can  be  achieved across a chain of service contracts, contract rules and legal provisions of the receiving chain
-transactions across the market. Then subject X to be in accordance with the rules of the
-contract outside the chain of service contracts on the  A  chain, the  value chain of  own  body A certain amount of chain transfer to outside contract services specified public address,
-and specify the content across the chain transactions, such as I wish to exchange a set
-number of  another body block chain B  value, and the value of  the  body after the exchange to i ts own public address on another block chain. Subsequent transaction process is as
-follows:
+Separate block chain of architectural models already in the foregoing description, and all independent block chain i f you need support across the value chain transfer or  exchange,  we need to be present outside the chain of service contracts, service contracts outside the chain of contracts with general services are not essential difference, but also a service contract statute, except that the contract makers will provide a set of chain transactions across public statement of public address, you need to cross the main chain transaction can own a certain amount of value transferred to on cross - chain contract services specified public address, and specify the chain across the transaction, such as a certain amount of hope that the exchange value of  the body of  another block chain, and the value of  the body  on their own after the exchange to another block chain the public key on the address.<br>
+It is assumed that there are two separate block chain A and B, there is  a  main body  X  and Y, they have private addresses on the two chains, the main producers of X is the value on the block chain A, such as farmers produce food , Y is  the value of  the main producers on  the block chain B, such as industrial plant, the main X wants to  buy  a  pr oduct or  service on  the block chain B, such as industrial products, the main Y want to buy products on the block chain a or services, such as food. Cross chain block chain of the main chain composed of two types, one  is  a  main chain backbone chain span onl y  one  A- chain is  an  aptamer, the aptamer strand there are at least two, a cross - connect backbone chain each aptamer strand, there is no trust relationship between the respective sub - chains, but passed through the main chain of trust. Aptamer chain and the main chain to interact in accordance with the protocol set, in order to achieve the purpose of the trust transfer and transaction delivery.<br>
+Combined with the above example to explain the chain across our value chain for inter- exchange process  will be  explained.<br>
+Here only  barter market, for  example, the  main producers of X is the value on the block chain A, Y is the value of the main producers on the block chain B, X i f you  want to  get  the value of  the main body of  the block chain B,  We  need to exchange contracts with the main service Y to achieve an equivalent value of barter to get the body through cross- block chain a value chain.<br>
+First body X need to be added outside the chain of service contracts on the A chain, contract law rules  and  accept the terms  of  service contract provisions, subject X  also need to add  a  chain across service contracts, such  as  trade matching AOB  can  be  achieved across a chain of service contracts, contract rules and legal provisions of the receiving chain transactions across the market.<br>
+Then subject X to be in accordance with the rules of the contract outside the chain of service contracts on the  A  chain, the  value chain of  own  body A certain amount of chain transfer to outside contract services specified public address,and specify the content across the chain transactions, such as I wish to exchange a set number of  another body block chain B  value, and the value of  the  body after the exchange to i ts own public address on another block chain.<br>
+Subsequent transaction process is as follows:<br>
 
-4.3Building and packaging across the chain transactions
+4.3Building and packaging across the chain transactions<br>
 --
 
-Adapted by the chain code on the block chain A chain across the body designated X
-transaction request content ( with a certain amount of value in the chain thereof A certain number of B chain redemption value thereof to the address specified public key) to
-generate a daughter strand transactions, and packaged into sub - blocks chain.
+Adapted by the chain code on the block chain A chain across the body designated X transaction request content ( with a certain amount of value in the chain thereof A certain number of B chain redemption value thereof to the address specified public key) to
+generate a daughter strand transactions, and packaged into sub - blocks chain.<br>
 
-Cross-provided sub-chain chain transactions 4.4 proved, initiate the backbone chain across service invocations
+Cross-provided sub-chain chain transactions 4.4 proved, initiate the backbone chain across service invocations Chain l ink adaptation code gives a cross transaction request is present on the molecular chains of the proof, and in accordance with the protocol inter - strand, across the package starting backbone chain to service calls based on Merkle tree.<br>
 
-Chain l ink adaptation code gives a cross transaction request is present on the
-molecular chains of the proof, and in accordance with the protocol inter - strand, across the package starting backbone chain to service calls based on Merkle tree.
-
-4.5implementation of the main chain cross chain transaction code
+4.5implementation of the main chain cross chain transaction code<br>
 ---
 
-Backbone bus service across the chain, the chain of verification on the child sex trade there is proof, analysis of cross - body X chain transaction request content, the chain across service call routing to speci f ic cross- value chain exchange contracts. The same procedure, Y across the main chain of a transaction request ( with the chain on a certain number of B
-chain redemption value thereof A certain number of public key value to the specified
-address thereof) is  also sent  to  the same value chain across swaps.  Permit consensus - based  l ightweight BFT protocol to follow, which transaction processing round instead of multiple
-rounds. Each verifier according to their assessment of the previous block view of a
-transaction. If more than two- thirds or two- thirds vote of the verifier is yes, then cross the transaction chain is considered valid, at this t ime next block chain transactions considered valid. From the start state, we need to bridge the verifier to wait until i t receives the
-cross- chain transactions, and then verify the validity of the signature and transaction costs.
-According to the validity of the transaction, i t will be deleted verifier ( unsigned), or
-signature and spread to the connection or destination netwo rk. Verifier can be rewarded from across the chain transaction fee, and may be given a portion of the block reward.
-Target cost allocation i s equitable distribution policy. Internally, all costs are allocated to  the bridge to bridge verifier. This ratio ca n be placed on the bridge i s completed for each
-certifier may be divided equally complete. On the outside, bridge and other bridges routing path network connection and verifier share transaction costs across the chain. There are
-two possible external costs of distribution modes: • chain transactions across the sender
-specifies the cost allocation between the bridge and connect to  the  network. The  advantage of this method is that users can choose to optimize the cost of the bridge according to the
-load and the lowest rate. The disadvantage is that before sending the transaction, the user needs a basic understanding of routing paths and cost requirements of each bridge. The
-sender only hardcoded agreement protocol or the total cost, and the connecting network
-bridges share the cost. The advantage of  this method is  that the user easier. A  disadvantage of this method is that, i f not difficult, to change the ratio between the bridge and the
-connecting network is slow.
-Code Cross chain value exchange contracts to a chieve, does all the AOB trade matching, forming a trading market depth with the B chain value body of a A chain value body, once
-the match on the main transaction request X and the main body of Y, to form a match transaction for the package a and B chains to achieve the results the value exchanged
-between the main body X and Y. Cross - chain value exchange contract is essentially a f ield Stock Exchange.
-Sub- l ink chain transactions across evidenced by, there is provided the backbone,
-outside the chain of cont racts initiated service calls across the value chain to exchange
-contracts implementation code aptamer chain, i t will provide a transaction subject X and Y cross the transaction chain match in the main chain the existence proof, are transmitted to sub- adapter a chain and B chain of command transfer transaction, a value indicative of the main body to the specified Y a chain transfer address a number of the public key, to the
-indication specifies a  main body  of  the  B  chain X  public address certain amount  of  b ody
+Backbone bus service across the chain, the chain of verification on the child sex trade there is proof, analysis of cross - body X chain transaction request content, the chain across service call routing to speci f ic cross- value chain exchange contracts.<br>
+The same procedure, Y across the main chain of a transaction request ( with the chain on a certain number of B chain redemption value thereof A certain number of public key value to the specified address thereof) is  also sent  to  the same value chain across swaps. <br>
+Permit consensus - based  l ightweight BFT protocol to follow, which transaction processing round instead of multiple rounds. <br>
+Each verifier according to their assessment of the previous block view of a transaction.<br>
+If more than two- thirds or two- thirds vote of the verifier is yes, then cross the transaction chain is considered valid, at this t ime next block chain transactions considered valid.<br>
+From the start state, we need to bridge the verifier to wait until i t receives the cross- chain transactions, and then verify the validity of the signature and transaction costs.<br>
+According to the validity of the transaction, i t will be deleted verifier ( unsigned), or signature and spread to the connection or destination network. <br>
+Verifier can be rewarded from across the chain transaction fee, and may be given a portion of the block reward.<br>
+Target cost allocation i s equitable distribution policy. Internally, all costs are allocated to  the bridge to bridge verifier. This ratio ca n be placed on the bridge i s completed for each certifier may be divided equally complete. <br>
+On the outside, bridge and other bridges routing path network connection and verifier share transaction costs across the chain. <br>
+There are two possible external costs of distribution modes: • chain transactions across the sender specifies the cost allocation between the bridge and connect to  the  network.<br>
+The  advantage of this method is that users can choose to optimize the cost of the bridge according to the load and the lowest rate.<br>
+The disadvantage is that before sending the transaction, the user needs a basic understanding of routing paths and cost requirements of each bridge.<br>
+The sender only hardcoded agreement protocol or the total cost, and the connecting network bridges share the cost.<br>
+The advantage of  this method is  that the user easier. <br>
+A  disadvantage of this method is that, i f not difficult, to change the ratio between the bridge and the connecting network is slow.<br>
+Code Cross chain value exchange contracts to a chieve, does all the AOB trade matching, forming a trading market depth with the B chain value body of a A chain value body, once the match on the main transaction request X and the main body of Y, to form a match transaction for the package a and B chains to achieve the results the value exchanged between the main body X and Y. Cross - chain value exchange contract is essentially a f ield Stock Exchange.<br>
+Sub- l ink chain transactions across evidenced by, there is provided the backbone,outside the chain of cont racts initiated service calls across the value chain to exchange contracts implementation code aptamer chain, i t will provide a transaction subject X and Y cross the transaction chain match in the main chain the existence proof, are transmitted to sub- adapter a chain and B chain of command transfer transaction, a value indicative of the main body to the specified Y a chain transfer address a number of the public key, to the indication specifies a  main body  of  the  B  chain X  public address certain amount  of  b ody transfer value.<br>
+Generating and packing chain transactions across these two aptamers chains are respective instruction transfers transaction log, and packaged into the respective sub - block chain.<br>
 
-transfer value.
-Generating and packing chain transactions across these two aptamers chains are
-respective instruction transfers transaction log, and packaged into the respective sub - block chain.
-
-4.6initiate service calls outside the chain contract
+4.6initiate service calls outside the chain contract<br>
 ---
 
-Chain adaptation of code initiates transactions to transfer outside the chain of
-command on contract service independent blocks corresponding to each chain. A chain aptamer chain will send a transaction to transfer outside the chain A chain of service
-contracts, indicating the value of the body to the body designated Y address from the public address public contracts transfer a certain numbe r. B chain aptamer will send a
+Chain adaptation of code initiates transactions to transfer outside the chain of command on contract service independent blocks corresponding to each chain.<br> 
+A chain aptamer chain will send a transaction to transfer outside the chain A chain of service contracts, indicating the value of the body to the body designated Y address from the public address public contracts transfer a certain numbe r. B chain aptamer will send a
 transfer transactions outside the chain of contracts to service B chain, which indicates t hat  the value specified in the main body to X from the public address public address transfer
 contract of a certain number.
 
