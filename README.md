@@ -1,32 +1,34 @@
-                                            Pointnity Network <br/>
+Pointnity Network <br/>
 =   
 High Speed Compatible Extensions, interactive collaboration across the chain to the center of the operating system
                                Draftvl. 0
 
 1.Text
 ---
-
-Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology.<br> For tracking the distribution of ownership of digitalassets.<br> The technology is designed to allow a continuous process in a series of block trading agree that these transactions can be invoked in exchange for assets the function of the
-contract. These ledgers are distribut ed by the miners do not have specific permissions composition.<br>
-For distributed computing, which seems to be a typical application of state machine replication.<br> When copying the classical state machine, each command ( or operations) can  be invoked at any t ime and by any process applied to the state machine, the processing
-target block chain expression i s added to the data agree in the next block, and going to state copy the target machine.<br>
-However, one of the main differences between the chain and the bloc k state machine<br>
-replication relationship between the consecutive negotiation embodiment consistent. Block chain needs of each case of inconsistency is deleted ( about a subtle and before). More
-specifically, block, i t must be explicitly included in the f ina l piece of information pointing
-to the original connection to the block chain. This is a  typical use  of  a  hash function having  an elastic collision, when applied to the contents of one block, the block hash output.
-Identifying consensus instance number of the proposed decision block X  must  be  embedded  in the instance number. In view of this chain block is a block of new technological
-innovations set of computer technology, subvert the traditional Internet.
-Block chain development process:
-Block chain technology came into being in  the  earliest prototype of  Bitcoin project. As   a distributed computing network behind Bitcoin, there is no centralized management,
-Bitcoin network has been running steadily nearly eight years, to support a  huge  transaction.  No serious f laws. Identifying descriptive l i terature f i rst block chain is a bit coins, electronic cash system is a point to point network by name ( Nakamoto) written, but i t is focused on
-the bits token system. In fact, there are chain block, which the chain block i s described as a historical record for bitcoin trading account, there is no clear definitions and concepts.
-More broadly, the block chain i s a decentralized recording technology. Nodes
-participating in the system may not belong to the same organization, do es not need to trust each other; data block chain is maintained by all nodes. Each node can be involved in
-maintaining the copy, and get a copy of the complete record. Compared with traditional accounting methods, i ts features include:
-Support the growth of the chain can add records, and records can not be tampered occurs;
-Decentralization, more focused, there is no centralized control, and can reach a consensus, as far as possible to achieve a fair distribution;
-Encryption mechanisms to ensure that the tra nsaction can not deny and undermine the protection of user information and record as much privacy. More importantly, the  contract  can be smart with combined transaction block chain, to provide a more f lexible
-functionality of the contract, i t already suppo rts simple script calculation. To perform more complex operations. This may be extended beyond the block chain has the meaning of pure  data recording points and actually has " pervasive computing".
+Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology. For tracking the distribution of ownership of digitalassets. 	<br>
+The technology is designed to allow a continuous process in a series of block trading agree that these transactions can be invoked in exchange for assets the function of the contract. <br>
+These ledgers are distribut ed by the miners do not have specific permissions composition.<br>
+For distributed computing, which seems to be a typical application of state machine replication.<br>
+When copying the classical state machine, each command ( or operations) can  be invoked at any t ime and by any process applied to the state machine, the processing target block chain expression i s added to the data agree in the next block, and going to state copy the target machine.<br>
+However, one of the main differences between the chain and the bloc k state machine replication relationship between the consecutive negotiation embodiment consistent.<br>
+Block chain needs of each case of inconsistency is deleted ( about a subtle and before). More specifically, block, i t must be explicitly included in the f ina l piece of information pointing to the original connection to the block chain. <br>
+This is a  typical use  of  a  hash function having  an elastic collision, when applied to the contents of one block, the block hash output.<br>
+Identifying consensus instance number of the proposed decision block X  must  be  embedded  in the instance number. <br>
+In view of this chain block is a block of new technological innovations set of computer technology, subvert the traditional Internet.<br>
+Block chain development process:<br>
+Block chain technology came into being in  the  earliest prototype of  Bitcoin project.<br>
+As   a distributed computing network behind Bitcoin, there is no centralized management,Bitcoin network has been running steadily nearly eight years, to support a  huge  transaction.<br>
+No serious f laws. <br>
+Identifying descriptive l i terature f i rst block chain is a bit coins, electronic cash system is a point to point network by name ( Nakamoto) written, but i t is focused on the bits token system.<br>
+In fact, there are chain block, which the chain block i s described as a historical record for bitcoin trading account, there is no clear definitions and concepts.<br>
+More broadly, the block chain i s a decentralized recording technology. <br>
+Nodes participating in the system may not belong to the same organization, do es not need to trust each other; data block chain is maintained by all nodes.<br>
+Each node can be involved in maintaining the copy, and get a copy of the complete record.<br>
+Compared with traditional accounting methods, i ts features include:<br>
+Support the growth of the chain can add records, and records can not be tampered occurs;<br>
+Decentralization, more focused, there is no centralized control, and can reach a consensus, as far as possible to achieve a fair distribution;<br>
+Encryption mechanisms to ensure that the tra nsaction can not deny and undermine the protection of user information and record as much privacy. More importantly, the  contract  can be smart with combined transaction block chain, to provide a more f lexible functionality of the contract, i t already suppo rts simple script calculation. To perform more complex operations.<br>
+This may be extended beyond the block chain has the meaning of pure  data recording points and actually has " pervasive computing".<br>
 
 1.1blocks and even the value of:
 -----
