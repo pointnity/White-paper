@@ -6,7 +6,7 @@ Draftv1.0
 
 
 1.Text
-
+---
 
 Block chain is in the original Bitcoin as a carrier to create a new kind of technology under, i t is a promising technology. For tracking the distribution of ownership of digital
 assets. The technology is designed to allow a continuous process in a series of block trading agree that these transactions can be invoked in exchange for assets the function of the
@@ -32,6 +32,7 @@ Encryption mechanisms to ensure that the tra nsaction can not deny and undermine
 functionality of the contract, i t already suppo rts simple script calculation. To perform more complex operations. This may be extended beyond the block chain has the meaning of pure  data recording points and actually has " pervasive computing".
 
 1.1blocks and even the value of:
+-----
 
 A typical modern enterprise, the merchant by completing negotiations and execution of transactions in the course of the contract. Block chain adept at how to  manage contracts and ensure the smooth implementation of the contract. Characteristic block chain varies according to the type and application scenarios.
 In terms of technical characteristics, the block chains are typically considered:
@@ -40,6 +41,7 @@ In terms of technical characteristics, the block chains are typically considered
 •Privacy: Password guarantee that unauthorized data access, but can not be resolved.
 
 1.2block chain challenges:
+----
 
 The key technologies and challenges, from a technical point of view, the block chain
 involves a variety of f ields, including distribution, warehousing, cryptography, psychology, economics, game theory, network protocols and so on.
@@ -53,6 +55,7 @@ technologies such as quantum com puting, and so on, the RSA algorithm can not pr
 further development of a new generation of computing technology appears.
 
 1.2.1Distributed Consensus
+---------
 
 This is an old topic, the core is how  to  solve this change is  consistent on  the  network, is a well- recognized, and this information is confirmed. Big difference between public
 anonymous scenes of this problem and those with rights management. In Bitcoin block chain, taking into account the worst case scenario in a public guarantee of anonymity.
@@ -66,6 +69,7 @@ fault- tolerant nodes and the convergence speed ratio. prisoner of war ( POW) an
 algorithms allow more than half of the non - cooperation of the nodes and PBFT less than a third than the theory of non- cooperative node to ensure the stability of the network.
 
 1.2.2Performance
+----------
 
 How to improve transaction throughput and reduce transaction confirmation delay.
 Currently, the open bit chain block credits can only support about 7 bits per block cred i ts average throughput. Secure transaction confirmation t ime is one hour. Just make sure
@@ -76,6 +80,7 @@ achieved a normal configuration at the platform level, a single client with hund
 transactions per second throughput, optimistic forecasts will soon break through thousands  of  t imes per  second baseline. But  there are still tens of  thousands per second peak there i s   a big gap in the existing securities trading system. In addition, from design and engineering platform deployment, there are some areas ca n be optimized.
 
 1.2.3Scalability
+-----
 
 Common distributed system can expand the processing capacity of the entire system by adding nodes to block chain network system, the problem is not so simple. Each node in the network core must remain involved in maintaining a complete storage and intelligent
 processing contracts. Thus, the total storage capacity of the entire network and to calculate the respective nodes based on. Even i f the number of nodes in the network too much,
@@ -85,6 +90,7 @@ some of the nodes must be able to deal with the full collaboration of this idea 
 use in ultra- extreme; the same t ime period, the core layer the process is as  low  as  possible. in franchising mode, high- performance core node can also be used as a proxy node and the access node weak node.
 
 1.2.4System Security
+-------
 
 Existing encryption algorithm sophisticated design of block chains. However, to ensure that they are safe? There is no abs olute security systems in the world.
 The system is designed by the people, by the people business. There are several aspects are difficult to escape.
@@ -100,6 +106,7 @@ adjustment mechanism, once i t works loopholes, i t is difficult to solve the pr
 In addition, the block may be varied chain running application intelligence contract, there must be a method for safe control, and before the registration operation requires a mechanism to detect, in order to avoid damage to the malicious code.
 
 1.2.5databases and storage systems
+------
 
 Block in a block chain network needs to be written to the database for storage.
 Observation block chain, a large number of write operations hash calculation and
@@ -112,6 +119,7 @@ modified. All operations will be the minimum unit is a block. lntegration long s
 These are urgent problems. If this problem is not solved, i t will be a big obstacle blockchain technical landing.
 
 1.2.6Future development block chain
+------
 
 At present, the development of the block chain is rapidly expanding. People are
 studying the deep operations block chain, so as to solve problems in the real secto r. What
@@ -150,6 +158,7 @@ and external interaction, height compatible, high - dimensional expansion of the
 
 
 3.Pointnity network:
+--
 
 In the  future, a  similar block chain will be  the center of  the internet and spoke model to integrate data and value. The future direction of the main block chain used will be
 achieved through the development of joint block chain to integrate these individual spoke. This integrated block chain network, will make any public or private organization to:
@@ -178,12 +187,14 @@ impossible to build and distributed storage systems, such as Bit Torrent' s, and
 proposed to solve these problems.
 
 3.1 underlying fault block chain of survival
+--
 
 Our structure has not put any restrictions blockchain i t to use. Any blockchain may be used as long as i t provides a full sorting operation, but the safety and reliability
 characteristics depend directly on the underlying blockchain. We believe that the ability to migrate to a blockchain from another is very important, because i t allows larger systems to survive, even when the underlying blockchain compromised. Our architect ure also allows multiple potential blockchains and treatment blockchains as a whole provides a channel of
 communication and orderly functioning; as long as they can provide a complete and orderly operation of the individual underlying any number of communi cation channels can work.
 
 3.2And complex logic to maintain
+--
 
 Many outside Blockchains blockchains, l ike Revenge, while achieving the control logic and data stored in the plane blockchain level ( although they leave open the possibility of using external data storage in the future). In our view, do not use blockchains for data storage is necessary scalability, security and scalability is very important and remain outside
 blockchains complex logic. Node on the network should not be required to calculate
@@ -192,6 +203,7 @@ after they introduced new features already deployed and get real - world use, to
 requiring any modification of the concept underlying blockchains. Total sort  operation, on an underlying abstraction of the  blockchains. As  our building, " 〃  waist and kept  outside the complex blockchains.
 
 3.3scalable global data index
+--
 
 Any decentralized network would need an index to the data i t stores. Go back to the  early peer network, Napster has launched a centralized index decentralized f i le transfer in the year of 1999 Bit Torrent began to focus on tracking ( metrics), and later launched a
 DHT- based distributed index. DHT - based peer network is vulnerable to attack and Sybil
@@ -201,6 +213,7 @@ sets and ( b) has all the the global l ist can be used to index the network proj
 node has a complete copy of the data) elasticity.
 
 3.4customized block chain:
+--
 
 Currently decentralized application ( DAPP) will need to build on an underlying chain.
 Different business scenarios have different requirements for performance, consensus
@@ -216,6 +229,7 @@ There are challenges and sources of difficulty, which makes the environment easi
 
 
 4.Multi-chain interaction (cross-link), controlled authority business information, ecological cooperation show:
+--
 
 Across the chain, as the name suggests, i t is through a technique that allows the value chain and cross the barriers between the chain, direct circulation. So how to understand
 the chain across i t?
@@ -257,6 +271,7 @@ design chain must comply with economic laws of mankind since ancient t imes. The
 of cross- chain is the equivalent exchange value, any violation of the basic principles of design will eventually fail.
 
 4.2block chain cross chain architecture model
+--
 
 Separate block chain of architectural models already in the foregoing description, and
 all independent block chain i f you need support across the value chain transfer or  exchange,  we need to be present outside the chain of service contracts, service contracts outside the
@@ -284,6 +299,7 @@ number of  another body block chain B  value, and the value of  the  body after 
 follows:
 
 4.3Building and packaging across the chain transactions
+--
 
 Adapted by the chain code on the block chain A chain across the body designated X
 transaction request content ( with a certain amount of value in the chain thereof A certain number of B chain redemption value thereof to the address specified public key) to
@@ -295,6 +311,7 @@ Chain l ink adaptation code gives a cross transaction request is present on the
 molecular chains of the proof, and in accordance with the protocol inter - strand, across the package starting backbone chain to service calls based on Merkle tree.
 
 4.5implementation of the main chain cross chain transaction code
+---
 
 Backbone bus service across the chain, the chain of verification on the child sex trade there is proof, analysis of cross - body X chain transaction request content, the chain across service call routing to speci f ic cross- value chain exchange contracts. The same procedure, Y across the main chain of a transaction request ( with the chain on a certain number of B
 chain redemption value thereof A certain number of public key value to the specified
@@ -325,6 +342,7 @@ Generating and packing chain transactions across these two aptamers chains are
 respective instruction transfers transaction log, and packaged into the respective sub - block chain.
 
 4.6initiate service calls outside the chain contract
+---
 
 Chain adaptation of code initiates transactions to transfer outside the chain of
 command on contract service independent blocks corresponding to each chain. A chain aptamer chain will send a transaction to transfer outside the chain A chain of service
@@ -333,6 +351,7 @@ transfer transactions outside the chain of contracts to service B chain, which i
 contract of a certain number.
 
 4.7implementation of the code outside the chain contract
+---
 
 A service contract outer chain strand will contract the code executed, gen erates a transaction, a number of the body is controlled by the value of the contract, to transfer instructions to transfer the specified subject public key Y address. Contract services
 outside the chain B chain will execute the contract code generates a t ransaction, the value
@@ -363,7 +382,7 @@ transition technology medium term, the future will be diversified collaboration 
 interconnection of an external multi - channel internal cross chain collaboration platform.
 
 4.8Pointnity Network multi-chain integration
-
+----
 
 Pointnity Network adapter multi - chain all- node connected to a different technology combined block chain. Specifically, as a unified entrance, Pointnity Network adapter
 together with the full node to trigger the transaction on the external subnet ( BTC, ETH). Complete local subnet node in the network by the external and internal subnets. External subnet includes l inks to other networks, such as the BTC, ETH l ike. Internal subnet
@@ -374,7 +393,7 @@ As part of the cross- l ink communications with modules, multi - chain fusion ad
 deployed across the nodes. Complete node tri ggers transfer operations outside the local subnet node, in order to achieve the role of the transport agent.
 
 4.9Pointnity Network Cross-Link Communications
-
+----
 
 Pointnity Network is not only a separate block chain network, and support cross - functional communication chain bridge, such as cross - asset swap chain cross chain assets and
 portability. By using Pointnity Network platform, anyone can  develop applications based  on the f inancial requirements of the application scenarios. Pointnity Network technology the basic idea is to use the cross l ink chain thought the relay, and the cross - l ink
@@ -383,38 +402,39 @@ communications module is implemented as a node complete covering layer on the ba
 chain interoperability of independence, but also reuse the various functions Pointnity Network provides basic chain.
 
 
-
-
 4.10Pointnity Network cross-link communications module
+---
 
 4.10.1.Verification node
-
+---
 
 Notary node Pointnity Network basic chain. They verify the vali dity of certain data from
 the original block chain, and build a new block in the Pointnity Network. Verification node must pledge sufficient assets to ensure that they complete the work faithfully.
 
-
 4.10.2.Block sensing node
+--
 
 Help verify node collects effective cross- l ink communications block. These nodes are
 similar in Po W miners, run some original block chain full client, configured to execute the transaction and a new block. After receiving the transaction request block the cross chain, packed block sensing node blocks the requests and send them to the authentication node.
 
-
 4.10.3.Merge node
+---
 
 Pointnity Network acts as a gateway between the original block to another chain. Each node has two merge queues, respectively process incoming and outgoing transac t ions
 affairs. In addition, the combined node should have some original block token chain and  the chain support cross Oracle.
 
 4.11summary
-
+--
 
 Block chain i s a core value of the infrastructure of cyberspace. Its application should not be restricted and stop the application chain alliance, i t will be in a small range, Pointnity
 Network' s technology and multi - chain  cross chain circling integration into different  areas. A variety of underlying network protocol connectivity and extended block chain will realize the value of the transmission network, building a global value of  the Internet, and  provide  the basis for a variety of value network transmission applications.
 
 
 5.Pointnity system composed of members of the Network
+---
 
 5.1certifier
+---
 
 Verify people packed the new block in Pointnity Network network. People need to verify  the deposit mortgage enough, because we allow other people to nominate one or more
 
@@ -430,15 +450,15 @@ verification. Initially error i f not intentional, i t  just would withhold thei
 ( double- signing), or conspire to provide an i l legal block and so on can proof of malicious behavior, cause them to lose all deposit ( down a small part, most of the informat ion
 provider and to reward honest verifier).
 
-
 5.2electors
+--
 
 Has an interest of a group, they put security deposit entrusted to the certifier. They are no more role, in addition to be represented by r isk capital to put: they trust in a particular
 certifier ( or groups) can represent them maintain the entire network. According to the proportion of their deposit, they will be subject to verification and deposit the same
 proportion of the total people incentives and deductions. And the following collection of people, miners nominee and current Po W network similar.
 
-
 5.3Intelligencer
+--
 
 Trading is to help people collect verified person who makes an effective parallel chain
 block groups. They will run a full node to  a  specific parallel chains, which means they  have  all the necessary information, the new block can be packaged and executed transactions.
@@ -450,6 +470,7 @@ Ultimately, we want to see groups of people in order to collect more fees, compe
 bonus, these collectors may only serve specific groups of people verified.
 
 5.4Ombudsman
+--
 
 Unlike the other two parties, the Ombudsman does not block the process and packaged directly related. They are independent of the " bounty hunter", encouraging them is a
 one- t ime large reward.
@@ -466,8 +487,10 @@ probably not more than the equivalent of a few dollars, but i f the monitoring t
 
 
 6consensus mechanism
+--
 
 6.1Casper consensus
+--
 
 Casper is a consensus based on the margin of economic incentive agreement
 ( security- deposit based economic consensus protocol). Agreement node, as " locked margin verifier ( bonded validators)", you m ust f i rst pay a deposit ( this step is called to lock the
@@ -489,6 +512,7 @@ information can be verified in the Agreement can be called " objective"; i f t h
 
 
 6.2Mortgage Token
+--
 
 Gambling on Consensus Casper asked to verify the majority of people will bet  on  the  result  of a consensus in the margin. The results and the formation of a consensus by the certifier betting situation: verification must guess which block others would bet on to win, bu t also  bet this block. If you bet on, they can get back margin plus transaction costs, and perhaps  there are some emerging currencies; i f the bet is not quickly agree, they can  only get back part of the deposit. Therefore, the distribution of betting after a few rounds to verify
 people will converge. Also verify i f people are too significant to change the bet, for
@@ -501,6 +525,7 @@ prediction, betting is considered the result of force), the consensus is safe. O
 verified in Casper who can make a bet by coordinating the proportion of exponential growth, so that a consensus quickly achieve maximum security.
 
 6.3whole network punishment mechanism
+--
 
 Independent verification of people bet on each candidate block on  each  height, each block  is assigned to a winning probability and published. By  repeatedly bet  for  each  person will be selected height verify only one winner block, this process also determines the
 transaction ( transaction) the order of execution. If a verifier in  the  probability distribution of the sum of a  highly published more than 100 %,  or  announced the  probability is  less than  0 %, or an invalid block is specified for the probability of greater than 0  percent, Casper will  be forfeited his deposit.
@@ -513,6 +538,7 @@ confirmation related trades: transaction ( i . e. corresponding to the f inal bl
 performed, and after the f inal confirmation of the transaction execution state ( and all blocks corresponding block needs below this height be f inal).
 
 6.4System anti-examination
+--
 
 One of the biggest threats to the miners f orm a consensus agreement is to the detriment of non- members at the expense of profit maximization member of the alliance. If Casper
 verify people' s income mainly consists of fees, a majority coalition will be able to obtain greater benefits f i l ter through a block of other nodes. Trading Not only that, the attacker can also bribe nodes to eliminate specific address given, as long as  the majority of  nodes  are rational, they will be able to join together to f i l ter out the specified block does not
@@ -524,6 +550,7 @@ people involved in the verification can get more in return. More specifically, C
 withheld. In addition, by winning bet returns the number of people involved in  verifying  the consensus of the game is l inear ( or super - l inear) relationship.
 
 6.5Caspar optimization scalability
+--
 
 The answer is l ikely to be determined, and the reason is not so much Casper block chain architecture as i t is on the economics of Casper. But Casper block chain design does
 support the consensus faster than the POW block interval. Verify people' s income i s l ikely that only transaction costs, so they have a direct incentive to increase Gas cap, as long  as  they load the server. But i f thus creating additional processing capacity relatively weak
@@ -546,6 +573,7 @@ executed, and the transaction has been revoked possibility of this situation wil
 with the situation bifurcation, POW and use the same protocol, but here the consensus agreement will give a clear possibility that the transaction revocation measure.
 
 6.7 workflow system
+--
 
 1is a verifier node role. Each verifier will establish a similar bond bet to ensure that other persons can verify the good work. If they are not a good verifier, then the shares have been confiscated risks.
 2client transaction request to the verifier.
@@ -573,11 +601,11 @@ i bet for each cycle, the verification node could win or lose their bet.
 6Extensibility is proposed by f inely divided and implemented by nesting consensus
 protocol ( recursively). If the verifier reach consistency on a set of proposals, and proved to have converged in the betting period, the blocks can be synthesized by agreement.
 
-
-
 7Scalability processing system
+--
 
 7.1Overview
+--
 
 Scalability is distributed computing and parallel computing Important index, which describes the ability of the system to dynamically adjust their computing performance by changing the available computing resources and scheduling. Scalabi l i ty is divided into two aspects of hardware and software. Scalability refers to the hardware is by changing the hardware resources to meet workload changes, such as changing the number of processors, memory and hard disk capacity. Software scalability by changing the degree of  parallelism  and scheduling to meet workload changes. Measurement, design and testing are three main aspects of the research system scalability.
 Metrics • Scalability is the basis for the design  and  testing  of  scalable  systems. However, due to the complex and diverse scalable system environment, so a system to accurately measure the scalability is very challenging. General measure  is  by  loading different system resources and system load changes to evaluate the performance of the system in this process. In  the  best  case, i f  both of  the  workload and  computing resources  K- fold increase  or decrease,  and the average  response  t ime invariant  systems or applications, the system has optimal scalability.
@@ -594,6 +622,7 @@ new challenges. On the basis of the above existing research and practice researc
 analysis work on further discuss challenging issues scalability study of cloud comp uting platform services software.
 
 7.2Scalability is defined
+--
 
 It gives a definition of scalability: Scalability refers to  the  network, system  or  process can be supported  by capacity  expansion  greater workloads  own resources.  He will scalability be divided into four  categories:  load  scalability,  spatial  scalability,  temporal and spatial scalability and architecture scalability. 1Scalability refers to the  load transition  in the system can smoothly varying workload by adjusting the resources to meet the load change, no t ime delay exceeds a predetermined l imit and resource consumption in the regulation process. 2 Spatial scalability is a l imit to the regulation system resources, i . e. resources in the case where the load increases, the occupied ( memory, disk space, etc.) and  the load increases l inearly up, supported by the prohibited  Resources  do  increasing  infinitely practice load. 3 Scalability refers to the t ime and space at a given operating t ime requirements under ( t ime), by extending the resource ( empty) to meet the increased load, while the application of the extended run t ime still meet  the  requirements. 4 Scalability refers to the structure to achieve a structure can easily be expanded and adjusted on the resource.
 Existing studies to further explore the Scalabil i ty is defined in the specific f ield of application, the concept of multi - dimensional, and the dimension to  be  representative of  the behavior of the system affect the part of the  application  [ 4 ] ;  and  discussion  in  the range of the telescopic system require ments of [ 3 ] . In [ 3 ] , the scalability is defined: for a particular set of requirements, under different loads, the utilization of system resources remains unchanged. For scalability metrics, i t makes sense, so also produced multiple dimensions scalability metrics at specific areas. [ 3 ] gives three examples of dimensions: efficiency, storage space, and the number of access points. In the dimension processing efficiency, the processing efficiency of the system for information is the most important indicator of the impact of the behavior of the  system  that  guides  the  behavior  of  the system to adjust resources to adapt to the load. In this indicator, you can be more specific measure of scalability. Similarly, storage space and access points purpose dimension, stretching behavior of the system by the storage space and access  points aim  to  influence  and guide. Some studies have further expanded scalability dimension [ S], a proposed performance multiple dimensions, economic, physical size, addressing, software independence, communication capabilities, and  alternative technical independence and  the l ike.
@@ -603,13 +632,8 @@ performance  by  increasing  the  capacity  of  the  l inear  ( ideal  case)  ge
 There are two ways to increase the resources: one is the expansion,  one  is  external expansion. The expansion means to a single computing node better performance, increased speed and increased cost of hardware resources, including adding more memory, faster processors, or to add more, or just moved to the application function more powerful single computer. It is extended to increase the number of nodes increased computing resources. External expansion increases the number of computing nodes, managemen t presented a greater challenge. As can be seen from Figure 1 , additional resources, extended extender is easier than optimal scalability; and extended in this manner can be increased or decreased more f lexibly computing nodes.
 
 
-
-
-
-
-
-
 7.3Scalability of Measurement Methods
+--
 
 #  Of  measurement can  be  reduced is  basic design and test the scalability of  the system,  i t has been widely discussed in a parallel and  distributed computing systems. As early  as  1990 , Mark D.  Hil P]  f i rst proposed using an  accelerometer to defin e  scalability. false Let be a Scale processing system of n processors for the execution of t ime required for the work, acceleration is defined as speedup ( N, x> - t ime ( L, x)  Ainie < n,; i  :),  i . e., the same size for  the problem, when the desired ratio and using a " preclude processor execution t ime. The concept of acceleration, based on  efficiency is  defined as ef  f  iciencytn, work) =  speedupin,  x) / n, I. e., the ratio of the number of processor speed. The efficiency of all algorithms If a system is 1 , then the system is scalable. In other words, the  same  scale  of  the  problem, using n processors to perform the required t ime is to use 1 / n 1 processors. The above definition is mainly based on  the  scale of  the  problem under  the  same conditions, changes in the number of processors study changes to the system  performance.  But  there  is  a problem in a large number of sequential code execution, and the processor enough ( e. g. greater than the size of the problem), the system efficiency  i s  low.  In  addition,  the definition can not measure the magnitude of change in performance when the problem size changes.
 Most scalability metric is defined in parallel systems, mainly based on the speed and efficiency based on a method of speedup.
@@ -675,6 +699,7 @@ Distributed Resource  Scheduler  resource  scheduling  around,  build a resource
 According to the core control program whether the resource allocation, distributed resource management system can be divided into central and distributed modes. Center scheduling of distributed resource management system for all resource requests to the dispatcher core processing, each node to allocate resources from the core program. And distributed scheduling request received by the one computing  node  that  interacts  with  other nodes and negotiation to complete resource alloc ation.
 
 7.4.1center scheduling mode
+---
 
 Distributed scheduling central resource management system typically consists of four components, which are the scheduler, information storage center, and local resource  allocator resource manager. Scheduling system gener ally center of the frame shown in FIG.
 1 Early devices tune ~ h'~ Disappeared consultation resources' task
@@ -703,6 +728,7 @@ Center scheduling of resource management can better maintain the scalability of 
 for all of the tasks and resources of the system from the information storage  center,  according to the information to make quick one - step decision- making and resource  allocation command to the  resource allocator to  complete. However, when the  system load  is large, the scheduler needs many requests  handled frequently,  resulting   in  slower response scheduler, the system takes a long t ime to reschedule, poor scalability of  the system.
 
 7.4.2distributed scheduling mode
+--
 
 Legion resource distribution frame is based on the aforementioned center scheduling. The disadvantage is also obvious dispatch center, i t is only one component to make resource
 allocation decisions, this component can easily beco me the bottleneck of  the system. When    i t appears the problem When the resource allocation system will not be continued.
@@ -731,11 +757,13 @@ Local Management: Responsible for monitoring of local resources, allo cate and m
 Distributed scheduling resource management system applied to  the  load  is  larger, making the specified dispersed into the respective different nodes in parallel, so th at the system can still quickly re- scheduling of resources under  heavy  load. In  a  small  system load, a node to make scheduling needs to communicate with multiple nodes, but this reduces the efficiency of decision- making and reduce the scalability of the sy stem.
 
 8Status Scalability Testing
+--
 
 Testing and verification is the basis of  evaluation  of  scalability.  Scalability  can  be tested in two main ways: 1 ) the test code level. By performing the test a plurality of sets of different conditions, and the evaluatio n code blocks in each  test  program  in  response  to the correlation coefficient of the total t ime. Comparative tests in all groups the code block correlation coefficients, to measure the degree of parallelism of the code  block.  By  the degree of parallelism of each code block scalability assessment procedures. 2 ) system level test. System- level testing by estimating the work load, real - t ime monitoring of test  runs  and test run results to comprehensively evaluate the program scalability.
 In most studies, scalability, just as a test of performance  indicators,  for  scalability current testing methods and systems more l imited study i tself. The  following describes a  code level, respectively, and a system - level test method scalability.
 
 8.1Test parallel code Scalability
+--
 
 Parallel scalability of the code can be obtained by analyzing the performance of each code block: block parallelism as possible,   a  small  increase   in  processor   instructions  can protect Parallel efficiency program; otherwise, need to  add  more  processors  to  maintain the efficiency of the program. Testers often modeling approach to  analyze the  performance  of the system or program, system and application depending on the  composition  and structure of internal model modules constructed interrelationships system performance analysis.
 Because of the logical relationship between the structures and components internal parallel computing systems are complex, difficult and expensive modeling, and difficult to guarantee the correctness of the model. To this end,  Gordon  Lyon  [ 24 ]  Chu  mention  the DEX ( statistically designed experiment) method, the test of DEX parallel programs and the system as a complete whole experiment, the various parameters of the system considered snippet and each factorial experiments . Based on the operation result of the program, by monitoring performance metrics for each parallel program code modules, using statistical methods to analyze the impact of each block of code in the  program run  t ime, each code  block obtained degree of importance of the efficiency of  the  algorithm. DEX introduced the SP ( synthetic perturbation), for applying respective test disturbance factors, for the manufacture of these perturbations delay system is running, the experiment used  to  build  the mapping factor experimental  results. When a  factor /  is  applied perturbation can cause  a delay of the disturbance analysis to measure / degree of influence  on  the  system  or running.
@@ -743,6 +771,7 @@ DEX parallel program for the purpose of a test of P, P identify code blocks may 
 £ processor increases with decreases, then the  degree  of  parallelism  is  preferably  block, the smaller becomes the bottleneck possibilities.
 
 8.2Scalability Test System Design
+-
 
 Scalability reflects the ability of the system may vary depending on system needs and resources change, continue to meet performance requirements.  Scalability  test  systems need to focus on changing the relationship  between  system  requirements  and  resources and system performance, so the scalability test system can  be  divided  into  the  following four modules.	-
 1)Workload Analysis Module: for real - t ime capture and analysis of dynamic workloads.
@@ -760,14 +789,17 @@ Scalability test components: i t is responsible for runtime scalability test sys
 Scalability Component Analysis: database module in i ts data by using the  algorithm and  to calculate the scalability of the system is defined i S 0 Speed - ew.
 
 9Cloud explore the system scalability problem computing background
+--
 
 Saas CSoftware as a Service) model  is  based  on  the  new  software application software to provide Internet services, Saas provide users with a complete software, users can  access  the service via the Internet, only in accordance with their needs to  the  rental  service provider, eliminating the need for purchase hardware, software development and ongoing maintenance costs. Cloud computing is parallel computing and distributed  computing   concept development, which provides a  reliable infrastructure for Saas.  The  cloud is  a ble   to self- manage and maintain a collection of virtual computing resources.  Cloud  computing has the following characteristics: 1 ) scalability, the size  of  the  cloud  can  dynamically  expand and contract to meet the changing needs of users; 2 ) pay - as, users can own actual consumption of cloud resources to buy paid; 3 ) very large scale,  the  scale  of  cloud  computing in general  has reached more than hundreds  of thousands  of servers;  4 )  persistent, cloud computing system can provide long - lasting computing resources and capabilities for the user. These Unlike traditional distributed and parallel  computing  features, metrics on scalability for cloud computing, design and testing to bring new and challenging issues.
 
 9.1Cloud computing scalability of the problem
+--
 
 Cloud scalability is not only the traditional focus on scalability, but also emphasize the contraction of the cloud. One of i ts important features namely pay - on- demand, allowing multiple cloud tenants in a shared cloud computing resources can save costs as much as possible. This requires the user' s application workloads in a small t ime, be  able to  reduce  the consumption of resources  applications, while reducing resource consumption can maintain the performance of applications, to meet the needs of users. Scalabi l i ty more traditional focus on behalf of the " extended" scalability,  in  the   case  of  computing  resources increase, the growth rate of a certain measure of performance indicators. In contrast, cloud computing is also concerned about the " shrinking" in this r egard, namely to reduce the workload, application performance can still get  the  case to  meet the  cloud can  be recovered resources, improve resource utilization, reduce the ability of the user fee. Measure shrinkage of cloud computing include not  only  a  mea sure  of  resource  growth brings increased performance, but also include measures to  enhance  the  degree  of  reduction of resource utilization metrics and user fees when the load decreases.
 
 9.2Cloud computing scalability design issues
+--
 
 Cloud computing large scale features make the same number of resources in a cloud
 
@@ -777,13 +809,16 @@ Heterogeneity between nodes: the ultra - large- scale cloud computing system, th
 Between node communication protocol design issues: agreement between the node defines the format and exchange of  information, and  the  information exchanged  between the nodes constitute the basis for scheduling algorithms to make deci sions. In the  design of the protocol, the protocol needs to take into account the accuracy and completeness of the problem. To ensure the accuracy of the information exchange between nodes i s error - free, and to ensure the completeness of the agreement can cover all possible scenarios of the exchange of information between the nodes to avoid because of lack of Less of a Treatments scene and error.
 
 9.3Cloud computing scalability testing issues
+--
 
 Test as a measure of system scalability based on the test system should be  designed for the characteristics of the  test system. Cloud computing scalability test system should have the ability to solve the following problems: 1 ) the ability to monitor real - t ime, cloud computing has the characteristics of durability, but also can not be accurately estimated workload, resource performance at the moment, so i t is necessary to test the system can capture real- t ime data, comprehensive application performance metrics  to  analyze  the cloud computing platform scalability; ability 2 ) two- way test, as opposed to the traditional distributed computing only focus on capacity  expansion,  the  test  should  be  concerned about the same t ime, " stretch" and " shrink" both to analyze  scalability  or  contractible under different scenarios. When incr easing the applied load, as measured by the number of new scalability of resource allocation and use of l i ft; when the load decreases, is  calculated by the number of resource consumption reduction measure shrinkage properties.
 Conclusion Scalability as an important attribute of the cloud, with the development of cloud computing and Saas, which has become a hot issue ® f of study. Scalability definitions and metrics will also vary with the different scenarios. In the context of cloud computing, scalability research focus will be to define and measure the scalability when resources are shrinking, heterogeneous cloud resource allocation   and  resource  nodes  in   real - t ime  two- way scalability measurements.
 
 10.Improved Byzantine consensus research
+--
 
 10.1POINTNITY proposed extended definition of validity attributes
+--
 
 Structurally, i t is composed of two parts.
 •The f i rst component is reduced to a binary multi - value consensus consensus.
@@ -816,6 +851,7 @@ these two algorithms provide free leader, no signature, no randomized and multi 
 Byzantine consensus. Section 6 describes related work. Finally, Section 7 concludes the paper.
 
 10.2Byzantine basic computation model and reliable broadcast
+--
 
 2.1Base calculation model
 
@@ -863,11 +899,13 @@ The  algorithm implemented in  the  algorithm described RB -  broadcast BAMPn, T
 algorithm, T [ T < N / 5 ] are shown.
 
 10.3, Blockchain Byzantine consensus
+--
 
 As propagation algorit hm consensus on all the news value is assumed ( multi - value and binary consensus algorithm presented below), all non - fault process raised.
 Based on the effectiveness of the predicate
 
 10.3.1Multivalued Byzantine consensus
+--
 
 In this paper, we consider a general ization of the classic Byzantine consistency, the
 introduction informally. Because of i ts effectiveness requirements excited by blockchain,
@@ -883,6 +921,7 @@ distinctive features Byzantine cons ensus problem. In the context of the consort
 blockchains, proposal i s not valid, the hash value is added to the  appropriate Blockchain last block i f i t does not contain.
 
 10.3.2Binary Byzantine consensus
+--
 
 Multi- valued VPBC  implementation relies on  a  potential binary Byzantine consensus  ( expressed as BBC). It' s a free leader, as well as free signature free randomization
 implementation described in Section 5 .
@@ -891,6 +930,7 @@ Troubleshooting made the same value, no other values can be determined. To preve
 confusion, the nature of the validity of the termination agreement and the BBC is denoted BBC- effectiveness, BBC- agreement and BBC- termination.
 
 10.4from multi-value to binary consensus Byzantine system
+--
 
 This section describes the consensus of the former Byzantine binary, reducing the value of multi- Byzantine consensus. We reduced guarantee an end after two binary
 sequence consensus instance. This is, to our knowledge, the f i rst predete rmined
@@ -899,6 +939,7 @@ suspension, or intolerance and Byzantine fault required to perform a binary sequ
 communications, and examples of the underlying binary Byzantine consensus. Let BBC said that to solve the computing power required for two yuan Byzantine consensus. Thus,
 " multi-value to binary 〃 reduce work model BAMPn, T [ t < N / 3 , BBC]
 10.4.1The reduction
+--
 
 Binary consensus object as mentioned earlier, in addition to broadcasting RB - abstract, the method can mark BIN_ C 0 NS [ 1 . . N] two yuan Byzantine array of cooperation consensus
 object. Examples BIN_ C 0 NS [ k] allows the process to f ind the value of non - fault by PK proposed agreement. This object is achieved by binary Byzantine consensus algorithm presented in Section 5 .
@@ -940,6 +981,7 @@ process sequence index), i . e., those that returns 1 ( l ine 08 ) is. 3 Let BIN
 value of each process i s f inal RB- delivered without defects. Thus, PI  decided that  ( l ines 09 - 10 ).
 
 10.4.2Correctness prove
+--
 
 Lemma 1 Yes determine the value of at least 1 case of a binary consensus of all non- fault process exit repeat the cycle.
 From the operational point of  view, this lemma can be restated as  follows: At  least one     ' e [ i . . N] so that each non- faulty process P 1 , we end up with bin_ decisionsi [ ' ] = 1 .
@@ -982,6 +1024,7 @@ Byzantine Consensus Model ( VPBC) of a multi - value system algorithm in the too
 Evidenced by Lemma 2 ( VPBC- potency), Lemma 3 ( VPBC- protocol), and Lemma 4 ( VPBC termination) as follows.
 
 10.5In the final synchronization Byzantine system Binary consensus
+--
 
 This section describes the underlying binary consistency Byzantine algorithm BBC,
 which provides a process operation bin_ propose. The advantage of  this algorithm is  that  i t  is guaranteed to terminate, i f all non - faulty process made the same value, i f not
@@ -994,6 +1037,7 @@ is then synchronized with the f inal extension to meet the consensus assumptions
 understanding and proof.
 
 10.5.1The BV broadcast to all communication to abstract all
+--
 
 Broadcast binary value ( BV- broadcast) communication abstraction in already incorporated ( which is implemented in the Appendix A review).
 Broadcast to all is defined BV- abstract all communications, i t provides a method
@@ -1059,6 +1103,7 @@ Let us observe the decision ( f ive) PI does not terminate the call t o particip
 algorithm may use the techniques presented to  termination. Instead, we  keep  i t  simple and to postpone this algorithm in Section 5 . 5 of uncertainty termi nal solutions.
 
 10.5.3Safety prove
+--
 
 PI process is a non- fault process, so valuesri predicate satisfied by l ine 07 . In addition, the set of values valuesi, let us recall that in a given operation, C represents a non - fault
 handling in this run.
@@ -1109,6 +1154,7 @@ either valuesi = { 0 , 1 }, or they all have valuesi = { v}, where v is 0  or  1
 the Byzantine round, c i rcular, having a non - fault process valuesi = { 0 , 1 }, rather than the rest of the process has a fault valuesi = { v }, where v 6 = ( R - mode
 
 10.5.4Eventual synchronization hypothesis
+--
 
 Consensus impossibility ^ It is well known, there is no consensus algorithm to  ensure the safety and fully asynchronous messaging system activity, which, even i n a single
 process may crash. Since the collapse of the fault model is less serious than the Byzantine model fails, the process can not reach a consensus, i f possible, make Byzantine fault is still  the case.
@@ -1247,6 +1293,7 @@ Proof evidence from Lemma 13 ( BBC -  validity and  BBC- Protocol) and lemma 14 
 
 
 Naming system:
+-
 
 The traditional use of the Internet Domain Nam e System ( DNS) maps humanreadable names to IP addresses ( which gives the location of the nodes and content). When Internet
 users type in their browser, DNS server returns a human - readable names to IP addresses in cnn. com. ICANN, a non - profit organization, management and DNS root servers. The server
@@ -1267,6 +1314,7 @@ Our experience running Namecoin production network on the show, highlighting the
 reliability issues terms of reference are as follows: a space corresponding to the key organization and can not exceed a franchise
 
 System Security
+-
 
 Security pointnity defensive programming language derived from the design of  the AVM and strict restrictions on the t ime, space and resource use. In addition, the security focus will also be provided by scripting language authoring tool. For example, the logical  correctness pointnity chain code may, model checki ng verification and analysis tools
 provided by conventional bytecode.
@@ -1279,6 +1327,7 @@ This document does not constitute any form of prospectus; i t is not a solicitat
 Canada and the United States and China as well as residents of explicitly exclude any exchange of PONT token donation in public products .
 
 DISCLAIMER:
+-
 
 This site is for reference only. POINITY and all related companies and affiliates do not guarantee the accuracy of the conclusions reached by this site " as i s provided  〃 ,  without any express or implied representations and warranties, including, but not l imited to:
 
