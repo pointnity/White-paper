@@ -298,320 +298,307 @@ Generating and packing chain transactions across these two aptamers chains are r
 ---
 
 Chain adaptation of code initiates transactions to transfer outside the chain of command on contract service independent blocks corresponding to each chain.<br> 
-A chain aptamer chain will send a transaction to transfer outside the chain A chain of service contracts, indicating the value of the body to the body designated Y address from the public address public contracts transfer a certain numbe r. B chain aptamer will send a
-transfer transactions outside the chain of contracts to service B chain, which indicates t hat  the value specified in the main body to X from the public address public address transfer
-contract of a certain number.
+A chain aptamer chain will send a transaction to transfer outside the chain A chain of service contracts, indicating the value of the body to the body designated Y address from the public address public contracts transfer a certain numbe r.<br>
+B chain aptamer will send a transfer transactions outside the chain of contracts to service B chain, which indicates t hat  the value specified in the main body to X from the public address public address transfer contract of a certain number.<br>
 
-4.7implementation of the code outside the chain contract
+4.7implementation of the code outside the chain contract<br>
 ---
 
-A service contract outer chain strand will contract the code executed, gen erates a transaction, a number of the body is controlled by the value of the contract, to transfer instructions to transfer the specified subject public key Y address. Contract services
-outside the chain B chain will execute the contract code generates a t ransaction, the value
-of a certain number of bodies controlled by the contract transfer instructions to transfer  the body to the X address specified public key.
-Generate a transaction log, update status books
-Once the transaction i s packed into blocks, acc ording to characteristics of the
-transaction confirmation chain, ultimately the body of the B - chain of X obtained control value of the body, the body Y material obtained control value of the A - chain.
-Cross chain block chain will also provide the user  interface UI  and  API interface, users  of all transactions executed on the cross chain block chain contract services can interface
-to get the current status of the implementation of the user interface and API across the
-chain, that is, to see the user in th e transaction the pending sale of the state and market depth, and even allows users to  follow based on  the  private market supply and demand   re- entry orders.
-Cross chain block chain may provide a mechanism outside the chain - based mortgage
-contract services on a separate block chain, on the corresponding aptamer chain of value in exchange for the same number of chips or body phantom block chain of mortgage, take the main business body phantom value chain on the child' s participation in the main chain of
-the mortgage contract business processes across this chain of  production relations, based  on all the main body of the collateral value of each block chain ( can also be a real - world value of the anchor), configuration production, carry out contract manufacturing ,
-distribution and f inally the production value of the product. If the block chain cross chain has i ts own endogenous tokens can also be  done based on  the market ( contract) the value  of endogenous exchange tokens, holding a cross body chain token to join c ross- f low or
-cross- chain contract chain services contract virtual production relations of production and exchange of value.
-Internal support extended aptamer chain channel cross - channel transaction chain The above article describes the cross outside the traditional chain mechanism, by
-embedding the contract, conversion repeater can really solve the problem
-noncommutativity different blocks of the existing chain atoms, because of this, i t makes the block chain more I t may form a large comprehensive Internet technology integration
+A service contract outer chain strand will contract the code executed, gen erates a transaction, a number of the body is controlled by the value of the contract, to transfer instructions to transfer the specified subject public key Y address. Contract services outside the chain B chain will execute the contract code generates a t ransaction, the value of a certain number of bodies controlled by the contract transfer instructions to transfer  the body to the X address specified public key.<br>
+Generate a transaction log, update status books Once the transaction i s packed into blocks, acc ording to characteristics of the transaction confirmation chain, ultimately the body of the B - chain of X obtained control value of the body, the body Y material obtained control value of the A - chain.<br>
+Cross chain block chain will also provide the user  interface UI  and  API interface, users  of all transactions executed on the cross chain block chain contract services can interface to get the current status of the implementation of the user interface and API across the chain, that is, to see the user in th e transaction the pending sale of the state and market depth, and even allows users to  follow based on  the  private market supply and demand   re- entry orders.<br>
+Cross chain block chain may provide a mechanism outside the chain - based mortgage contract services on a separate block chain, on the corresponding aptamer chain of value in exchange for the same number of chips or body phantom block chain of mortgage, take the main business body phantom value chain on the child' s participation in the main chain of the mortgage contract business processes across this chain of  production relations, based  on all the main body of the collateral value of each block chain ( can also be a real - world value of the anchor), configuration production, carry out contract manufacturing ,distribution and f inally the production value of the product.<br>
+If the block chain cross chain has i ts own endogenous tokens can also be  done based on  the market ( contract) the value  of endogenous exchange tokens, holding a cross body chain token to join c ross- f low or cross- chain contract chain services contract virtual production relations of production and exchange of value.<br>
+Internal support extended aptamer chain channel cross - channel transaction chain The above article describes the cross outside the traditional chain mechanism, by embedding the contract, conversion repeater can really solve the problem noncommutativity different blocks of the existing chain atoms, because of this, i t makes the block chain more I t may form a large comprehensive Internet technology integration cooperation organization.<br>
+But the problems in the real world also exist Through traditional cross- chain mechanism how to ensure TPS atom transfer?<br>
+How can we make to BTC, ETH, OTHERCHAIN, added to cross - l ink mechanism contracts, how to f ind the best utility theory in theoretical value?<br>
+The role of inter- atomic chain in the end how much, will be replaced by a comprehensive collaboration platform for future cross - chain technology will go from here.<br>
+In summary POINTNITY team believes that cross- l ink technology may serve as a transition technology medium term, the future will be diversified collaboration platform is crucial, we POINTNITY team committed to creating a collaboration inside and outside the
+interconnection of an external multi - channel internal cross chain collaboration platform.<br>
 
-cooperation organization.
-But the problems in the real world also exist
-Through traditional cross- chain mechanism how to ensure TPS atom transfer?
-How can we make to BTC, ETH, OTHERCHAIN, added to cross - l ink mechanism contracts, how to f ind the best utility theory in theoretical value?
-The role of inter- atomic chain in the end how much, will be replaced by a
-comprehensive collaboration platform for future cross - chain technology will go from here.
-In summary POINTNITY team believes that cross- l ink technology may serve as a
-transition technology medium term, the future will be diversified collaboration platform is crucial, we POINTNITY team committed to creating a collaboration inside and outside the
-interconnection of an external multi - channel internal cross chain collaboration platform.
-
-4.8Pointnity Network multi-chain integration
+4.8Pointnity Network multi-chain integration<br>
 ----
 
-Pointnity Network adapter multi - chain all- node connected to a different technology combined block chain. Specifically, as a unified entrance, Pointnity Network adapter
-together with the full node to trigger the transaction on the external subnet ( BTC, ETH). Complete local subnet node in the network by the external and internal subnets. External subnet includes l inks to other networks, such as the BTC, ETH l ike. Internal subnet
-including Pointnity Network segmented network. Top network mainly by higher node composed of all nodes.
+Pointnity Network adapter multi - chain all- node connected to a different technology combined block chain. Specifically, as a unified entrance, Pointnity Network adapter together with the full node to trigger the transaction on the external subnet ( BTC, ETH).<br> 
+Complete local subnet node in the network by the external and internal subnets. <br>
+External subnet includes l inks to other networks, such as the BTC, ETH l ike. <br>
+Internal subnet including Pointnity Network segmented network. Top network mainly by higher node composed of all nodes.<br>
 
+As part of the cross- l ink communications with modules, multi - chain fusion adapter deployed across the nodes. <br>
+Complete node tri ggers transfer operations outside the local subnet node, in order to achieve the role of the transport agent.<br>
 
-As part of the cross- l ink communications with modules, multi - chain fusion adapter
-deployed across the nodes. Complete node tri ggers transfer operations outside the local subnet node, in order to achieve the role of the transport agent.
-
-4.9Pointnity Network Cross-Link Communications
+4.9Pointnity Network Cross-Link Communications<br>
 ----
 
-Pointnity Network is not only a separate block chain network, and support cross - functional communication chain bridge, such as cross - asset swap chain cross chain assets and
-portability. By using Pointnity Network platform, anyone can  develop applications based  on the f inancial requirements of the application scenarios. Pointnity Network technology the basic idea is to use the cross l ink chain thought the relay, and the cross - l ink
-communications module is implemented as a node complete covering layer on the basic chain ointnity Network. In this technology roadmap, we have not only maintained cross
+Pointnity Network is not only a separate block chain network, and support cross - functional communication chain bridge, such as cross - asset swap chain cross chain assets and portability.<br>
+By using Pointnity Network platform, anyone can  develop applications based  on the f inancial requirements of the application scenarios.<br>
+Pointnity Network technology the basic idea is to use the cross l ink chain thought the relay, and the cross - l ink communications module is implemented as a node complete covering layer on the basic chain ointnity Network.<br>
+In this technology roadmap, we have not only maintained cross chain interoperability of independence, but also reuse the various functions Pointnity Network provides basic chain.<br>
 
-chain interoperability of independence, but also reuse the various functions Pointnity Network provides basic chain.
-
-
-4.10Pointnity Network cross-link communications module
+4.10Pointnity Network cross-link communications module<br>
 ---
 
-4.10.1.Verification node
+4.10.1.Verification node<br>
 ---
 
-Notary node Pointnity Network basic chain. They verify the vali dity of certain data from
-the original block chain, and build a new block in the Pointnity Network. Verification node must pledge sufficient assets to ensure that they complete the work faithfully.
+Notary node Pointnity Network basic chain.<br>
+They verify the vali dity of certain data from the original block chain, and build a new block in the Pointnity Network.<br>
+Verification node must pledge sufficient assets to ensure that they complete the work faithfully.<br>
 
-4.10.2.Block sensing node
+4.10.2.Block sensing node<br>
 --
 
-Help verify node collects effective cross- l ink communications block. These nodes are
-similar in Po W miners, run some original block chain full client, configured to execute the transaction and a new block. After receiving the transaction request block the cross chain, packed block sensing node blocks the requests and send them to the authentication node.
+Help verify node collects effective cross- l ink communications block.<br>
+These nodes are similar in Po W miners, run some original block chain full client, configured to execute the transaction and a new block. <br>
+After receiving the transaction request block the cross chain, packed block sensing node blocks the requests and send them to the authentication node.<br>
 
-4.10.3.Merge node
+4.10.3.Merge node<br>
 ---
 
-Pointnity Network acts as a gateway between the original block to another chain. Each node has two merge queues, respectively process incoming and outgoing transac t ions
-affairs. In addition, the combined node should have some original block token chain and  the chain support cross Oracle.
+Pointnity Network acts as a gateway between the original block to another chain.<br>
+Each node has two merge queues, respectively process incoming and outgoing transac t ions affairs. <br>
+In addition, the combined node should have some original block token chain and  the chain support cross Oracle.<br>
 
-4.11summary
+4.11summary<br>
 --
 
-Block chain i s a core value of the infrastructure of cyberspace. Its application should not be restricted and stop the application chain alliance, i t will be in a small range, Pointnity
-Network' s technology and multi - chain  cross chain circling integration into different  areas. A variety of underlying network protocol connectivity and extended block chain will realize the value of the transmission network, building a global value of  the Internet, and  provide  the basis for a variety of value network transmission applications.
+Block chain i s a core value of the infrastructure of cyberspace. <br>
+Its application should not be restricted and stop the application chain alliance, i t will be in a small range, Pointnity Network' s technology and multi - chain  cross chain circling integration into different  areas.<br>
+A variety of underlying network protocol connectivity and extended block chain will realize the value of the transmission network, building a global value of  the Internet, and  provide  the basis for a variety of value network transmission applications.<br>
 
-
-5.Pointnity system composed of members of the Network
+5.Pointnity system composed of members of the Network<br>
 ---
 
-5.1certifier
+5.1certifier<br>
 ---
 
-Verify people packed the new block in Pointnity Network network. People need to verify  the deposit mortgage enough, because we allow other people to nominate one or more
+Verify people packed the new block in Pointnity Network network. People need to verify  the deposit mortgage enough, because we allow other people to nominate one or more funds of elected representatives may verify their people, so people verify the deposit is
+not part of their own, but belongs to the nominee .<br>
+A verification must run a Relay chain of clients in the high- availability and high- bandwidth machines.<br>
+On each block node must be ready to receive the new block on a parallel chain i t has been submitted.<br>
+This process involves acceptance, validation, and then release candidate blocks.<br>
+Verify The  appointment is deterministic, but in fact i t is difficult to predict. <br>
+Because people can not be expected to verify all data with full synchronous parallel chains, so they want to block the  work of  the new proposal parallel chains assigned to a third party, that is, the collection of people.<br>
+Once the different authentication - person team are definitively approved the new block they belong parallel chains, they must begin their approval Relay chain of blocks.<br>
+This includes updating the status of the transaction queue ( that is, the transfer from the exit queue a parallel chain to another queue into a parallel chain), has approved the transaction processing Relay chain of collection, approval of the f inal blocks the  absorption  of parallel chains eventually change .<br>
+In the consensus algorithm we choose, i t will not fulfill their duty to punish a person verification. Initially error i f not intentional, i t  just would withhold their reward, but  i f  i t  is repeated error will deduct their deposit ( by burning), such as two - way signature ( double- signing), or conspire to provide an i l legal block and so on can proof of malicious behavior, cause them to lose all deposit ( down a small part, most of the informat ion provider and to reward honest verifier).<br>
 
-funds of elected representatives may verify their people, so people verify the deposit is
-not part of their own, but belongs to the nominee . A verification must run a Relay chain of clients in the high- availability and high- bandwidth machines. On each block node must be
-ready to receive the new block on a parallel chain i t has been submitted. This process
-involves acceptance, validation, and then release candidate blocks. Verify The  appointment is deterministic, but in fact i t is difficult to predict. Because people can not be expected to verify all data with full synchronous parallel chains, so they want to block the  work of  the new proposal parallel chains assigned to a third party, that is, the collection of people.
-Once the different authentication - person team are definitively approved the new block they belong parallel chains, they must begin their approval Relay chain of blocks. This
-includes updating the status of the transaction queue ( that is, the transfer from the exit queue a parallel chain to another queue into a parallel chain), has approved the
-transaction processing Relay chain of collection, approval of the f inal blocks the  absorption  of parallel chains eventually change .
-In the consensus algorithm we choose, i t will not fulfill their duty to punish a person
-verification. Initially error i f not intentional, i t  just would withhold their reward, but  i f  i t  is repeated error will deduct their deposit ( by burning), such as two - way signature
-( double- signing), or conspire to provide an i l legal block and so on can proof of malicious behavior, cause them to lose all deposit ( down a small part, most of the informat ion
-provider and to reward honest verifier).
-
-5.2electors
+5.2electors<br>
 --
 
-Has an interest of a group, they put security deposit entrusted to the certifier. They are no more role, in addition to be represented by r isk capital to put: they trust in a particular
-certifier ( or groups) can represent them maintain the entire network. According to the proportion of their deposit, they will be subject to verification and deposit the same
-proportion of the total people incentives and deductions. And the following collection of people, miners nominee and current Po W network similar.
+Has an interest of a group, they put security deposit entrusted to the certifier.<br>
+They are no more role, in addition to be represented by r isk capital to put: they trust in a particular certifier ( or groups) can represent them maintain the entire network.<br>
+According to the proportion of their deposit, they will be subject to verification and deposit the same proportion of the total people incentives and deductions. And the following collection of people, miners nominee and current Po W network similar.<br>
 
-5.3Intelligencer
+5.3Intelligencer<br>
 --
 
-Trading is to help people collect verified person who makes an effective parallel chain
-block groups. They will run a full node to  a  specific parallel chains, which means they  have  all the necessary information, the new block can be packaged and executed transactions.
-About collectors, the precise relationship nominee, certifier may also be modified. At f i rst, we want to gather people who can work closely with verification, because ther e may be
-only a few ( or even a) small volume parallel chains. The initial implementation will
-comprise a client RPC interface to support efficient parallel block chain collectors node to a parallel chain provable unconditionally supplied to a ( Relay chain) certifier node.  Because the cost of maintaining all fully synchronous parallel chains of higher and higher, so we
-designed an additional structure facilitates the separation of independent economic - driven, and other participants.
-Ultimately, we want to see groups of people in order to collect more fees, competitively to collect information. Over a period of t ime, in order to continue to grow share of earnings
-bonus, these collectors may only serve specific groups of people verified.
+Trading is to help people collect verified person who makes an effective parallel chain block groups.<br> They will run a full node to  a  specific parallel chains, which means they  have  all the necessary information, the new block can be packaged and executed transactions.<br>
+About collectors, the precise relationship nominee, certifier may also be modified.<br> 
+At f i rst, we want to gather people who can work closely with verification, because ther e may be only a few ( or even a) small volume parallel chains.<br>
+The initial implementation will comprise a client RPC interface to support efficient parallel block chain collectors node to a parallel chain provable unconditionally supplied to a ( Relay chain) certifier node. <br>
+Because the cost of maintaining all fully synchronous parallel chains of higher and higher, so we designed an additional structure facilitates the separation of independent economic - driven, and other participants.<br>
+Ultimately, we want to see groups of people in order to collect more fees, competitively to collect information. Over a period of t ime, in order to continue to grow share of earnings bonus, these collectors may only serve specific groups of people verified.<br>
 
-5.4Ombudsman
+5.4Ombudsman<br>
 --
 
-Unlike the other two parties, the Ombudsman does not block the process and packaged directly related. They are independent of the " bounty hunter", encouraging them is a
-one- t ime large reward.
-Rather, due to the presence of the Ombudsman, we can reduce the incidenc e of malicious behavior, even want to happen just because the private key is not accidentally leaked,
-rather than deliberate malicious intent. The starting point of this name is given to the frequency they expect earnings and the size of the f inal award.
-Ombudsman with t imely reporting and prove the existence of at least one of the
-participants in the mortgage i l legal behavior, they can be rewarded. Il legal behavior comprises two different blocks have the same sign parent block, or an invalid block
-approval on  parallel chains. To  prevent the transition to  the bonus  because the private key  is  revealed as  a  result of  the Ombudsman, the Ombudsman' s  report i l legal messages about  a single person to verify the signature of the foundation is to award from the small est
-beginning, this award will be reported more i l legal signature with other ombudsman
-gradually increase. According to our basic security assumed that: at least two - thirds of the verifier is honest, asymptote will be set at 66 %.
-Ombudsman and  to  some extent the  current node block the whole chain  of  similar,
-relatively few resources they need, there is no need to promise stable online t ime and large bandwidth. The Ombudsman has so much different, so they only need to submit a small deposit. The deposit for the prevention of waste of computational t ime to verify people and witches attack computing resources. It can withdraw cash immediately,
-probably not more than the equivalent of a few dollars, but i f the monitoring to verify a person' s misconduct, may gain great rewards.
+Unlike the other two parties, the Ombudsman does not block the process and packaged directly related. <br>
+They are independent of the " bounty hunter", encouraging them is a one- t ime large reward.<br>
+Rather, due to the presence of the Ombudsman, we can reduce the incidenc e of malicious behavior, even want to happen just because the private key is not accidentally leaked,rather than deliberate malicious intent. <br>
+The starting point of this name is given to the frequency they expect earnings and the size of the f inal award.<br>
+Ombudsman with t imely reporting and prove the existence of at least one of the participants in the mortgage i l legal behavior, they can be rewarded.<br>
+Il legal behavior comprises two different blocks have the same sign parent block, or an invalid block approval on  parallel chains.<br>
+To  prevent the transition to  the bonus  because the private key  is  revealed as  a  result of  the Ombudsman, the Ombudsman' s  report i l legal messages about  a single person to verify the signature of the foundation is to award from the small est beginning, this award will be reported more i l legal signature with other ombudsman gradually increase. <br>
+According to our basic security assumed that: at least two - thirds of the verifier is honest, asymptote will be set at 66 %.<br>
+Ombudsman and  to  some extent the  current node block the whole chain  of  similar, relatively few resources they need, there is no need to promise stable online t ime and large bandwidth. <br>
+The Ombudsman has so much different, so they only need to submit a small deposit.<br>
+The deposit for the prevention of waste of computational t ime to verify people and witches attack computing resources.<br>
+It can withdraw cash immediately,probably not more than the equivalent of a few dollars, but i f the monitoring to verify a person' s misconduct, may gain great rewards.<br>
 
-
-6consensus mechanism
+6consensus mechanism<br>
 --
 
-6.1Casper consensus
+6.1Casper consensus<br>
 --
 
-Casper is a consensus based on the margin of economic incentive agreement
-( security- deposit based economic consensus protocol). Agreement node, as " locked margin verifier ( bonded validators)", you m ust f i rst pay a deposit ( this step is called to lock the
-margin, " bonding") before they can participate in the formation of a block and consensus.
-Casper consensus agreement through direct control of these margin constraint validation
-to human behavior. Specifically, that is,  to  verify i f  a  person has  made anything Casper that " invalid", his deposit will be forfeited, and the right to participate in a block consensus
-will be canceled. The introduction of margin solve " nothing at stake" , Which is the classi c POS protocols do bad things low cost problem. Now, with the price, but objectively prove something wrong certifier will pay this price. We easily found only in the case of a cash
-deposit to verify who currently has his signature makes sense ( economically meaningful).
-This means that the client can only rely on what they know to lock margin of verifying the signatures. So when the client receives the data and identification of consensus, consensus approval of the chain must originate from the people curren t ly locked margin verification block. In the POW agreement approved by consensus chain i t is originated in the creation
-block - as long as you know the data creation block you can identify consensus recognized chain. Here, as long as you know the margin of verifying people currently locked, you can identify consensus recognized chain. We do not know who currently locked deposit
-verification l ist client must f i rst obtain the l ist through another channel. This restriction to
+Casper is a consensus based on the margin of economic incentive agreement( security- deposit based economic consensus protocol).<br>
+Agreement node, as " locked margin verifier ( bonded validators)", you m ust f i rst pay a deposit ( this step is called to lock the
+margin, " bonding") before they can participate in the formation of a block and consensus.<br>
+Casper consensus agreement through direct control of these margin constraint validation to human behavior.<br>
+Specifically, that is,  to  verify i f  a  person has  made anything Casper that " invalid", his deposit will be forfeited, and the right to participate in a block consensus will be canceled.<br>
+The introduction of margin solve " nothing at stake" , Which is the classi c POS protocols do bad things low cost problem.<br>
+Now, with the price, but objectively prove something wrong certifier will pay this price. <br>
+We easily found only in the case of a cash deposit to verify who currently has his signature makes sense ( economically meaningful).<br>
+This means that the client can only rely on what they know to lock margin of verifying the signatures. <br>
+So when the client receives the data and identification of consensus, consensus approval of the chain must originate from the people curren t ly locked margin verification block.<br>
+In the POW agreement approved by consensus chain i t is originated in the creation block - as long as you know the data creation block you can identify consensus recognized chain.<br>
+Here, as long as you know the margin of verifying people currently locked, you can identify consensus recognized chain. We do not know who currently locked deposit verification l ist client must f i rst obtain the l ist through another channel. This restriction to solve the " long- range attack ( long range attack)" issue by requiring owners with information to identify the current consensus.<br>
+Verify the l ist of people with the certifier margin constantly locked, confiscated, unlock and change.<br>
+If a client goes offline for too long, i t will verify the l ist of people due to the outdated and can not be used to identify a consensus.<br>
+If the client is always online, i t is possible to keep pace with the latest l ist of validation, but the problem is before the f i rst synchronization, the client still need to get the latest l ist of  verified lock margin of  people from other channels. <br>
+This " need to  identify  a consensus from the other channels at least once" in nature. <br>
+In our context, i f the information can be verified in the Agreement can be called " objective"; i f t he information must rely on  external means of  verification protocol is  available, i t  is  called " subjective." In the weak subjectivity consensus agreement, the bifurcation selection rules are  stateful, so the client must be initialized ( sometimes i t is upda ted) in this state in order to identify consensus. Here, this state is used to verify the identify people currently locked margin ( probably more accurate to say that the current l ist of people to verify cryptographic hash).<br>
 
-solve the " long- range attack ( long range attack)" issue by requiring owners with
-information to identify the current consensus. Verify the l ist of people with the certifier margin constantly locked, confiscated, unlock and change. If a client goes offline for too
-long, i t will verify the l ist of people due to the outdated and can not be used to identify a consensus. If the client is always online, i t is possible to keep pace with the latest l ist of validation, but the problem is before the f i rst synchronization, the client still need to get
-the latest l ist of  verified lock margin of  people from other channels. This " need to  identify  a consensus from the other channels at least once" in nature. In our context, i f the
-information can be verified in the Agreement can be called " objective"; i f t he information must rely on  external means of  verification protocol is  available, i t  is  called " subjective." In the weak subjectivity consensus agreement, the bifurcation selection rules are  stateful, so the client must be initialized ( sometimes i t is upda ted) in this state in order to identify consensus. Here, this state is used to verify the identify people currently locked margin
-( probably more accurate to say that the current l ist of people to verify cryptographic hash).
-
-
-6.2Mortgage Token
+6.2Mortgage Token<br>
 --
 
-Gambling on Consensus Casper asked to verify the majority of people will bet  on  the  result  of a consensus in the margin. The results and the formation of a consensus by the certifier betting situation: verification must guess which block others would bet on to win, bu t also  bet this block. If you bet on, they can get back margin plus transaction costs, and perhaps  there are some emerging currencies; i f the bet is not quickly agree, they can  only get back part of the deposit. Therefore, the distribution of betting after a few rounds to verify
-people will converge. Also verify i f people are too significant to change the bet, for
-example, f i rst bet on a block has a high probability of winning, and then change the bet another block with a high probability of winning, he wil l be severely punished. This rule
-ensures that only people in the verification pretty sure other people think there is a high probability of a block when winning a high probability bet. Through this mechanism to
-ensure that there is a bet to converge to a result and then converge to the results of
-another case, as long as the verifier enough. POW consensus can also be understood as a mechanism bet: Choose a block based on i ts miners were mining, is betting the block will become part of the backbone; If you bet on, he can receive a reward, and i f the bet is
-wrong he will lose electricity. As long as all the miners will count their forces to bet on the same chain, so that this chain has the largest amount of work ( force immediate count bet
-prediction, betting is considered the result of force), the consensus is safe. Operator POW economic value bet with increasing force l inear growth of the number of confirmed and
-verified in Casper who can make a bet by coordinating the proportion of exponential growth, so that a consensus quickly achieve maximum security.
+Gambling on Consensus Casper asked to verify the majority of people will bet  on  the  result  of a consensus in the margin.<br>
+The results and the formation of a consensus by the certifier betting situation: verification must guess which block others would bet on to win, bu t also  bet this block.<br>
+If you bet on, they can get back margin plus transaction costs, and perhaps  there are some emerging currencies; i f the bet is not quickly agree, they can  only get back part of the deposit.<br>
+Therefore, the distribution of betting after a few rounds to verify people will converge. Also verify i f people are too significant to change the bet, for example, f i rst bet on a block has a high probability of winning, and then change the bet another block with a high probability of winning, he wil l be severely punished. This rule ensures that only people in the verification pretty sure other people think there is a high probability of a block when winning a high probability bet.<br>
+Through this mechanism to ensure that there is a bet to converge to a result and then converge to the results of another case, as long as the verifier enough.<br>
+POW consensus can also be understood as a mechanism bet: Choose a block based on i ts miners were mining, is betting the block will become part of the backbone; If you bet on, he can receive a reward, and i f the bet is wrong he will lose electricity. <br>
+As long as all the miners will count their forces to bet on the same chain, so that this chain has the largest amount of work ( force immediate count bet prediction, betting is considered the result of force), the consensus is safe.<br>
+Operator POW economic value bet with increasing force l inear growth of the number of confirmed and verified in Casper who can make a bet by coordinating the proportion of exponential growth, so that a consensus quickly achieve maximum security.<br>
 
-6.3whole network punishment mechanism
+6.3whole network punishment mechanism<br>
 --
 
-Independent verification of people bet on each candidate block on  each  height, each block  is assigned to a winning probability and published. By  repeatedly bet  for  each  person will be selected height verify only one winner block, this process also determines the
-transaction ( transaction) the order of execution. If a verifier in  the  probability distribution of the sum of a  highly published more than 100 %,  or  announced the  probability is  less than  0 %, or an invalid block is specified for the probability of greater than 0  percent, Casper will  be forfeited his deposit.
-When the lock margin verification of the vast majority of people ( who meet the group of
+Independent verification of people bet on each candidate block on  each  height, each block  is assigned to a winning probability and published.<br>
+By  repeatedly bet  for  each  person will be selected height verify only one winner block, this process also determines the transaction ( transaction) the order of execution. <br>
+If a verifier in  the  probability distribution of the sum of a  highly published more than 100 %,  or  announced the  probability is  less than  0 %, or an invalid block is specified for the probability of greater than 0  percent, Casper will  be forfeited his deposit.<br>
+When the lock margin verification of the vast majority of people ( who meet the group of validation protocol defined thresholds: margin levels to a percentage of between 67 % to  90 %) with very high probability ( eg,> 99 . 9 %) of a bet when a block that does not contain any of the fork block can not win, then we say that this block is the f inal confirmation( f inal). <br>
+Further, i f the client f inds all the blocks are smaller than the height H of the f inal confirmation, then the client is always at a height H not accept - states of blocks obtained do not entirely the same state and the diverging of the order of 1 . In  this ca se we say that   the state ( H - 1 - high status) have been f inal confirmation.<br>
+There are therefore two f inal confirmation related trades: transaction ( i . e. corresponding to the f inal block, then all of this prior to trade execution height) at a f inal confirm ation of a particular height to be performed, and after the f inal confirmation of the transaction execution state ( and all blocks corresponding block needs below this height be f inal).<br>
 
-validation protocol defined thresholds: margin levels to a percentage of between 67 % to  90 %) with very high probability ( eg,> 99 . 9 %) of a bet when a block that does not contain any of the fork block can not win, then we say that this block is the f inal confirmation
-( f inal). Further, i f the client f inds all the blocks are smaller than the height H of the f inal confirmation, then the client is always at a height H not accept - states of blocks obtained
-do not entirely the same state and the diverging of the order of 1 . In  this ca se we say that   the state ( H - 1 - high status) have been f inal confirmation. There are therefore two f inal
-confirmation related trades: transaction ( i . e. corresponding to the f inal block, then all of this prior to trade execution height) at a f inal confirm ation of a particular height to be
-performed, and after the f inal confirmation of the transaction execution state ( and all blocks corresponding block needs below this height be f inal).
-
-6.4System anti-examination
+6.4System anti-examination<br>
 --
 
-One of the biggest threats to the miners f orm a consensus agreement is to the detriment of non- members at the expense of profit maximization member of the alliance. If Casper
-verify people' s income mainly consists of fees, a majority coalition will be able to obtain greater benefits f i l ter through a block of other nodes. Trading Not only that, the attacker can also bribe nodes to eliminate specific address given, as long as  the majority of  nodes  are rational, they will be able to join together to f i l ter out the specified block does not
-reject the t ransaction. In order to withstand the majority coalition attack, Casper the
-consensus process as a cooperative game, to ensure that each node can only be achieved by  the Union in the best interests of all the nodes of ( at least when interest is mainly
-composed of the agreement rewards the case constructed so) . If p% of the people involved
-in the consensus verify the game, then they will get f ( p) ≤ p% of revenue; i f 100 % of the
-people involved in the verification can get more in return. More specifically, Casper those who would not punish validation agreement the order of the blocks. Protocol will notice a sequence departing from the block, and the certifier margin and the corresponding fees
-withheld. In addition, by winning bet returns the number of people involved in  verifying  the consensus of the game is l inear ( or super - l inear) relationship.
+One of the biggest threats to the miners f orm a consensus agreement is to the detriment of non- members at the expense of profit maximization member of the alliance.<br>
+If Casper verify people' s income mainly consists of fees, a majority coalition will be able to obtain greater benefits f i l ter through a block of other nodes.<br>
+Trading Not only that, the attacker can also bribe nodes to eliminate specific address given, as long as  the majority of  nodes  are rational, they will be able to join together to f i l ter out the specified block does not reject the t ransaction.<br>
+In order to withstand the majority coalition attack, Casper the consensus process as a cooperative game, to ensure that each node can only be achieved by  the Union in the best interests of all the nodes of ( at least when interest is mainly composed of the agreement rewards the case constructed so) .<br>
+If p% of the people involved in the consensus verify the game, then they will get f ( p) ≤ p% of revenue; i f 100 % of the people involved in the verification can get more in return.<br>
+More specifically, Casper those who would not punish validation agreement the order of the blocks.<br>
+Protocol will notice a sequence departing from the block, and the certifier margin and the corresponding feeswithheld.<br>
+In addition, by winning bet returns the number of people involved in  verifying  the consensus of the game is l inear ( or super - l inear) relationship.<br>
 
-6.5Caspar optimization scalability
+6.5Caspar optimization scalability<br>
 --
 
-The answer is l ikely to be determined, and the reason is not so much Casper block chain architecture as i t is on the economics of Casper. But Casper block chain design does
-support the consensus faster than the POW block interval. Verify people' s income i s l ikely that only transaction costs, so they have a direct incentive to increase Gas cap, as long  as  they load the server. But i f thus creating additional processing capacity relatively weak
-authentication people can not keep up the rhythm, their income will become less. So Gas  cap verify only accept everyone who can afford to rise. Miner ( Miners) hardware
-investment is to buy more mining machine ( count force), and verify people' s hardware
-investment is the way i t will upgrade the server to obtain higher throughput. Miners also gained momentum higher throughput can purchase hardware, but i t is  much weaker than  the force of the power purchase count. Relative to the POW, to achieve l ight - based client  on the margin of the POS easier. Specifically, l ight up the block without having to
-download the client access to safe identification of consensus, or trade execution to ensure effectiveness of the economy. Most of the cost will only affect the certifier consensus, i t
-will not affect the l ight client. Light client can also be  reserved for  low  latency capabilities  of the premise to identify consensus.
+The answer is l ikely to be determined, and the reason is not so much Casper block chain architecture as i t is on the economics of Casper.<br>
+But Casper block chain design does support the consensus faster than the POW block interval.<br>
+Verify people' s income i s l ikely that only transaction costs, so they have a direct incentive to increase Gas cap, as long  as  they load the server.<br>
+But i f thus creating additional processing capacity relatively weak authentication people can not keep up the rhythm, their income will become less.<br>
+So Gas  cap verify only accept everyone who can afford to rise. Miner ( Miners) hardware investment is to buy more mining machine ( count force), and verify people' s hardware investment is the way i t will upgrade the server to obtain higher throughput.<br>
+Miners also gained momentum higher throughput can purchase hardware, but i t is  much weaker than  the force of the power purchase count. Relative to the POW, to achieve l ight - based client  on the margin of the POS easier.<br>
+Specifically, l ight up the block without having to download the client access to safe identification of consensus, or trade execution to ensure effectiveness of the economy.<br>
+Most of the cost will only affect the certifier consensus, i t will not affect the l ight client.<br>
+Light client can also be  reserved for  low  latency capabilities  of the premise to identify consensus.<br>
 
-What responsibility 6.6Verification
+What responsibility 6.6Verification<br>
 
-As a certifier locking margin, you  need to sign and  block betting in  the  consensus process.  If you pay a large sum of deposit, you may want to deploy a Multiple servers consisting of multi- signature verification environment to do work to reduce server is black or lead to
-abnormal risk. Such programs need to help repeated experiments and technical experts. In order to maximize the benefits, people need to stay online validation service and stable as possible. DDo S protection service is necessary. Your rate of ret urn also depends on other
-people' s verification process performance and availability, which means that there is a risk that you can not directly resolve here. If the performance of other nodes you will not
-suffer! But this t ime, i f you decide not to partic ipate fully consensus you will lose more.
-However, additional risk usually means higher returns, especially when risk has been recognized and will never happen.
-Applications and their users can turn to change in Casper get many benefits from POW. Low latency confirmation can greatly improve the user experience. Final deal soon under
-normal circumstances. If there is a network partition occurs, the transaction will still be
-executed, and the transaction has been revoked possibility of this situation will be clearly reported to the application and i ts users. When application developers still need to deal
-with the situation bifurcation, POW and use the same protocol, but here the consensus agreement will give a clear possibility that the transaction revocation measure.
+As a certifier locking margin, you  need to sign and  block betting in  the  consensus process.<br>
+If you pay a large sum of deposit, you may want to deploy a Multiple servers consisting of multi- signature verification environment to do work to reduce server is black or lead to abnormal risk. <br>
+Such programs need to help repeated experiments and technical experts.<br>
+In order to maximize the benefits, people need to stay online validation service and stable as possible. <br>
+Do S protection service is necessary.<br>
+Your rate of ret urn also depends on other people' s verification process performance and availability, which means that there is a risk that you can not directly resolve here.<br>
+If the performance of other nodes you will not suffer! But this t ime, i f you decide not to partic ipate fully consensus you will lose more.<br>
+However, additional risk usually means higher returns, especially when risk has been recognized and will never happen.<br>
+Applications and their users can turn to change in Casper get many benefits from POW.<br>
+Low latency confirmation can greatly improve the user experience. Final deal soon undernormal circumstances.<br>
+If there is a network partition occurs, the transaction will still be executed, and the transaction has been revoked possibility of this situation will be clearly reported to the application and i ts users.<br>
+When application developers still need to deal with the situation bifurcation, POW and use the same protocol, but here the consensus agreement will give a clear possibility that the transaction revocation measure.<br>
 
-6.7 workflow system
+6.7 workflow system<br>
 --
 
-1is a verifier node role. Each verifier will establish a similar bond bet to ensure that other persons can verify the good work. If they are not a good verifier, then the shares have been confiscated risks.
-2client transaction request to the verifier.
-3verifier received transaction will create a proposal, including recent transactions.
-Note: Only consensus will be performed at the t ime of the transaction records are inconsistent history
-4generates a betting period between no de:
-a verifier prepare original bet, this bet includes the following: Source = Bet sources
-Target = Target bet
-Claim claim = bet. Claim may be a block or a proposal is one of the largest consistent  subset
-= Confidence on behalf of the players the confidenc e to claim the evidence has initiated. This is a validation by those who use betting strategies.
-reason. Used to demonstrate why this is  a  reasonable bet.  b verifier bet.
-c certifier will assess the received bet. Please note that these received the " reason s"  can be used to determine various properties of the network. For example, an algorithm can
-detect ambiguity, or create a " cause" of the chart, or f ind out too much information
-received at the t ime of betting. Attention to the need to consider the attack vector, and how game theory should be applied to the protocol design.
-5betting cycle towards a results demonstrate continued. note:
-D bet period goal is  to  verify the node to  reach a  consensus on  the largest consistent set  of proposals.
-A prerequisite for e able to prove that the behavior of two - thirds of the verifier is reasonable.
-f bet cycle will eventually converge.
+1is a verifier node role.<br>
+Each verifier will establish a similar bond bet to ensure that other persons can verify the good work.<br>
+If they are not a good verifier, then the shares have been confiscated risks.<br>
+2client transaction request to the verifier.<br>
+3verifier received transaction will create a proposal, including recent transactions.<br>
+Note: Only consensus will be performed at the t ime of the transaction records are inconsistent history 4generates a betting period between no de:<br>
+a verifier prepare original bet, this bet includes the following: Source = Bet sources Target = Target bet Claim claim = bet. <br>
+Claim may be a block or a proposal is one of the largest consistent  subset= Confidence on behalf of the players the confidenc e to claim the evidence has initiated.<br>
+This is a validation by those who use betting strategies.<br>
+reason. Used to demonstrate why this is  a  reasonable bet.  b verifier bet.<br>
+c certifier will assess the received bet. <br>
+Please note that these received the " reason s"  can be used to determine various properties of the network. <br>
+For example, an algorithm can detect ambiguity, or create a " cause" of the chart, or f ind out too much information received at the t ime of betting.<br>
+Attention to the need to consider the attack vector, and how game theory should be applied to the protocol design.<br>
+5betting cycle towards a resul ts demonstrate continued.note:<br>
+D bet period goal is  to  verify the node to  reach a  consensus on  the largest consistent set  of proposals.<br>
+A prerequisite for e able to prove that the behavior of two - thirds of the verifier is reasonable.<br>
+f bet cycle will eventually converge.<br>
 
-g portion convergence process is synchronized.
-h  by  the proposed bet, can be  synthesized more massive disposable block chain. If  there  is no conflict, the cycle can be fast convergence. The key point of this method is to
-generate a plurality of blocks simultaneously. In this way breaking the l imit block size.
-On this point there is no controversy, because the biggest collection of the same proposal may agree to allow hundreds or even thousands a block. In contrast, the existing block chain, which will have a tremendous speed advantage.
-i bet for each cycle, the verification node could win or lose their bet.
-6Extensibility is proposed by f inely divided and implemented by nesting consensus
-protocol ( recursively). If the verifier reach consistency on a set of proposals, and proved to have converged in the betting period, the blocks can be synthesized by agreement.
+g portion convergence process is synchronized.<br>
+h  by  the proposed bet, can be  synthesized more massive disposable block chain. <br>
+If  there  is no conflict, the cycle can be fast convergence.<br>
+The key point of this method is to generate a plurality of blocks simultaneously. <br>
+In this way breaking the l imit block size.<br>
+On this point there is no controversy, because the biggest collection of the same proposal may agree to allow hundreds or even thousands a block.<br>
+In contrast, the existing block chain, which will have a tremendous speed advantage.<br>
+i bet for each cycle, the verification node could win or lose their bet.<br>
+6Extensibility is proposed by f inely divided and implemented by nesting consensus protocol ( recursively). <br>
+If the verifier reach consistency on a set of proposals, and proved to have converged in the betting period, the blocks can be synthesized by agreement.<br>
 
-7Scalability processing system
+7Scalability processing system<br>
 --
 
-7.1Overview
+7.1Overview<br>
 --
 
-Scalability is distributed computing and parallel computing Important index, which describes the ability of the system to dynamically adjust their computing performance by changing the available computing resources and scheduling. Scalabi l i ty is divided into two aspects of hardware and software. Scalability refers to the hardware is by changing the hardware resources to meet workload changes, such as changing the number of processors, memory and hard disk capacity. Software scalability by changing the degree of  parallelism  and scheduling to meet workload changes. Measurement, design and testing are three main aspects of the research system scalability.
-Metrics • Scalability is the basis for the design  and  testing  of  scalable  systems. However, due to the complex and diverse scalable system environment, so a system to accurately measure the scalability is very challenging. General measure  is  by  loading different system resources and system load changes to evaluate the performance of the system in this process. In  the  best  case, i f  both of  the  workload and  computing resources  K- fold increase  or decrease,  and the average  response  t ime invariant  systems or applications, the system has optimal scalability.
-•on- demand dynamic allocation and scheduling of resources is an important basis for system scalability. For conventional distributed and parallel systems, when the workload changes, resource management and scheduling mechanism determines the efficiency of the underlying system application scalability. High efficiency management resource scheduling mechanism,  in  the  case  where  the  workload  increases,  more  resources  can  be  allocated t ime for the systems and applications, systems and applications that can be calculated
-Force in a short  t ime  to  adapt  to  the  large  workload, avoid plummeting computing power; in the case of reduced workloads, the t imely recovery of resource  constraints,  increase system utilization of resources,  reserves  set aside for the rest  of  the  application. Conversely, the lower the efficiency of resource scheduling tube Request for change management mechanism is not sensitive resources, will result in allocation of resources or recycling is not enough t ime and adequate.
-•The test is based on the testing and evaluation of s calability. Currently there are two levels of scalability tests: 1 ) the test code levels; 2 ) system level test. Code level for  each  code block i s a parallel program, the impact on the scalability of the detection system. Typically using statistical methods for parallel  statistical modeling  algorithms,  Ken according to the results of several experiments statistical evaluation of the  contribution of the block system performance, scalability
+Scalability is distributed computing and parallel computing Important index, which describes the ability of the system to dynamically adjust their computing performance by changing the available computing resources and scheduling.<br>
+Scalabi l i ty is divided into two aspects of hardware and software.<br>
+Scalability refers to the hardware is by changing the hardware resources to meet workload changes, such as changing the number of processors, memory and hard disk capacity.<br>
+Software scalability by changing the degree of  parallelism  and scheduling to meet workload changes.<br>
+Measurement, design and testing are three main aspects of the research system scalability.<br>
+Metrics • Scalability is the basis for the design  and  testing  of  scalable  systems.<br>
+However, due to the complex and diverse scalable system environment, so a system to accurately measure the scalability is very challenging.<br>
+General measure  is  by  loading different system resources and system load changes to evaluate the performance of the system in this process. In  the  best  case, i f  both of  the  workload and  computing resources  K- fold increase  or decrease,  and the average  response  t ime invariant  systems or applications, the system has optimal scalability.<br>
+•on- demand dynamic allocation and scheduling of resources is an important basis for system scalability. For conventional distributed and parallel systems, when the workload changes, resource management and scheduling mechanism determines the efficiency of the underlying system application scalability.<br>
+High efficiency management resource scheduling mechanism,  in  the  case  where  the  workload  increases,  more  resources  can  be  allocated t ime for the systems and applications, systems and applications that can be calculated Force in a short  t ime  to  adapt  to  the  large  workload, avoid plummeting computing power; in the case of reduced workloads, the t imely recovery of resource  constraints,  increase system utilization of resources,  reserves  set aside for the rest  of  the  application.<br>
+Conversely, the lower the efficiency of resource scheduling tube Request for change management mechanism is not sensitive resources, will result in allocation of resources or recycling is not enough t ime and adequate.<br>
+•The test is based on the testing and evaluation of s calability.<br>
+Currently there are two levels of scalability tests: 1 ) the test code levels; 2 ) system level test. Code level for  each  code block i s a parallel program, the impact on the scalability of the detection system.<br>
+Typically using statistical methods for parallel  statistical modeling  algorithms,  Ken according to the results of several experiments statistical evaluation of the  contribution of the block system performance, scalability define a weight parameter, so that the entire analysis scalability of parallel programs. <br>
+The system- level testing method is to monitor the pre - analysis results and real- t ime operating state of the workload, and pre- analyzed results combining real - t ime monitoring, analysis of the entire system scalability.<br>
+With the development of cloud computing and other distributed computing platform technology, S 0 A ( Service- Oriented Architecture) and Saas ( Software as a Service) and other new software development paradigm of development for scalability put forward higher
+requirements. For example, cloud computing and Saas proposed the concept of " unlimited resources", providing mass sharing of resources for large - scale applications, highly scalable capacity. Scalability has become the  basis for  new  services and  critical computing model, but also the traditional measure of scalability, design and testing technologies presents new challenges.<br>
+On the basis of the above existing research and practice research and analysis work on further discuss challenging issues scalability study of cloud comp uting platform services software.<br>
 
-define a weight parameter, so that the entire analysis scalability of parallel programs. The system- level testing method is to monitor the pre - analysis results and real- t ime operating state of the workload, and pre- analyzed results combining real - t ime monitoring, analysis of the entire system scalability.
-With the development of cloud computing and other distributed computing platform
-technology, S 0 A ( Service- Oriented Architecture) and Saas ( Software as a Service) and other new software development paradigm of development for scalability put forward higher
-requirements. For example, cloud computing and Saas proposed the concept of " unlimited
-resources", providing mass sharing of resources for large - scale applications, highly scalable capacity. Scalability has become the  basis for  new  services and  critical computing model, but also the traditional measure of scalability, design and testing technologies presents
-new challenges. On the basis of the above existing research and practice research and
-analysis work on further discuss challenging issues scalability study of cloud comp uting platform services software.
-
-7.2Scalability is defined
+7.2Scalability is defined<br>
 --
 
-It gives a definition of scalability: Scalability refers to  the  network, system  or  process can be supported  by capacity  expansion  greater workloads  own resources.  He will scalability be divided into four  categories:  load  scalability,  spatial  scalability,  temporal and spatial scalability and architecture scalability. 1Scalability refers to the  load transition  in the system can smoothly varying workload by adjusting the resources to meet the load change, no t ime delay exceeds a predetermined l imit and resource consumption in the regulation process. 2 Spatial scalability is a l imit to the regulation system resources, i . e. resources in the case where the load increases, the occupied ( memory, disk space, etc.) and  the load increases l inearly up, supported by the prohibited  Resources  do  increasing  infinitely practice load. 3 Scalability refers to the t ime and space at a given operating t ime requirements under ( t ime), by extending the resource ( empty) to meet the increased load, while the application of the extended run t ime still meet  the  requirements. 4 Scalability refers to the structure to achieve a structure can easily be expanded and adjusted on the resource.
-Existing studies to further explore the Scalabil i ty is defined in the specific f ield of application, the concept of multi - dimensional, and the dimension to  be  representative of  the behavior of the system affect the part of the  application  [ 4 ] ;  and  discussion  in  the range of the telescopic system require ments of [ 3 ] . In [ 3 ] , the scalability is defined: for a particular set of requirements, under different loads, the utilization of system resources remains unchanged. For scalability metrics, i t makes sense, so also produced multiple dimensions scalability metrics at specific areas. [ 3 ] gives three examples of dimensions: efficiency, storage space, and the number of access points. In the dimension processing efficiency, the processing efficiency of the system for information is the most important indicator of the impact of the behavior of the  system  that  guides  the  behavior  of  the system to adjust resources to adapt to the load. In this indicator, you can be more specific measure of scalability. Similarly, storage space and access points purpose dimension, stretching behavior of the system by the storage space and access  points aim  to  influence  and guide. Some studies have further expanded scalability dimension [ S], a proposed performance multiple dimensions, economic, physical size, addressing, software independence, communication capabilities, and  alternative technical independence and  the l ike.
-In   practical  applications,  the   scalability  is   defined   as   a   resource  that   the  service
-performance  by  increasing  the  capacity  of  the  l inear  ( ideal  case)  generates  growt h  [ 7 ] .
+It gives a definition of scalability: Scalability refers to  the  network, system  or  process can be supported  by capacity  expansion  greater workloads  own resources. <br>
+He will scalability be divided into four  categories:  load  scalability,  spatial  scalability,  temporal and spatial scalability and architecture scalability.<br>
+1Scalability refers to the  load transition  in the system can smoothly varying workload by adjusting the resources to meet the load change, no t ime delay exceeds a predetermined l imit and resource consumption in the regulation process. 2 Spatial scalability is a l imit to the regulation system resources, i . e. resources in the case where the load increases, the occupied ( memory, disk space, etc.) and  the load increases l inearly up, supported by the prohibited  Resources  do  increasing  infinitely practice load.<br>
+3 Scalability refers to the t ime and space at a given operating t ime requirements under ( t ime), by extending the resource ( empty) to meet the increased load, while the application of the extended run t ime still meet  the  requirements. 4 Scalability refers to the structure to achieve a structure can easily be expanded and adjusted on the resource.<br>
+Existing studies to further explore the Scalabil i ty is defined in the specific f ield of application, the concept of multi - dimensional, and the dimension to  be  representative of  the behavior of the system affect the part of the  application  [ 4 ] ;  and  discussion  in  the range of the telescopic system require ments of [ 3 ] . In [ 3 ] , the scalability is defined: for a particular set of requirements, under different loads, the utilization of system resources remains unchanged. For scalability metrics, i t makes sense, so also produced multiple dimensions scalability metrics at specific areas. [ 3 ] gives three examples of dimensions: efficiency, storage space, and the number of access points. <br>
+In the dimension processing efficiency, the processing efficiency of the system for information is the most important indicator of the impact of the behavior of the  system  that  guides  the  behavior  of  the system to adjust resources to adapt to the load. <br>
+In this indicator, you can be more specific measure of scalability.<br>
+Similarly, storage space and access points purpose dimension, stretching behavior of the system by the storage space and access  points aim  to  influence  and guide. <br>
+Some studies have further expanded scalability dimension [ S], a proposed performance multiple dimensions, economic, physical size, addressing, software independence, communication capabilities, and  alternative technical independence and  the l ike.<br>
+In   practical  applications,  the   scalability  is   defined   as   a   resource  that   the  service performance  by  increasing  the  capacity  of  the  l inear  ( ideal  case)  generates  growt h  [ 7 ] .<br>
 
-There are two ways to increase the resources: one is the expansion,  one  is  external expansion. The expansion means to a single computing node better performance, increased speed and increased cost of hardware resources, including adding more memory, faster processors, or to add more, or just moved to the application function more powerful single computer. It is extended to increase the number of nodes increased computing resources. External expansion increases the number of computing nodes, managemen t presented a greater challenge. As can be seen from Figure 1 , additional resources, extended extender is easier than optimal scalability; and extended in this manner can be increased or decreased more f lexibly computing nodes.
+There are two ways to increase the resources: one is the expansion,  one  is  external expansion. <br>
+The expansion means to a single computing node better performance, increased speed and increased cost of hardware resources, including adding more memory, faster processors, or to add more, or just moved to the application function more powerful single computer.<br>
+It is extended to increase the number of nodes increased computing resources.<br>
+External expansion increases the number of computing nodes, managemen t presented a greater challenge. <br>
+As can be seen from Figure 1 , additional resources, extended extender is easier than optimal scalability; and extended in this manner can be increased or decreased more f lexibly computing nodes.<br>
 
 
-7.3Scalability of Measurement Methods
+7.3Scalability of Measurement Methods<br>
 --
 
- Of  measurement can  be  reduced is  basic design and test the scalability of  the system,  i t has been widely discussed in a parallel and  distributed computing systems. As early  as  1990 , Mark D.  Hil P]  f i rst proposed using an  accelerometer to defin e  scalability. false Let be a Scale processing system of n processors for the execution of t ime required for the work, acceleration is defined as speedup ( N, x> - t ime ( L, x)  Ainie < n,; i  :),  i . e., the same size for  the problem, when the desired ratio and using a " preclude processor execution t ime. The concept of acceleration, based on  efficiency is  defined as ef  f  iciencytn, work) =  speedupin,  x) / n, I. e., the ratio of the number of processor speed. The efficiency of all algorithms If a system is 1 , then the system is scalable. In other words, the  same  scale  of  the  problem, using n processors to perform the required t ime is to use 1 / n 1 processors. The above definition is mainly based on  the  scale of  the  problem under  the  same conditions, changes in the number of processors study changes to the system  performance.  But  there  is  a problem in a large number of sequential code execution, and the processor enough ( e. g. greater than the size of the problem), the system efficiency  i s  low.  In  addition,  the definition can not measure the magnitude of change in performance when the problem size changes.
-Most scalability metric is defined in parallel systems, mainly based on the speed and efficiency based on a method of speedup.
-•speed- based method
-It is the ratio of the speed of work and the t ime required  for  completion  of  one  computing node. The methods are based on the speedisospeed [ 9 ]  and isospeed- efficien-
-c / 10 ' 2310
-Sun Xian- He proposes a method to measure the scalability isospeed algorithm. Suppose there are N processors when at work, W is a complete work required algorithm, in order to ensure constant average speed, the algorithm working assumptions required when JV '> N processors work, W'  is  completed amount, N  ^  to  scale from the  system scalability is 4  ( JV ,   i V ' ) s JV' W / NW ^. If no communication i s between  processors,  each  processor  has  a working copy, then w '= N, W / N, 0 ( N, N /) = 1 O Under normal circumstances, WSi V' W / JV,
-〆 ^ /, N, < 1.
-Isospeed method can effectively measure homogeneous system scalabili ty. In order to
-measure heterogeneous system scalability, Sun Xian - HeAlso proposedisospeed- efficiency methods. Before introducing isospeed - efficiency method, we need to know  a  few definitions:
-•A marking speed computing node refers to a node of the sustain ed speed.
-
-•a marking speed computing system is labeled rate of all nodes in the system and
-contain.
-•Assume S is the actual growth rate, W workload,: T is the execution t ime, then S = W
-
-/ T.
-
-
-•Assume CSpeed marking system, the efficiency of a speed £ s = s / C = W / TC.
-Suppose C, W, and the system are the initial marking speed, and the work execution
-
-t ime; C 7 , and T ' are labeled after the speed increase system, workload and execution t ime, while ensuring ES = £: /, i . e., w /: rc = \ r / rc ' , then the scalability of the system can be
-expressed as  a  method  •  speedup S  is  based  on  speedup system   々    compute nodes can
-reach a  speed only when the compute nodes  the ratio of  the ideal  velocity S  ( k)  =  ka The
-famous Amdah Ps Law ^ 121 gives the definition of the most basic speedup . speedup = - One, which r, + rp = \, r s Is a sequence of n + program i t n execution ratio of the portion, a ratio of parallel execution portion.
+ Of  measurement can  be  reduced is  basic design and test the scalability of  the system,  i t has been widely discussed in a parallel and  distributed computing systems.<br>
+ As early  as  1990 , Mark D.  Hil P]  f i rst proposed using an  accelerometer to defin e  scalability. <br>
+ false Let be a Scale processing system of n processors for the execution of t ime required for the work, acceleration is defined as speedup ( N, x> - t ime ( L, x)  Ainie < n,; i  :),  i . e., the same size for  the problem, when the desired ratio and using a " preclude processor execution t ime.<br>
+ The concept of acceleration, based on  efficiency is  defined as ef  f  iciencytn, work) =  speedupin,  x) / n, I. e., the ratio of the number of processor speed. The efficiency of all algorithms If a system is 1 , then the system is scalable. In other words, the  same  scale  of  the  problem, using n processors to perform the required t ime is to use 1 / n 1 processors.<br>
+ The above definition is mainly based on  the  scale of  the  problem under  the  same conditions, changes in the number of processors study changes to the system  performance. <br>
+ But  there  is  a problem in a large number of sequential code execution, and the processor enough ( e. g. greater than the size of the problem), the system efficiency  i s  low.  In  addition,  the definition can not measure the magnitude of change in performance when the problem size changes.<br>
+Most scalability metric is defined in parallel systems, mainly based on the speed and efficiency based on a method of speedup.<br>
+•speed- based method It is the ratio of the speed of work and the t ime required  for  completion  of  one  computing node. The methods are based on the speedisospeed [ 9 ]  and isospeed- efficien-c / 10 ' 2310 Sun Xian- He proposes a method to measure the scalability isospeed algorithm.<br>
+Suppose there are N processors when at work, W is a complete work required algorithm, in order to ensure constant average speed, the algorithm working assumptions required when JV '> N processors work, W'  is  completed amount, N  ^  to  scale from the  system scalability is 4  ( JV ,   i V ' ) s JV' W / NW ^. If no communication i s between  processors,  each  processor  has  a working copy, then w '= N, W / N, 0 ( N, N /) = 1 O Under normal circumstances, WSi V' W / JV, 〆 ^ /, N, < 1. Isospeed method can effectively measure homogeneous system scalabili ty. In order to measure heterogeneous system scalability, Sun Xian - HeAlso proposedisospeed- efficiency methods.<br>
+Before introducing isospeed - efficiency method, we need to know  a  few definitions:<br>
+•A marking speed computing node refers to a node of the sustain ed speed.<br>
+•a marking speed computing system is labeled rate of all nodes in the system and contain.<br>
+•Assume S is the actual growth rate, W workload,: T is the execution t ime, then S = W / T.<br>
+•Assume CSpeed marking system, the efficiency of a speed £ s = s / C = W / TC.<br>
+Suppose C, W, and the system are the initial marking speed, and the work execution t ime; C 7 , and T ' are labeled after the speed increase system, workload and execution t ime, while ensuring ES = £: /, i . e., w /: rc = \ r / rc ' , then the scalability of the system can be expressed as  a  method  •  speedup S  is  based  on  speedup system   々    compute nodes can reach a  speed only when the compute nodes  the ratio of  the ideal  velocity S  ( k)  =  ka The famous Amdah Ps Law ^ 121 gives the definition of the most basic speedup . speedup = - One, which r, + rp = \, r s Is a sequence of n + program i t n execution ratio of the portion, a ratio of parallel execution portion.<br>
 On the basis of the Amdahl' s Law, Sun Xian - He proposes four speedup [ 12143 , respectively speedup f ixed size, f ixed execution t ime speedup, generally with  l imited memory and speedup speedup [ U]. To give a few definitions:
 •a parallel degree program refers to the maximum number when given unlimited
 processors available, at a particular t ime can partici pate processor calculated.
