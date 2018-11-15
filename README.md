@@ -635,7 +635,7 @@ There are two ways to increase the resources: one is the expansion,  one  is  ex
 7.3Scalability of Measurement Methods
 --
 
-#  Of  measurement can  be  reduced is  basic design and test the scalability of  the system,  i t has been widely discussed in a parallel and  distributed computing systems. As early  as  1990 , Mark D.  Hil P]  f i rst proposed using an  accelerometer to defin e  scalability. false Let be a Scale processing system of n processors for the execution of t ime required for the work, acceleration is defined as speedup ( N, x> - t ime ( L, x)  Ainie < n,; i  :),  i . e., the same size for  the problem, when the desired ratio and using a " preclude processor execution t ime. The concept of acceleration, based on  efficiency is  defined as ef  f  iciencytn, work) =  speedupin,  x) / n, I. e., the ratio of the number of processor speed. The efficiency of all algorithms If a system is 1 , then the system is scalable. In other words, the  same  scale  of  the  problem, using n processors to perform the required t ime is to use 1 / n 1 processors. The above definition is mainly based on  the  scale of  the  problem under  the  same conditions, changes in the number of processors study changes to the system  performance.  But  there  is  a problem in a large number of sequential code execution, and the processor enough ( e. g. greater than the size of the problem), the system efficiency  i s  low.  In  addition,  the definition can not measure the magnitude of change in performance when the problem size changes.
+ Of  measurement can  be  reduced is  basic design and test the scalability of  the system,  i t has been widely discussed in a parallel and  distributed computing systems. As early  as  1990 , Mark D.  Hil P]  f i rst proposed using an  accelerometer to defin e  scalability. false Let be a Scale processing system of n processors for the execution of t ime required for the work, acceleration is defined as speedup ( N, x> - t ime ( L, x)  Ainie < n,; i  :),  i . e., the same size for  the problem, when the desired ratio and using a " preclude processor execution t ime. The concept of acceleration, based on  efficiency is  defined as ef  f  iciencytn, work) =  speedupin,  x) / n, I. e., the ratio of the number of processor speed. The efficiency of all algorithms If a system is 1 , then the system is scalable. In other words, the  same  scale  of  the  problem, using n processors to perform the required t ime is to use 1 / n 1 processors. The above definition is mainly based on  the  scale of  the  problem under  the  same conditions, changes in the number of processors study changes to the system  performance.  But  there  is  a problem in a large number of sequential code execution, and the processor enough ( e. g. greater than the size of the problem), the system efficiency  i s  low.  In  addition,  the definition can not measure the magnitude of change in performance when the problem size changes.
 Most scalability metric is defined in parallel systems, mainly based on the speed and efficiency based on a method of speedup.
 •speed- based method
 It is the ratio of the speed of work and the t ime required  for  completion  of  one  computing node. The methods are based on the speedisospeed [ 9 ]  and isospeed- efficien-
@@ -693,6 +693,7 @@ retractable- based  strategy.  A  (  «response  repr esented  per  second  thro
 average for each response, the service quality obtained by  the  calculation;  CA)  is  the  second operating cost, productivity F ( fc) = A ( «* / ( «/ [ :(" scalability I n i h , k 2 ) = FCfe VFCfc).
 
 7.4Distributed Resource Scheduling and Management
+-
 
 Distributed resource  management  is the foundation  of distributed systems  and applications, the efficiency of resource allocation and scheduling directly determines the upper system and application scalability. This section analyzes two modes distributed resource scheduling and management systems typically they correspond.
 Distributed Resource  Scheduler  resource  scheduling  around,  build a resource management system, monitoring the status of each resource, the state feedback t o the resource scheduler  basis for decision - making.  The allocation  scheduler  made, the underlying operation of the resource assigning resources on different nodes. Resource allocation and resource operations can affect the scalability of the system, the pr ogram determines the resources needed tasks can be scheduled t ime, and  the  operating efficiency  is determined resource scheduling resources for t ime - consuming,  both  the  joint  decision the system for mission needs and resources change change of reaction t im e, thus affecting scalability.
@@ -932,12 +933,14 @@ confusion, the nature of the validity of the termination agreement and the BBC i
 10.4from multi-value to binary consensus Byzantine system
 --
 
+
 This section describes the consensus of the former Byzantine binary, reducing the value of multi- Byzantine consensus. We reduced guarantee an end after two binary
 sequence consensus instance. This is, to our knowledge, the f i rst predete rmined
 deceleration value of the non- consensus sequence in the example of a binary 0 ( 1 ) determined. Other reducing or returns a predefined value i f the consensus Shang
 suspension, or intolerance and Byzantine fault required to perform a binary sequence consensus instance dlogne. Our reduction is based on the abstract RB - broadcast
 communications, and examples of the underlying binary Byzantine consensus. Let BBC said that to solve the computing power required for two yuan Byzantine consensus. Thus,
 " multi-value to binary 〃 reduce work model BAMPn, T [ t < N / 3 , BBC]
+
 10.4.1The reduction
 --
 
