@@ -1111,131 +1111,94 @@ PONT token rules and Legal Notices
 
 Please note that this is not any type of investment Description This document does not constitute any form of prospectus; i t is not a solicitation to invest, not in any way involve the provision of securities in Canada or the United States, Canada and the United States and China as well as residents of explicitly exclude any exchange of PONT token donation in public products .<br>
 
-DISCLAIMER:
+DISCLAIMER:<br>
 -
 
-This site is for reference only. POINITY and all related companies and affiliates do not guarantee the accuracy of the conclusions reached by this site " as i s provided  〃 ,  without any express or implied representations and warranties, including, but not l imited to:
+This site is for reference only.<br>
+POINITY and all related companies and affiliates do not guarantee the accuracy of the conclusions reached by this site " as i s provided  〃 ,  without any express or implied representations and warranties, including, but not l imited to:
 
-1 warranties of merchantability, for a particular purpose, or non - infringement of ownership;
-The contents of this website without any errors or for any purpose;
-3 such content will not infringe rights of third parties. All  ensure clear sound. POINITY  and i ts subsidiaries expressly disclaims any form of l iability and damages resulting from the use, reference or reliance on information contained on this website caused, which we are
-not responsible.
+1 warranties of merchantability, for a particular purpose, or non - infringement of ownership;<br>
+The contents of this website without any errors or for any purpose;<br>
+3 such content will not infringe rights of third parties. All  ensure clear sound.<br>
+POINITY  and i ts subsidiaries expressly disclaims any form of l iability and damages resulting from the use, reference or reliance on information contained on this website caused, which we arenot responsible.<br>
 
-Recipients specific notice as follows:
+Recipients specific notice as follows:<br>
 
-•does not provide any securities: PONT token ( such as the POINITY white paper) is not intended to constitute securities in any jurisdiction. This site does not constitute a
-prospectus, nor does i t provide any form of document, nor does i t constitute an offer or solicitation of securities or any other investment product or any other jurisdiction.
-•No suggestion: This POINITY website does not constitute any recommendation PONT exchange token, should not rely on any contract or contribution decision.
-•No, said: Recipient or i ts advi sers did not cause on this website, or contain
-information, statements, opinions or issues derived  ( expressed or  implied) or  the  accuracy or completeness of any omission in this document or to make representations or warranties now or any other future avai lable to any written or oral information or advice about the
-party or i ts advisers. For any plan or predict the future prospects of achievement or
-reasonableness makes no representations or warranties Nothing in this document should not be considered for f uture commitments or statements. To the maximum extent.
-•Donation: We only accept donors through specific KYC KYC certified the following format Name:
-gender:
-Nationality ( does not support the United States, Australia, China, China): date of birth:
-ID card / passport / driver' s l icense:
-ID Photo:
-Proof of bank card statement, utility bill payment, property receipts identity information:
-Contribution amount ( ETH):
-Risk Warning: Potential contributors should independently evaluate their preferences
-for these risks, and decided to consult with their advisor before making any  contribution to the PONT tokens.
+•does not provide any securities: PONT token ( such as the POINITY white paper) is not intended to constitute securities in any jurisdiction. This site does not constitute a prospectus, nor does i t provide any form of document, nor does i t constitute an offer or solicitation of securities or any other investment product or any other jurisdiction.<br>
+•No suggestion: This POINITY website does not constitute any recommendation PONT exchange token, should not rely on any contract or contribution decision.<br>
+•No, said: Recipient or i ts advi sers did not cause on this website, or contain information, statements, opinions or issues derived  ( expressed or  implied) or  the  accuracy or completeness of any omission in this document or to make representations or warranties now or any other future avai lable to any written or oral information or advice about the party or i ts advisers. For any plan or predict the future prospects of achievement or reasonableness makes no representations or warranties Nothing in this document should not be considered for f uture commitments or statements. To the maximum extent.<br>
+•Donation: We only accept donors through specific KYC KYC certified the following format Name:<br>
+gender:<br>
+Nationality ( does not support the United States, Australia, China, China): date of birth:<br>
+ID card / passport / driver' s l icense:<br>
+ID Photo:<br>
+Proof of bank card statement, utility bill payment, property receipts identity information:<br>
+Contribution amount ( ETH):<br>
+Risk Warning: Potential contributors should independently evaluate their preferences for these risks, and decided to consult with their advisor before making any  contribution to the PONT tokens.<br>
 
 
-Token Rule
-
-The total number of tokens to 5 billion
-Pre- sale: 5 %
-Official ratio: 1 : 35 , 000 ( Note: pre - sale Blocking rule: 50 percent before exchange release on- l ine, the remaining 50 % is paid on - l ine exchange after 6 months)
-Sale: 15 %
-Official ratio: 1 : 23 , 000 ( Note: Lock Sale rule: before the release of 50 % of the
-exchange l ine, the remaining portion is released in the exchange l ine after 3 months).
-35 % of the team: Panelists technical development and operation Award ( Note: Team token lock on the token is released within 24 months after 12 months in a l inear fashion after the l ine balance, released once every two months). A total of 12 t imes.
-Cooperation 25 %: use i t for eco- hatch, expand radiation scope of the project and to
-
-establish useful and good cooperation ( Note: Lock the rules, as the case may be, the
-organization released a token of cooperation and locking t ime l imit minimum of six month.)
-Community 20 %: To advise the community operate, maintain and build a good
-community environment, community involvement operators  can  obtain a  token  reward. ( Note: Community token release and lock, unlock, as the case may be no t ime l imit.)
-This token is a  token Erc- 20 ,  PONT token after the main network l ine 1 :  1  is  replaced by a token- based network.
-in conclusion
-With the rise of digital encryption technology to bitcoin block chain represented by  the emerging technology has become a hot academic and research indust ry. Block chain
-technology can not bring tampering and programmable features, i t has been widely used in digital encryption, monetary, f inancial and social systems. However, compared with the
-booming business applications block chain, basic block chain the ory and research
-technology is still in i ts infancy , , critical to the development of enterprises. Scientific
-issues of the industry chain must be follow - up study. This paper systematically reviews the basic principles of the block chain technology, techni ques, methods and i ts application,
-combined with the  existing problems and  prospects to  build Pointnity i t  is  a   compatible
-open network, I believe he will enhance the block chain of the world Further development.
-Here, we sincerely hope that more people pa rticipate in the construction of the block chain block chain in  the world has  contributed to  the construction of  the world. Welcome  to Pointnity Network.
+Token Rule The total number of tokens to 5 billion Pre- sale: 5 % Official ratio: 1 : 35 , 000 ( Note: pre - sale Blocking rule: 50 percent before exchange release on- l ine, the remaining 50 % is paid on - l ine exchange after 6 months) Sale: 15 % Official ratio: 1 : 23 , 000 ( Note: Lock Sale rule: before the release of 50 % of the exchange l ine, the remaining portion is released in the exchange l ine after 3 months).<br>
+35 % of the team: Panelists technical development and operation Award ( Note: Team token lock on the token is released within 24 months after 12 months in a l inear fashion after the l ine balance, released once every two months). A total of 12 t imes.<br>
+Cooperation 25 %: use i t for eco- hatch, expand radiation scope of the project and to establish useful and good cooperation ( Note: Lock the rules, as the case may be, the organization released a token of cooperation and locking t ime l imit minimum of six month.)<br>
+Community 20 %: To advise the community operate, maintain and build a good community environment, community involvement operators  can  obtain a  token  reward. ( Note: Community token release and lock, unlock, as the case may be no t ime l imit.)<br>
+This token is a  token Erc- 20 ,  PONT token after the main network l ine 1 :  1  is  replaced by a token- based network.<br>
+in conclusion With the rise of digital encryption technology to bitcoin block chain represented by  the emerging technology has become a hot academic and research indust ry.<br>
+Block chain technology can not bring tampering and programmable features, i t has been widely used in digital encryption, monetary, f inancial and social systems. However, compared with the booming business applications block chain, basic block chain the ory and research technology is still in i ts infancy , , critical to the development of enterprises. <br>
+Scientific issues of the industry chain must be follow - up study.<br>
+This paper systematically reviews the basic principles of the block chain technology, techni ques, methods and i ts application,
+combined with the  existing problems and  prospects to  build Pointnity i t  is  a   compatible open network, I believe he will enhance the block chain of the world Further development.<br>
+Here, we sincerely hope that more people pa rticipate in the construction of the block chain block chain in  the world has  contributed to  the construction of  the world. Welcome  to Pointnity Network.<br>
 
 
 
-references
+references<br>
 
-[1] Hill M D. What is scalability [ J], ACM  S 1 GARCH  Computer Architecture News, 1990 ,18 ( 4 ):? 18 - 21 
-[2] Bondi A B. Characteristics of scalability and their impact on per - formance [ C]
-// . . Proc Second  Int 51  Workshop  on  Software  and  Performance  ACM  Press,  2000 : 195 - 203
-[3] Brataas G, Hughes P.  Exploring  architectural  scalability  [ C  ~  \  //  Proc.  Fourth Int 9 . 1 Workshop on Software and Performance ACM Press, 2004 : 125 - 129
-[4] Duboc L, Rosenblum DS, Wicks T. A Framework for Modelling and Analysis of Software Systems Scalability [ C] // ICSET 06 . Shanghai, China, 2006
-[5] Gustavson D  B.  The  many  dimensions  of  scalabili ty  [ C]  //  COMPCON  1994 :. 60 - 63 
-[6] van Steen M, van der Zijden S, Sips H J. Software engineering for scalable distributed applications [ C] //Proc. 22 nd Int' l Computer Software and Applications Conference 1998 :. 285 - 293 
-[7] http:.. // msdn microsoft com / zh - cn / l ibrary / aa292172 ( v = VS. 71 )
-[8] Jogalekar P, Woodside M. Evaluating the scalability of distribu ted systems [ j].  IEEE Trans. Parallel and Distributed Systems,
-2000 , 11 ( 6 ): 589 - 603 
-[9] Sun XH, Rover D T. Scalability of Parallel Algorithm - Machine Combinations [ Rj,
-IS- 5057 , Ames Lab. » Iowa State Univ, 1991
-[10] Sun XH, Chen Y, Wu M. Scalability of Heterogeneous Compu - t ing [ C "#
-Proceedings of 34 th International Conference on Para l lel Processing 2005 :. 557 - 564
-[11] Amdahl G. Validity of the single- processor approach to achieving large scale computing capabilities [ C] // Proc. AFIPS Conf.
-1967 : 483 - 485 
-[12] Sun XH, Ni L M. Scalable Problems and Memory - Bounded Speedup [ J] J. Parallel and Distributed Computing, 1993 , 19 :. 27 -
-
-37 
-[13] Sun XH, Ni L M. Another View of Parallel Speedup [ C ] //Proc. Super computing
-' 90 . Los Alamitos, Calif: IEEE Computer Soc.
-Press, 1990 : 324 - 333 
-[14] Sun  XH,  Zhu  J.  Performance Considerations of  Shared Virtual Memory Machines [ JIEEE . Trans Parallel and Distributed Systems, 1995, 6 ( 11 ); 1185 -1194 
-[15] Grama AY, Gupta A, Kumar V.  Isoefficiency:  Measuring   the  Scalability  of Parallel Algorithms and Architectures [ J]  IEEE  Parallel  and  Distributed  Technology, 1993 ,1 ( 3 ):. 12 - 21 
-[16] Grama A, Gupta A, Kumar V. Isoefficiency function: a scalabili . . Ty metric for parallel algorithms and architectures [ R] IEEE Parallel Distributed Technol  Systems   Appl, 1993 : 12 - 21 
-[17] Jogalekar PP, Woodside C M. A Scalability Metric for Distribu ted Computing Applicationsin Telecommunications [ R], SCE - 96 - 07. Ottawa, Canada: Department of Systems and Computer Enginering, 1997
-[18] Kumar V, Gupta A. Analyzing  the scalability of parallel  algo r i thms and architectures: A survey [ C] // Proceedings of the 1991 International Conference on Supercomputing 1991 .
-[19] Czajkowski K, Foster I, Karonis  N,  et  al.  A  Res ource Management Architecture for Metacomputing Systems [ J]. Information Sciences. 1 - 19 
-[20] Cao J, Jarvis S A. ARMS:. An agent - based resource management system for grid computing [ J] Scientific Programming, 2002 , 10 : 135 - 148
-[21] Buyya R, Abramson D »Giddy J. Nimr od / G: An Architecture for a Resource Management and Scheduling System  in  a  Global  Computational  Grid  [ J]  Computer, 2000 :. 1 - 7
-[22] Chapin SJ, Katramatos D, Karpovich J, et al. Resource Manage ment in Legion [ JJ Future Generation Computer Systems, 1999 , 15 ( 5 ) :. 583 - 594 
-[23] Chen Y, Sun X, STAS; A Scalability Testing and Analysis Sys - tem [ Q / ^ 2006 IEEE International Conference on Cluster Com puting 2006 :. 1 - 10
-[24] Lyon G »Kacker R, Linz A. A scalability test for parallel code [ J] Software:.
-Practice and Experience, 1995 , 25 ( 12 ): 1299 - 1314
-[25] Liu CL, Layland J W. Scheduling Algorithms  for  Multiprogram ming in  a  Hard Real- t ime Environment [ J] J. ACM, 1973 , 20 ( 1 ):. 46 - 61 
-[26]  Schmid  U  »Blieberger  J.  Some  investigations  on  FCFS  scheduling  in  hard  real- t ime applications!] J]. Journal of Computer and Sys
-tem Sciences, 1992 , 45 ( 3 ): 493 - 512 
-[40] . Jin H, Wang HA, Wang Qiang, et al A comprehensive design method of  task priority [ J] Journal of soft parts / 2003 / 14 ( 3 ):. 376 - 382 
-[41] . Wang Yongyan, Wang Qiang, Wang Hongan, et al A Real - Time scheduling algorithm based on priority Table and i ts reality [ J] Journal of  Software 2004  15  ( 3 ):.  360 - 370
-[42] Huang Decai, money can. Complexity and New algorithm  of  Multi - machine related Task equilibrium scheduling problem [ J].  Computer Engineering and  Scien ce  22   ( 2 ) p. 16 ) Schmid S, Sifalakis M, Hutchison D. Towards Autonomic Net - works [ . J]
-Lecture Notes in Computer Science, 2006 , 4195 : 1 - 11 
-[43] Baumgarten M, Bicocchi N, Kusber R »et al Self - organizing Knowledge Networks for Pervasive Situation - aware Services [ C] // IEEE International Conference on Systems,
-Man and Cybemeti- cs Quebec» Canada »October 2007 :. . 1 - 6
-[44] Wang Hui- qiang, Feng Guang- sheng, Zhao Qi- an, et al. Progress of Research on Cognitive Networks [ M]. Sciencepaper Online, 2009
-[45] Hillston J. Fluid  f low  approximation of PEPA  models  [ C]  //Proceedings of  t Vie 2 nd International Conference on Quantitative E . Valuation of Systems Torino; IEEE Computer Society Press, Sep. 2005 : 33 - 42 
-[46] Katsuno Y, Aihara T. Autonomic Network Configuration for Networkable Digital
-
-Appliances [ J], IEEE Transactions on Con sumer Electronics, 2005 , 51 ( 2 ): 494 - 500 
-[47]  Devroye N,  Mitran P,  Tarokh V.  Achievable Rates in  Cognitive Radio Channels    [ J] IEEE Transactions on Information Theory, 2006 ,52 ( 5 ):. 1813 - 1827
-[48] Sahai A, Hoven N, Tandra R. S ome Fundamental Limits on Cognitive Radio [ C] // Forty- second Alierton Conference on Communication, Control, and Computing.
-Monticello » Israel, October 2004 : 1 - 11 
-[49] Jovicic A, Viswanath P.  Cc  ^  nitive Radio: An  Information - Theoretic Perspective [ OL] http:..... // www ifp uiuc edu / ~ jovicic / JV 06 pdf, June 2006
-[50] Koulouriotis DE, I ^ akoulakis IE »Emiris DM, et al. Develop ment of Dynamic Cognitive Networks as Complex Systems Ap . Proximators; Validation in Financial Time Series [ J] Applied Soft Computing, 2 005 , 5 ( 2 ): 157 ' 179
-[51] Thomas RW, Friend DH, Dasilva LA, et al. Cognitive Net works: Adaptation and Learning to Achieve Eend- to- End Performance Objectives [ J],  Communications Magazine, 2006 , 44
-
-( 12 ): 51 - 57 
-[52] Kephart J O. Research Challenges of  Autonomic  Computingf C ]  /  J  .  Proceedings of the 27 th International Conference on  Software  Engineering  Missouri,  USA,  May  2005 : 15 - 22
-[53] Strassner J. Autonomic Networking: Theory and Practice [ C ] // Proceedings of 2008 . IEEE / IFIP Network Operations and Manar gement S ymp Salvador, Brazil, April  2008 : 786 - 786 
-[54] Hinchey M, Sterritt R. Autonomicity- an Antidote for Complexity?[C]// Proceedings of Computational Systems Bioinformatics  Conference,  Workshopsand Poster Abstracts. Stanford University»Aug. 2005 : 283 - 291
-[55] . Gelenbe E, Lent R. Power- aware Ad- hoc Cognitive Packet Networks [ J] Ad - hoc Networks »2004 , 2 ( 3 ): 205 - 216
-[56] Gelenbe E, Lent R, Xu Z. Measurement and Performance of a Cognitive Packet Network [ J] Computer Networks, 2001 , 37 ( 6 ):. 691 - 701
-[57] Gelenbe E,  Lent  R,  Xu  Z.  Design and  Performance of  G  gnitive Packet  Networks [ J] Performance Evaluation, 2001 , 46 ( 2 / 3 ):?. 155 - 176
-[58] Hey  L  A.  Reduced Complexity Algorithms for  Cognitive Packet Network Routers  [ J] Computer Communications, 2008 , 31 ( 16 ).:
-3822 - 3830
-[59] Koulouriotis DE, Diakoulakis IE, Emiris DM, et aL Develop ment of Dynamic Cognitive Networks as Complex Systems Ap proximators: Validation in Financial Time Series [ J] Applied Soft Computing, 2005 , 5 ( 2 ): . 157 - 179
-[60] Rondeau TW, Bostian CW »Bruce A F. Cognitive Techniques Phy sical and Link Layers [ M], Cognitive Radio Technology Ne - wnes:!. Burlington, 2006 : 219 - 268
+[1] Hill M D. What is scalability [ J], ACM  S 1 GARCH  Computer Architecture News, 1990 ,18 ( 4 ):? 18 - 21 <br>
+[2] Bondi A B. Characteristics of scalability and their impact on per - formance [ C] // . . Proc Second  Int 51  Workshop  on  Software  and  Performance  ACM  Press,  2000 : 195 - 203<br>
+[3] Brataas G, Hughes P.  Exploring  architectural  scalability  [ C  ~  \  //  Proc.  Fourth Int 9 . 1 Workshop on Software and Performance ACM Press, 2004 : 125 - 129<br>
+[4] Duboc L, Rosenblum DS, Wicks T. A Framework for Modelling and Analysis of Software Systems Scalability [ C] // ICSET 06 . Shanghai, China, 2006<br>
+[5] Gustavson D  B.  The  many  dimensions  of  scalabili ty  [ C]  //  COMPCON  1994 :. 60 - 63 <br>
+[6] van Steen M, van der Zijden S, Sips H J. Software engineering for scalable distributed applications [ C] //Proc. 22 nd Int' l Computer Software and Applications Conference 1998 :. 285 - 293 <br>
+[7] http:.. // msdn microsoft com / zh - cn / l ibrary / aa292172 ( v = VS. 71 )<br>
+[8] Jogalekar P, Woodside M. Evaluating the scalability of distribu ted systems [ j].  IEEE Trans. Parallel and Distributed Systems, 2000 , 11 ( 6 ): 589 - 603 <br>
+[9] Sun XH, Rover D T. Scalability of Parallel Algorithm - Machine Combinations [ Rj, IS- 5057 , Ames Lab. » Iowa State Univ, 1991<br>
+[10] Sun XH, Chen Y, Wu M. Scalability of Heterogeneous Compu - t ing [ C "# Proceedings of 34 th International Conference on Para l lel Processing 2005 :. 557 - 564<br>
+[11] Amdahl G. Validity of the single- processor approach to achieving large scale computing capabilities [ C] // Proc. AFIPS Conf. 1967 : 483 - 485 <br>
+[12] Sun XH, Ni L M. Scalable Problems and Memory - Bounded Speedup [ J] J. Parallel and Distributed Computing, 1993 , 19 :. 27 - 37 <br>
+[13] Sun XH, Ni L M. Another View of Parallel Speedup [ C ] //Proc. Super computing ' 90 . Los Alamitos, Calif: IEEE Computer Soc. Press, 1990 : 324 - 333 <br>
+[14] Sun  XH,  Zhu  J.  Performance Considerations of  Shared Virtual Memory Machines [ JIEEE . Trans Parallel and Distributed Systems, 1995, 6 ( 11 ); 1185 -1194 <br>
+[15] Grama AY, Gupta A, Kumar V.  Isoefficiency:  Measuring   the  Scalability  of Parallel Algorithms and Architectures [ J]  IEEE  Parallel  and  Distributed  Technology, 1993 ,1 ( 3 ):. 12 - 21 <br>
+[16] Grama A, Gupta A, Kumar V. Isoefficiency function: a scalabili . . Ty metric for parallel algorithms and architectures [ R] IEEE Parallel Distributed Technol  Systems   Appl, 1993 : 12 - 21 <br>
+[17] Jogalekar PP, Woodside C M. A Scalability Metric for Distribu ted Computing Applicationsin Telecommunications [ R], SCE - 96 - 07. Ottawa, Canada: Department of Systems and Computer Enginering, 1997<br>
+[18] Kumar V, Gupta A. Analyzing  the scalability of parallel  algo r i thms and architectures: A survey [ C] // Proceedings of the 1991 International Conference on Supercomputing 1991 .<br>
+[19] Czajkowski K, Foster I, Karonis  N,  et  al.  A  Res ource Management Architecture for Metacomputing Systems [ J]. Information Sciences. 1 - 19 <br>
+[20] Cao J, Jarvis S A. ARMS:. An agent - based resource management system for grid computing [ J] Scientific Programming, 2002 , 10 : 135 - 148<br>
+[21] Buyya R, Abramson D »Giddy J. Nimr od / G: An Architecture for a Resource Management and Scheduling System  in  a  Global  Computational  Grid  [ J]  Computer, 2000 :. 1 - 7<br>
+[22] Chapin SJ, Katramatos D, Karpovich J, et al. Resource Manage ment in Legion [ JJ Future Generation Computer Systems, 1999 , 15 ( 5 ) :. 583 - 594 <br>
+[23] Chen Y, Sun X, STAS; A Scalability Testing and Analysis Sys - tem [ Q / ^ 2006 IEEE International Conference on Cluster Com puting 2006 :. 1 - 10<br>
+[24] Lyon G »Kacker R, Linz A. A scalability test for parallel code [ J] Software:. Practice and Experience, 1995 , 25 ( 12 ): 1299 - 1314<br>
+[25] Liu CL, Layland J W. Scheduling Algorithms  for  Multiprogram ming in  a  Hard Real- t ime Environment [ J] J. ACM, 1973 , 20 ( 1 ):. 46 - 61 <br>
+[26]  Schmid  U  »Blieberger  J.  Some  investigations  on  FCFS  scheduling  in  hard  real- t ime applications!] J]. Journal of Computer and Sys tem Sciences, 1992 , 45 ( 3 ): 493 - 512 <br>
+[40] . Jin H, Wang HA, Wang Qiang, et al A comprehensive design method of  task priority [ J] Journal of soft parts / 2003 / 14 ( 3 ):. 376 - 382 <br>
+[41] . Wang Yongyan, Wang Qiang, Wang Hongan, et al A Real - Time scheduling algorithm based on priority Table and i ts reality [ J] Journal of  Software 2004  15  ( 3 ):.  360 - 370<br>
+[42] Huang Decai, money can. Complexity and New algorithm  of  Multi - machine related Task equilibrium scheduling problem [ J].  Computer Engineering and  Scien ce  22   ( 2 ) p. 16 ) Schmid S, Sifalakis M, Hutchison D. Towards Autonomic Net - works [ . J] Lecture Notes in Computer Science, 2006 , 4195 : 1 - 11 <br>
+[43] Baumgarten M, Bicocchi N, Kusber R »et al Self - organizing Knowledge Networks for Pervasive Situation - aware Services [ C] // IEEE International Conference on Systems, Man and Cybemeti- cs Quebec» Canada »October 2007 :. . 1 - 6<br>
+[44] Wang Hui- qiang, Feng Guang- sheng, Zhao Qi- an, et al. Progress of Research on Cognitive Networks [ M]. Sciencepaper Online, 2009<br>
+[45] Hillston J. Fluid  f low  approximation of PEPA  models  [ C]  //Proceedings of  t Vie 2 nd International Conference on Quantitative E . Valuation of Systems Torino; IEEE Computer Society Press, Sep. 2005 : 33 - 42 <br>
+[46] Katsuno Y, Aihara T. Autonomic Network Configuration for Networkable Digital Appliances [ J], IEEE Transactions on Con sumer Electronics, 2005 , 51 ( 2 ): 494 - 500 <br>
+[47]  Devroye N,  Mitran P,  Tarokh V.  Achievable Rates in  Cognitive Radio Channels    [ J] IEEE Transactions on Information Theory, 2006 ,52 ( 5 ):. 1813 - 1827<br>
+[48] Sahai A, Hoven N, Tandra R. S ome Fundamental Limits on Cognitive Radio [ C] // Forty- second Alierton Conference on Communication, Control, and Computing. Monticello » Israel, October 2004 : 1 - 11 <br>
+[49] Jovicic A, Viswanath P.  Cc  ^  nitive Radio: An  Information - Theoretic Perspective [ OL] http:..... // www ifp uiuc edu / ~ jovicic / JV 06 pdf, June 2006<br>
+[50] Koulouriotis DE, I ^ akoulakis IE »Emiris DM, et al. Develop ment of Dynamic Cognitive Networks as Complex Systems Ap . Proximators; Validation in Financial Time Series [ J] Applied Soft Computing, 2 005 , 5 ( 2 ): 157 ' 179<br>
+[51] Thomas RW, Friend DH, Dasilva LA, et al. Cognitive Net works: Adaptation and Learning to Achieve Eend- to- End Performance Objectives [ J],  Communications Magazine, 2006 , 44 ( 12 ): 51 - 57 <br>
+[52] Kephart J O. Research Challenges of  Autonomic  Computingf C ]  /  J  .  Proceedings of the 27 th International Conference on  Software  Engineering  Missouri,  USA,  May  2005 : 15 - 22<br>
+[53] Strassner J. Autonomic Networking: Theory and Practice [ C ] // Proceedings of 2008 . IEEE / IFIP Network Operations and Manar gement S ymp Salvador, Brazil, April  2008 : 786 - 786 <br>
+[54] Hinchey M, Sterritt R. Autonomicity- an Antidote for Complexity?[C]// Proceedings of Computational Systems Bioinformatics  Conference,  Workshopsand Poster Abstracts. Stanford University»Aug. 2005 : 283 - 291<br>
+[55] . Gelenbe E, Lent R. Power- aware Ad- hoc Cognitive Packet Networks [ J] Ad - hoc Networks »2004 , 2 ( 3 ): 205 - 216<br>
+[56] Gelenbe E, Lent R, Xu Z. Measurement and Performance of a Cognitive Packet Network [ J] Computer Networks, 2001 , 37 ( 6 ):. 691 - 701<br>
+[57] Gelenbe E,  Lent  R,  Xu  Z.  Design and  Performance of  G  gnitive Packet  Networks [ J] Performance Evaluation, 2001 , 46 ( 2 / 3 ):?. 155 - 176<br>
+[58] Hey  L  A.  Reduced Complexity Algorithms for  Cognitive Packet Network Routers  [ J] Computer Communications, 2008 , 31 ( 16 ).: 3822 - 3830<br>
+[59] Koulouriotis DE, Diakoulakis IE, Emiris DM, et aL Develop ment of Dynamic Cognitive Networks as Complex Systems Ap proximators: Validation in Financial Time Series [ J] Applied Soft Computing, 2005 , 5 ( 2 ): . 157 - 179<br>
+[60] Rondeau TW, Bostian CW »Bruce A F. Cognitive Techniques Phy sical and Link Layers [ M], Cognitive Radio Technology Ne - wnes:!. Burlington, 2006 : 219 - 268<br>
 [61] Smith JM, Bruce A F. Cognitive Techniques: Network Aware - ness [ M] Cognitive Radio Technology Newnes:.. Burlington *
-2006t 299 - 311 
+2006t 299 - 311 <br>
