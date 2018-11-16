@@ -1001,193 +1001,115 @@ We have proof by contradiction assume a f i rst round, some non - fault process 
 Then, i f all non - faulty processing a broadcast message AUX [ R] ( l ine 06 ), i t follows wait_ until statement terminates in l ine 07 each process the non - defective. <br>
 Thus, there will always be blocked in the f i rst round during which the non - fault process i s still round oxygen.<br>
 2 Lemma 9 Lemma the system 10 . The model is BAMPn, T [ T < N / 3 ] . If a l l non- faulty process Pi terminate valuesri circle R = { V}, which are determined by the wheel ( R + 1 ).<br>
-If all non- faulty demonstrate this process, valuesri = { V}, and r is the circle such that V = ( R 2 mode), i t follows that ( i f not already done so) from l ines 08 - 10 , one each non- fault
-handling decide when stainless steel prices. I f r is such that, V 6 = ( R modulo 2 ), which each non- fault current estimation process V ( l ine 10 ).
-As the next round, we have: V = (( R + 1 ) mod 2 ), and valuesri + 1 = bin_ valuesi [ R + 1 ] =
-{ V} in each non- fault process P 1 , each wheel during non - fault during the decision ( R + 1 ).
-2 Lemma 10 Lemma 1 . Let the system model is BAMPn, T [ T < N  /  3 ].  If  each non - fault process PI terminates with a circular R valuesri = { 0 , 1 }, and i t is determ ined by their circle ( R + 2 ).
-If each non- fault proof procedure is such that pi valuesri = { 0 , 1 }, l ine 11 during i ts
-execution oxygen circle, we  have ESTI =  ( R - mode 2 )  =  V  start wheel ( R  +  1 ).  Due to Lemma 5 , i t is always to  maintain this estimate. Since a l l  non- faulty procedures to  perform round ( R  + 1 ) and ( R + 2 ) ( Lemma 9 ) and v = (( R + 2 ) we have the value of ^ 2 = W P 1 in each non - fault occurred. Thus visible, each non- fault l ine 10 in the decision process.
-Theorem 2 satisfy the safety performance of t he algorithms described consensus.
-Evidenced by Lemma 7 ( BBC- potency) and Lemma 8 ( BBC- Protocol) is proven as follows.
-It described the decision does not guarantee the decision - making algorithm in Figure 2 .
-While some non- fault process which can occur, for example made 0 , other trouble- free
-process proposed 1 , and Byzantine double play during the game, each proposal to 0 or 1 for each process trouble- free, so i t will never happen, in a circle all non - faulty process ends
-either valuesi = { 0 , 1 }, or they all have valuesi = { v}, where v is 0  or  1 .  In  other words, i f  not all of the non- faulty process made the same initial value, the process may be made after
-the Byzantine round, c i rcular, having a non - fault process valuesi = { 0 , 1 }, rather than the rest of the process has a fault valuesi = { v }, where v 6 = ( R - mode
+If all non- faulty demonstrate this process, valuesri = { V}, and r is the circle such that V = ( R 2 mode), i t follows that ( i f not already done so) from l ines 08 - 10 , one each non- fault handling decide when stainless steel prices.<br>
+I f r is such that, V 6 = ( R modulo 2 ), which each non- fault current estimation process V ( l ine 10 ).<br>
+As the next round, we have: V = (( R + 1 ) mod 2 ), and valuesri + 1 = bin_ valuesi [ R + 1 ] = { V} in each non- fault process P 1 , each wheel during non - fault during the decision ( R + 1 ).<br>
+2 Lemma 10 Lemma 1 . Let the system model is BAMPn, T [ T < N  /  3 ].  If  each non - fault process PI terminates with a circular R valuesri = { 0 , 1 }, and i t is determ ined by their circle ( R + 2 ).<br>
+If each non- fault proof procedure is such that pi valuesri = { 0 , 1 }, l ine 11 during i ts execution oxygen circle, we  have ESTI =  ( R - mode 2 )  =  V  start wheel ( R  +  1 ).  Due to Lemma 5 , i t is always to  maintain this estimate. Since a l l  non- faulty procedures to  perform round ( R  + 1 ) and ( R + 2 ) ( Lemma 9 ) and v = (( R + 2 ) we have the value of ^ 2 = W P 1 in each non - fault occurred. Thus visible, each non- fault l ine 10 in the decision process.<br>
+Theorem 2 satisfy the safety performance of t he algorithms described consensus.<br>
+Evidenced by Lemma 7 ( BBC- potency) and Lemma 8 ( BBC- Protocol) is proven as follows.<br>
+It described the decision does not guarantee the decision - making algorithm in Figure 2 . While some non- fault process which can occur, for example made 0 , other trouble- free process proposed 1 , and Byzantine double play during the game, each proposal to 0 or 1 for each process trouble- free, so i t will never happen, in a circle all non - faulty process ends either valuesi = { 0 , 1 }, or they all have valuesi = { v}, where v is 0  or  1 .  In  other words, i f  not all of the non- faulty process made the same initial value, the process may be made after the Byzantine round, c i rcular, having a non - fault process valuesi = { 0 , 1 }, rather than the rest of the process has a fault valuesi = { v }, where v 6 = ( R - mode<br>
 
-10.5.4Eventual synchronization hypothesis
+10.5.4Eventual synchronization hypothesis<br>
 --
 
-Consensus impossibility ^ It is well known, there is no consensus algorithm to  ensure the safety and fully asynchronous messaging system activity, which, even i n a single
-process may crash. Since the collapse of the fault model is less serious than the Byzantine model fails, the process can not reach a consensus, i f possible, make Byzantine fault is still  the case.
-In order to avoid such a possibility, and to  ensure consistent termination properties,  the model must be rich with additional computing powe r. Examples of  such power may  be set in the input vectors, randomized, or synchronization failure detector is provided with assumed constraints. As the announcem ent date, we here consider the method of
-synchronization based on additional assumptions.
-After additional synchronization is assumed in the  following, assume that a  f inite t ime T, the transmission delay of packets 5 of an upper l imit. This assumption is a 3 Synch
-( eventual synchrony hypothesis). To take advantage of i t by using a t imer, we also assume
+Consensus impossibility ^ It is well known, there is no consensus algorithm to  ensure the safety and fully asynchronous messaging system activity, which, even i n a single process may crash. Since the collapse of the fault model is less serious than the Byzantine model fails, the process can not reach a consensus, i f possible, make Byzantine fault is still  the case.<br>
+In order to avoid such a possibility, and to  ensure consistent termination properties,  the model must be rich with additional computing powe r.<br>
+Examples of  such power may  be set in the input vectors, randomized, or synchronization failure detector is provided with assumed constraints. <br>
+As the announcem ent date, we here consider the method of synchronization based on additional assumptions.<br>
+After additional synchronization is assumed in the  following, assume that a  f inite t ime T, the transmission delay of packets 5 of an upper l imit.<br>
+This assumption is a 3 Synch ( eventual synchrony hypothesis). To take advantage of i t by using a t imer, we also assume that the process can be accurately measured intervals, although they do not need to have synchronized clocks.<br>
+Symbolic model BAMPn, T [ T < N / 3 ] and is repres ented 3 Synch enriched BAMPn, T [ t < N / 3 , 3 Synch].<br>
 
-that the process can be accurately measured intervals, although they do not need to have synchronized clocks.
-Symbolic model BAMPn, T [ T < N / 3 ] and is repres ented 3 Synch enriched BAMPn, T [ t
-< N / 3 , 3 Synch].
-
-10.5.5A binary consensus Byzantine algorithm BAMPn, T [T <N / 3,3Synch]
-
-In this section, we describe this is to ensure consistency as 0 in binary Byzantine
-algorithm ( t) terminate our wheels, which is  known  to  be the best. The algorithm described  in FIG. 3 in FIG. 2 is extended security algorithms The goal is to add the consensus
-termination property. The same l ine with the same number of two algorithms. New l ine in FIG. 3 is numbered " Next 〃 end, wherein x i s an integer, and the modified l ine by the"
-M- 〃    prefix.  In  addition to  using local t imer based on  the wheel, and ultimately benefit
-from 3 Synch assumptions, which extends round the concept of coordination algorithms
-used: plays a special role in each roun d scheduled process of coordinating efforts to impose  the value of the other wheel of the decision process . For this reason, in turn play a more
-accurate circular coordinator role in each process.
-, The set of process P 1 ,  . . . ,  the PN, the circle r  PI  coor dinator process is  such that i  = (( R - D MOD N) + 1 . 5 additional local variables and message types in  addition to  ESTI, RI, bin_ valuesi [ R], and valuesi, each inlet
-PI management process following local variables.
-t imeri a local t imer, and t imeouti -  a  t imeout value, both to  the use of  assumptions  3 Synch.
-coordi round is coordinated indicators.
-AUXI is a secondary set of values for stored value ( i f any) i s currently coordinating efforts to exert their judgment value.
-Circle R coordinator, using message type COORD_ VALUE [ R]
-(1)) to broadcast i ts attempts to become a value in favor of the decision.
-Operation bin_ propose ( VI) is
-(2)) ESTI f six; RI  ^  0 ;  t imeouti ^ O; ( 3 ) and ( really) do
-( 4 ) RI traffic RI + 1 ;
-( NEW 1 ) coordi ^ (( RI -   1 ) MOD N) + 1 ; t imeouti ^ t imeouti + 1 ; t imeri provided to    t imeouti;
-( 4 ) BV_ broadcast EDT [ RI] ( ESTI);
-( NEW 2 ) If ( I = coordi) and wait_ until ( bin_ valuesi [ RI] = { w}); // w is a value of [ the RI] RADIO COORD- value [ the RI] of entering bin_ valuesi;
-( M. 5 ) wait- until ( bin- valuesi [ RI] 6 = 0 ) eight ( TIMERi expired);
-( NEW 3 ) arranged to t imeri t imeouti;
-( NEW 4 ) i f ( COORDjt [ RI] ( W) received from a # pcoord)
-( W G bin- values and AUXIf { w}
-Otherwise AUXI Service bin- valuesi [ RI] just in case;
-( M. 6 ) broadcast AUX [ RI] ( AUXI);
-( M. 7 ) wait- until ( message AUX [ RI] ( b- valp ( 1 )), . . . , AUX [ RI] ( b- valp ( N- t)) has been received
-From the ( N  -  t )  different process P  ( X), 1  < X < N	- t and their contents
-Is such a non- empty set 3 - valuesi such ⑴ valuesi £  bin_ valuesi [ RI] and ( i i )  valuesi = U1 < x <n- tb_ valx) eight ( TIMERi expired); ( New 5 ) i f ( considering the entire message of the set of when AUX [ RI] () received, sets values 1 i , values 2 i , . . . satisfy the previously waiting predicate) eight ( one of them is AUXI) then valuesi traffic AUXI END IF;
-Double f RI mold 2 ;
-If  ( valuesi =  { V}) //  valuesi is  a  single, whose elements v	Then ESTI ^ V; i f ( V = BI)
-
-before deciding ( V), i f  not ended,  i f;	Otherwise double ESTI Service  In BAMPn a secure site and binary Byzantine consensus algorithm, T [ t < N / 3, 3 Synch]
-Description Extended algorithm describes the following i tems appear in Figure 3 of the new and revised statements.
-•the l ine NEW 1 , PI calculating the current wheel coordinator, and set i ts local t imer, which is used in the predicate of the expiration l in e M- 05 . The t imeout value is initialized before entering the loop, then rose in every round.
-•NEW 3 l ine is a t imer that expires for resetting a simple l ine in the modified M - 07 predicate.
-Line NEW 2 , NEW 4 , M- 06 , and New 5 implement a mechanism that allows t he current round of coordination, trying to impose a value of 6 into the f i rst judgment of i ts value
-bin_ values set. The fact that, after the presence of a t ime, by a non - fault message exchange process is t imely, i t will have to ensure that the wheel dur ing this period, the non- faulty
-process will have a single value in their valuesi sleeve ( which binds - 10 required by the lemma their decision).
-•modified l ines of the M- 05 and M- 07 : In addition to the predicate in the corresponding l ine considered in t i mer expires.
-As just seen, the idea to start the operation of these new or revised statement is:
-caused such a decision from the overall coordination of the interests of a defect - free, by
-requiring the process, so that all non - fault process uses i t to play a recommended value. to this end:
-Circular coordinate PK broadcast message COORD_ VALUE [ RI] ( W), wherein w is set into i ts bin_ values ( l ine NEW 2 ) the f i rst value. If PK is no fault, the fault - free process
-t imeout value is large enough, and the message t ransmission delay binding, all non- faulty process will receive the l ine M - 06 before the t imer expires.
-•Then, assuming that the previous i tem, is set to Wa Laid AUXI ( l ine NEW 4 )} all non- fault handling, and broadcasts i t ( l ine M - 06 ). W predicate Gbin_ valuesi [ RI] for preventing Byzantine coordinator sends the tank during the non - faulty false.
-•Finally, all non- faulty process will receive the message AUX [ RI] ({ W}) from a -
-different processes ( N t), and set by l ine New 5 valuesi = { w}. This circle ( R 1 ) or mean that their decision ( R + 2 ) period.
-From asynchronous to synchronous decision - making in order to ensure the f inal
-synchronization hypothesis, and after each trouble - free processing t ime- out value is large enough ( that is, than the upper bound messagin g big delay), we need to  eventually perform  all non- synchronized troubleshooting Round . It observed that, since the initial
-asynchronous, non- fault on the consensus algorithm can process at different t imes. In addition, due to the potential participants B yzantine process, a number of non- faulty process can be ahead of two, without decisions, and other trouble - free process i s still
-executing the previous rounds. By using a long process t imes out all round, and ultimately achieve synchronous behavior from th eir circle.
-Lemma 12 . We consider the algorithm of Figure 3 will ultimately no faults in the process of synchronization round from their behavio r.
-3 Synch f inal proofing has an unknown message transmission delay constraint 5 . As
-noted in Section 2 , assuming local processing t ime is equal to zero. ( Or, in  Appendix B  and C  do not depend on this assumption is provided with two additional evidence). Hereinafter,
-description will be  given in  t ime units of  integers. Subscripts ( e. g.  tfirst O)  will be  used to
-indicate the sign of t is elapsed since the beginning of the algorithm has, as a  whole so  that  the global number of viewer G. known from the measured t ime unit measuring a given t ime period at least as  observed the  rate  of  non - fault processes and events can  occu r  at  integer t ime unit.
-We will use the following definitions:
-tfirstr as measured by  a  G  in the f i rst t ime of  non - failure process pfirst arrival circle R   ( tfirst O t ime, when the f i rst non - consensus start troubleshooting).
-t lastr is the last non- faulty process PLAST arrival circle R ( t last O is the t ime when the
-
-last non- consensus start troubleshooting) as the t ime measured by the G.
-For a circle is synchronous, all non - fault process must have enough t ime to get all the news that a t imeout before any due pro cess trouble- free broadcast of trouble- free process that round. In this case, the last non - fault is processed in turn reaches the coordinator,
-which may take up to COORD_ VALUE [ R] 3 before the message is received by all the
-non- faulty delay to  process mess ages  ( including messages delayed until up  to  2  a  value into i ts bin_ values [ r] and the further delayed broadcast message COORD_ VALUE [ R]). Therefore, we must have a round where r t lastr + 5 < tfirstr + t imeout r.
-It  should be  noted that taking into account  the t ime- out  from 0 0  round, each by  one
-round of growth, we can replace the R t imeoutr consider any round of the f i rst round of the river which t imeoutr O ^ R 0 meet. For any round in which R 00 R 00 plastr OO 2 R 0 maximum
-amount of t ime to complete the round will be 2 xtimeoutr00 . This is due to the fact, f inally trouble- free process circle arrival will not have to wait to receive more than 5 longer in
-order to  meet the information on  the l ine M - 05  and M- 07  to  the required conditions, in
-order to take t ime to p erform the wheel will no more than two t imeout length
-polymorphism. All other non- fault process takes at least 2 xtimeoutr 00 complete circle R 00.
-From a certain round in which R 00 process last no defect in t ime can be written as:
-
-When the f i rst t ime the process reaches a circle without defects R 00 is:
-
-1 block to the results of this inequality points:
-
-Remove the equal components, we have:
-t lastr O + 3 x52 tons a desk / ^ 0 + R 00 .
-Therefore, through a circular R 00 = t lastr O + 3 x5 - tfirstr O synchronization is guaranteed.
-Now will show that once inequality ( 1 ) satisfies an R 00 ( which t imeoutr00 > 5 ), i t will remain satisfactory in all of the following rounds. Consider wheel R 00 + 1 , in view of
-inequality ( 1 ) Established in round R 00 ,  we have: t lastr00 + 3 x5 < tfirstr00 + t imeoutr00 . ( 2 )
-And i t needs to prove the following inequality is true:
-Father t lastr00 + 1 + 3 5 < t | a / A00 + 1 + overtime / ^ 00 + 1 ( 3 )
-Using the same parameters as  the above process of  the f i rst  and last t imes wherein  R 00 + 1 reaches the wheel has:
-t lastr00 + 1 = t lastr00 + 2 xtimeoutr00 and tfirstr00 + 1 > tfirstr00 + 2 xtimeoutr00 . This clogging of the inequality ( 3 ) results in:
-t lastr00 + 2 xtimeoutr00 + 3 x5 < tfirstr00 + 2 xtimeoutr00 + t imeoutr00 + 1 . Aliquots result in:
-t lastr00 + 3 x5 < tfirstr00 + t imeoutr00 + 1 .
-This inequality, which is equivalent to Inequality ( 3 ) having the same components, the inequality ( 2 ), except that instead of having t imeoutr00 + 1 t imeoutr00 . Thus, Inequality ( 3 ) must be satisfied, because the ineq uality ( 2 ) i s satisfied. This is summed up by any one of
-R 00 after real. 5 . 6 Proof 3 Synch 2 Lemma 12 based algorithm
-The certificate consists of two parts :( a) show, add statements consistent security
-proof idle t ime algorithm in FIG. 2 , and ( i i ) show that all non- faulty f inal decision process.
-Lemma 13 . Validity and satisfaction algorithm BBC - BBC- protocol properties as described in FIG.
-Proof to prove the lemma proof comprising 5 , 6 , 7 and 8 , maintain the correct, these
-proofs 3 substantially remains the a lgorithm takes into account FIG correct because, as the
-
-new and modified assignment statement does not set bin_ valuesi [ R] in the non - fault
-handling, and with a characteristic not bin_ valuesi t iming hypothesis, non - faulty process can not contain only by the PI process Byzantine recommended value setting spoon
-bin_ valuesi [ R]. It follows from this observation, the non - faulty at any
-Li ( l ine M- 07 , New5 , 10 or 11 , defined or updated) and local variables from valuesi ESTI can contain only non- faulty process values. More specifically, we have the following.
-•Lemma 5 . Let R be a circle under consideration, and v is no process failure of current estimates. Then, we have bin_ valuesi [ R] = { V} M - 05 l ine of each non- fault process pi. - If
-the fault- free round coordination PK, we each non- fault occurred AUXI = bin_ valuesi [ R] =
-{ V}. It follows then valuesri = { V} and lemma since the l ine 09 and 10 hold true.
-- If the coordinate PK Byzantine circle and different values may be sent to non- fault
-process, let us consider the received message COORD_ VALUE [ R] non - fault handling ({ 1 - V}). (1	- v) of G / bin_ valuesi [ R], online NEW 4 , PI performed " else" portion, where i t is
-provided to AUXI { V} ( bin_ valuesi unique value in [ R & l t]), and the following lemma.
-•Lemma 6 , since i t does not rely on a t imer, and relates only to the fact that valuesri each group and the two non - fault process valuesrj single, still prove effective.
-•Lemma 7 . proof of the fact that following collection bin_ valuesi any non - fault process of troubleshooting can only contain non - recommended value.
-•Lemma 8 . Because i t depends only on sets valuesri trouble - free  processes, this proof  is still correct. Lemma 14 . The algorithm described in Figure 3 ensures that each non - fault decision process.
-Prove that we f i rst observed, due to the expiration of the t imer always, " wait"
-statements ( revised l ine M- 05 and M 07 ) always terminates, so Lemma 9 is still correct. Readers can also check the proof of Lemma 10 is still valid.
-It still indicates that there has rounded R at  the f inal end, which all non - fault handling  Pi w have the same value in their set of variables ( valuesri = { W}) ( from which decides Since Lemma 10 ) demonstrated shown that, due to the assumed f inal synchronization ( a) in, ( b)
-the wheel coordination mechanism, and ( c) of the message by the wheel
-Coordinator transmission COORD_ VALUE, there is a circle R, as valuesri = { w} of each process in the non- defective.
-Let us consider a t ime t ( arrive in t ime - out value of all non- fault process, so that all information exchanged by the non - faulty process) from ( due to the lemma 12 )
-synchronization system behavior. Let r PK is coordinated by the process does not  fail after t  min of  the number of  turns. The circular R, PK broadcast COORD_ VALUE [ R] l ine NEW 2  ( W),   a f i rst value is set into i ts watt bin_ valuesk [ R] is. Message COORD_ VALUE [ R] ( w) is
-received by all non- faulty process in a t imely manner, to  the set { w} AUXI l ine NEW 4 .  Thus, all non- fault handling broadcast AUX in the M - 06 l ine of [ R] ({ W}) and t he l ine receiving
-M-077 in the ( N - t) of the AUX [ R] ({ W}) from a different process message, the l ine is set to
-{ w} New 5 valuesi. All non- fault decision process for a W R + 1 , wherein the proof of Lemma conclusions drawn. Theorem 3 Algorithm 2 Lemma 14 desc ribed in FIG. 3 solves the binary
-system model BAMPn Byzantine agreement, T [ t < N / 3 , 3Synch].
-Proof evidence from Lemma 13 ( BBC -  validity and  BBC- Protocol) and lemma 14  ( termination) directly.
+10.5.5A binary consensus Byzantine algorithm BAMPn, T [T <N / 3,3Synch] In this section, we describe this is to ensure consistency as 0 in binary Byzantine algorithm ( t) terminate our wheels, which is  known  to  be the best.<br>
+The algorithm described  in FIG. 3 in FIG. 2 is extended security algorithms The goal is to add the consensus termination property.<br>
+The same l ine with the same number of two algorithms. New l ine in FIG. 3 is numbered " Next 〃 end, wherein x i s an integer, and the modified l ine by the" M- 〃    prefix.  In  addition to  using local t imer based on  the wheel, and ultimately benefit from 3 Synch assumptions, which extends round the concept of coordination algorithms used: plays a special role in each roun d scheduled process of coordinating efforts to impose  the value of the other wheel of the decision process . For this reason, in turn play a more accurate circular coordinator role in each process.<br>
+The set of process P 1 ,  . . . ,  the PN, the circle r  PI  coor dinator process is  such that i  = (( R - D MOD N) + 1 . 5 additional local variables and message types in  addition to  ESTI, RI, bin_ valuesi [ R], and valuesi, each inlet PI management process following local variables.<br>
+t imeri a local t imer, and t imeouti -  a  t imeout value, both to  the use of  assumptions  3 Synch.<br>
+coordi round is coordinated indicators.<br>
+AUXI is a secondary set of values for stored value ( i f any) i s currently coordinating efforts to exert their judgment value.<br>
+Circle R coordinator, using message type COORD_ VALUE [ R]<br>
+(1)) to broadcast i ts attempts to become a value in favor of the decision.Operation bin_ propose ( VI) is<br>
+(2)) ESTI f six; RI  ^  0 ;  t imeouti ^ O;<br>
+( 3 ) and ( really) do<br>
+( 4 ) RI traffic RI + 1 ;( NEW 1 ) coordi ^ (( RI -   1 ) MOD N) + 1 ; t imeouti ^ t imeouti + 1 ; t imeri provided to    t imeouti;( 4 ) BV_ broadcast EDT [ RI] ( ESTI);<br>
+( NEW 2 ) If ( I = coordi) and wait_ until ( bin_ valuesi [ RI] = { w}); // w is a value of [ the RI] RADIO COORD- value [ the RI] of entering bin_ valuesi;<br>
+( M. 5 ) wait- until ( bin- valuesi [ RI] 6 = 0 ) eight ( TIMERi expired);<br>
+( NEW 3 ) arranged to t imeri t imeouti;<br>
+( NEW 4 ) i f ( COORDjt [ RI] ( W) received from a # pcoord) ( W G bin- values and AUXIf { w} Otherwise AUXI Service bin- valuesi [ RI] just in case;<br>
+( M. 6 ) broadcast AUX [ RI] ( AUXI);<br>
+( M. 7 ) wait- until ( message AUX [ RI] ( b- valp ( 1 )), . . . , AUX [ RI] ( b- valp ( N- t)) has been received From the ( N  -  t )  different process P  ( X), 1  < X < N	- t and their contents Is such a non- empty set 3 - valuesi such ⑴ valuesi £  bin_ valuesi [ RI] and ( i i )  valuesi = U1 < x <n- tb_ valx) eight ( TIMERi expired); ( New 5 ) i f ( considering the entire message of the set of when AUX [ RI] () received, sets values 1 i , values 2 i , . . . satisfy the previously waiting predicate) eight ( one of them is AUXI) then valuesi traffic AUXI END IF;<br>
+Double f RI mold 2 ;<br>
+If  ( valuesi =  { V}) //  valuesi is  a  single, whose elements v	Then ESTI ^ V; i f ( V = BI) before deciding ( V), i f  not ended,  i f;	Otherwise double ESTI Service  In BAMPn a secure site and binary Byzantine consensus algorithm, T [ t < N / 3, 3 Synch]
+Description Extended algorithm describes the following i tems appear in Figure 3 of the new and revised statements.<br>
+•the l ine NEW 1 , PI calculating the current wheel coordinator, and set i ts local t imer, which is used in the predicate of the expiration l in e M- 05 . The t imeout value is initialized before entering the loop, then rose in every round.<br>
+•NEW 3 l ine is a t imer that expires for resetting a simple l ine in the modified M - 07 predicate.<br>
+Line NEW 2 , NEW 4 , M- 06 , and New 5 implement a mechanism that allows t he current round of coordination, trying to impose a value of 6 into the f i rst judgment of i ts value bin_ values set. The fact that, after the presence of a t ime, by a non - fault message exchange process is t imely, i t will have to ensure that the wheel dur ing this period, the non- faulty process will have a single value in their valuesi sleeve ( which binds - 10 required by the lemma their decision).<br>
+•modified l ines of the M- 05 and M- 07 : In addition to the predicate in the corresponding l ine considered in t i mer expires.<br>
+As just seen, the idea to start the operation of these new or revised statement is: caused such a decision from the overall coordination of the interests of a defect - free, by requiring the process, so that all non - fault process uses i t to play a recommended value. to this end: Circular coordinate PK broadcast message COORD_ VALUE [ RI] ( W), wherein w is set into i ts bin_ values ( l ine NEW 2 ) the f i rst value.<br>
+If PK is no fault, the fault - free process t imeout value is large enough, and the message t ransmission delay binding, all non- faulty process will receive the l ine M - 06 before the t imer expires.<br>
+•Then, assuming that the previous i tem, is set to Wa Laid AUXI ( l ine NEW 4 )} all non- fault handling, and broadcasts i t ( l ine M - 06 ). W predicate Gbin_ valuesi [ RI] for preventing Byzantine coordinator sends the tank during the non - faulty false.<br>
+•Finally, all non- faulty process will receive the message AUX [ RI] ({ W}) from a - different processes ( N t), and set by l ine New 5 valuesi = { w}. This circle ( R 1 ) or mean that their decision ( R + 2 ) period.<br>
+From asynchronous to synchronous decision - making in order to ensure the f inal synchronization hypothesis, and after each trouble - free processing t ime- out value is large enough ( that is, than the upper bound messagin g big delay), we need to  eventually perform  all non- synchronized troubleshooting Round . It observed that, since the initial asynchronous, non- fault on the consensus algorithm can process at different t imes.<br>
+In addition, due to the potential participants B yzantine process, a number of non- faulty process can be ahead of two, without decisions, and other trouble - free process i s still executing the previous rounds.<br>
+By using a long process t imes out all round, and ultimately achieve synchronous behavior from th eir circle.<br>
+Lemma 12 . We consider the algorithm of Figure 3 will ultimately no faults in the process of synchronization round from their behavio r. 3 Synch f inal proofing has an unknown message transmission delay constraint 5 . As noted in Section 2 , assuming local processing t ime is equal to zero. ( Or, in  Appendix B  and C  do not depend on this assumption is provided with two additional evidence).<br>
+Hereinafter, description will be  given in  t ime units of  integers. Subscripts ( e. g.  tfirst O)  will be  used to indicate the sign of t is elapsed since the beginning of the algorithm has, as a  whole so  that  the global number of viewer G. known from the measured t ime unit measuring a given t ime period at least as  observed the  rate  of  non - fault processes and events can  occu r  at  integer t ime unit.<br>
+We will use the following definitions: tfirstr as measured by  a  G  in the f i rst t ime of  non - failure process pfirst arrival circle R   ( tfirst O t ime, when the f i rst non - consensus start troubleshooting).<br>
+t lastr is the last non- faulty process PLAST arrival circle R ( t last O is the t ime when the last non- consensus start troubleshooting) as the t ime measured by the G.<br>
+For a circle is synchronous, all non - fault process must have enough t ime to get all the news that a t imeout before any due pro cess trouble- free broadcast of trouble- free process that round. In this case, the last non - fault is processed in turn reaches the coordinator, which may take up to COORD_ VALUE [ R] 3 before the message is received by all the non- faulty delay to  process mess ages  ( including messages delayed until up  to  2  a  value into i ts bin_ values [ r] and the further delayed broadcast message COORD_ VALUE [ R]). Therefore, we must have a round where r t lastr + 5 < tfirstr + t imeout r.
+It  should be  noted that taking into account  the t ime- out  from 0 0  round, each by  one round of growth, we can replace the R t imeoutr consider any round of the f i rst round of the river which t imeoutr O ^ R 0 meet. For any round in which R 00 R 00 plastr OO 2 R 0 maximum amount of t ime to complete the round will be 2 xtimeoutr00 . <br>
+This is due to the fact, f inally trouble- free process circle arrival will not have to wait to receive more than 5 longer in order to  meet the information on  the l ine M - 05  and M- 07  to  the required conditions, in order to take t ime to p erform the wheel will no more than two t imeout length polymorphism. <br>
+All other non- fault process takes at least 2 xtimeoutr 00 complete circle R 00.<br>
+From a certain round in which R 00 process last no defect in t ime can be written as:When the f i rst t ime the process reaches a circle without defects R 00 is: 1 block to the results of this inequality points: Remove the equal components, we have: t lastr O + 3 x52 tons a desk / ^ 0 + R 00 . Therefore, through a circular R 00 = t lastr O + 3 x5 - tfirstr O synchronization is guaranteed.<br>
+Now will show that once inequality ( 1 ) satisfies an R 00 ( which t imeoutr00 > 5 ), i t will remain satisfactory in all of the following rounds.<br>
+Consider wheel R 00 + 1 , in view of inequality ( 1 ) Established in round R 00 ,  we have: t lastr00 + 3 x5 < tfirstr00 + t imeoutr00 . ( 2 ) And i t needs to prove the following inequality is true: Father t lastr00 + 1 + 3 5 < t | a / A00 + 1 + overtime / ^ 00 + 1 ( 3 ) Using the same parameters as  the above process of  the f i rst  and last t imes wherein  R 00 + 1 reaches the wheel has: t lastr00 + 1 = t lastr00 + 2 xtimeoutr00 and tfirstr00 + 1 > tfirstr00 + 2 xtimeoutr00 . <br>
+This clogging of the inequality ( 3 ) results in: t lastr00 + 2 xtimeoutr00 + 3 x5 < tfirstr00 + 2 xtimeoutr00 + t imeoutr00 + 1 . Aliquots result in: t lastr00 + 3 x5 < tfirstr00 + t imeoutr00 + 1 . This inequality, which is equivalent to Inequality ( 3 ) having the same components, the inequality ( 2 ), except that instead of having t imeoutr00 + 1 t imeoutr00 . Thus, Inequality ( 3 ) must be satisfied, because the ineq uality ( 2 ) i s satisfied. This is summed up by any one of R 00 after real. 5 . 6 Proof 3 Synch 2 Lemma 12 based algorithm The certificate consists of two parts :( a) show, add statements consistent security proof idle t ime algorithm in FIG. 2 , and ( i i ) show that all non- faulty f inal decision process.<br>
+Lemma 13 . Validity and satisfaction algorithm BBC - BBC- protocol properties as described in FIG.<br>
+Proof to prove the lemma proof comprising 5 , 6 , 7 and 8 , maintain the correct, these proofs 3 substantially remains the a lgorithm takes into account FIG correct because, as the new and modified assignment statement does not set bin_ valuesi [ R] in the non - fault handling, and with a characteristic not bin_ valuesi t iming hypothesis, non - faulty process can not contain only by the PI process Byzantine recommended value setting spoon bin_ valuesi [ R]. It follows from this observation, the non - faulty at any Li ( l ine M- 07 , New5 , 10 or 11 , defined or updated) and local variables from valuesi ESTI can contain only non- faulty process values.<br>
+More specifically, we have the following.<br>
+•Lemma 5 . Let R be a circle under consideration, and v is no process failure of current estimates.<br>
+Then, we have bin_ valuesi [ R] = { V} M - 05 l ine of each non- fault process pi. - If the fault- free round coordination PK, we each non- fault occurred AUXI = bin_ valuesi [ R] = { V}. It follows then valuesri = { V} and lemma since the l ine 09 and 10 hold true.<br>
+- If the coordinate PK Byzantine circle and different values may be sent to non- fault process, let us consider the received message COORD_ VALUE [ R] non - fault handling ({ 1 - V}). (1	- v) of G / bin_ valuesi [ R], online NEW 4 , PI performed " else" portion, where i t is provided to AUXI { V} ( bin_ valuesi unique value in [ R & l t]), and the following lemma.<br>
+•Lemma 6 , since i t does not rely on a t imer, and relates only to the fact that valuesri each group and the two non - fault process valuesrj single, still prove effective.<br>
+•Lemma 7 . proof of the fact that following collection bin_ valuesi any non - fault process of troubleshooting can only contain non - recommended value.<br>
+•Lemma 8 . Because i t depends only on sets valuesri trouble - free  processes, this proof  is still correct. Lemma 14 . The algorithm described in Figure 3 ensures that each non - fault decision process.<br>
+Prove that we f i rst observed, due to the expiration of the t imer always, " wait" statements ( revised l ine M- 05 and M 07 ) always terminates, so Lemma 9 is still correct. Readers can also check the proof of Lemma 10 is still valid.<br>
+It still indicates that there has rounded R at  the f inal end, which all non - fault handling  Pi w have the same value in their set of variables ( valuesri = { W}) ( from which decides Since Lemma 10 ) demonstrated shown that, due to the assumed f inal synchronization ( a) in, ( b) the wheel coordination mechanism, and ( c) of the message by the wheel Coordinator transmission COORD_ VALUE, there is a circle R, as valuesri = { w} of each process in the non- defective.<br>
+Let us consider a t ime t ( arrive in t ime - out value of all non- fault process, so that all information exchanged by the non - faulty process) from ( due to the lemma 12 ) synchronization system behavior.<br>
+Let r PK is coordinated by the process does not  fail after t  min of  the number of  turns. The circular R, PK broadcast COORD_ VALUE [ R] l ine NEW 2  ( W),   a f i rst value is set into i ts watt bin_ valuesk [ R] is. Message COORD_ VALUE [ R] ( w) is received by all non- faulty process in a t imely manner, to  the set { w} AUXI l ine NEW 4 .  Thus, all non- fault handling broadcast AUX in the M - 06 l ine of [ R] ({ W}) and t he l ine receiving M-077 in the ( N - t) of the AUX [ R] ({ W}) from a different process message, the l ine is set to { w} New 5 valuesi. All non- fault decision process for a W R + 1 , wherein the proof of Lemma conclusions drawn.<br>
+Theorem 3 Algorithm 2 Lemma 14 desc ribed in FIG. 3 solves the binary system model BAMPn Byzantine agreement, T [ t < N / 3 , 3Synch].
+Proof evidence from Lemma 13 ( BBC -  validity and  BBC- Protocol) and lemma 14  ( termination) directly.<br>
 
 
-Naming system:
+Naming system:<br>
 -
 
-The traditional use of the Internet Domain Nam e System ( DNS) maps humanreadable names to IP addresses ( which gives the location of the nodes and content). When Internet
-users type in their browser, DNS server returns a human - readable names to IP addresses in cnn. com. ICANN, a non - profit organization, management and DNS root servers. The server
-is the central point of trust and failure; they can be taken offline by DDo S attacks and
-change the DNS server domain mapping through coercion, deception or change from their
-
-responses.
-In pointnity, we need to replace the dispersion DNS i . e., binds human - readable name to discover data, but without any central point of failure or control system. There is
-thought that human- readable name is not important, long ID and password of search engine combining alternative DNS - school. Our view is that human- readable names is to provide a good user experience, and essential in practice, i t  would be  hard to  convince Internet users  to change their habits, and stop using the online human - readable name.
+The traditional use of the Internet Domain Nam e System ( DNS) maps humanreadable names to IP addresses ( which gives the location of the nodes and content). When Internet users type in their browser, DNS server returns a human - readable names to IP addresses in cnn.< com. ICANN, a non - profit organization, management and DNS root servers. The server is the central point of trust and failure; they can be taken offline by DDo S attacks and change the DNS server domain mapping through coercion, deception or change from their responses.<br>
+In pointnity, we need to replace the dispersion DNS i . e., binds human - readable name to discover data, but without any central point of failure or control system. There is thought that human- readable name is not important, long ID and password of search engine combining alternative DNS - school.<br>
+Our view is that human- readable names is to provide a good user experience, and essential in practice, i t  would be  hard to  convince Internet users  to change their habits, and stop using the online human - readable name.<br>
 No basic computer science challenges and build a naming system. There are three attributes, we may need to have a name: The name is
-(1)) The only ( meaning that the absence of two  independent  people  can  create  and use unique names l ike cnn. com)
-(2)) a human- readable
-(3)) Dispersion ( name should be selected by the user in the center at the edge of the network by the central authorities, rather than on behalf of the user). Computer science challenge i s before blockchains, naming system only allows three characteristics [ 15 ] , any
-two of the three never at the same t ime. This l imit is  called the triangle Zooko. For example,  the public key is unique, decentralized because users can generate their own computers
-without any central service, but not human readable. Twitter handle is human read able, unique, rather than scattered ( Twitter, the company controls namespace). A nickname is human readable and dispersed ( the user can select anyone nickname), but not the only. Blockchains party Zooko triangle, and for the f i rst t ime there may be no use of a unique human- readable name of any centralized services.
-Namecoin is the f i rst system to use blockchain establish decentralized naming system.
-Our experience running Namecoin production network on the show, highlighting the maximum mostsecure blockchai n network requires a certain degree of security and
-reliability issues terms of reference are as follows: a space corresponding to the key organization and can not exceed a franchise
+(1)) The only ( meaning that the absence of two  independent  people  can  create  and use unique names l ike cnn. com)<br>
+(2)) a human- readable<br>
+(3)) Dispersion ( name should be selected by the user in the center at the edge of the network by the central authorities, rather than on behalf of the user).<br>
+Computer science challenge i s before blockchains, naming system only allows three characteristics [ 15 ] , any two of the three never at the same t ime. <br>
+This l imit is  called the triangle Zooko.<br>
+For example,  the public key is unique, decentralized because users can generate their own computers without any central service, but not human readable.<br>
+Twitter handle is human read able, unique, rather than scattered ( Twitter, the company controls namespace).<br>
+A nickname is human readable and dispersed ( the user can select anyone nickname), but not the only. Blockchains party Zooko triangle, and for the f i rst t ime there may be no use of a unique human- readable name of any centralized services.<br>
+Namecoin is the f i rst system to use blockchain establish decentralized naming system.<br>
+Our experience running Namecoin production network on the show, highlighting the maximum mostsecure blockchai n network requires a certain degree of security and reliability issues terms of reference are as follows: a space corresponding to the key organization and can not exceed a franchise<br>
 
-System Security
+System Security<br>
 -
 
-Security pointnity defensive programming language derived from the design of  the AVM and strict restrictions on the t ime, space and resource use. In addition, the security focus will also be provided by scripting language authoring tool. For example, the logical  correctness pointnity chain code may, model checki ng verification and analysis tools
-provided by conventional bytecode.
-
+Security pointnity defensive programming language derived from the design of  the AVM and strict restrictions on the t ime, space and resource use.<br>
+In addition, the security focus will also be provided by scripting language authoring tool.<br>
+For example, the logical  correctness pointnity chain code may, model checki ng verification and analysis tools provided by conventional bytecode.<br>
 
 PONT token rules and Legal Notices
 
-Please note that this is not any type of investment Description
-This document does not constitute any form of prospectus; i t is not a solicitation to invest, not in any way involve the provision of securities in Canada or the United States,
-Canada and the United States and China as well as residents of explicitly exclude any exchange of PONT token donation in public products .
+Please note that this is not any type of investment Description This document does not constitute any form of prospectus; i t is not a solicitation to invest, not in any way involve the provision of securities in Canada or the United States, Canada and the United States and China as well as residents of explicitly exclude any exchange of PONT token donation in public products .<br>
 
 DISCLAIMER:
 -
