@@ -808,288 +808,200 @@ Section 4 , in binary Byzantine agreement, reducing the multivalued Byzantine ag
 --
 
 2.1Base calculation model The processing system is processed by the asynchronous asynchronous order n, i . e. gang door = 1 , . . . , PN} is a set of n; . " 〃 index" i is called PI 〃 means that each asynchronous process proceeds thereof at their own pace, which may  change over t ime  and  is still unknown to other processes. " Refers to a sequence  〃 a process step  is  performed once. This does not interfere with i ts proper multiplexing multiple threads of execution.<br>
-Local processing t ime is negligible with respect to the message transmission delay, which is considered to be zero. ( We  show you how to  relax this assumption in Annex B  and    C) and two representations GY PIGY I used to say, PI belonging to the set Y.
-Processing of the communication by the communication network via the asynchronous message reliably to- point switching network. " Asynchronous 〃 mean there is  no  restraint  on the message transmission delays, but these delays are l imited." Reliable 〃 refers to
-the network is not lost, copy, modify or create messages. " It refers to any connection
-point 〃  processing a  bidirectional channel. Thus, when the  process receives a  message, i t  can recognize i ts sender.
-Method, the PI by  calling the primitive " to  TAG  ( m) to  pj i s    〃    wherein TAG  is  a  type
-and  m  the  message the  contents of  which sends  a  message to  a  process PJ.  To  simplify the
-description, assume that a process can send a message to i tself . method, PI message
-received by the execution of the original " received 〃 . Macro operation of the broadcast  TAG ( M) is used as " PI en pies for each TAG ( m) to the end of pj 〃 shortcut.
-Fault model can process up to T exhibit Byzantine behavior. A Byzantine process
-exhibit any of the methods: i t may crash, can not send or receive mess ages, send any
-message, to start in any state, performing any state transition, and the l ike. In addition, the process can be Byzantine collusion " pollution 〃 calculations ( e. g., but they should send a message with different content having the same content transmitted message, and, i f they
-are non- fault). Behaviors exhibited Byzantine fault process is known. otherwise, the non- fault.
-Let  us  note that  since each connection is  handled by  the channel, the  Byzantine
-process may not impersonate another process. Byzantine process which can control the network message is received by sequentially modified, but they are not always defer
-message received.
+Local processing t ime is negligible with respect to the message transmission delay, which is considered to be zero. <br>
+( We  show you how to  relax this assumption in Annex B  and    C) and two representations GY PIGY I used to say, PI belonging to the set Y.<br>
+Processing of the communication by the communication network via the asynchronous message reliably to- point switching network.<br>
+" Asynchronous 〃 mean there is  no  restraint  on the message transmission delays, but these delays are l imited." Reliable 〃 refers to the network is not lost, copy, modify or create messages. <br>
+" It refers to any connection point 〃  processing a  bidirectional channel. Thus, when the  process receives a  message, i t  can recognize i ts sender.<br>
+Method, the PI by  calling the primitive " to  TAG  ( m) to  pj i s    〃    wherein TAG  is  a  type and  m  the  message the  contents of  which sends  a  message to  a  process PJ. <br>
+To  simplify the description, assume that a process can send a message to i tself . method, PI message received by the execution of the original " received 〃 .<br>
+Macro operation of the broadcast  TAG ( M) is used as " PI en pies for each TAG ( m) to the end of pj 〃 shortcut.<br>
+Fault model can process up to T exhibit Byzantine behavior.<br>
+A Byzantine process exhibit any of the methods: i t may crash, can not send or receive mess ages, send any message, to start in any state, performing any state transition, and the l ike. In addition, the process can be Byzantine collusion " pollution 〃 calculations ( e. g., but they should send a message with different content having the same content transmitted message, and, i f they
+are non- fault).<br>
+Behaviors exhibited Byzantine fault process is known. otherwise, the non- fault.<br>
+Let  us  note that  since each connection is  handled by  the channel, the  Byzantine process may not impersonate another process.<br> Byzantine process which can control the network message is received by sequentially modified, but they are not always defer message received.<br>
 Symbol Abbreviation BAMPn, T [ 0 ] is used to represent the previous calculation substantially Byzantine asynchronou s Message Passing
-Model; 0 means no additional assumptions. In the Byzantine system
-2.22Reliable broadcast
-This abstract definition of broadcasting ( in short, RB - broadcast) proposed by G. of Bracha. It is a single- trigger pair abstract all communications, which provides two
-processing operations and represents RB_ broadcast RB_ delive r. When the PI call operation RB_ broadcast ( respectively, RB_ deliver), we say that i t " RBbroadcasts 〃 message
-( respectively," RB- provide 〃 news). A broadcast RB- e. g., when the process
-px is the sender, defined by the following properties.
-RB- effectiveness. If a non- faulty process from the non- fault- pixel processing, and provide RB- meters PX RB- broadcast message m.
-RB- Unicity. A non- faulty process RB- provide a message from a pixel at most.
+Model; 0 means no additional assumptions. <br>
+In the Byzantine system 2.22Reliable broadcast This abstract definition of broadcasting ( in short, RB - broadcast) proposed by G. of Bracha.<br>
+It is a single- trigger pair abstract all communications, which provides two processing operations and represents RB_ broadcast RB_ delive r. <br>
+When the PI call operation RB_ broadcast ( respectively, RB_ deliver), we say that i t " RBbroadcasts 〃 message ( respectively," RB- provide 〃 news). A broadcast RB- e. g., when the process px is the sender, defined by the following properties.RB- effectiveness. If a non- faulty process from the non- fault- pixel processing, and provide RB- meters PX RB- broadcast message m. RB- Unicity. A non- faulty process RB- provide a message from a pixel at most.<br>
 
 RB- termination 1 . If there is no defect and RB - PX broadcast message m, all non- faulty process from the f inal
-PX RB- provide meters
-RB- termination - 2 . If a non- faulty process RB- PX  message delivered from the m  ( may be faulty), all non- faulty process ultimately provides the same message m from PXRB - .
-Output RB- validity attribute refers to the input terminal, and  RB -  unity indicates that no duplicate message. Event of termination statements that the process must RB - deliver
-the message. Their second is what makes broadcast and  reliable. It  was  shown in  a  t  < N  /  3 is the upper l imit for T, when performing such an abstraction has.
-Let' s  remark, i t  is  possible that the value can be  delivered by  non - fault RB-  process,
-but i t is actually a Byzantine and the sender has not invoked RB_ broadcast. This is possible,  for example when the sender Byzantine network level, in which several messages sent to
-different subsets of the playback process occurs, and executes a predicate RB - RB-
-transport algorithm is abstract broadcast messages in a f inal satisfaction. When this
-happens, by abuse of language, we say that the sender of the call RB - broadcast. This is achieved by the fact that, in this case, the non - faulty i f the sender i s not the process can  not distinguish between a fault or motivation.
-Additional constraint t symbols substantially enhanced computational model < N / 3 are expressed BAMPn, T [ t < N / 3 ] .
-The  algorithm implemented in  the  algorithm described RB -  broadcast BAMPn, T  [ t  < N  / 3 ] . Accordingly, i t is the best toughness t. The algorithm requires three communication step, application in a broadcast message. Only two model systems BAMPn communication step
-algorithm, T [ T < N / 5 ] are shown.
+PX RB- provide meters RB- termination - 2 . If a non- faulty process RB- PX  message delivered from the m  ( may be faulty), all non- faulty process ultimately provides the same message m from PXRB - . Output RB- validity attribute refers to the input terminal, and  RB -  unity indicates that no duplicate message. Event of termination statements that the process must RB - deliver the message.<br>
+Their second is what makes broadcast and  reliable.<br>
+It  was  shown in  a  t  < N  /  3 is the upper l imit for T, when performing such an abstraction has.<br>
+Let' s  remark, i t  is  possible that the value can be  delivered by  non - fault RB-  process, but i t is actually a Byzantine and the sender has not invoked RB_ broadcast. This is possible,  for example when the sender Byzantine network level, in which several messages sent to different subsets of the playback process occurs, and executes a predicate RB - RB- transport algorithm is abstract broadcast messages in a f inal satisfaction. When this happens, by abuse of language, we say that the sender of the call RB - broadcast.<br>
+This is achieved by the fact that, in this case, the non - faulty i f the sender i s not the process can  not distinguish between a fault or motivation.<br>
+Additional constraint t symbols substantially enhanced computational model < N / 3 are expressed BAMPn, T [ t < N / 3 ] . The  algorithm implemented in  the  algorithm described RB -  broadcast BAMPn, T  [ t  < N  / 3 ] . Accordingly, i t is the best toughness t. The algorithm requires three communication step, application in a broadcast message. Only two model systems BAMPn communication step
+algorithm, T [ T < N / 5 ] are shown.<br>
 
-10.3, Blockchain Byzantine consensus
+10.3, Blockchain Byzantine consensus<br>
 --
 
-As propagation algorit hm consensus on all the news value is assumed ( multi - value and binary consensus algorithm presented below), all non - fault process raised.
-Based on the effectiveness of the predicate
+As propagation algorit hm consensus on all the news value is assumed ( multi - value and binary consensus algorithm presented below), all non - fault process raised.<br>
+Based on the effectiveness of the predicate<br>
 
-10.3.1Multivalued Byzantine consensus
+10.3.1Multivalued Byzantine consensus<br>
 --
 
-In this paper, we consider a general ization of the classic Byzantine consistency, the
-introduction informally. Because of i ts effectiveness requirements excited by blockchain,
-depends on effective application- specific O predicate to indicate whether the value is valid, we call this question the effectiveness of the Byzantine predicate based consensus
-( expressed VPBC) and define i t as follows. Assume that each process is not f lawed, i t
-proposed an effective value, each of them has in such a way, also has a satisfactory value determines the following properties. 2
-VPBC termination. The value of a f inal decision on each non - faulty process. VPBC- agreement. Two non- fault decision process is not different values.
-VPBC- effectiveness. Value determination is effective, i t is effective to meet the expressed predefined predicates.
-The classic definition of this definition Byzantine general consensus, excluding the
-predicate effective. As an example, in  a  collision fault model, any  proposed value is  valid.  In the Byzantine basic consensus, any suggestion s values are valid unless all non
-Troubleshooting made the same value V, in this case, only V is effective. This predicate into account the introduction of the consortium blockchains, as well as other possible specific
-distinctive features Byzantine cons ensus problem. In the context of the consortium
-blockchains, proposal i s not valid, the hash value is added to the  appropriate Blockchain last block i f i t does not contain.
+In this paper, we consider a general ization of the classic Byzantine consistency, the introduction informally.<br>
+Because of i ts effectiveness requirements excited by blockchain, depends on effective application- specific O predicate to indicate whether the value is valid, we call this question the effectiveness of the Byzantine predicate based consensus ( expressed VPBC) and define i t as follows. Assume that each process is not f lawed, i t proposed an effective value, each of them has in such a way, also has a satisfactory value determines the following properties 2 VPBC termination. <br>
+The value of a f inal decision on each non - faulty process. VPBC- agreement. Two non- fault decision process is not different values.VPBC- effectiveness. <br>
+Value determination is effective, i t is effective to meet the expressed predefined predicates.<br>
+The classic definition of this definition Byzantine general consensus, excluding the predicate effective. <br>
+As an example, in  a  collision fault model, any  proposed value is  valid.  In the Byzantine basic consensus, any suggestion s values are valid unless all non Troubleshooting made the same value V, in this case, only V is effective.<br>
+This predicate into account the introduction of the consortium blockchains, as well as other possible specific distinctive features Byzantine cons ensus problem. <br>
+In the context of the consortium blockchains, proposal i s not valid, the hash value is added to the  appropriate Blockchain last block i f i t does not contain.<br>
 
-10.3.2Binary Byzantine consensus
+10.3.2Binary Byzantine consensus<br>
 --
 
-Multi- valued VPBC  implementation relies on  a  potential binary Byzantine consensus  ( expressed as BBC). It' s a free leader, as well as free signature free randomization
-implementation described in Section 5 .
-This duality Byzantine consensus validity attributes are as follows: I f all non
-Troubleshooting made the same value, no other values can be determined. To prevent
-confusion, the nature of the validity of the termination agreement and the BBC is denoted BBC- effectiveness, BBC- agreement and BBC- termination.
+Multi- valued VPBC  implementation relies on  a  potential binary Byzantine consensus  ( expressed as BBC). <br>
+It' s a free leader, as well as free signature free randomization implementation described in Section 5 .This duality Byzantine consensus validity attributes are as follows: I f all non Troubleshooting made the same value, no other values can be determined. To prevent confusion, the nature of the validity of the termination agreement and the BBC is denoted BBC- effectiveness, BBC- agreement and BBC- termination.<br>
 
-10.4from multi-value to binary consensus Byzantine system
+10.4from multi-value to binary consensus Byzantine system<br>
 --
 
 
-This section describes the consensus of the former Byzantine binary, reducing the value of multi- Byzantine consensus. We reduced guarantee an end after two binary
-sequence consensus instance. This is, to our knowledge, the f i rst predete rmined
-deceleration value of the non- consensus sequence in the example of a binary 0 ( 1 ) determined. Other reducing or returns a predefined value i f the consensus Shang
-suspension, or intolerance and Byzantine fault required to perform a binary sequence consensus instance dlogne. Our reduction is based on the abstract RB - broadcast
-communications, and examples of the underlying binary Byzantine consensus. Let BBC said that to solve the computing power required for two yuan Byzantine consensus. Thus,
-" multi-value to binary 〃 reduce work model BAMPn, T [ t < N / 3 , BBC]
+This section describes the consensus of the former Byzantine binary, reducing the value of multi- Byzantine consensus. We reduced guarantee an end after two binary sequence consensus instance. This is, to our knowledge, the f i rst predete rmined deceleration value of the non- consensus sequence in the example of a binary 0 ( 1 ) determined.<br>
+Other reducing or returns a predefined value i f the consensus Shang suspension, or intolerance and Byzantine fault required to perform a binary sequence consensus instance dlogne. Our reduction is based on the abstract RB - broadcast
+communications, and examples of the underlying binary Byzantine consensus. <br>
+Let BBC said that to solve the computing power required for two yuan Byzantine consensus. Thus, " multi-value to binary 〃 reduce work model BAMPn, T [ t < N / 3 , BBC]<br>
 
-10.4.1The reduction
+10.4.1The reduction<br>
 --
 
-Binary consensus object as mentioned earlier, in addition to broadcasting RB - abstract, the method can mark BIN_ C 0 NS [ 1 . . N] two yuan Byzantine array of cooperation consensus
-object. Examples BIN_ C 0 NS [ k] allows the process to f ind the value of non - fault by PK proposed agreement. This object is achieved by binary Byzantine consensus algorithm presented in Section 5 .
-To simplify the description, we think that this is a process w hich is involved in PI
-Release BIN_ C 0 NS [ K] by calling BIN_ C 0 NS [ K] . bin_ propose ( V), wherein, v G { 0 , 1 }. Then, i t executes a particular thread, and f inally returns the value corresponding to the code
-determined by BIN_ C 0 NS [ K].
-Each process PI- managed local variables following local variables; Shang default values can be represented by one ( failure or no failure) processes proposed.
-Array proposalsi [ 1 . . N] is initialized to [ Shang, . . . , Shang]. proposalsi [ J] of the object comprising
-PJ recommended value.
-bin_ decisionsi initialized to [ 1 . . N] [ Shang, . . . , Shang] array. bin_ decisionsi [ k] of the object
-It contains the value ( 0  or  1 )  is  determined by  the binary objects consensus BIN_ CONS [ k] is.
-Operation mv_ propose ( VI) is ( 1 ) RB_ broadcast VAL ( vi);
-⑵ If  Repeat 3 K:	( Proposalsi [ k] = Shang 6 ) eight ( BIN_ CONS [ K] . bin_ propose not
+Binary consensus object as mentioned earlier, in addition to broadcasting RB - abstract, the method can mark BIN_ C 0 NS [ 1 . . N] two yuan Byzantine array of cooperation consensus object.<br>
+Examples BIN_ C 0 NS [ k] allows the process to f ind the value of non - fault by PK proposed agreement. <br>
+This object is achieved by binary Byzantine consensus algorithm presented in Section 5 . To simplify the description, we think that this is a process w hich is involved in PI Release BIN_ C 0 NS [ K] by calling BIN_ C 0 NS [ K] . bin_ propose ( V), wherein, v G { 0 , 1 }. Then, i t executes a particular thread, and f inally returns the value corresponding to the code determined by BIN_ C 0 NS [ K].
+Each process PI- managed local variables following local variables; Shang default values can be represented by one ( failure or no failure) processes proposed.<br>
+Array proposalsi [ 1 . . N] is initialized to [ Shang, . . . , Shang]. proposalsi [ J] of the object comprising PJ recommended value.
+bin_ decisionsi initialized to [ 1 . . N] [ Shang, . . . , Shang] array. bin_ decisionsi [ k] of the object It contains the value ( 0  or  1 )  is  determined by  the binary objects consensus BIN_ CONS [ k] is. <br>
+Operation mv_ propose ( VI) is ( 1 ) RB_ broadcast VAL ( vi);<br>
+⑵ If  Repeat 3 K:	( Proposalsi [ k] = Shang 6 ) eight ( BIN_ CONS [ K] . bin_ propose not call)<br>
+⑶ then call BIN_ CONS [ K] . bin_ propose ( 1 ) END IF;Until<br>
+⑷ ( 3 ' : bin_ decisionsi [ ' ] = 1 ) terminal repeat sequence; Such that for each k ⑸ BIN_ C 0 NS [ K] . bin_ propose () call Not
 
-call)
+⑹ not call for BIN_ C 0 NS [ K] . bin_ propose ( 0 ) end;<br>
+⑺ wait	Mill _ decisionsi [ X]  6  =  Shang); J <- min { x satisfies bin_ decisionsi [ X] = 1 }; wait_ until ( Proposalsi [ j] = 6 Shang); Return ( proposalsi [ J]).<br>
+When VAL ( v) is delivered from PJRB- do, i f valid ( V) and then proposalsi [ j] of " V off i f. When the BIN- CONS [ K] _ bin_ propose () Returns a value b do bin_ decisionsi [ K] f Bay The algorithm of the reduced multivalued binary Byzantine Byzantine consensus consensus is described in this algorithm, a procedure call operation mv_ propose ( V), wherein, v is i ts value pseudomultichannel consensus value 1 in FIG. A  process pi  behavior can be broken down into four stages.<br>
+•Stage 1 : PI propagation value ( l ines 01 and 11 ). A method by calling the f i rst PI RB - broadcast operation ( wire 01 ) which processes the transmission of all values. When a transfer process RB- a value of  PJ  v RB- broadcast technology, i t  is  stored in  proposalsi [ j]  i f v is valid.<br>
+•Phase 2 : PI has been involved a f i rst set of binary consensus instances ( l ines 02 - 04 ) is. Then, the PI enters a loop where i t began to participate binary consensus Examples BIN_ CONS [ K], i t is proposed 1 , each process from PKRB - having associated delivery suggested value ( l ines 02 - 03 ). Examples of pi found consensus binary BIN - CONS [ ' ] , wherein 1 is determined ( l ine 04 ) to stop the cycle. Stage ( 2 ) arriving after the ( binary consensus of our proposed after allowing only O ( 1 ) delay the end of the message.<br>
+•Stage 3 : PI began to participate in all other binary consensus instance s ( l ines 05 - 06 ). It knows a binary instance of consensus decision after 1 , PI call in all instances i t  has  not been involved in binary consensus BIN - CONS [ K] bin_ propose ( 0 ) . We note that this is possible, some examples of BIN- CONS [ k], and no process has the process associated with a value PKRB-. The purpose of these common shares is to ensure that all binary consensus, the f inal termination.<br>
+•Stage 4 : Determined value for pi ( l ines 07 - 10 and 12 ).<br>
+Finally PI consensus that successful binary objects, i . e., the f i rst ( according to the process sequence index), i . e., those that returns 1 ( l ine 08 ) is. 3 Let BIN_ CONS [ J] is such a consensus binary objects. Since the decision value of 1 is associated, at least one non - fault proposed procedure shown in FIG. 1 , whi ch means that  the  process values  from the PK  l ine 02 - 03 ) RBdelivered of. We observed that, due to the termination of - 2 RB- property, the value of each process i s f inal RB- delivered without defects. Thus, PI  decided that  ( l ines 09 - 10 ).<br>
 
-
-⑶ then call BIN_ CONS [ K] . bin_ propose ( 1 ) END IF;
-Until ⑷ ( 3 ' : bin_ decisionsi [ ' ] = 1 ) terminal repeat sequence; Such that for each k ⑸ BIN_ C 0 NS [ K] . bin_ propose () call Not
-
-⑹ not call for BIN_ C 0 NS [ K] . bin_ propose ( 0 ) end;
-⑺ wait	Mill _ decisionsi [ X]  6  =  Shang); J <- min { x satisfies bin_ decisionsi [ X] = 1 }; wait_ until
-( Proposalsi [ j] = 6 Shang); Return ( proposalsi [ J]).
-When VAL ( v) is delivered from PJRB- do, i f valid ( V) and then proposalsi [ j] of " V off i f. When the BIN- CONS [ K] _ bin_ propose () Returns a value b do bin_ decisionsi [ K] f Bay
-The algorithm of the reduced multivalued binary Byzantine Byzantine consensus consensus is described in this algorithm, a procedure call operation mv_ propose ( V),
-wherein, v is i ts value pseudomultichannel consensus value 1 in FIG. A  process pi  behavior can be broken down into four stages.
-•Stage 1 : PI propagation value ( l ines 01 and 11 ). A method by calling the f i rst PI RB - broadcast operation ( wire 01 ) which processes the transmission of all values. When a
-transfer process RB- a value of  PJ  v RB- broadcast technology, i t  is  stored in  proposalsi [ j]  i f v is valid.
-•Phase 2 : PI has been involved a f i rst set of binary consensus instances ( l ines 02 - 04 ) is. Then, the PI enters a loop where i t began to participate binary consensus Examples
-BIN_ CONS [ K], i t is proposed 1 , each process from PKRB - having associated delivery suggested value ( l ines 02 - 03 ). Examples of pi found consensus binary BIN - CONS [ ' ] ,
-wherein 1 is determined ( l ine 04 ) to stop the cycle. Stage ( 2 ) arriving after the ( binary consensus of our proposed after allowing only O ( 1 ) delay the end of the message.
-•Stage 3 : PI began to participate in all other binary consensus instance s ( l ines 05 - 06 ).
-It knows a binary instance of consensus decision after 1 , PI call in all instances i t  has  not been involved in binary consensus BIN - CONS [ K] bin_ propose ( 0 ) . We note that this is
-possible, some examples of BIN- CONS [ k], and no process has the process associated with a value PKRB-. The purpose of these common shares is to ensure that all binary consensus,
-the f inal termination.
-•Stage 4 : Determined value for pi ( l ines 07 - 10 and 12 ).
-Finally PI consensus that successful binary objects, i . e., the f i rst ( according to the
-process sequence index), i . e., those that returns 1 ( l ine 08 ) is. 3 Let BIN_ CONS [ J] is such a consensus binary objects. Since the decision value of 1 is associated, at least one non - fault proposed procedure shown in FIG. 1 , whi ch means that  the  process values  from the PK  l ine 02 - 03 ) RBdelivered of. We observed that, due to the termination of - 2 RB- property, the
-value of each process i s f inal RB- delivered without defects. Thus, PI  decided that  ( l ines 09 - 10 ).
-
-10.4.2Correctness prove
+10.4.2Correctness prove<br>
 --
 
-Lemma 1 Yes determine the value of at least 1 case of a binary consensus of all non- fault process exit repeat the cycle.
-From the operational point of  view, this lemma can be restated as  follows: At  least one     ' e [ i . . N] so that each non- faulty process P 1 , we end up with bin_ decisionsi [ ' ] = 1 .
-Evidence is contradictory. Let us assume that, in the process of any non - fault P 1 , no bin_ decisionsi [ ' ] , 1 <' < N, 1 is set to continue. Thus, there is no non - faulty process exits
-" 〃 repeated loop ( l ine 0204 ). As a non- valid value when the fault occurred PJRB -
-broadcast, i t follows from the RB - terminated - 1 characteristic, each non- fault process PI
-RB- PJ' s proposal to provide effective, so we end up with proposals! [ j] = 6 in each non - PI Shang treatment failure.
-It follows the f i rst sub - predicate from l ine 02 of all non- fault handling Pi call
+Lemma 1 Yes determine the value of at least 1 case of a binary consensus of all non- fault process exit repeat the cycle.<br>
+From the operational point of  view, this lemma can be restated as  follows: At  least one     ' e [ i . . N] so that each non- faulty process P 1 , we end up with bin_ decisionsi [ ' ] = 1 . Evidence is contradictory.<br>
+Let us assume that, in the process of any non - fault P 1 , no bin_ decisionsi [ ' ] , 1 <' < N, 1 is set to continue. Thus, there is no non - faulty process exits " 〃 repeated loop ( l ine 0204 ). As a non- valid value when the fault occurred PJRB - broadcast, i t follows from the RB - terminated - 1 characteristic, each non- fault process PI RB- PJ' s proposal to provide effective, so we end up with proposals! [ j] = 6 in each non - PI Shang treatment failure.<br>
+It follows the f i rst sub - predicate from l ine 02 of all non- fault handling Pi call bin_ propose ( 1 ). In the object BIN_ CONS BBC [ J]. Therefore, from the BBC termination, BBC- agreement, BBC- effectiveness, and intrusion Tolerance, which 2Lemma 1 returns values for all BBC process instance to a non - fault, wherein the outlet " 〃 cycle is repeated.<br>
+Lemma 2 Determination value is a valid value ( i . e., i t is effective to satisfy the predicate).<br>
+We f i rst prove that observed for a value proposalsi [ J] is determin ed by the circumference of a process, we need bin_ decisionsi [ J] = 1 ( l ines 08 - 10 ).<br>
+If  the value is 1  when BIN_ CONS [ j], bin_ decisionsi [ j]  =  1  is  a  processing decision PI ( l ine 12 ) in each non- fault f inal true. If only one example proposed a BBC, and ( i i ) BIN_ CONS in l ine 03 from ( i ) the value [ J] intrusion resistance, i . e. at least one non - fault PI procedure call BIN_ CONS following facts [ j] of . bin_ propose ( 1 ). Because the predicate l ine 02 , this is such that the non - faulty process pi proposalsi [ j] i t calls BIN_ CONS [ j] of . bin_ propose ( 1 ) 6 = Shang. Since the l ine 11 , i t follows proposalsi [ j] contains a valid value.<br>
+Lemma 3 Two non- fault decision process is not different values.<br>
+Let us  consider two prove any non troubleshooting Pi and PJ,  so  Pi  decided  proposalsi  [ K] and PJ decided to proposals 〗 [ K2 ] . It follows from l ine 08 is K1 = min { x satisfies bin_ decisionsi [ X] = 1 } and k2 = MIN { x satisfies bin_ decisionsj [ X] = 1 }. Ontheonehand, i tfollows even omline07 that ( V 1 < x < nbin_ decisionsj [ X] 6 = Shang), from which we conclude that both pi and PJ known binary values determined by each instance of binary Consensus ( l ine 12 ).<br>
+Due to the properties of each binary consensus agreement BBC- instance, we have Vx: bin_ decisionsi [ X] = bin_ decisionsj [ X]. Let decanoate [ X] = in_ decisionsi [ X] = bin_ decisionsj [ X]. From l ine 08 i t is K1 = K2 = min { x dec satisfy [ X] = 1 } = K then follows. Thus, decyl [ K] = 1 . On the other hand, i t i s derived from a non - faulty process p BIN_ CONS [ k] intrusion resistant properties' call BIN_ CONS [ K] . bin_ propose ( 1 ). Line 03 may be sent as the only call, we conclude that ( predicate from l ine 02 ), the proposals' [ K] = V 6 = Shang. As p ' is no failure, and i t follows from the RB - RB- terminated - 2 unity for all non- fault handling characteristics supplied from PK RB- v. Thus, we end up with proposalsi [ K] = proposals 〗 [ K], which concludes the proof of Lemma.<br>
+Lemma 4 The value of each non- fault handling decision.<br>
+It follows from the proof of Lemma 1 , there are some PJ allows us to f inally h ave bin_ decisionsi [ J] = 1 in the process of all non - fault and non- fault does not always online processing block 04 . <br>
+Therefore, all non - fault process calls each binary consensus instance ( l ine 03 or l ine 06 ). <br>
+Further, due to their characteristics BBC - termination, each of n binary consensus instance returned in the results of each non - faulty process ( l ine 12 ). Thus, in the always- on 07 . <br>
+Finally, no trouble- free process PI block, as seen in the proof of Lemma 3 , l ine 09 predicate i s free from defects in eve ry process, summed up the proof of the lemma, ultimate satisfaction .<br>
+Byzantine Consensus Model ( VPBC) of a multi - value system algorithm in the tool of FIG.<br>
+1 described theorem BAMPn, T [ t < N / 3 , BBC].<br>
+Evidenced by Lemma 2 ( VPBC- potency), Lemma 3 ( VPBC- protocol), and Lemma 4 ( VPBC termination) as follows.<br>
 
-bin_ propose ( 1 ). In the object BIN_ CONS BBC [ J]. Therefore, from the BBC
-termination, BBC- agreement, BBC- effectiveness, and intrusion Tolerance, which
-
-2Lemma 1
-
-returns values for all BBC process instance to a non - fault, wherein the outlet " 〃 cycle is
-
-repeated.
-Lemma 2 Determination value is a valid value ( i . e., i t is effective to satisfy the predicate).
-We f i rst prove that observed for a value proposalsi [ J] is determin ed by the circumference of a process, we need bin_ decisionsi [ J] = 1 ( l ines 08 - 10 ).
-If  the value is 1  when BIN_ CONS [ j], bin_ decisionsi [ j]  =  1  is  a  processing decision PI ( l ine 12 ) in each non- fault f inal true. If only one example proposed a BBC, and ( i i )
-BIN_ CONS in l ine 03 from ( i ) the value [ J] intrusion resistance, i . e. at least one non - fault PI procedure call BIN_ CONS following facts [ j] of . bin_ propose ( 1 ). Because the predicate l ine 02 , this is such that the non - faulty process pi proposalsi [ j] i t calls BIN_ CONS [ j]
-of . bin_ propose ( 1 ) 6 = Shang. Since the l ine 11 , i t follows proposalsi [ j] contains a valid value.
-Lemma 3 Two non- fault decision process is not different values.
-Let us  consider two prove any non troubleshooting Pi and PJ,  so  Pi  decided  proposalsi  [ K] and PJ decided to proposals 〗 [ K2 ] . It follows from l ine 08 is K1 = min { x satisfies
-bin_ decisionsi [ X] = 1 } and k2 = MIN { x satisfies bin_ decisionsj [ X] = 1 }.
-Ontheonehand, i tfollows even omline07 that ( V 1 < x < nbin_ decisionsj [ X] 6 = Shang), from which we conclude that both pi and PJ known binary values determined by each
-instance of binary Consensus ( l ine 12 ). Due to the properties of each binary consensus agreement BBC- instance, we have Vx: bin_ decisionsi [ X] = bin_ decisionsj [ X].
-Let decanoate [ X] = in_ decisionsi [ X] = bin_ decisionsj [ X]. From l ine 08 i t is K1 = K2 = min { x dec satisfy [ X] = 1 } = K then follows. Thus, decyl [ K] = 1 .
-On the other hand, i t i s derived from a non - faulty process p BIN_ CONS [ k] intrusion resistant properties' call BIN_ CONS [ K] . bin_ propose ( 1 ). Line 03 may be sent as the only
-call, we conclude that ( predicate from l ine 02 ), the proposals' [ K] = V 6 = Shang. As p ' is no failure, and i t follows from the RB - RB- terminated - 2 unity for all non- fault handling
-characteristics supplied from PK RB- v. Thus, we end up with proposalsi [ K] = proposals 〗
-[ K], which concludes the proof of Lemma.
-Lemma 4 The value of each non- fault handling decision.
-It follows from the proof of Lemma 1 , there are some PJ allows us to f inally h ave
-bin_ decisionsi [ J] = 1 in the process of all non - fault and non- fault does not always online processing block 04 . Therefore, all non - fault process calls each binary consensus instance
-( l ine 03 or l ine 06 ). Further, due to their characteristics BBC - termination, each of n binary consensus instance returned in the results of each non - faulty process ( l ine 12 ). Thus, in the always- on 07 . Finally, no trouble- free process PI block, as seen in the proof of Lemma 3 ,
-l ine 09 predicate i s free from defects in eve ry process, summed up the proof of the lemma, ultimate satisfaction .
-Byzantine Consensus Model ( VPBC) of a multi - value system algorithm in the tool of FIG.
-1 described theorem BAMPn, T [ t < N / 3 , BBC].
-Evidenced by Lemma 2 ( VPBC- potency), Lemma 3 ( VPBC- protocol), and Lemma 4 ( VPBC termination) as follows.
-
-10.5In the final synchronization Byzantine system Binary consensus
+10.5In the final synchronization Byzantine system Binary consensus<br>
 --
 
-This section describes the underlying binary consistency Byzantine algorithm BBC,
-which provides a process operation bin_ propose. The advantage of  this algorithm is  that  i t  is guaranteed to terminate, i f all non - faulty process made the same value, i f not
-synchronized and always in a constant number of message delays. The algorithm may
-terminate within a f ixed t ime, this is the case, e. g. , i f all non- fault handling proposed by the same value. The algorithm relies on all communication to all binary abstract
-( BVbroadcast) and f inal synchronization hypothesis, which is described in the following
-section. The algorithm gradually established. We f i rst present a simple algorithm, only to meet consensus safety performance ( BBC - effectiveness and BBC- protocol). The algorithm
+This section describes the underlying binary consistency Byzantine algorithm BBC, which provides a process operation bin_ propose.<br>
+The advantage of  this algorithm is  that  i t  is guaranteed to terminate, i f all non - faulty process made the same value, i f not
+synchronized and always in a constant number of message delays. The algorithm may terminate within a f ixed t ime, this is the case, e. g. , i f all non- fault handling proposed by the same value. The algorithm relies on all communication to all binary abstract ( BVbroadcast) and f inal synchronization hypothesis, which is described in the following section.<br>
+The algorithm gradually established.<br>
+We f i rst present a simple algorithm, only to meet consensus safety performance ( BBC - effectiveness and BBC- protocol).<br>
+The algorithm is then synchronized with the f inal extension to meet the consensus assumptions active property ( BBC- termination).<br>
+The purpose of this gradual approach i s for ease of understanding and proof.<br>
 
-is then synchronized with the f inal extension to meet the consensus assumptions active property ( BBC- termination). The purpose of this gradual approach i s for ease of
-understanding and proof.
-
-10.5.1The BV broadcast to all communication to abstract all
+10.5.1The BV broadcast to all communication to abstract all<br>
 --
 
-Broadcast binary value ( BV- broadcast) communication abstraction in already incorporated ( which is implemented in the Appendix A review).
-Broadcast to all is defined BV- abstract all communications, i t provides a method
-BV_ broadcast represented by a single operation. When a process calls BV_ broadcast TAG ( m), we say that i t " BVbroadcasts message TAG ( meters)." Content of the message m is 0 or 1
-( hence the " abstract name of the binary value of the communication 〃 herein the term).
-In a broadcast BV- e. g., each binary value of the non - faulty process PI BV- broadcast,
-and obtains a set of binary values, local variables are stored in rea d- only setting is
-represented as bin_ valuesi. This set, is initialized to 0 , add new values received. BV- broadcast defined by the following four properties.
-BV- obligations. If at least ( T + 1 ) during non - fault BV- same broadcast value v, v is added to the f inal set of non- defective bin_ valuesi each process pi.
-BV- reasons. If no fault is pi and v G bin_ valuesi, V hexyl BV - broadcast via a non- fault process.
-BV- uniform. If  the value of  v  is  added to  the process P 1  is set no  fault bin_ valuesi,  f inal v G bin_ valuesj PJ in each process without defects.
-BV- terminated. Finally, each non- fault process pi bin_ valuesi collection is not empty.
+Broadcast binary value ( BV- broadcast) communication abstraction in already incorporated ( which is implemented in the Appendix A review).<br>
+Broadcast to all is defined BV- abstract all communications, i t provides a method BV_ broadcast represented by a single operation.<br>
+When a process calls BV_ broadcast TAG ( m), we say that i t " BVbroadcasts message TAG ( meters).<br>
+" Content of the message m is 0 or 1 ( hence the " abstract name of the binary value of the communication 〃 herein the term).<br>
+In a broadcast BV- e. g., each binary value of the non - faulty process PI BV- broadcast, and obtains a set of binary values, local variables are stored in rea d- only setting is represented as bin_ valuesi.<br>
+This set, is initialized to 0 , add new values received. <br>
+BV- broadcast defined by the following four properties.<br>
+BV- obligations. If at least ( T + 1 ) during non - fault BV- same broadcast value v, v is added to the f inal set of non- defective bin_ valuesi each process pi. BV- reasons. If no fault is pi and v G bin_ valuesi, V hexyl BV - broadcast via a non- fault process.
+BV- uniform. If  the value of  v  is  added to  the process P 1  is set no  fault bin_ valuesi,  f inal v G bin_ valuesj PJ in each process without defects. BV- terminated. Finally, each non- fault process pi bin_ valuesi collection is not empty.<br>
 Play a BV- Properties The following properties are a direct consequence of the previous characte r. Finally, the non - faulty processing set bin_ valuesi PKO becomes non- empty, ( i i ) becomes equal, ( i i i ) contains all values processed by the non- fault
-broadcast, and ( iv) does not contain a Byzantine process only by the broadcast value . However, ( i i ) and ( i i i ) does not occur when the process known non- defective.
+broadcast, and ( iv) does not contain a Byzantine process only by the broadcast value . However, ( i i ) and ( i i i ) does not occur when the process known non- defective.<br>
 
-Byzantine safe binary 10.5.2A consensus algorithm BAMPn, T [T <N / 3 ]
-
-We describe a simple binary consistency Byzantine algorithm, satisfy the model system BBC- BAMPn effectiveness and properties BBCAgreement, T [ T < N  /  3 ] .  The algorithm, which is based on a circle, depending on
-Abstract BV- previous broadcasting, have the same structure, the introduction of random consensus algorithm.
-Local variables Local variables for each of the following management process PI.
-ESTI: Current estimates place the value of the decision. It is initialized value of PI raised.
-RI: Local round number, initialized to zero.
+Byzantine safe binary 10.5.2A consensus algorithm BAMPn, T [T <N / 3 ] We describe a simple binary consistency Byzantine algorithm, satisfy the model system BBC- BAMPn effectiveness and properties BBCAgreement, T [ T < N  /  3 ] .  The algorithm, which is based on a circle, depending on Abstract BV- previous broadcasting, have the same structure, the introduction of random consensus algorithm.<br>
+Local variables Local variables for each of the following management process PI. ESTI: Current estimates place the value of the decision. It is initialized value of PI raised.<br>
+RI: Local round number, initialized to zero.<br>
 •box - valuesi [ 1 . . ] : an array of binary values; bin_ valuesi [ R] ( initialized to 0 ) is stored on
-Stainless steel and had a  monovalent BV- broadcast associated refill the local output
-set. ( This i s an infinite array can be  replaced by  a  single bin_ valuesi local variables, arrays a re- start of each round of 0 . Here, we consider, in order to simplify the presentation.) • Dual: Auxiliary binary value. valuesi: an auxiliary set of values.
-Message Type The algorithm uses two types of messages, indicated as EST and AUX. Both use in each round, a round number so they always appea r.
-EST [ R] in a stainless steel by the PI value to estima te BV- broadcast i ts current decision ESTI be used.
-AUX [ R] values for propagation thereof ( the broadcast ( the help of the current bin_ valuesi [ R] by PI)
-
-Macro actions).
-Let us consider the algorithm of FIG. 2 after i t has deposited the proposal The ESTI binary ( l ine 01 ), each non- fault sequence into the asynchronous process PI wheel. Each round, " using a broadcast BV- example, i ts associated local
-In the process variable pi is bin_ valuesi [ R].
-Operation bin_ propose ( VI) is
-(1))  ESTI ^  six; R. 0 ;
-(2))  and  ( really) do
-(3)) RI traffic RI + 1 ;
-(4)) BV_ b road cast seven] _ 0 ) EDT [ RI] ( ESTI); ( 5 ) wait- until	bin- value;
-(6)) a broadcast AUX [ RI] ( bin- valuesi [ RI]);
-(7)) wait- until message AUX [ RI] ( b_ valp ( 1 )), . . . , over different AUX
-Cheng P ( X), iaa - [ RI]; = Ul < i ; < "_ t , valx) ( b_ val P ( N- t)) has the ( TN) - receiving tons, and i t	Their content is such that 3 -
-Such that a non- empty valuesi ( i ) valuesi £ bin- valuesi [ RI] and ( i i ) the value of
-(8)) bis HI mode 2 ;
-(9)) If ( valuesi = { V}) // valuesi is a single, whose elements v
-(10))	Then ESTI ^ V; i f ( V = BI) before deciding ( V), i f not ended, i f;
-(11))	Otherwise ESTI
-(12))	just in case;
-(13))	The end of a period of t ime.
--a security algorithm for binary BAMPn Byzantine agreement, T [ t < N / 3 ] conduct during the non- faulty process oxygen circular pi can be broken down in three stages.
-•Phase 1 : The current estimate ( l ines 03 - 05 ) coordinated the exchange.
-PI  process f i rst  proceeds to  the next round, and BV -  broadcast i ts current estimate  ( l ine 04 ). After, PI wait until i t sets bin_ valuesi [ R] is not empty ( let us recall that when bin_ valuesi [ R] is not empty, i t is not necessarily i ts f inal value).
-•Phase 2 : Estimated second exchange in favor of convergence ( l ines 06 - 07 ).
-In this second stage, the PI broadcast ( Thus, this i s neither a nor RB- BV- broadcast
-broadcast) message AUX [ R] ( the content of which is bin_ valuesi [ R] ( l ine 06 ). Then, the PI wait until i t receives a set of values that satisfy the following two properties valuesi.
-- valuesi £ bin_ valuesi [ R]. Thanks BV - reason attributes, which ensures ( even Byzantine AUX false message transmission process [ R & l t] () contains only the values proposed by the Byzantine process) valuesi comprising a non - fault handling only by the broadcast values.
-Different processes - ( t N) - the value of at least valuesi messages from AUX [ R] ().
+Stainless steel and had a  monovalent BV- broadcast associated refill the local output set. ( This i s an infinite array can be  replaced by  a  single bin_ valuesi local variables, arrays a re- start of each round of 0 . Here, we consider, in order to simplify the presentation.)<br>
+• Dual: Auxiliary binary value. valuesi: an auxiliary set of values.<br>
+Message Type The algorithm uses two types of messages, indicated as EST and AUX. Both use in each round, a round number so they always appea r.<br>
+EST [ R] in a stainless steel by the PI value to estima te BV- broadcast i ts current decision ESTI be used.<br>
+AUX [ R] values for propagation thereof ( the broadcast ( the help of the current bin_ valuesi [ R] by PI) Macro actions).<br>
+Let us consider the algorithm of FIG. 2 after i t has deposited the proposal The ESTI binary ( l ine 01 ), each non- fault sequence into the asynchronous process PI wheel. Each round, " using a broadcast BV- example, i ts associated local In the process variable pi is bin_ valuesi [ R]. Operation bin_ propose ( VI) is
+(1))  ESTI ^  six; R. 0 ;<br>
+(2))  and  ( really) do<br>
+(3)) RI traffic RI + 1 ;<br>
+(4)) BV_ b road cast seven] _ 0 ) EDT [ RI] ( ESTI); <br>
+(5)) wait- until	bin- value;<br>
+(6)) a broadcast AUX [ RI] ( bin- valuesi [ RI]);<br>
+(7)) wait- until message AUX [ RI] ( b_ valp ( 1 )), . . . , over different AUX Cheng P ( X), iaa - [ RI]; = Ul < i ; < "_ t , valx) ( b_ val P ( N- t)) has the ( TN) - receiving tons, and i t	Their content is such that 3 - Such that a non- empty valuesi ( i ) valuesi £ bin- valuesi [ RI] and ( i i ) the value of<br>
+(8)) bis HI mode 2 ;<br>
+(9)) If ( valuesi = { V}) // valuesi is a single, whose elements v<br>
+(10))	Then ESTI ^ V; i f ( V = BI) before deciding ( V), i f not ended, i f;<br>
+(11))	Otherwise ESTI<br>
+(12))	just in case;<br>
+(13))	The end of a period of t ime.<br>
+-a security algorithm for binary BAMPn Byzantine agreement, T [ t < N / 3 ] conduct during the non- faulty process oxygen circular pi can be broken down in three stages.<br>
+•Phase 1 : The current estimate ( l ines 03 - 05 ) coordinated the exchange.<br>
+PI  process f i rst  proceeds to  the next round, and BV -  broadcast i ts current estimate  ( l ine 04 ). After, PI wait until i t sets bin_ valuesi [ R] is not empty ( let us recall that when bin_ valuesi [ R] is not empty, i t is not necessarily i ts f inal value).<br>
+•Phase 2 : Estimated second exchange in favor of convergence ( l ines 06 - 07 ).<br>
+In this second stage, the PI broadcast ( Thus, this i s neither a nor RB- BV- broadcast broadcast) message AUX [ R] ( the content of which is bin_ valuesi [ R] ( l ine 06 ). Then, the PI wait until i t receives a set of values that satisfy the following two properties valuesi.- valuesi £ bin_ valuesi [ R]. Thanks BV - reason attributes, which ensures ( even Byzantine AUX false message transmission process [ R & l t] () contains only the values proposed by the Byzantine process) valuesi comprising a non - fault handling only by the broadcast values.<br>
+Different processes - ( t N) - the value of at least valuesi messages from AUX [ R] ().<br>
 Thus, in any round R, l ine 07 , valuesi £ { 0 , 1 } and broadcast only the value of a non- fault comprises BV- process l ine 04 .
-•Stage 3 : Try to decide ( l ines 08 - 12 ).
-This stage is a purely local computing stage, during which ( i f  not  yet  complete) trying to determine the PI value b = R 2 mode ( l ine 08 and 10 ), which depends on the content of valuesi.
--If the element contains a single valuesi v  ( l ine 09 ),  then v  becomes the new  estimate of the PI.  In  addition, v  is  a  candidate decision. In  order to  ensure BBC -  agreement, V  can be determined only i f  V  =  B.  This decision is  determined by  the statement implemented ( V)  ( l ine 10 ).
--If  valuesi =  { 0 , 1 },  and PI can not be  determined. Since these two values   already
-proposed by the non- fault process, cause such convergence protocol, selecting one of them the PI ( b, i . e., the same procedure in all non - fault) as a new estimated value ( l ine 11 ).
-Let us observe the decision ( f ive) PI does not terminate the call t o participate in the algorithm of pi, namely PI continue the endless cycle continues. The randomization
-algorithm may use the techniques presented to  termination. Instead, we  keep  i t  simple and to postpone this algorithm in Section 5 . 5 of uncertainty termi nal solutions.
+•Stage 3 : Try to decide ( l ines 08 - 12 ).<br>
+This stage is a purely local computing stage, during which ( i f  not  yet  complete) trying to determine the PI value b = R 2 mode ( l ine 08 and 10 ), which depends on the content of valuesi.<br>
+-If the element contains a single valuesi v  ( l ine 09 ),  then v  becomes the new  estimate of the PI.  In  addition, v  is  a  candidate decision. <br>
+In order to  ensure BBC -  agreement, V  can be determined only i f  V  =  B.  This decision is  determined by  the statement implemented ( V)  ( l ine 10 ).<br>
+-If  valuesi =  { 0 , 1 },  and PI can not be  determined.<br>
+Since these two values   already proposed by the non- fault process, cause such convergence protocol, selecting one of them the PI ( b, i . e., the same procedure in all non - fault) as a new estimated value ( l ine 11 ).<br>
+Let us observe the decision ( f ive) PI does not terminate the call t o participate in the algorithm of pi, namely PI continue the endless cycle continues. The randomization algorithm may use the techniques presented to  termination. Instead, we  keep  i t  simple and to postpone this algorithm in Section 5 . 5 of uncertainty termi nal solutions.<br>
 
-10.5.3Safety prove
+10.5.3Safety prove<br>
 --
 
-PI process is a non- fault process, so valuesri predicate satisfied by l ine 07 . In addition, the set of values valuesi, let us recall that in a given operation, C represents a non - fault
-handling in this run.
-Lemma 5 provided T < N / 3 . If at the  beginning of  a  round r,  all non - fault process has the same estimate V, after which they never change their valuation.
-We assume that all non- faulty proof treatment ( which at least N - T> T + 1 ) have the same when they begin estimating v Accordingly a river, they broadcast the same message BV- EST [ R] ( v) in a l ine 04 i t is the duty BV - BV- reasons and properties, each non- faulty process pi is derived bin_ valuesi [ R] = { V} in l ine 05 ,
-Thus i t may broadcast only AUX [ R] 06 .  consid er  any  non- fault handling PI ({ v}) in the  l ine, then i t follows ( valuesi only comprises v) from l ine 07 predicate, l ine 09 ( valuesi a
-single), and a distribution l ine 10 , i . e., the value held ESTI v. 2 Lemma 5
-Lemma 6 ■ provided T < N / 3 . ( PI, PJGC) A ( valu esri = { V}) A ( Value: BU ( - )) demonstrate this: PI is provided a fault - free process, such valuesri = { V}. It follows the same PI message received AUX [ R] ({ V}) from the l ine 07 -- different processes ( N t ), i . e., from at least ( N - 2 T) different non- fault handling. The n - 2 t in d + 1 ,  which means that the PI  message received  AUX [ R] ({ V}) from at least ( T + 1 ) of different non - homogeneous set of process failure.
-PJ  is  so  fault- free process, such valuesrj =  { w}. ( -  TN) different treatment. Thus,  PJ
-received at least one group from QJ AUX [ R] ({ W}). It is  ( n  -  T) +  ( T  +  1 )> N, i t  follows that Qi  n Q  '= 60 .  Let n Q  PKG togethe r.  "  As  PKG Qi, this is not a  defect of the process. Thus, in l ine 06 , PK send the same message AUX [ R] to pi and P ", so we have V = Watt s. 
-2 Lemma 6
-Lemma 7 . disposed T < N / 3 . Value processed by the non - fault decision, made by the process of the non- defective.
-Let us prove considering the round R = 1 , due to the characteristics of  the  reasons BV - BV- broadcast l ine 04 , i t follows that the set bin_ valuesi [ 1 ] contains only non
-Troubleshooting recommended value. Thus, non - fault l ine 06 during the broadcast message AUX [ 1 ] () containing the values set by the proposed process only the non - faulty. Then, the predicate i t from l ine 07 ( i ) as fol lows ( values 1 i £ bin_ valuesi), and abstract BVJustification BV- broadcast attributes, such that each set of non - defective values 1 i process contains only non- defective by the recommendation process values. Thus, ESTI distribution ( either in  l ine 10 or 11 ) provided by the value presented by the non - faulty process. The same principle
-applies to two R = 2 , R = 3 , etc., these results prove the lemma.
-2 Lemma 7
-Lemma 8 .  provided T  < N  /  3 .  Two  non - fault decision process is  not different values.
-Let  R  be  a  f i rst  round proved, during which no  fault decision process, so  that PI  is a
-trouble- free process, ( l ine 10 ) determined in a circle R, and v is a value to make i ts decision.  Thus, we have valuesri = { V} where, v = ( R modulo 2 ).
-If another non- fault decision process during oxygen PJ wheel, we have valuesrj = { W}, and since Lemma 6 , we have W = # Thus, all decisions in a non - fault handling stainless
-monovalent, and determines v  each  non - fault  decision process has  previously allocated v  = ( R modulo 2 ) to i ts local estim ation in a stainless steel monovalent ESTI.
-Let PJ is not a f law, i t  is  not decided in  a  stainless steel prices. As  valuesri =  { V}, and PJ  is not a value determined stainless steel, i t i s not always the next Lemma 6 there valuesrj =
-{ 1 - V}, so valuesrj = { 0 , 1 }. Thus, the circular R, PJ execution pipeline 11 , where i t is assigned a value ( R mode 2 ) = v to i ts local estimation ESTJ.
-Thus, all non- faulty estimation process begins with the same local v wheel ( R + 1 ) =
-RMOD2 . Since Lemma 5 ,  they  will always mai ntain this  estimate. Accordingly, no  process of a different value by  the non - defective, the circular R,  wherein the proof that the lemma is  not yet determined in the determined future rounds.
-2 Lemma 8
-
-Lemma 9 . Let the system model is BAMPn, T [ T < N / 3 ] . No trouble- free process remains blocked in a circle foreve r.
-We have proof by contradiction assume a f i rst round, some non - fault process PI remain forever blocked. Since all non- fault termination process circle ( R - 1 ), they have begun a
-comprehensive r instance stainless steel price and all calls BV broadcast. Since BV -
-termination characteristic l ine 05 wait_ until () statement terminates at each process the non- defective. Then, i f all non - faulty processing a broadcast message AUX [ R] ( l ine 06 ), i t follows wait_ until statement terminates in l ine 07 each process the non - defective. Thus, there will always be blocked in the f i rst round during which the non - fault process i s still round oxygen.
-2 Lemma 9
-Lemma the system 10 . The model is BAMPn, T [ T < N / 3 ] . If a l l non- faulty process Pi terminate valuesri circle R = { V}, which are determined by the wheel ( R + 1 ).
-If all non- faulty demonstrate this process, valuesri = { V}, and r is the circle such that V
-= ( R 2 mode), i t follows that ( i f not already done so) from l ines 08 - 10 , one each non- fault
+PI process is a non- fault process, so valuesri predicate satisfied by l ine 07 . <br>
+In addition, the set of values valuesi, let us recall that in a given operation, C represents a non - fault handling in this run.<br>
+Lemma 5 provided T < N / 3 . If at the  beginning of  a  round r,  all non - fault process has the same estimate V, after which they never change their valuation.<br>
+We assume that all non- faulty proof treatment ( which at least N - T> T + 1 ) have the same when they begin estimating v Accordingly a river, they broadcast the same message BV- EST [ R] ( v) in a l ine 04 i t is the duty BV - BV- reasons and properties, each non- faulty process pi is derived bin_ valuesi [ R] = { V} in l ine 05 , Thus i t may broadcast only AUX [ R] 06 .  consid er  any  non- fault handling PI ({ v}) in the  l ine, then i t follows ( valuesi only comprises v) from l ine 07 predicate, l ine 09 ( valuesi a
+single), and a distribution l ine 10 , i . e., the value held ESTI v. 2 Lemma 5 Lemma 6 ■ provided T < N / 3 . ( PI, PJGC) A ( valu esri = { V}) A ( Value: BU ( - )) demonstrate this: PI is provided a fault - free process, such valuesri = { V}. It follows the same PI message received AUX [ R] ({ V}) from the l ine 07 -- different processes ( N t ), i . e., from at least ( N - 2 T) different non- fault handling. The n - 2 t in d + 1 ,  which means that the PI  message received  AUX [ R] ({ V}) from at least ( T + 1 ) of different non - homogeneous set of process failure.<br>
+PJ  is  so  fault- free process, such valuesrj =  { w}. ( -  TN) different treatment. Thus,  PJ received at least one group from QJ AUX [ R] ({ W}). It is  ( n  -  T) +  ( T  +  1 )> N, i t  follows that Qi  n Q  '= 60 .  Let n Q  PKG togethe r.  "  As  PKG Qi, this is not a  defect of the process. Thus, in l ine 06 , PK send the same message AUX [ R] to pi and P ", so we have V = Watt s.  2 Lemma 6 Lemma 7 . disposed T < N / 3 . Value processed by the non - fault decision, made by the process of the non- defective.<br>
+Let us prove considering the round R = 1 , due to the characteristics of  the  reasons BV - BV- broadcast l ine 04 , i t follows that the set bin_ valuesi [ 1 ] contains only non Troubleshooting recommended value.<br>
+Thus, non - fault l ine 06 during the broadcast message AUX [ 1 ] () containing the values set by the proposed process only the non - faulty. Then, the predicate i t from l ine 07 ( i ) as fol lows ( values 1 i £ bin_ valuesi), and abstract BVJustification BV- broadcast attributes, such that each set of non - defective values 1 i process contains only non- defective by the recommendation process values. Thus, ESTI distribution ( either in  l ine 10 or 11 ) provided by the value presented by the non - faulty process.<br>
+The same principle applies to two R = 2 , R = 3 , etc., these results prove the lemma.<br>
+2 Lemma 7 Lemma 8 .  provided T  < N  /  3 .  Two  non - fault decision process is  not different values.<br>
+Let  R  be  a  f i rst  round proved, during which no  fault decision process, so  that PI  is a trouble- free process, ( l ine 10 ) determined in a circle R, and v is a value to make i ts decision.  Thus, we have valuesri = { V} where, v = ( R modulo 2 ).<br>
+If another non- fault decision process during oxygen PJ wheel, we have valuesrj = { W}, and since Lemma 6 , we have W = # Thus, all decisions in a non - fault handling stainless monovalent, and determines v  each  non - fault  decision process has  previously allocated v  = ( R modulo 2 ) to i ts local estim ation in a stainless steel monovalent ESTI.<br>
+Let PJ is not a f law, i t  is  not decided in  a  stainless steel prices. As  valuesri =  { V}, and PJ  is not a value determined stainless steel, i t i s not always the next Lemma 6 there valuesrj = { 1 - V}, so valuesrj = { 0 , 1 }. <br>
+Thus, the circular R, PJ execution pipeline 11 , where i t is assigned a value ( R mode 2 ) = v to i ts local estimation ESTJ.<br>
+Thus, all non- faulty estimation process begins with the same local v wheel ( R + 1 ) = RMOD2 . Since Lemma 5 ,  they  will always mai ntain this  estimate. Accordingly, no  process of a different value by  the non - defective, the circular R,  wherein the proof that the lemma is  not yet determined in the determined future rounds.<br>
+2 Lemma 8 Lemma 9 . Let the system model is BAMPn, T [ T < N / 3 ] . No trouble- free process remains blocked in a circle foreve r.
+We have proof by contradiction assume a f i rst round, some non - fault process PI remain forever blocked. Since all non- fault termination process circle ( R - 1 ), they have begun a comprehensive r instance stainless steel price and all calls BV broadcast. Since BV - termination characteristic l ine 05 wait_ until () statement terminates at each process the non- defective.<br>
+Then, i f all non - faulty processing a broadcast message AUX [ R] ( l ine 06 ), i t follows wait_ until statement terminates in l ine 07 each process the non - defective. <br>
+Thus, there will always be blocked in the f i rst round during which the non - fault process i s still round oxygen.<br>
+2 Lemma 9 Lemma the system 10 . The model is BAMPn, T [ T < N / 3 ] . If a l l non- faulty process Pi terminate valuesri circle R = { V}, which are determined by the wheel ( R + 1 ).<br>
+If all non- faulty demonstrate this process, valuesri = { V}, and r is the circle such that V = ( R 2 mode), i t follows that ( i f not already done so) from l ines 08 - 10 , one each non- fault
 handling decide when stainless steel prices. I f r is such that, V 6 = ( R modulo 2 ), which each non- fault current estimation process V ( l ine 10 ).
 As the next round, we have: V = (( R + 1 ) mod 2 ), and valuesri + 1 = bin_ valuesi [ R + 1 ] =
 { V} in each non- fault process P 1 , each wheel during non - fault during the decision ( R + 1 ).
