@@ -599,207 +599,216 @@ Before introducing isospeed - efficiency method, we need to know  a  few definit
 •Assume S is the actual growth rate, W workload,: T is the execution t ime, then S = W / T.<br>
 •Assume CSpeed marking system, the efficiency of a speed £ s = s / C = W / TC.<br>
 Suppose C, W, and the system are the initial marking speed, and the work execution t ime; C 7 , and T ' are labeled after the speed increase system, workload and execution t ime, while ensuring ES = £: /, i . e., w /: rc = \ r / rc ' , then the scalability of the system can be expressed as  a  method  •  speedup S  is  based  on  speedup system   々    compute nodes can reach a  speed only when the compute nodes  the ratio of  the ideal  velocity S  ( k)  =  ka The famous Amdah Ps Law ^ 121 gives the definition of the most basic speedup . speedup = - One, which r, + rp = \, r s Is a sequence of n + program i t n execution ratio of the portion, a ratio of parallel execution portion.<br>
-On the basis of the Amdahl' s Law, Sun Xian - He proposes four speedup [ 12143 , respectively speedup f ixed size, f ixed execution t ime speedup, generally with  l imited memory and speedup speedup [ U]. To give a few definitions:
-•a parallel degree program refers to the maximum number when given unlimited
-processors available, at a particular t ime can partici pate processor calculated.
-•Assume T, ( W) is; processor t ime to complete the work W needed.
-•W, is a degree of parallelism is; the workload of the program, m is the  maximum  degree of parallelism, then
-•△ computing power is a processor.
-(1)The size of the f ixed speedup
-When Shu processors, computing W , Time is ( W,) = G. when When unlimited number of processors increases, reducing the execution t ime is  not  unlimited. W,) =  ^ In the  case  of  the work W and unlimited processors 1 / 1 , of the maximum speedup C. In the case of iv processors, the speedupfor Siv ( W) = ^ ((^= I^| - J _- |. When the work W is not t ime to completion m intercommunication caused ratio ~ ( V)- T n W ) - ( Shu old) + ⑽ this f ixed size speedup is described in the processor infinite, the work required to complete a certain minimum t ime relationship between other factors and, for the case described the workload will not  change. Execution t ime  than the execution t ime  of  formula f ixed acceleration  ratio
-is f ixed acceleration 7  " ( W ^ 2 W  ",  ' wherein   〆   indicator  system  is  the  result  of  a change
-that is f ixed execution t ime:. N ( w) = tn ( w ' ), That £ w, - = £ ¥ [ ☆] + Qn ( w ' ).
-(2)Memory bounded speedup memory is  bounded formula acceleration ratio is   2 W * SN ( W ' ) =+ Qn( W *) in the formula, 〆 indicators through the system is changed, and M is the upper bound on the memory of each processor, and W =
-Then = G ( N M ) = g ( N g ~ x ( W)).
-(3)General speedup
-General speedup suitable for shared virtual memory environment, the formula is '^ - Cp 
-(:?,  W)  Generalized Speedup =   1	CXs . Wo ) In the formula, 4 ( 〗 , W) is the degree of
-parallelism in system Z p processors are available in the ash produced upon completion of
-the work cost.
+On the basis of the Amdahl' s Law, Sun Xian - He proposes four speedup [ 12143 , respectively speedup f ixed size, f ixed execution t ime speedup, generally with  l imited memory and speedup speedup [ U]. To give a few definitions:<br>
+•a parallel degree program refers to the maximum number when given unlimited processors available, at a particular t ime can partici pate processor calculated.<br>
+•Assume T, ( W) is; processor t ime to complete the work W needed.<br>
+•W, is a degree of parallelism is; the workload of the program, m is the  maximum  degree of parallelism, then •△ computing power is a processor.<br>
+(1)The size of the f ixed speedup When Shu processors, computing W , Time is ( W,) = G. when When unlimited number of processors increases, reducing the execution t ime is  not  unlimited.( W,)=  ^ In the  case  of  the work W and unlimited processors 1 / 1 , of the maximum speedup C. In the case of iv processors, the speedupfor Siv ( W) = ^ ((^= I^| - J _- |. When the work W is not t ime to completion m intercommunication caused ratio ~ ( V)- T n W ) - ( Shu old) + ⑽ this f ixed size speedup is described in the processor infinite, the work required to complete a certain minimum t ime relationship between other factors and, for the case described the workload will not  change. Execution t ime  than the execution t ime  of  formula f ixed acceleration  ratio is f ixed acceleration 7  " ( W ^ 2 W  ",  ' wherein   〆   indicator  system  is  the  result  of  a change that is f ixed execution t ime:. N ( w) = tn ( w ' ), That £ w, - = £ ¥ [ ☆] + Qn ( w ' ).<br>
+(2)Memory bounded speedup memory is  bounded formula acceleration ratio is   2 W * SN ( W ' ) =+ Qn( W *) in the formula, 〆 indicators through the system is changed, and M is the upper bound on the memory of each processor, and W = Then = G ( N M ) = g ( N g ~ x ( W)).<br>
+(3)General speedup General speedup suitable for shared virtual memory environment, the formula is '^ - Cp  (:?,  W)  Generalized Speedup =   1	CXs . Wo ) In the formula, 4 ( 〗 , W) is the degree of parallelism in system Z p processors are available in the ash produced upon completion of the work cost.<br>
 
-•based on the efficiency of the method
-Efficiency £:  refers to  the  acceleration of each individual generated  by  the  processor,    i . e., Eik) - S ( k) / k0
-Ananth Y. Grama put forward isoefficiency [] 5 ' ⑹ method to measure the scalability of the system. The system consists of a parallel and a parallel architecture running parallel
-algorithm in the above composition. K is the  order of  execution t ime of  the  execution t ime of an algorithm on a processor. 7 parallel execution t ime; A parallel algorithm is the
-corresponding execution t ime on the processors. All processors in the t ime i t takes to do
-the work of those not sequential algorithm called overhead 7 . Then / 2 ; = is the + 7 ;. Then
+•based on the efficiency of the method Efficiency £:  refers to  the  acceleration of each individual generated  by  the  processor,    i . e., Eik) - S ( k) / k0 Ananth Y. Grama put forward isoefficiency [] 5 ' ⑹ method to measure the scalability of the system.<br>
+The system consists of a parallel and a parallel architecture running parallel algorithm in the above composition.<br>
+K is the  order of  execution t ime of  the  execution t ime of an algorithm on a processor. 7 parallel execution t ime; A parallel algorithm is the corresponding execution t ime on the processors. <br>
+All processors in the t ime i t takes to do the work of those not sequential algorithm called overhead 7 . Then / 2 ; = is the + 7 ;. Then the speedup is S = -y = effectiveness E = ^ = T i + T =. The assumption is to perform an operation cost, WIs the question # 1 + J  i  ±  Qi Tw  +  Is  based on  a  constant efficiency, then W =  KT. This is the famous soefficiency function.<br>
+This method is suitable for parallel combination algorithm / architecture.<br>
+Parallel system execution t ime is an important indicator of efficiency.<br>
+Each node is a parallel system symmetry, the number of nodes is a suitab le scaling properties.<br>
+However, these properties are not suitable for scale distributed systems, the above measurement method can not  be  used in  a  distributed system.<br>
+Prasad Jogalekar and  Murray Wood - side  as a distributed system is proposed based on P - scalability ^ 17 " based on cost - efficiency scalability metrics M, where efficiency i s a function of system throughput and quality of service. <br>
+The    system   to    be    scaled   system   under   the   control   factor		telescopic retractable- based  strategy.<br>
+A  (  «response  repr esented  per  second  throughput;  /  («  is an average for each response, the service quality obtained by  the  calculation;  CA)  is  the  second operating cost, productivity F ( fc) = A ( «* / ( «/ [ :(" scalability I n i h , k 2 ) = FCfe VFCfc).<br>
 
-the speedup is S = -y = effectiveness E = ^ = T i + T =. The assumption is to perform an operation cost, WIs the question # 1 + J  i  ±  Qi Tw  +  Is  based on  a  constant efficiency, then W =  KT. This is the famous soefficiency function. This method is suitable for parallel combination
-algorithm / architecture.
-Parallel system execution t ime is an important indicator of efficiency. Each node is a parallel system symmetry, the number of nodes is a suitab le scaling properties. However, these properties are not suitable for scale distributed systems, the above measurement method can not  be  used in  a  distributed system. Prasad Jogalekar and  Murray Wood - side  as a distributed system is proposed based on P - scalability ^ 17 " based on cost - efficiency scalability metrics M, where efficiency i s a function of system throughput and quality of
-service.  The    system   to    be    scaled   system   under   the   control   factor	々	telescopic
-retractable- based  strategy.  A  (  «response  repr esented  per  second  throughput;  /  («  is an
-average for each response, the service quality obtained by  the  calculation;  CA)  is  the  second operating cost, productivity F ( fc) = A ( «* / ( «/ [ :(" scalability I n i h , k 2 ) = FCfe VFCfc).
-
-7.4Distributed Resource Scheduling and Management
+7.4Distributed Resource Scheduling and Management<br>
 -
 
-Distributed resource  management  is the foundation  of distributed systems  and applications, the efficiency of resource allocation and scheduling directly determines the upper system and application scalability. This section analyzes two modes distributed resource scheduling and management systems typically they correspond.
-Distributed Resource  Scheduler  resource  scheduling  around,  build a resource management system, monitoring the status of each resource, the state feedback t o the resource scheduler  basis for decision - making.  The allocation  scheduler  made, the underlying operation of the resource assigning resources on different nodes. Resource allocation and resource operations can affect the scalability of the system, the pr ogram determines the resources needed tasks can be scheduled t ime, and  the  operating efficiency  is determined resource scheduling resources for t ime - consuming,  both  the  joint  decision the system for mission needs and resources change change of reaction t im e, thus affecting scalability.
-According to the core control program whether the resource allocation, distributed resource management system can be divided into central and distributed modes. Center scheduling of distributed resource management system for all resource requests to the dispatcher core processing, each node to allocate resources from the core program. And distributed scheduling request received by the one computing  node  that  interacts  with  other nodes and negotiation to complete resource alloc ation.
+Distributed resource  management  is the foundation  of distributed systems  and applications, the efficiency of resource allocation and scheduling directly determines the upper system and application scalability. <br>
+This section analyzes two modes distributed resource scheduling and management systems typically they correspond.<br>
+Distributed Resource  Scheduler  resource  scheduling  around,  build a resource management system, monitoring the status of each resource, the state feedback t o the resource scheduler  basis for decision - making. <br>
+The allocation  scheduler  made, the underlying operation of the resource assigning resources on different nodes. <br>
+Resource allocation and resource operations can affect the scalability of the system, the pr ogram determines the resources needed tasks can be scheduled t ime, and  the  operating efficiency  is determined resource scheduling resources for t ime - consuming,  both  the  joint  decision the system for mission needs and resources change change of reaction t im e, thus affecting scalability.<br>
+According to the core control program whether the resource allocation, distributed resource management system can be divided into central and distributed modes.<br>
+Center scheduling of distributed resource management system for all resource requests to the dispatcher core processing, each node to allocate resources from the core program. And distributed scheduling request received by the one computing  node  that  interacts  with  other nodes and negotiation to complete resource alloc ation.<br>
 
-7.4.1center scheduling mode
+7.4.1center scheduling <br>
 ---
 
-Distributed scheduling central resource management system typically consists of four components, which are the scheduler, information storage center, and local resource  allocator resource manager. Scheduling system gener ally center of the frame shown in FIG.
-1 Early devices tune ~ h'~ Disappeared consultation resources' task
-information storage center I
-I	1 -? - New stays source, task information Resource allocation l i fe resource allocation command
-I  local  resource is  to  1  I  managed locally owned I Cl	I	management I  Local resources ~  i  I  Local resource  ~~ i	I Local resources 1 ~
+Distributed scheduling central resource management system typically consists of four components, which are the scheduler, information storage center, and local resource  allocator resource manager.<br>
+Scheduling system gener ally center of the frame shown in FIG.<br>
+1 Early devices tune ~ h'~ Disappeared consultation resources' task information storage center I I	1 -? - New stays source, task information Resource allocation l i fe resource allocation command I  local  resource is  to  1  I  managed locally owned I Cl	I	management I  Local resources ~  i  I  Local resource  ~~ i	I Local resources 1 ~ FIG center scheduling resource management framework 2 In this framework, four components function as follows. .<br>
+Scheduler: a recipient who is performing resource scheduling algorithms and the scheduling request, i t according to the specific content of the request, to store the state information stored in the center resources and tasks based on the information, a resource allocation calculated by scheduling algorithm program, and to pass this program to the resource allocator.<br>
+Information Storage Center: stores real - t ime status information resource and task information is based scheduler to make resource allocation  scheme,  the  scheduler  can obtain this information by means of active queries.<br>
+Resource allocator: executor actual resource allocation scheme, resource allocation scheduler administered will be split into smaller units, i . e., resource allocation command. <br>
+Each resource allocation command i s a tuple, includes a resource identifier and a node corresponding to the number of  resources in  the  resource node  to  be  assigned. At the same t ime, resource allocator also responsible for updating the information stored in the center.<br>
+Local resource managers: a monitoring and resource allocator on each resource node, i t receives resource assignment command, task running state and resources on the node is requesting allocation amount of resources, and monitors the local node, to these states feedback to the resource allocator, update the information stored in the data center by the resource allocator.<br>
+Having a central dispatch resource management system are representative of resource management framework to Karl Czajkowski element calculation proposed by [ 19 ] , Legio J®  and Nimrod / G [ 21 ] . Here will be described a workflow system dispatch center by Legion.<br>
+In Legion, the resource node using  the  resource  reservation  mechanism  to  allocate local resources. That is, for a particular resource allocation command, th e command i s transmitted to the monitor after parsing a resource nodes corresponding to the node  according to a  command to  reserve resources for  the  task,  the  task is completed before,  the resources are not occupied.<br>
+Meanwhile, the resource node is also  re sponsible  for updating the status of tasks and resources, i t can add i ts own  initiative  or  update  information collection center, collection center can also ask information resource node  to  get the information they need.<br>
+Legion, a typical resource allocation process is as follows.<br>
+1)Decision steps of:  receiving a  resource request dispatcher, and  content information  via a state inquiry information collection center resolution request tasks and resources, to generate a resource allocation scheme in a ccordance with pre- defined scheduling policy.<br>
+2)Negotiation procedure: resource allocator received from the scheduler at resource allocation plan, test  the  legality of  the  plan. If legitimate, you  step into the  assignment; i f  i l legal ( for example, on a resource allocation exceeds the number of nodes  required  resources are available), the resource allocator will consult with the scheduler, draw a new legal program. Consultation is based on information gathered in the center of information  and resource allocation.<br>
+3)Allocation step: resource allocator according to legal resource allocation, set aside resources to send commands to the monitor, the monitor command after receiving  the required number of reserved resources to the task at hand locally.  After  reac hing  the mission, monitors start the task, and the task of  monitoring the  local  operating conditions and status of the local resources.<br>
+4)Information Update: after the task starts running, the resource node update or add tasks and resource center to collect information according to predetermined t ime intervals status information, information collection center can also take the initiative to query information on the resource node.<br>
+More than four steps cycle,  after  the  end  of  the  updating,  in   a  new  round  of decision- making steps and start again, request assign the task to the next,  until  after resource scheduling all tasks are completed, the cycle stopped.<br>
+Center scheduling of resource management can better maintain the scalability of the system when the system load is small, because the scheduler can obtain status information for all of the tasks and resources of the system from the information storage  center,  according to the information to make quick one - step decision- making and resource  allocation command to the  resource allocator to  complete. However, when the  system load  is large, the scheduler needs many requests  handled frequently,  resulting   in  slower response scheduler, the system takes a long t ime to reschedule, poor scalability of  the system.<br>
 
-
-FIG center scheduling resource management framework 2
-
-In this framework, four components function as follows. .
-Scheduler: a recipient who is performing resource scheduling algorithms and the scheduling request, i t according to the specific content of the request, to store the state information stored in the center resources and tasks based on the information, a resource allocation calculated by scheduling algorithm program, and to pass this program to the resource allocator.
-Information Storage Center: stores real - t ime status information resource and task information is based scheduler to make resource allocation  scheme,  the  scheduler  can obtain this information by means of active queries.
-Resource allocator: executor actual resource allocation scheme, resource allocation scheduler administered will be split into smaller units, i . e., resource allocation command. Each resource allocation command i s a tuple, includes a resource identifier and a node corresponding to the number of  resources in  the  resource node  to  be  assigned. At the same t ime, resource allocator also responsible for updating the information stored in the center.
-Local resource managers: a monitoring and resource allocator on each resource node, i t receives resource assignment command, task running state and resources on the node is requesting allocation amount of resources, and monitors the local node, to these states feedback to the resource allocator, update the information stored in the data center by the resource allocator.
-Having a central dispatch resource management system are representative of resource management framework to Karl Czajkowski element calculation proposed by [ 19 ] , Legio J®  and Nimrod / G [ 21 ] . Here will be described a workflow system dispatch center by Legion.
-In Legion, the resource node using  the  resource  reservation  mechanism  to  allocate local resources. That is, for a particular resource allocation command, th e command i s transmitted to the monitor after parsing a resource nodes corresponding to the node  according to a  command to  reserve resources for  the  task,  the  task is completed before,  the resources are not occupied. Meanwhile, the resource node is also  re sponsible  for updating the status of tasks and resources, i t can add i ts own  initiative  or  update  information collection center, collection center can also ask information resource node  to  get the information they need.
-Legion, a typical resource allocation process is as follows.
-1)Decision steps of:  receiving a  resource request dispatcher, and  content information  via a state inquiry information collection center resolution request tasks and resources, to generate a resource allocation scheme in a ccordance with pre- defined scheduling policy.
-2)Negotiation procedure: resource allocator received from the scheduler at resource allocation plan, test  the  legality of  the  plan. If legitimate, you  step into the  assignment; i f  i l legal ( for example, on a resource allocation exceeds the number of nodes  required  resources are available), the resource allocator will consult with the scheduler, draw a new legal program. Consultation is based on information gathered in the center of information  and resource allocation.
-3)Allocation step: resource allocator according to legal resource allocation, set aside resources to send commands to the monitor, the monitor command after receiving  the required number of reserved resources to the task at hand locally.  After  reac hing  the mission, monitors start the task, and the task of  monitoring the  local  operating conditions and status of the local resources.
-4)Information Update: after the task starts running, the resource node update or add tasks and resource center to collect information according to predetermined t ime intervals status information, information collection center can also take the initiative to query information on the resource node.
-More than four steps cycle,  after  the  end  of  the  updating,  in   a  new  round  of decision- making steps and start again, request assign the task to the next,  until  after resource scheduling all tasks are completed, the cycle stopped.
-Center scheduling of resource management can better maintain the scalability of the system when the system load is small, because the scheduler can obtain status information
-
-for all of the tasks and resources of the system from the information storage  center,  according to the information to make quick one - step decision- making and resource  allocation command to the  resource allocator to  complete. However, when the  system load  is large, the scheduler needs many requests  handled frequently,  resulting   in  slower response scheduler, the system takes a long t ime to reschedule, poor scalability of  the system.
-
-7.4.2distributed scheduling mode
+7.4.2distributed scheduling mode<br>
 --
 
-Legion resource distribution frame is based on the aforementioned center scheduling. The disadvantage is also obvious dispatch center, i t is only one component to make resource
-allocation decisions, this component can easily beco me the bottleneck of  the system. When    i t appears the problem When the resource allocation system will not be continued.
-Distributed scheduling a plurality of frame members are able to fulfill the functions of components of the resource allocation, thus avoi ding a significant system bottleneck.
-Distributed scheduling mode resource management system, the nodes are connected to
-each other through a communication configuration of FIG, any node can be connected and their synergistic partners to meet the resource request received.
-For a distributed scheduling mode of each node, i t has three components.
-1)Communication components: for partners  and other nodes to  communicate, collaborate and is the basis for decision - making among resource nodes.
-2)Dec ision component: the core node control unit determines the collaborative way between the node and the f inal resource allocation algorithm specified.
-3)Loc al resource management components: monitor the status of local resources, the decision to provide the basis for decision - making components.
-ARMS ( Agent- based Resource  Management System) [ 20 ] is a typical distributed resource management system scheduling mode. Agent is autonomous intelligent software entity that has autonomy,  through  communication  between  each  other  in  the  case  of goal- driven between social, reactivity and adaptability characteristics, Agent, to changes in the external environment and events make in response, the completion of certain tasks. In ARMS, each Agent embodies a resource in the system. Agent organized i n a hierarchy, the structure shown in FIG. 5 , FIG Each node is an Agent.
+Legion resource distribution frame is based on the aforementioned center scheduling. <br>
+The disadvantage is also obvious dispatch center, i t is only one component to make resource allocation decisions, this component can easily beco me the bottleneck of  the system.<br>
+When    i t appears the problem When the resource allocation system will not be continued.<br>
+Distributed scheduling a plurality of frame members are able to fulfill the functions of components of the resource allocation, thus avoi ding a significant system bottleneck.<br>
+Distributed scheduling mode resource management system, the nodes are connected to each other through a communication configuration of FIG, any node can be connected and their synergistic partners to meet the resource request received.<br>
+For a distributed scheduling mode of each node, i t has three components.<br>
+1)Communication components: for partners  and other nodes to  communicate, collaborate and is the basis for decision - making among resource nodes.<br>
+2)Dec ision component: the core node control unit determines the collaborative way between the node and the f inal resource allocation algorithm specified.<br>
+3)Loc al resource management components: monitor the status of local resources, the decision to provide the basis for decision - making components.<br>
+ARMS ( Agent- based Resource  Management System) [ 20 ] is a typical distributed resource management system scheduling mode.<br>
+Agent is autonomous intelligent software entity that has autonomy,  through  communication  between  each  other  in  the  case  of goal- driven between social, reactivity and adaptability characteristics, Agent, to changes in the external environment and events make in response, the completion of certain tasks. In ARMS, each Agent embodies a resource in the system. Agent organized i n a hierarchy, the structure shown in FIG. 5 , FIG Each node is an Agent.<br>
+FIG 5 Arms hierarchy of Aqent ARMS is divided into three layers in the Agent, namely the local resource management, collaboration, and communications layer layer. Agent of the structure shown in Fig.<br>
+ARMS Agent in functional layer 3 as follows.<br>
+. • communication layer is responsible for communication with other Agent Agent, the information is  divided into three  types:<br>
+1 >  Advertising ( Advertisement), a  new  Agent Aqent structure of FIG 6 Arms When the hierarchy, i ts  use  of  advertising information She Agent  announce their presence; <br>
+2 ) exploration ( Discovery), information is requested to explore the resources of distributed applications; <br>
+3 ) forwards ( To another agent), and i t has i t self when Agent know when the parent node, child node can not satisfy a request, i t will forward  the  request  to  their adjacent nodes, by the neighboring nodes continue to  look  for  the  right  resources. A -  gent or when a  neighboring node was found to  meet  hi s  request, the  request will be  forwarded to the node from the neighboring node to complete the work allocated resources.<br>
+Collaborative layers: a core structure of Agent, Agent using the ACT ( Agent Capability Table) to maintain i tself, the performance of th e information resources of parent and child nodes Agent Agent represented.<br>
+ACT can be divided into four categories:<br>
+1 ) T_ ACT,  to maintain their own information;<br>
+2 ) L_ ACT, the child node  is  used  to  maintain information  on Agent; <br>
+3 ) G_ ACT, the parent node i s used to maintain information on Agent; <br>
+4 ) C " ACT,  used to maintain cache Agent information.<br>
+Scheduler to schedule tasks by estimating the end t ime of the request, the purpose of scheduling is to f ind a minimum of the end t ime. The end t ime of T -  =  exet- Yts, exet request  is an estimated execution t ime, ^ is the t ime of the request started.<br>
+PACE ( Performance Analysis and Characterize Environment) engine can be estimated ep " ARMS application contains a request application model ( ap at the request of the situ ation and application of local resourcesplication model, am), an end t ime estimated by PACE to the eval function is defined inside the associated previous request. Agent estimated order to  f ight the  use  of  ACT is: C_ ACT, T_ ACT, L_ ACT, G_ ACT. The estimat ion result,  f ind the minimum corresponding to ACT.<br>
+If T_ ACT, Match Maker transmits the scheduling result to the local management, local resource allocation. Otherwise, i t forwards the request to the ACT corresponding Agent. <br>
+I f you do not meet the condition s  of  ACT, forwarded to  their parent  and child nodes will be requested to continue the process of  f inding  the  above  by  the parent and child nodes, until the ACT meet the conditions found.<br>
+Local Management: Responsible for monitoring of local resources, allo cate and manage applications, is the interface layer and a local Agent underlying system.<br>
+Distributed scheduling resource management system applied to  the  load  is  larger, making the specified dispersed into the respective different nodes in parallel, so th at the system can still quickly re- scheduling of resources under  heavy  load. <br>
+In  a  small  system load, a node to make scheduling needs to communicate with multiple nodes, but this reduces the efficiency of decision- making and reduce the scalability of the sy stem.<br>
 
-FIG 5 Arms hierarchy of Aqent
-ARMS is divided into three layers in the Agent, namely the local resource management, collaboration, and communications layer layer. Agent of the structure shown in Fig.
-ARMS Agent in functional layer 3 as follows.
-. • communication layer is responsible for communication with other Agent Agent, the
-information is  divided into three  types: 1 >  Advertising ( Advertisement), a  new  Agent
-
-
-
-Aqent structure of FIG 6 Arms
-When the hierarchy, i ts  use  of  advertising information She Agent  announce their presence; 2 ) exploration ( Discovery), information is requested to explore the resources of distributed applications; 3 ) forwards ( To another agent), and i t has i t self when Agent know when the parent node, child node can not satisfy a request, i t will forward  the  request  to  their adjacent nodes, by the neighboring nodes continue to  look  for  the  right  resources. A -  gent or when a  neighboring node was found to  meet  hi s  request, the  request will be  forwarded to the node from the neighboring node to complete the work allocated resources.
-Collaborative layers: a core structure of Agent, Agent using the ACT ( Agent Capability Table) to maintain i tself, the performance of th e information resources of parent and child nodes Agent Agent represented. ACT can be divided into four categories: 1 ) T_ ACT,  to maintain their own information; 2 ) L_ ACT, the child node  is  used  to  maintain information  on Agent; 3 ) G_ ACT, the parent node i s used to maintain information on Agent; 4 ) C " ACT,  used to maintain cache Agent information.
-Scheduler to schedule tasks by estimating the end t ime of the request, the purpose of scheduling is to f ind a minimum of the end t ime. The end t ime of T -  =  exet- Yts, exet request  is an estimated execution t ime, ^ is the t ime of the request started. PACE ( Performance Analysis and Characterize Environment) engine can be estimated ep " ARMS application contains a request application model ( ap at the request of the situ ation and application of local resourcesplication model, am), an end t ime estimated by PACE to the eval function is defined inside the associated previous request. Agent estimated order to  f ight the  use  of  ACT is: C_ ACT, T_ ACT, L_ ACT, G_ ACT. The estimat ion result,  f ind the minimum corresponding to ACT. If T_ ACT, Match Maker transmits the scheduling result to the local management, local resource allocation. Otherwise, i t forwards the request to the ACT corresponding Agent. I f you do not meet the condition s  of  ACT, forwarded to  their parent  and child nodes will be requested to continue the process of  f inding  the  above  by  the parent and child nodes, until the ACT meet the conditions found.
-Local Management: Responsible for monitoring of local resources, allo cate and manage applications, is the interface layer and a local Agent underlying system.
-Distributed scheduling resource management system applied to  the  load  is  larger, making the specified dispersed into the respective different nodes in parallel, so th at the system can still quickly re- scheduling of resources under  heavy  load. In  a  small  system load, a node to make scheduling needs to communicate with multiple nodes, but this reduces the efficiency of decision- making and reduce the scalability of the sy stem.
-
-8Status Scalability Testing
+8Status Scalability Testing<br>
 --
 
-Testing and verification is the basis of  evaluation  of  scalability.  Scalability  can  be tested in two main ways: 1 ) the test code level. By performing the test a plurality of sets of different conditions, and the evaluatio n code blocks in each  test  program  in  response  to the correlation coefficient of the total t ime. Comparative tests in all groups the code block correlation coefficients, to measure the degree of parallelism of the code  block.  By  the degree of parallelism of each code block scalability assessment procedures. 2 ) system level test. System- level testing by estimating the work load, real - t ime monitoring of test  runs  and test run results to comprehensively evaluate the program scalability.
-In most studies, scalability, just as a test of performance  indicators,  for  scalability current testing methods and systems more l imited study i tself. The  following describes a  code level, respectively, and a system - level test method scalability.
+Testing and verification is the basis of  evaluation  of  scalability.<br>
+Scalability  can  be tested in two main ways: <br>
+1 ) the test code level. By performing the test a plurality of sets of different conditions, and the evaluatio n code blocks in each  test  program  in  response  to the correlation coefficient of the total t ime. Comparative tests in all groups the code block correlation coefficients, to measure the degree of parallelism of the code  block.  By  the degree of parallelism of each code block scalability assessment procedures.<br>
+2 ) system level test. System- level testing by estimating the work load, real - t ime monitoring of test  runs  and test run results to comprehensively evaluate the program scalability.<br>
+In most studies, scalability, just as a test of performance  indicators,  for  scalability current testing methods and systems more l imited study i tself. The  following describes a  code level, respectively, and a system - level test method scalability.<br>
 
-8.1Test parallel code Scalability
+8.1Test parallel code Scalability<br>
 --
 
-Parallel scalability of the code can be obtained by analyzing the performance of each code block: block parallelism as possible,   a  small  increase   in  processor   instructions  can protect Parallel efficiency program; otherwise, need to  add  more  processors  to  maintain the efficiency of the program. Testers often modeling approach to  analyze the  performance  of the system or program, system and application depending on the  composition  and structure of internal model modules constructed interrelationships system performance analysis.
-Because of the logical relationship between the structures and components internal parallel computing systems are complex, difficult and expensive modeling, and difficult to guarantee the correctness of the model. To this end,  Gordon  Lyon  [ 24 ]  Chu  mention  the DEX ( statistically designed experiment) method, the test of DEX parallel programs and the system as a complete whole experiment, the various parameters of the system considered snippet and each factorial experiments . Based on the operation result of the program, by monitoring performance metrics for each parallel program code modules, using statistical methods to analyze the impact of each block of code in the  program run  t ime, each code  block obtained degree of importance of the efficiency of  the  algorithm. DEX introduced the SP ( synthetic perturbation), for applying respective test disturbance factors, for the manufacture of these perturbations delay system is running, the experiment used  to  build  the mapping factor experimental  results. When a  factor /  is  applied perturbation can cause  a delay of the disturbance analysis to measure / degree of influence  on  the  system  or running.
-DEX parallel program for the purpose of a test of P, P identify code blocks may be run bottleneck. DEX, the experiment in group units. In the same set of experiments, the various factors of the system remains unchanged, and for each code block in the  disturbance continues to change,  by perturbation analysis  of this  group  of  experiments   and procedures The relationship between the running t ime, come running t ime of the sensitivity of each code A large block, when the t ime delay is applied to the same length of the disturbance, resulting in the greater run t ime delay. Followed by another group of experiments, the system change factor ( typically the number of processors), in case of increase or decrease the number of processors, the value of £ reanalyzed each code  block.  The f inal possibility, the same block comparison value £ both experiments, was observed in  the case of increased processor £ growth rate, the  greater  the  increase  £  module,   indicating that the block parallelism worse, become the bottleneck of the Big. If
-£ processor increases with decreases, then the  degree  of  parallelism  is  preferably  block, the smaller becomes the bottleneck possibilities.
+Parallel scalability of the code can be obtained by analyzing the performance of each code block: block parallelism as possible,   a  small  increase   in  processor   instructions  can protect Parallel efficiency program; otherwise, need to  add  more  processors  to  maintain the efficiency of the program. <br>
+Testers often modeling approach to  analyze the  performance  of the system or program, system and application depending on the  composition  and structure of internal model modules constructed interrelationships system performance analysis.<br>
+Because of the logical relationship between the structures and components internal parallel computing systems are complex, difficult and expensive modeling, and difficult to guarantee the correctness of the model.<br>
+To this end,  Gordon  Lyon  [ 24 ]  Chu  mention  the DEX ( statistically designed experiment) method, the test of DEX parallel programs and the system as a complete whole experiment, the various parameters of the system considered snippet and each factorial experiments .<br>
+Based on the operation result of the program, by monitoring performance metrics for each parallel program code modules, using statistical methods to analyze the impact of each block of code in the  program run  t ime, each code  block obtained degree of importance of the efficiency of  the  algorithm.<br>
+DEX introduced the SP ( synthetic perturbation), for applying respective test disturbance factors, for the manufacture of these perturbations delay system is running, the experiment used  to  build  the mapping factor experimental  results. When a  factor /  is  applied perturbation can cause  a delay of the disturbance analysis to measure / degree of influence  on  the  system  or running. <br>
+DEX parallel program for the purpose of a test of P, P identify code blocks may be run bottleneck. <br>
+DEX, the experiment in group units.<br>
+In the same set of experiments, the various factors of the system remains unchanged, and for each code block in the  disturbance continues to change,  by perturbation analysis  of this  group  of  experiments   and procedures The relationship between the running t ime, come running t ime of the sensitivity of each code A large block, when the t ime delay is applied to the same length of the disturbance, resulting in the greater run t ime delay.<br>
+Followed by another group of experiments, the system change factor ( typically the number of processors), in case of increase or decrease the number of processors, the value of £ reanalyzed each code  block. <br>
+The f inal possibility, the same block comparison value £ both experiments, was observed in  the case of increased processor £ growth rate, the  greater  the  increase  £  module,   indicating that the block parallelism worse, become the bottleneck of the Big.<br>
+If £ processor increases with decreases, then the  degree  of  parallelism  is  preferably  block, the smaller becomes the bottleneck possibilities.<br>
 
-8.2Scalability Test System Design
+8.2Scalability Test System Design<br>
 -
 
-Scalability reflects the ability of the system may vary depending on system needs and resources change, continue to meet performance requirements.  Scalability  test  systems need to focus on changing the relationship  between  system  requirements  and  resources and system performance, so the scalability test system can  be  divided  into  the  following four modules.	-
-1)Workload Analysis Module: for real - t ime capture and analysis of dynamic workloads.
-2)Resource performance analysis module: for real - t ime analysis of the changing performance of the underlying resources.
-3)System  performance  monitoring  module:  used  to  capture  performance  data  at  run t ime, for further analysis.
-4)Scalability Analysis Module: The f i rst three modules data captured in real t ime to analyze the scalability of the system.
-STASCScalability Testing and System Analysis) [ 23 ] a - a typical system- level testing system scalability, which consists of four parts: the system wherein component analysis algorithm pre- assembly, assembly and test scalability  analysis  scalability  components.  STAS is  characterized  by  i ts  combination  of  workload  algorithms  and  f inal test  response t ime, combined with the load and the resour ces to make an assessment of scalability. Meanwhile STAS also supports testers definition of scalability testing methods since. STAS structure shown in Fig.
+Scalability reflects the ability of the system may vary depending on system needs and resources change, continue to meet performance requirements. <br>
+Scalability  test  systems need to focus on changing the relationship  between  system  requirements  and  resources and system performance, so the scalability test system can  be  divided  into  the  following four modules.	<br>-
+1)Workload Analysis Module: for real - t ime capture and analysis of dynamic workloads.<br>
+2)Resource performance analysis module: for real - t ime analysis of the changing performance of the underlying resources.<br>
+3)System  performance  monitoring  module:  used  to  capture  performance  data  at  run t ime, for further analysis.<br>
+4)Scalability Analysis Module: The f i rst three modules data captured in real t ime to analyze the scalability of the system.<br>
+STASCScalability Testing and System Analysis) [ 23 ] a - a typical system- level testing system scalability, which consists of four parts: the system wherein component analysis algorithm pre- assembly, assembly and test scalability  analysis  scalability  components.  STAS is  characterized  by  i ts  combination  of  workload  algorithms  and  f inal test  response t ime, combined with the load and the resour ces to make an assessment of scalability. <br>
+Meanwhile STAS also supports testers definition of scalability testing methods since. STAS structure shown in Fig.<br>
+A configuration diagram of FIG. <br>
+7 STAS Wherein the system components: Its mission is to obtain information on the underlying system, and measure the performance of each node is calculated.<br>
+It is divided into two modules: a system information detection module and node performance measurement module.<br>
+The system information detection module detection s ystem of each node, or nodes from deduplication unavailable, leaving only active nodes. For activities Node, Node performance  measurement  module  to  measure   the  performance  of   the   node   by   a user- defined bench- mark. <br>
+The f inal output of this module is a set o f tuples: < node name, property>.<br>
+Pre- analysis algorithm module: i t analyzes the source code of the distributed algorithm as input, workload  output f i les, and executable algorithm. <br>
+The  work  load  analysis algorithm can be done at the same t ime compiler,  you  can  also  employ  user- defined analysis mode. User to measure the load artificially algorithm specified by the equation between the input data and the workload.<br>
 
+Scalability test components: i t is responsible for runtime scalability test systems and algorithms in the manner defined by testers.<br>
+It  consists of  three modules: the  test  module set is generated, real - t ime measurement module and a database module. The test set generation module from the  f i rst two nodes, each node will be  expanded to  twice the  size  of the  last. <br>
+And  the  test  set  the  algorithm  to  obtain the  pre - analysis module  executable f i les and algorithms incorporated by load input t ime measurement module ultimately be stored and test execution t ime with these parameters to the database module for ana lysis component analysis.<br>
+Scalability Component Analysis: database module in i ts data by using the  algorithm and  to calculate the scalability of the system is defined i S 0 Speed - ew.<br>
 
-A configuration diagram of FIG. 7 STAS
-Wherein the system components: Its mission is to obtain information on the underlying system, and measure the performance of each node is calculated. It is divided into two modules: a system information detection module and node performance measurement module. The system information detection module detection s ystem of each node, or nodes from deduplication unavailable, leaving only active nodes. For activities Node, Node performance  measurement  module  to  measure   the  performance  of   the   node   by   a user- defined bench- mark. The f inal output of this module is a set o f tuples: < node name, property>.
-Pre- analysis algorithm module: i t analyzes the source code of the distributed algorithm as input, workload  output f i les, and executable algorithm.  The  work  load  analysis algorithm can be done at the same t ime compiler,  you  can  also  employ  user- defined analysis mode. User to measure the load artificially algorithm specified by the equation between the input data and the workload.
-
-Scalability test components: i t is responsible for runtime scalability test systems and algorithms in the manner defined by testers. It  consists of  three modules: the  test  module set is generated, real - t ime measurement module and a database module. The test set generation module from the  f i rst two nodes, each node will be  expanded to  twice the  size  of the  last.  And  the  test  set  the  algorithm  to  obtain the  pre - analysis module  executable f i les and algorithms incorporated by load input t ime measurement module ultimately be stored and test execution t ime with these parameters to the database module for ana lysis component analysis.
-Scalability Component Analysis: database module in i ts data by using the  algorithm and  to calculate the scalability of the system is defined i S 0 Speed - ew.
-
-9Cloud explore the system scalability problem computing background
+9Cloud explore the system scalability problem computing background<br>
 --
 
-Saas CSoftware as a Service) model  is  based  on  the  new  software application software to provide Internet services, Saas provide users with a complete software, users can  access  the service via the Internet, only in accordance with their needs to  the  rental  service provider, eliminating the need for purchase hardware, software development and ongoing maintenance costs. Cloud computing is parallel computing and distributed  computing   concept development, which provides a  reliable infrastructure for Saas.  The  cloud is  a ble   to self- manage and maintain a collection of virtual computing resources.  Cloud  computing has the following characteristics: 1 ) scalability, the size  of  the  cloud  can  dynamically  expand and contract to meet the changing needs of users; 2 ) pay - as, users can own actual consumption of cloud resources to buy paid; 3 ) very large scale,  the  scale  of  cloud  computing in general  has reached more than hundreds  of thousands  of servers;  4 )  persistent, cloud computing system can provide long - lasting computing resources and capabilities for the user. These Unlike traditional distributed and parallel  computing  features, metrics on scalability for cloud computing, design and testing to bring new and challenging issues.
+Saas CSoftware as a Service) model  is  based  on  the  new  software application software to provide Internet services, Saas provide users with a complete software, users can  access  the service via the Internet, only in accordance with their needs to  the  rental  service provider, eliminating the need for purchase hardware, software development and ongoing maintenance costs.<br>
+Cloud computing is parallel computing and distributed  computing   concept development, which provides a  reliable infrastructure for Saas.  The  cloud is  a ble   to self- manage and maintain a collection of virtual computing resources. <br>
+Cloud  computing has the following characteristics:<br>
+1 ) scalability, the size  of  the  cloud  can  dynamically  expand and contract to meet the changing needs of users;<br>
+2 ) pay - as, users can own actual consumption of cloud resources to buy paid;<br>
+3 ) very large scale,  the  scale  of  cloud  computing in general  has reached more than hundreds  of thousands  of servers; <br>
+4 )  persistent, cloud computing system can provide long - lasting computing resources and capabilities for the user. These Unlike traditional distributed and parallel  computing  features, metrics on scalability for cloud computing, design and testing to bring new and challenging issues.<br>
 
-9.1Cloud computing scalability of the problem
+9.1Cloud computing scalability of the problem<br>
 --
 
-Cloud scalability is not only the traditional focus on scalability, but also emphasize the contraction of the cloud. One of i ts important features namely pay - on- demand, allowing multiple cloud tenants in a shared cloud computing resources can save costs as much as possible. This requires the user' s application workloads in a small t ime, be  able to  reduce  the consumption of resources  applications, while reducing resource consumption can maintain the performance of applications, to meet the needs of users. Scalabi l i ty more traditional focus on behalf of the " extended" scalability,  in  the   case  of  computing  resources increase, the growth rate of a certain measure of performance indicators. In contrast, cloud computing is also concerned about the " shrinking" in this r egard, namely to reduce the workload, application performance can still get  the  case to  meet the  cloud can  be recovered resources, improve resource utilization, reduce the ability of the user fee. Measure shrinkage of cloud computing include not  only  a  mea sure  of  resource  growth brings increased performance, but also include measures to  enhance  the  degree  of  reduction of resource utilization metrics and user fees when the load decreases.
+Cloud scalability is not only the traditional focus on scalability, but also emphasize the contraction of the cloud.<br>
+One of i ts important features namely pay - on- demand, allowing multiple cloud tenants in a shared cloud computing resources can save costs as much as possible. <br>
+This requires the user' s application workloads in a small t ime, be  able to  reduce  the consumption of resources  applications, while reducing resource consumption can maintain the performance of applications, to meet the needs of users. Scalabi l i ty more traditional focus on behalf of the " extended" scalability,  in  the   case  of  computing  resources increase, the growth rate of a certain measure of performance indicators. In contrast, cloud computing is also concerned about the " shrinking" in this r egard, namely to reduce the workload, application performance can still get  the  case to  meet the  cloud can  be recovered resources, improve resource utilization, reduce the ability of the user fee.<br>
+Measure shrinkage of cloud computing include not  only  a  mea sure  of  resource  growth brings increased performance, but also include measures to  enhance  the  degree  of  reduction of resource utilization metrics and user fees when the load decreases.<br>
 
-9.2Cloud computing scalability design issues
+9.2Cloud computing scalability design issues<br>
 --
 
-Cloud computing large scale features make the same number of resources in a cloud
+Cloud computing large scale features make the same number of resources in a cloud computing platform becomes very large, the performance requirements of the Resource Management System is also higher. <br>
+In the center scheduling and distributed  scheduling modes, when the scale of the cloud, the central dispatcher scheduler will become the bottleneck of the system. <br>
+Accordingly, the cloud is more suitable for distributed scheduling paradigm.<br>
+The distributed scheduling  the decision - making distributed to each node, reducing the probabilit y of occurrence of a bottleneck.<br>
+At the same t ime created a new problem: resource allocation is carried out through communication and collaboration  between the different nodes of the multi - party collaborative  decision- making  model  is more complex than the type of decision- making center.<br>
+In a distributed scheduling, multi - party collaborative decision- making model design requires attention to the following questions.<br>
+Heterogeneity between nodes: the ultra - large- scale cloud computing system, there will be different structure of resource nodes. When  scheduling  the  nodes  of  these  isomers, these isomers can not directly operate nodes need to design an  abstract resource node to  mask the differences between the different nodes, the upper operation only acts in the abstract resource node.<br>
+Between node communication protocol design issues: agreement between the node defines the format and exchange of  information, and  the  information exchanged  between the nodes constitute the basis for scheduling algorithms to make deci sions.<br>
+In the  design of the protocol, the protocol needs to take into account the accuracy and completeness of the problem.<br>
+To ensure the accuracy of the information exchange between nodes i s error - free, and to ensure the completeness of the agreement can cover all possible scenarios of the exchange of information between the nodes to avoid because of lack of Less of a Treatments scene and error.<br>
 
-computing platform becomes very large, the performance requirements of the Resource Management System is also higher. In the center scheduling and distributed  scheduling modes, when the scale of the cloud, the central dispatcher scheduler will become the bottleneck of the system. Accordingly, the cloud is more suitable for distributed scheduling paradigm. The distributed scheduling  the decision - making distributed to each node, reducing the probabilit y of occurrence of a bottleneck. At the same t ime created a new problem: resource allocation is carried out through communication and collaboration  between the different nodes of the multi - party collaborative  decision- making  model  is more complex than the type of decision- making center.
-In a distributed scheduling, multi - party collaborative decision- making model design requires attention to the following questions.
-Heterogeneity between nodes: the ultra - large- scale cloud computing system, there will be different structure of resource nodes. When  scheduling  the  nodes  of  these  isomers, these isomers can not directly operate nodes need to design an  abstract resource node to  mask the differences between the different nodes, the upper operation only acts in the abstract resource node.
-Between node communication protocol design issues: agreement between the node defines the format and exchange of  information, and  the  information exchanged  between the nodes constitute the basis for scheduling algorithms to make deci sions. In the  design of the protocol, the protocol needs to take into account the accuracy and completeness of the problem. To ensure the accuracy of the information exchange between nodes i s error - free, and to ensure the completeness of the agreement can cover all possible scenarios of the exchange of information between the nodes to avoid because of lack of Less of a Treatments scene and error.
-
-9.3Cloud computing scalability testing issues
+9.3Cloud computing scalability testing issues<br>
 --
 
-Test as a measure of system scalability based on the test system should be  designed for the characteristics of the  test system. Cloud computing scalability test system should have the ability to solve the following problems: 1 ) the ability to monitor real - t ime, cloud computing has the characteristics of durability, but also can not be accurately estimated workload, resource performance at the moment, so i t is necessary to test the system can capture real- t ime data, comprehensive application performance metrics  to  analyze  the cloud computing platform scalability; ability 2 ) two- way test, as opposed to the traditional distributed computing only focus on capacity  expansion,  the  test  should  be  concerned about the same t ime, " stretch" and " shrink" both to analyze  scalability  or  contractible under different scenarios. When incr easing the applied load, as measured by the number of new scalability of resource allocation and use of l i ft; when the load decreases, is  calculated by the number of resource consumption reduction measure shrinkage properties.
-Conclusion Scalability as an important attribute of the cloud, with the development of cloud computing and Saas, which has become a hot issue ® f of study. Scalability definitions and metrics will also vary with the different scenarios. In the context of cloud computing, scalability research focus will be to define and measure the scalability when resources are shrinking, heterogeneous cloud resource allocation   and  resource  nodes  in   real - t ime  two- way scalability measurements.
+Test as a measure of system scalability based on the test system should be  designed for the characteristics of the  test system.<br>
+Cloud computing scalability test system should have the ability to solve the following problems: <br>
+1 ) the ability to monitor real - t ime, cloud computing has the characteristics of durability, but also can not be accurately estimated workload, resource performance at the moment, so i t is necessary to test the system can capture real- t ime data, comprehensive application performance metrics  to  analyze  the cloud computing platform scalability; ability<br>
+2 ) two- way test, as opposed to the traditional distributed computing only focus on capacity  expansion,  the  test  should  be  concerned about the same t ime, " stretch" and " shrink" both to analyze  scalability  or  contractible under different scenarios. When incr easing the applied load, as measured by the number of new scalability of resource allocation and use of l i ft; when the load decreases, is  calculated by the number of resource consumption reduction measure shrinkage properties.<br>
+Conclusion Scalability as an important attribute of the cloud, with the development of cloud computing and Saas, which has become a hot issue ® f of study.<br>
+Scalability definitions and metrics will also vary with the different scenarios. In the context of cloud computing, scalability research focus will be to define and measure the scalability when resources are shrinking, heterogeneous cloud resource allocation   and  resource  nodes  in   real - t ime  two- way scalability measurements.<br>
 
-10.Improved Byzantine consensus research
+10.Improved Byzantine consensus research<br>
 --
 
-10.1POINTNITY proposed extended definition of validity attributes
+10.1POINTNITY proposed extended definition of validity attributes<br>
 --
 
-Structurally, i t is composed of two parts.
-•The f i rst component is reduced to a binary multi - value consensus consensus.
-Reduced, which is fully synchronized, neither randomized nor  is  the  ultimate leader, the re is no signature. To our knowledge, this is the f i rst asynchronous reducing unscheduled
-always  determine the  value 0 ( 1 )  binary consensus sequence. The  earliest examples of
-reducing wait before terminating only reliable broadcast concurrent instances of spawning binary consensus. Because i t is assumed that t < N / 3 ,  where n  is  the number of  processes and t is the number of errors during the upper bound, this reduction is best toughness.
-•The second component is a binary Byzantine consensus ( BBC) algorithm, neither
-randomized nor the last leader, there is no signature. It is broadcast on the appropriate binary value ( BV- broadcast) abstraction, for introducing randomization consensus.
-Calculated from a point of view, the BBC algorithm requires t < N / 3  ( as  previous reduction) and additional synchronization hypothesis, i . e., a t ime after which transmitting a message
-transmitted by the non - defective by the process delay constants sector ( this happens, but neither the t ime, nor is i t a constant process known own. in  practice, this means that the  BBC algorithm always terminate unless the transmission delay is always increased ( in this case, different assumptions synchronization as described may be used).
-The resulting multivalued Byzantine algorithm is op t imal consistency and toughness ( T
-< N / 3 ), and the best t ime, since i t terminates at 0 ( t) is. In addition to i ts optimal
-characteristics and the concept is simple, multi - value obtained by the Byzantine consensus algorithm is well suited for the consortiu m blockchains three following reasons:
-The algorithm does not use leaders elected ( in favor of the value proposed by a
-particular process), or proven to work - which means that the consensus of each participant plays a role equal to the value proposed. In particular, because i t does not depend on the
-verification of work choice, because more than any other t ime in Bitcoin t icket or revenge, node consortium could not reach a  consensus. We  have noticed that  in  June 2016 Revenge  of R 3 R 3 50 machines consortium in a machine owned by a consortium of revenge
-blockchain total mining capacity, which gives a significant advantage of this machine to attack 12 % blockchain of.
-The algorithm is to indulge in, i t is  always safe despite any  delays. We  believe this is  an important characteristic of every day, one million $ US trade volume blockchain
-applications 1 Financial institutions may prefer their blockchain service is not available,
-rather than undermine, after the Internet communication delay congestion impact. This is usually used as test bed consortium R 3 , wherein attacker can decide to use the network
-delay Revenge algorithm block contrast double spending two conflicting.
-Finally, because we focus on the consorti um blockchain model in  which the  consensus of participants is l imited to members of the consortium, we can assume the identity of n
-consortium members are known by all participants. Usually only a subset of all the
-participants involved in the consensus bl ockchain, for example, only the consensus N = 15  out of 50 treated R 3 is participating. These provide us with the identification of Sybil
-attack algorithm a natural protection without the need for any expensive verification mechanism.
-Roadmap sheet 7 const i tuting part. Computational model described in Section 2 .
-Section 3 describes the Blockchain Byzantine consensus. Section 4 , in binary Byzantine agreement, reducing the multivalued Byzantine agreement, Section 5 presents the f inal synchronization relies on a  binary hypothesis Byzantine agreement. The composition of
-these two algorithms provide free leader, no signature, no randomized and multi - valued
+Structurally, i t is composed of two parts.<br>
+•The f i rst component is reduced to a binary multi - value consensus consensus.<br>
+Reduced, which is fully synchronized, neither randomized nor  is  the  ultimate leader, the re is no signature.<br>
+To our knowledge, this is the f i rst asynchronous reducing unscheduled always  determine the  value 0 ( 1 )  binary consensus sequence. The  earliest examples of reducing wait before terminating only reliable broadcast concurrent instances of spawning binary consensus. Because i t is assumed that t < N / 3 ,  where n  is  the number of  processes and t is the number of errors during the upper bound, this reduction is best toughness.<br>
+•The second component is a binary Byzantine consensus ( BBC) algorithm, neither randomized nor the last leader, there is no signature.
+<br>
+It is broadcast on the appropriate binary value ( BV- broadcast) abstraction, for introducing randomization consensus.<br>
+Calculated from a point of view, the BBC algorithm requires t < N / 3  ( as  previous reduction) and additional synchronization hypothesis, i . e., a t ime after which transmitting a message transmitted by the non - defective by the process delay constants sector ( this happens, but neither the t ime, nor is i t a constant process known own.<br>
+in  practice, this means that the  BBC algorithm always terminate unless the transmission delay is always increased ( in this case, different assumptions synchronization as described may be used).<br>
+The resulting multivalued Byzantine algorithm is op t imal consistency and toughness ( T < N / 3 ), and the best t ime, since i t terminates at 0 ( t) is. In addition to i ts optimal characteristics and the concept is simple, multi - value obtained by the Byzantine consensus algorithm is well suited for the consortiu m blockchains three following reasons:<br>
+The algorithm does not use leaders elected ( in favor of the value proposed by a particular process), or proven to work - which means that the consensus of each participant plays a role equal to the value proposed. <br>
+In particular, because i t does not depend on the verification of work choice, because more than any other t ime in Bitcoin t icket or revenge, node consortium could not reach a  consensus. We  have noticed that  in  June 2016 Revenge  of R 3 R 3 50 machines consortium in a machine owned by a consortium of revenge blockchain total mining capacity, which gives a significant advantage of this machine to attack 12 % blockchain of.<br>
+The algorithm is to indulge in, i t is  always safe despite any  delays.<br>
+We  believe this is  an important characteristic of every day, one million $ US trade volume blockchain applications 1 Financial institutions may prefer their blockchain service is not available, rather than undermine, after the Internet communication delay congestion impact. This is usually used as test bed consortium R 3 , wherein attacker can decide to use the network delay Revenge algorithm block contrast double spending two conflicting.<br>
+Finally, because we focus on the consorti um blockchain model in  which the  consensus of participants is l imited to members of the consortium, we can assume the identity of n consortium members are known by all participants. Usually only a subset of all the
+participants involved in the consensus bl ockchain, for example, only the consensus N = 15  out of 50 treated R 3 is participating.<br>
+These provide us with the identification of Sybil attack algorithm a natural protection without the need for any expensive verification mechanism.<br>
+Roadmap sheet 7 const i tuting part. Computational model described in Section 2 . Section 3 describes the Blockchain Byzantine consensus. <br>
+Section 4 , in binary Byzantine agreement, reducing the multivalued Byzantine agreement, Section 5 presents the f inal synchronization relies on a  binary hypothesis Byzantine agreement. The composition of these two algorithms provide free leader, no signature, no randomized and multi - valued Byzantine consensus. Section 6 describes related work. Finally, Section 7 concludes the paper.<br>
 
-Byzantine consensus. Section 6 describes related work. Finally, Section 7 concludes the paper.
-
-10.2Byzantine basic computation model and reliable broadcast
+10.2Byzantine basic computation model and reliable broadcast<br>
 --
 
-2.1Base calculation model
-
-
-The processing system is processed by the asynchronous asynchronous order n, i . e. gang door = 1 , . . . , PN} is a set of n;. " 〃 index" i is called PI 〃 means that each
-asynchronous process proceeds thereof at their own pace, which may  change over t ime  and  is still unknown to other processes. " Refers to a sequence  〃 a process step  is  performed once. This does not interfere with i ts proper multiplexing multiple threads of execution.
-Local processing t ime is negligible with respect to the message transmission delay,
-which is considered to be zero. ( We  show you how to  relax this assumption in Annex B  and    C) and two representations GY PIGY I used to say, PI belonging to the set Y.
+2.1Base calculation model The processing system is processed by the asynchronous asynchronous order n, i . e. gang door = 1 , . . . , PN} is a set of n; . " 〃 index" i is called PI 〃 means that each asynchronous process proceeds thereof at their own pace, which may  change over t ime  and  is still unknown to other processes. " Refers to a sequence  〃 a process step  is  performed once. This does not interfere with i ts proper multiplexing multiple threads of execution.<br>
+Local processing t ime is negligible with respect to the message transmission delay, which is considered to be zero. ( We  show you how to  relax this assumption in Annex B  and    C) and two representations GY PIGY I used to say, PI belonging to the set Y.
 Processing of the communication by the communication network via the asynchronous message reliably to- point switching network. " Asynchronous 〃 mean there is  no  restraint  on the message transmission delays, but these delays are l imited." Reliable 〃 refers to
 the network is not lost, copy, modify or create messages. " It refers to any connection
 point 〃  processing a  bidirectional channel. Thus, when the  process receives a  message, i t  can recognize i ts sender.
