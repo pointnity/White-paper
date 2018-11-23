@@ -248,7 +248,8 @@ At this t ime, another action across the chain will show up: the use of i ts cre
 Particular method of operation, the currency is usually transferred to the bit exchange Alice, Bob ether credits transferred to the exchange, and then exchange credits transferred to Alice Ethernet, token bits transferred Bob.<br>
 By the middle of the exchange held on behalf of a digital currency, to achieve the transfer of trust so that transactions between Alice and Bob can proceed. Alice entire trust transfer is trust exchange, Bob trust exchange, so build trust between Alice and Bob.<br>
 
-The nature of cross-chain block chain 4.1<br>
+4.1 The nature of cross-chain block chain <br>
+----
 
 The whole real world have moved on a block chain is not realistic, real world i tself is divided inheritance economic f ield was value creation, by market value to achieve different industries and different areas of economic exchange. <br>
 Each separate block chain maintains i ts own independent economic value system, is connected across the chain block chain backbone chain of independent blocks, carrying a different value system function block chain of value exchange, commodities to be able to interact, the need for prices,commodity prices from their value, depending on supply and demand, but by market supply and demand relationship is built, so, in order to achieve different block chain " commo dity" value exchange, in a cross- chain block chain will be a variety the market value of the transaction, the value of each transaction on the market across the chain block chain is a chain across service contract.<br>
@@ -272,7 +273,10 @@ Subsequent transaction process is as follows:<br>
 Adapted by the chain code on the block chain A chain across the body designated X transaction request content ( with a certain amount of value in the chain thereof A certain number of B chain redemption value thereof to the address specified public key) to
 generate a daughter strand transactions, and packaged into sub - blocks chain.<br>
 
-Cross-provided sub-chain chain transactions 4.4 proved, initiate the backbone chain across service invocations Chain l ink adaptation code gives a cross transaction request is present on the molecular chains of the proof, and in accordance with the protocol inter - strand, across the package starting backbone chain to service calls based on Merkle tree.<br>
+4.4Cross-provided sub-chain chain transactions<br>
+------
+
+proved, initiate the backbone chain across service invocations Chain l ink adaptation code gives a cross transaction request is present on the molecular chains of the proof, and in accordance with the protocol inter - strand, across the package starting backbone chain to service calls based on Merkle tree.<br>
 
 4.5implementation of the main chain cross chain transaction code<br>
 ---
@@ -490,7 +494,8 @@ Specifically, l ight up the block without having to download the client access t
 Most of the cost will only affect the certifier consensus, i t will not affect the l ight client.<br>
 Light client can also be  reserved for  low  latency capabilities  of the premise to identify consensus.<br>
 
-What responsibility 6.6Verification<br>
+6.6What responsibility Verification<br>
+------
 
 As a certifier locking margin, you  need to sign and  block betting in  the  consensus process.<br>
 If you pay a large sum of deposit, you may want to deploy a Multiple servers consisting of multi- signature verification environment to do work to reduce server is black or lead to abnormal risk. <br>
@@ -810,7 +815,10 @@ Section 4 , in binary Byzantine agreement, reducing the multivalued Byzantine ag
 10.2Byzantine basic computation model and reliable broadcast<br>
 --
 
-2.1Base calculation model The processing system is processed by the asynchronous asynchronous order n, i . e. gang door = 1 , . . . , PN} is a set of n; . " 〃 index" i is called PI 〃 means that each asynchronous process proceeds thereof at their own pace, which may  change over t ime  and  is still unknown to other processes. " Refers to a sequence  〃 a process step  is  performed once. This does not interfere with i ts proper multiplexing multiple threads of execution.<br>
+10.2.1Base calculation model<br>
+------
+
+The processing system is processed by the asynchronous asynchronous order n, i . e. gang door = 1 , . . . , PN} is a set of n; . " 〃 index" i is called PI 〃 means that each asynchronous process proceeds thereof at their own pace, which may  change over t ime  and  is still unknown to other processes. " Refers to a sequence  〃 a process step  is  performed once. This does not interfere with i ts proper multiplexing multiple threads of execution.<br>
 Local processing t ime is negligible with respect to the message transmission delay, which is considered to be zero. <br>
 ( We  show you how to  relax this assumption in Annex B  and    C) and two representations GY PIGY I used to say, PI belonging to the set Y.<br>
 Processing of the communication by the communication network via the asynchronous message reliably to- point switching network.<br>
@@ -881,11 +889,12 @@ This object is achieved by binary Byzantine consensus algorithm presented in Sec
 Each process PI- managed local variables following local variables; Shang default values can be represented by one ( failure or no failure) processes proposed.<br>
 Array proposalsi [ 1 . . N] is initialized to [ Shang, . . . , Shang]. proposalsi [ J] of the object comprising PJ recommended value.
 bin_ decisionsi initialized to [ 1 . . N] [ Shang, . . . , Shang] array. bin_ decisionsi [ k] of the object It contains the value ( 0  or  1 )  is  determined by  the binary objects consensus BIN_ CONS [ k] is. <br>
-Operation mv_ propose ( VI) is ( 1 ) RB_ broadcast VAL ( vi);<br>
+Operation mv_ propose ( VI) is 
+(1)RB_broadcast VAL (vi);<br>
 ⑵ If  Repeat 3 K:	( Proposalsi [ k] = Shang 6 ) eight ( BIN_ CONS [ K] . bin_ propose not call)<br>
 ⑶ then call BIN_ CONS [ K] . bin_ propose ( 1 ) END IF;Until<br>
-⑷ ( 3 ' : bin_ decisionsi [ ' ] = 1 ) terminal repeat sequence; Such that for each k ⑸ BIN_ C 0 NS [ K] . bin_ propose () call Not
-
+⑷ ( 3 ' : bin_ decisionsi [ ' ] = 1 ) terminal repeat sequence; Such that for each k<br>
+⑸ BIN_ C 0 NS [ K] . bin_ propose () call Not<br>
 ⑹ not call for BIN_ C 0 NS [ K] . bin_ propose ( 0 ) end;<br>
 ⑺ wait	Mill _ decisionsi [ X]  6  =  Shang); J <- min { x satisfies bin_ decisionsi [ X] = 1 }; wait_ until ( Proposalsi [ j] = 6 Shang); Return ( proposalsi [ J]).<br>
 When VAL ( v) is delivered from PJRB- do, i f valid ( V) and then proposalsi [ j] of " V off i f. When the BIN- CONS [ K] _ bin_ propose () Returns a value b do bin_ decisionsi [ K] f Bay The algorithm of the reduced multivalued binary Byzantine Byzantine consensus consensus is described in this algorithm, a procedure call operation mv_ propose ( V), wherein, v is i ts value pseudomultichannel consensus value 1 in FIG. A  process pi  behavior can be broken down into four stages.<br>
@@ -943,7 +952,10 @@ BV- uniform. If  the value of  v  is  added to  the process P 1  is set no  faul
 Play a BV- Properties The following properties are a direct consequence of the previous characte r. Finally, the non - faulty processing set bin_ valuesi PKO becomes non- empty, ( i i ) becomes equal, ( i i i ) contains all values processed by the non- fault
 broadcast, and ( iv) does not contain a Byzantine process only by the broadcast value . However, ( i i ) and ( i i i ) does not occur when the process known non- defective.<br>
 
-Byzantine safe binary 10.5.2A consensus algorithm BAMPn, T [T <N / 3 ] We describe a simple binary consistency Byzantine algorithm, satisfy the model system BBC- BAMPn effectiveness and properties BBCAgreement, T [ T < N  /  3 ] .  The algorithm, which is based on a circle, depending on Abstract BV- previous broadcasting, have the same structure, the introduction of random consensus algorithm.<br>
+10.5.2 Byzantine safe binary A consensus algorithm BAMPn, T [T <N / 3]<br>
+-----
+
+We describe a simple binary consistency Byzantine algorithm, satisfy the model system BBC- BAMPn effectiveness and properties BBCAgreement, T [ T < N  /  3 ] .  The algorithm, which is based on a circle, depending on Abstract BV- previous broadcasting, have the same structure, the introduction of random consensus algorithm.<br>
 Local variables Local variables for each of the following management process PI. ESTI: Current estimates place the value of the decision. It is initialized value of PI raised.<br>
 RI: Local round number, initialized to zero.<br>
 •box - valuesi [ 1 . . ] : an array of binary values; bin_ valuesi [ R] ( initialized to 0 ) is stored on
@@ -952,7 +964,7 @@ Stainless steel and had a  monovalent BV- broadcast associated refill the local 
 Message Type The algorithm uses two types of messages, indicated as EST and AUX. Both use in each round, a round number so they always appea r.<br>
 EST [ R] in a stainless steel by the PI value to estima te BV- broadcast i ts current decision ESTI be used.<br>
 AUX [ R] values for propagation thereof ( the broadcast ( the help of the current bin_ valuesi [ R] by PI) Macro actions).<br>
-Let us consider the algorithm of FIG. 2 after i t has deposited the proposal The ESTI binary ( l ine 01 ), each non- fault sequence into the asynchronous process PI wheel. Each round, " using a broadcast BV- example, i ts associated local In the process variable pi is bin_ valuesi [ R]. Operation bin_ propose ( VI) is
+Let us consider the algorithm of FIG. 2 after i t has deposited the proposal The ESTI binary ( l ine 01 ), each non- fault sequence into the asynchronous process PI wheel. Each round, " using a broadcast BV- example, i ts associated local In the process variable pi is bin_ valuesi [ R]. Operation bin_ propose ( VI) is<br>
 (1))  ESTI ^  six; R. 0 ;<br>
 (2))  and  ( really) do<br>
 (3)) RI traffic RI + 1 ;<br>
@@ -1024,7 +1036,10 @@ After additional synchronization is assumed in the  following, assume that a  f 
 This assumption is a 3 Synch ( eventual synchrony hypothesis). To take advantage of i t by using a t imer, we also assume that the process can be accurately measured intervals, although they do not need to have synchronized clocks.<br>
 Symbolic model BAMPn, T [ T < N / 3 ] and is repres ented 3 Synch enriched BAMPn, T [ t < N / 3 , 3 Synch].<br>
 
-10.5.5A binary consensus Byzantine algorithm BAMPn, T [T <N / 3,3Synch] In this section, we describe this is to ensure consistency as 0 in binary Byzantine algorithm ( t) terminate our wheels, which is  known  to  be the best.<br>
+10.5.5A binary consensus Byzantine algorithm BAMPn, T [T <N / 3,3Synch]<br>
+-----
+
+In this section, we describe this is to ensure consistency as 0 in binary Byzantine algorithm ( t) terminate our wheels, which is  known  to  be the best.<br>
 The algorithm described  in FIG. 3 in FIG. 2 is extended security algorithms The goal is to add the consensus termination property.<br>
 The same l ine with the same number of two algorithms. New l ine in FIG. 3 is numbered " Next 〃 end, wherein x i s an integer, and the modified l ine by the" M- 〃    prefix.  In  addition to  using local t imer based on  the wheel, and ultimately benefit from 3 Synch assumptions, which extends round the concept of coordination algorithms used: plays a special role in each roun d scheduled process of coordinating efforts to impose  the value of the other wheel of the decision process . For this reason, in turn play a more accurate circular coordinator role in each process.<br>
 The set of process P 1 ,  . . . ,  the PN, the circle r  PI  coor dinator process is  such that i  = (( R - D MOD N) + 1 . 5 additional local variables and message types in  addition to  ESTI, RI, bin_ valuesi [ R], and valuesi, each inlet PI management process following local variables.<br>
