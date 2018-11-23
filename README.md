@@ -141,7 +141,7 @@ In order to achieve a profound thought and  decision - making, pointnity objecti
 pointnity is an open, integrated block chain network and the initial network construction. <br>
 It provides information on a homemade organization o r enterprise developers the basic technical architecture of the complex, so pointnity is a developer - friendly gathering place.<br>
 
-2. What is pointnity:<br>
+2.What is pointnity:<br>
 ------
 
 POINTNITY NETWORK was founded in Japan in November 2017 by the CEO ( shi ゅ u ke い    wa  san) as  sponsors, the purpose is  to create a  focus on  eco- compatible,  interactive collaboration, solve technical, information si los  of  block chain technology  research  and development team organization.<br>
