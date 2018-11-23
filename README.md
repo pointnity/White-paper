@@ -140,7 +140,10 @@ Over t ime, we will have to work out a three - dimensional world, slope, layered
 In order to achieve a profound thought and  decision - making, pointnity objective point  of view, we believe that only by using the block chain as a good ecological construction to improve the  system' s shortcomings, improve the  network can  block  island chain to realize high utilization, resulting in more more benign value.<br>
 pointnity is an open, integrated block chain network and the initial network construction. <br>
 It provides information on a homemade organization o r enterprise developers the basic technical architecture of the complex, so pointnity is a developer - friendly gathering place.<br>
-What is pointnity:<br>
+
+2. What is pointnity:<br>
+------
+
 POINTNITY NETWORK was founded in Japan in November 2017 by the CEO ( shi ゅ u ke い    wa  san) as  sponsors, the purpose is  to create a  focus on  eco- compatible,  interactive collaboration, solve technical, information si los  of  block chain technology  research  and development team organization.<br>
 POINTNITY NETWORK think to the center of the block chain, occult, can not be cha nged and other characteristics brought about by technological innovation will allow more individuals, groups, organizations, understanding, contact centers use to block chain and related technologies products.<br>
 POINTNITY NETWORK is committed to building a h igh- compliant distributed interactive system.<br>
