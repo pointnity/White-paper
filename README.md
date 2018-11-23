@@ -889,7 +889,7 @@ This object is achieved by binary Byzantine consensus algorithm presented in Sec
 Each process PI- managed local variables following local variables; Shang default values can be represented by one ( failure or no failure) processes proposed.<br>
 Array proposalsi [ 1 . . N] is initialized to [ Shang, . . . , Shang]. proposalsi [ J] of the object comprising PJ recommended value.
 bin_ decisionsi initialized to [ 1 . . N] [ Shang, . . . , Shang] array. bin_ decisionsi [ k] of the object It contains the value ( 0  or  1 )  is  determined by  the binary objects consensus BIN_ CONS [ k] is. <br>
-Operation mv_ propose ( VI) is 
+Operation mv_ propose ( VI) is <br>
 (1)RB_broadcast VAL (vi);<br>
 ⑵ If  Repeat 3 K:	( Proposalsi [ k] = Shang 6 ) eight ( BIN_ CONS [ K] . bin_ propose not call)<br>
 ⑶ then call BIN_ CONS [ K] . bin_ propose ( 1 ) END IF;Until<br>
